@@ -1,0 +1,1447 @@
+{
+  "id": "network",
+  "name": "Mạng máy tính",
+  "description": "Câu hỏi trắc nghiệm về mạng máy tính và truyền thông Internet",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Đâu là định nghĩa chính xác nhất về Giao thức mạng (Protocol) trong bối cảnh truyền thông Internet?",
+      "options": {
+        "A": "Là tốc độ truyền tải dữ liệu (bandwidth) giữa hai thiết bị cuối.",
+        "B": "Là các quy tắc kinh tế mà các Nhà cung cấp Dịch vụ Internet (ISP) tuân thủ.",
+        "C": "Là định dạng, thứ tự các thông điệp được gửi và nhận giữa các thực thể mạng, cùng với các hành động được thực hiện dựa trên việc truyền và nhận thông điệp.",
+        "D": "Là cơ sở hạ tầng cung cấp dịch vụ cho các ứng dụng như Web và email."
+      },
+      "correctAnswer": "C",
+      "explanation": "Protocol định nghĩa định dạng, thứ tự các thông điệp và hành động khi gửi/nhận."
+    },
+    {
+      "id": 2,
+      "question": "Trong cấu trúc mạng, Hệ thống đầu cuối (Hosts) đóng vai trò gì và thường được đặt ở đâu?",
+      "options": {
+        "A": "Là các thiết bị định tuyến (routers) trong mạng lõi.",
+        "B": "Là các máy khách và máy chủ nằm ở mạng biên, chạy các ứng dụng mạng.",
+        "C": "Là các thiết bị chuyển mạch gói.",
+        "D": "Là các liên kết truyền thông như cáp quang và radio."
+      },
+      "correctAnswer": "B",
+      "explanation": "Hosts là thiết bị chạy ứng dụng mạng, nằm tại mạng biên."
+    },
+    {
+      "id": 3,
+      "question": "Điểm khác biệt quan trọng nhất giữa Mạng Truy cập Cáp (Cable Access/HFC) và DSL ở khu dân cư là gì?",
+      "options": {
+        "A": "DSL dùng cáp đồng trục, còn mạng cáp dùng dây điện thoại.",
+        "B": "Mạng cáp là mạng chia sẻ, còn DSL sử dụng đường dây riêng đến văn phòng trung tâm.",
+        "C": "Mạng cáp chỉ cung cấp tốc độ tải lên cao.",
+        "D": "DSL dùng FDM còn mạng cáp dùng TDM."
+      },
+      "correctAnswer": "B",
+      "explanation": "DSL có đường dây riêng; Cable/HFC là mạng chia sẻ đến đầu cuối cáp."
+    },
+    {
+      "id": 4,
+      "question": "Hai chức năng chính của Bộ Định tuyến (Router) trong Mạng Lõi là gì?",
+      "options": {
+        "A": "Transmission và Propagation.",
+        "B": "Encapsulation và Layering.",
+        "C": "Forwarding và Routing.",
+        "D": "Queuing và Packet Loss."
+      },
+      "correctAnswer": "C",
+      "explanation": "Forwarding chọn cổng ra cho gói; Routing xác định đường đi toàn mạng."
+    },
+    {
+      "id": 5,
+      "question": "Mô hình Lưu và Chuyển tiếp (Store-and-forward) trong chuyển mạch gói có nghĩa là gì?",
+      "options": {
+        "A": "Gói được truyền từng bit ngay khi đến router.",
+        "B": "Router phải nhận toàn bộ gói trước khi truyền tiếp.",
+        "C": "Router lưu mọi gói cho tới khi đích yêu cầu.",
+        "D": "Các kênh truyền được dành riêng cho gói tin."
+      },
+      "correctAnswer": "B",
+      "explanation": "Store-and-forward yêu cầu gói phải được nhận đủ trước khi gửi tiếp."
+    },
+    {
+      "id": 6,
+      "question": "Một gói tin L = 8 Mbits truyền trên liên kết R = 2 Mbps. Trễ truyền tải (d_trans) là bao nhiêu?",
+      "options": {
+        "A": "0.25 giây",
+        "B": "4 giây",
+        "C": "16 giây",
+        "D": "6 giây"
+      },
+      "correctAnswer": "B",
+      "explanation": "d_trans = L/R = 8 Mbits / 2 Mbps = 4 giây."
+    },
+    {
+      "id": 7,
+      "question": "Phát biểu nào phân biệt chính xác giữa Trễ Lan truyền (d_prop) và Trễ Truyền tải (d_trans)?",
+      "options": {
+        "A": "d_prop là thời gian đẩy bit lên link; d_trans là thời gian bit di chuyển.",
+        "B": "d_prop phụ thuộc độ dài đường truyền và tốc độ lan truyền; d_trans phụ thuộc chiều dài gói và băng thông.",
+        "C": "d_prop luôn lớn hơn d_trans trong các mạng hiện đại.",
+        "D": "d_trans xảy ra trong router; d_prop xảy ra trên cáp vật lý."
+      },
+      "correctAnswer": "B",
+      "explanation": "d_prop = d/s; d_trans = L/R, hoàn toàn phụ thuộc vào các yếu tố khác nhau."
+    },
+    {
+      "id": 8,
+      "question": "Nhược điểm chính của Chuyển mạch Kênh (Circuit Switching) là gì?",
+      "options": {
+        "A": "Không đảm bảo QoS cho thoại.",
+        "B": "Gây tắc nghẽn và mất gói.",
+        "C": "Tài nguyên bị lãng phí nếu không dùng.",
+        "D": "Phải chia sẻ băng thông với nhiều người dùng."
+      },
+      "correctAnswer": "C",
+      "explanation": "Circuit switching cấp phát tài nguyên cố định, gây lãng phí khi idle."
+    },
+    {
+      "id": 9,
+      "question": "Hiện tượng Mất gói (Packet Loss) trong mạng xảy ra khi nào?",
+      "options": {
+        "A": "Tốc độ truyền tải vượt tốc độ lan truyền.",
+        "B": "Hàng đợi router đầy và không còn chỗ cho gói mới.",
+        "C": "Lưu lượng La/R < 1.",
+        "D": "Gói không vượt qua kiểm tra lỗi."
+      },
+      "correctAnswer": "B",
+      "explanation": "Packet loss xảy ra khi queue đầy → gói bị drop."
+    },
+    {
+      "id": 10,
+      "question": "Trong mô hình 'Mạng của các mạng', ISP cấp 1 (Tier-1 ISP) thường kết nối với nhau bằng cách nào?",
+      "options": {
+        "A": "Kết nối người dùng cuối và trả tiền ISP khu vực.",
+        "B": "Là các ISP khu vực lớn.",
+        "C": "Kết nối qua peering hoặc IXP giữa các mạng lớn toàn cầu.",
+        "D": "Là các mạng cung cấp nội dung như Google."
+      },
+      "correctAnswer": "C",
+      "explanation": "Tier-1 ISP kết nối với nhau qua peering hoặc Internet Exchange Point."
+    },
+    {
+      "id": 11,
+      "question": "Trong Chuyển mạch Kênh (Circuit Switching), việc phân bổ tài nguyên (Resource Allocation) thường được thực hiện bằng cách nào?",
+      "options": {
+        "A": "Chia sẻ tài nguyên linh hoạt theo nhu cầu của từng gói tin.",
+        "B": "Dựa trên cơ chế 'Lưu và Chuyển tiếp' (Store-and-forward) của các bộ định tuyến.",
+        "C": "Phân bổ và dành riêng một kênh cố định (ví dụ: TDM hoặc FDM) cho cuộc gọi giữa hai điểm cuối trong suốt thời gian truyền thông.",
+        "D": "Sử dụng thuật toán định tuyến để xác định đường đi cho từng gói tin độc lập."
+      },
+      "correctAnswer": "C",
+      "explanation": "Trong chuyển mạch kênh, tài nguyên được dành riêng theo FDM/TDM cho toàn bộ cuộc gọi giữa hai điểm cuối."
+    },
+    {
+      "id": 12,
+      "question": "Hai kỹ thuật phổ biến để chia sẻ kênh trong Chuyển mạch Kênh là gì?",
+      "options": {
+        "A": "Store-and-forward và Forwarding.",
+        "B": "Ghép kênh theo Tần số (FDM) và Ghép kênh theo Thời gian (TDM).",
+        "C": "Chuyển mạch gói và Chuyển mạch kênh.",
+        "D": "Định tuyến và Chuyển tiếp."
+      },
+      "correctAnswer": "B",
+      "explanation": "FDM và TDM là hai kỹ thuật dùng để chia kênh trong chuyển mạch kênh, dựa trên phân chia tần số hoặc thời gian."
+    },
+    {
+      "id": 13,
+      "question": "Lợi ích chính của việc sử dụng Chuyển mạch Gói (Packet Switching) thay vì Chuyển mạch Kênh trong Internet hiện đại là gì?",
+      "options": {
+        "A": "Đảm bảo chất lượng dịch vụ hoàn hảo cho các ứng dụng thời gian thực.",
+        "B": "Loại bỏ hoàn toàn khả năng tắc nghẽn và mất gói.",
+        "C": "Cho phép nhiều người dùng sử dụng mạng hơn nhờ chia sẻ tài nguyên và khai thác đặc tính bursty của dữ liệu.",
+        "D": "Không yêu cầu các giao thức phức tạp để kiểm soát độ tin cậy."
+      },
+      "correctAnswer": "C",
+      "explanation": "Packet switching chia sẻ tài nguyên tốt và tận dụng tính chất bursty của dữ liệu, cho phép nhiều người dùng hơn."
+    },
+    {
+      "id": 14,
+      "question": "Khi nào thì Trễ xếp hàng trung bình (d_queue) tại bộ định tuyến trở nên lớn (thậm chí vô hạn)?",
+      "options": {
+        "A": "Khi tốc độ truyền tải (R) nhỏ hơn tốc độ lan truyền (s).",
+        "B": "Khi cường độ lưu thông (La/R) tiến đến hoặc vượt quá 1.",
+        "C": "Khi bộ định tuyến chuyển tiếp thay vì định tuyến.",
+        "D": "Khi chiều dài gói tin quá nhỏ so với băng thông."
+      },
+      "correctAnswer": "B",
+      "explanation": "Khi La/R gần bằng 1, thời gian xếp hàng tăng mạnh; khi La/R > 1 thì trễ tiến đến vô hạn."
+    },
+    {
+      "id": 15,
+      "question": "Thông lượng (Throughput) trung bình giữa hai điểm cuối được xác định bởi yếu tố nào?",
+      "options": {
+        "A": "Luôn bằng tốc độ truyền tải của liên kết đầu tiên.",
+        "B": "Bị giới hạn bởi tốc độ của liên kết nút cổ chai (bottleneck link).",
+        "C": "Do khả năng của máy chủ nguồn quyết định.",
+        "D": "Do tỷ lệ gói tin bị mất."
+      },
+      "correctAnswer": "B",
+      "explanation": "Thông lượng bị giới hạn bởi đường liên kết có tốc độ thấp nhất trên đường truyền."
+    },
+    {
+      "id": 16,
+      "question": "Thành phần độ trễ nào sau đây không phụ thuộc vào chiều dài của gói tin (L)?",
+      "options": {
+        "A": "Trễ xử lý tại nút (d_proc).",
+        "B": "Trễ xếp hàng (d_queue).",
+        "C": "Trễ truyền tải (d_trans).",
+        "D": "Trễ lan truyền (d_prop)."
+      },
+      "correctAnswer": "D",
+      "explanation": "d_prop = d/s phụ thuộc vào chiều dài đường truyền và tốc độ lan truyền, không liên quan đến kích thước gói tin."
+    },
+    {
+      "id": 17,
+      "question": "Trong Mạng Lõi, Định tuyến (Routing) là quá trình gì?",
+      "options": {
+        "A": "Di chuyển gói tin từ cổng vào sang cổng ra trong cùng một router.",
+        "B": "Xác định đường đi từ nguồn đến đích cho các gói tin bằng các thuật toán định tuyến.",
+        "C": "Chia nhỏ dữ liệu ứng dụng thành các gói tin.",
+        "D": "Lưu toàn bộ gói tin trước khi truyền nó lên liên kết tiếp theo."
+      },
+      "correctAnswer": "B",
+      "explanation": "Routing chọn đường đi toàn mạng; forwarding chuyển gói trong router."
+    },
+    {
+      "id": 18,
+      "question": "Điều gì xảy ra khi một gói tin đến bộ định tuyến và bộ đệm đã hết chỗ?",
+      "options": {
+        "A": "Gói tin được gửi ngay lập tức đến liên kết tiếp theo.",
+        "B": "Router yêu cầu nguồn truyền lại gói tin.",
+        "C": "Gói tin bị bỏ vì bộ đệm đã đầy.",
+        "D": "Tốc độ lan truyền của gói tin giảm."
+      },
+      "correctAnswer": "C",
+      "explanation": "Nếu hàng đợi đầy, router sẽ drop packet đó."
+    },
+    {
+      "id": 19,
+      "question": "Kiến trúc 'Mạng của các mạng' hiện đại được thúc đẩy chủ yếu bởi yếu tố nào?",
+      "options": {
+        "A": "Khả năng tính toán của các router.",
+        "B": "Độ trễ lan truyền của cáp quang.",
+        "C": "Kinh tế và chính sách quốc gia.",
+        "D": "Sự phát triển của giao thức lớp vật lý."
+      },
+      "correctAnswer": "C",
+      "explanation": "Kinh tế và chính sách quốc gia quyết định mô hình kết nối ISP, peering, IXP,..."
+    },
+    {
+      "id": 20,
+      "question": "POP (Point-of-Presence) trong ISP cấp 1 có nghĩa là gì?",
+      "options": {
+        "A": "Nơi ISP đặt máy chủ web.",
+        "B": "Tên gọi khác của trung tâm dữ liệu.",
+        "C": "Điểm hiện diện dùng để kết nối với các mạng khách hàng hoặc ISP khác.",
+        "D": "Thuật ngữ chỉ router biên."
+      },
+      "correctAnswer": "C",
+      "explanation": "POP là điểm ISP cấp 1 kết nối với mạng khách hàng hoặc các mạng lớn khác để peering."
+    },
+    {
+      "id": 21,
+      "question": "Đặc điểm nào sau đây là ưu điểm chính của Cáp quang (Fiber Optic Cable) so với các phương tiện truyền dẫn vật lý khác?",
+      "options": {
+        "A": "Tín hiệu lan truyền dưới dạng phổ điện từ, dễ lắp đặt và không bị cản trở bởi vật cản.",
+        "B": "Cung cấp hai dây dẫn đồng đồng tâm, được sử dụng trong mạng HFC.",
+        "C": "Có tỷ lệ lỗi thấp, mức suy giảm tín hiệu thấp và không bị nhiễu điện từ.",
+        "D": "Được dùng để truyền tín hiệu thoại và dữ liệu trên cùng một đường dây điện thoại."
+      },
+      "correctAnswer": "C",
+      "explanation": "Cáp quang truyền ánh sáng, độ suy hao thấp, miễn nhiễm nhiễu điện từ và tỷ lệ lỗi rất thấp."
+    },
+    {
+      "id": 22,
+      "question": "Trong Mạng truy cập không dây, sự khác biệt chính giữa WiFi (LAN) và 3G/4G (Wide-area Wireless Access) là gì?",
+      "options": {
+        "A": "WiFi được cung cấp bởi các công ty di động.",
+        "B": "WiFi hoạt động trong phạm vi 100 ft với tốc độ 11–54 Mbps, còn 3G/4G có phạm vi hàng chục km và tốc độ 1–10 Mbps.",
+        "C": "Cả hai đều cần đường dây dành riêng để kết nối Internet.",
+        "D": "WiFi là mạng chia sẻ, còn mạng diện rộng là mạng dành riêng."
+      },
+      "correctAnswer": "B",
+      "explanation": "WiFi tốc độ cao nhưng phạm vi ngắn; 3G/4G phạm vi rộng nhưng tốc độ thấp hơn."
+    },
+    {
+      "id": 23,
+      "question": "Thành phần độ trễ nào tại một nút mạng bị ảnh hưởng trực tiếp bởi việc kiểm tra lỗi bit và xác định đường ra?",
+      "options": {
+        "A": "Trễ truyền tải (d_trans).",
+        "B": "Trễ lan truyền (d_prop).",
+        "C": "Trễ xếp hàng (d_queue).",
+        "D": "Trễ xử lý tại nút (d_proc)."
+      },
+      "correctAnswer": "D",
+      "explanation": "d_proc liên quan đến kiểm tra lỗi, phân tích gói tin và tra cứu bảng định tuyến."
+    },
+    {
+      "id": 24,
+      "question": "Độ trễ lan truyền (d_prop) được tính bằng công thức nào?",
+      "options": {
+        "A": "L/R.",
+        "B": "d/s.",
+        "C": "L×R.",
+        "D": "d_proc + d_queue + d_trans."
+      },
+      "correctAnswer": "B",
+      "explanation": "d_prop = độ dài đường truyền (d) / tốc độ lan truyền tín hiệu (s)."
+    },
+    {
+      "id": 25,
+      "question": "Tại sao Mạng truy cập Cáp (HFC) được xem là mạng bất đối xứng (asymmetric)?",
+      "options": {
+        "A": "Vì sử dụng cáp quang và cáp đồng trục.",
+        "B": "Vì phải chia sẻ băng thông với các hộ dân khác.",
+        "C": "Vì tốc độ tải xuống cao hơn nhiều so với tốc độ tải lên (30 Mbps vs 2 Mbps).",
+        "D": "Vì sử dụng FDM để chia tần số."
+      },
+      "correctAnswer": "C",
+      "explanation": "HFC có downstream rất nhanh nhưng upstream chậm, nên bất đối xứng."
+    },
+    {
+      "id": 26,
+      "question": "Trễ xử lý tại nút (d_proc) có giá trị điển hình là bao nhiêu?",
+      "options": {
+        "A": "Vài giây.",
+        "B": "Nhỏ hơn 1 mili giây.",
+        "C": "Bằng độ trễ lan truyền.",
+        "D": "Phụ thuộc mức độ tắc nghẽn."
+      },
+      "correctAnswer": "B",
+      "explanation": "d_proc thường dưới 1 ms, rất nhỏ so với các loại trễ khác."
+    },
+    {
+      "id": 27,
+      "question": "Trong ví dụ đoàn xe và trạm thu phí, điều gì tương ứng với Trễ lan truyền (d_prop)?",
+      "options": {
+        "A": "Thời gian trạm thu phí xử lý mỗi xe.",
+        "B": "Thời gian xe di chuyển từ trạm thu phí 1 đến trạm thu phí 2.",
+        "C": "Thời gian để toàn bộ đoàn xe đi qua trạm thu phí.",
+        "D": "Số lượng xe đang chờ tại trạm thu phí."
+      },
+      "correctAnswer": "B",
+      "explanation": "Xe di chuyển chính là mô phỏng tốc độ lan truyền của bit."
+    },
+    {
+      "id": 28,
+      "question": "Trong cấu trúc Internet phân cấp, ISP khu vực (Regional ISP) có vai trò gì?",
+      "options": {
+        "A": "Cung cấp nội dung trực tiếp cho người dùng.",
+        "B": "Kết nối các ISP cấp 1 với nhau.",
+        "C": "Kết nối các mạng truy cập đến các ISP cấp cao hơn.",
+        "D": "Buộc mọi lưu lượng phải đi qua IXP."
+      },
+      "correctAnswer": "C",
+      "explanation": "Regional ISP là cầu nối giữa access networks và ISP cấp cao hơn."
+    },
+    {
+      "id": 29,
+      "question": "Mục đích chính của IXP (Internet Exchange Point) là gì?",
+      "options": {
+        "A": "Cho ISP cấp 1 tính phí cao hơn.",
+        "B": "Lưu trữ máy chủ của Content Provider.",
+        "C": "Là điểm nơi các ISP có thể kết nối (peering) để trao đổi lưu lượng.",
+        "D": "Nơi duy nhất hosts có thể truy cập Internet."
+      },
+      "correctAnswer": "C",
+      "explanation": "IXP giúp các ISP peering trực tiếp để giảm độ trễ và chi phí truyền tải."
+    },
+    {
+      "id": 30,
+      "question": "Nếu mô hình lưu và chuyển tiếp (Store-and-forward) được áp dụng, thời gian truyền một gói tin qua N router là bao nhiêu?",
+      "options": {
+        "A": "N×L/R.",
+        "B": "L/R.",
+        "C": "(N+1)×L/R.",
+        "D": "L/R + d_prop."
+      },
+      "correctAnswer": "C",
+      "explanation": "Có N+1 liên kết, mỗi liên kết thêm L/R giây → tổng = (N+1)×(L/R)."
+    },
+    {
+      "id": 31,
+      "question": "Chức năng chính của Lớp Ứng dụng (Application Layer) trong Chồng giao thức Internet là gì?",
+      "options": {
+        "A": "Chuyển dữ liệu giữa các thành phần mạng lân cận.",
+        "B": "Hỗ trợ các ứng dụng mạng như FTP, SMTP và HTTP.",
+        "C": "Định tuyến gói dữ liệu từ nguồn tới đích.",
+        "D": "Chuyển dữ liệu từ tiến trình này đến tiến trình kia."
+      },
+      "correctAnswer": "B",
+      "explanation": "Lớp Ứng dụng cung cấp giao thức cho các ứng dụng mạng như HTTP, SMTP, FTP."
+    },
+    {
+      "id": 32,
+      "question": "Lớp nào trong Chồng giao thức Internet chịu trách nhiệm chuyển dữ liệu từ tiến trình này đến tiến trình kia (process-to-process) và bao gồm TCP và UDP?",
+      "options": {
+        "A": "Lớp Ứng dụng.",
+        "B": "Lớp Mạng.",
+        "C": "Lớp Liên kết.",
+        "D": "Lớp Vận chuyển."
+      },
+      "correctAnswer": "D",
+      "explanation": "Lớp Vận chuyển cung cấp dịch vụ process-to-process và bao gồm TCP, UDP."
+    },
+    {
+      "id": 33,
+      "question": "Chức năng cốt lõi của Lớp Mạng (Network Layer) là gì, và nó bao gồm giao thức nào?",
+      "options": {
+        "A": "Chuyển dữ liệu giữa các thành phần mạng lân cận.",
+        "B": "Đảm bảo các bit trên đường truyền.",
+        "C": "Định tuyến datagram từ nguồn đến đích, sử dụng IP và giao thức định tuyến.",
+        "D": "Giải thích ý nghĩa dữ liệu."
+      },
+      "correctAnswer": "C",
+      "explanation": "Lớp Mạng chịu trách nhiệm định tuyến và chuyển tiếp gói tin end-to-end, sử dụng IP."
+    },
+    {
+      "id": 34,
+      "question": "Lớp nào thực hiện việc chuyển dữ liệu giữa các thành phần mạng lân cận và sử dụng Ethernet, WiFi?",
+      "options": {
+        "A": "Lớp Vật lý.",
+        "B": "Lớp Mạng.",
+        "C": "Lớp Liên kết.",
+        "D": "Lớp Vận chuyển."
+      },
+      "correctAnswer": "C",
+      "explanation": "Lớp Liên kết chuyển dữ liệu giữa các nút lân cận và sử dụng Ethernet, 802.11."
+    },
+    {
+      "id": 35,
+      "question": "Khi một thông điệp (Message) đi từ Lớp Ứng dụng xuống Lớp Vận chuyển, lớp Vận chuyển sẽ thêm vào điều gì?",
+      "options": {
+        "A": "Header lớp Liên kết.",
+        "B": "Header lớp Mạng.",
+        "C": "Header lớp Vận chuyển, tạo thành Segment.",
+        "D": "Không thêm gì cả."
+      },
+      "correctAnswer": "C",
+      "explanation": "Lớp Vận chuyển thêm Transport Header (Ht) để tạo thành Segment."
+    },
+    {
+      "id": 36,
+      "question": "Thứ tự đúng của các đơn vị dữ liệu khi một thông điệp đi từ Lớp Ứng dụng xuống Lớp Vật lý là gì?",
+      "options": {
+        "A": "Datagram → Segment → Message → Frame.",
+        "B": "Message → Frame → Datagram → Segment.",
+        "C": "Message → Segment → Datagram → Frame.",
+        "D": "Segment → Datagram → Frame → Message."
+      },
+      "correctAnswer": "C",
+      "explanation": "Ứng dụng: Message → Vận chuyển: Segment → Mạng: Datagram → Liên kết: Frame."
+    },
+    {
+      "id": 37,
+      "question": "Mục đích chính của việc sử dụng mô hình phân lớp trong mạng máy tính là gì?",
+      "options": {
+        "A": "Giảm trễ lan truyền.",
+        "B": "Cung cấp cấu trúc rõ ràng, mô-đun hóa, dễ bảo trì và nâng cấp.",
+        "C": "Loại bỏ nhu cầu dùng TCP/IP.",
+        "D": "Đảm bảo chỉ ISP cấp 1 được kết nối."
+      },
+      "correctAnswer": "B",
+      "explanation": "Phân lớp giúp chia nhỏ hệ thống phức tạp thành các mô-đun rõ ràng, dễ bảo trì."
+    },
+    {
+      "id": 38,
+      "question": "Hai lớp nào có trong mô hình OSI nhưng thiếu trong chồng giao thức Internet?",
+      "options": {
+        "A": "Lớp Mạng và Liên kết.",
+        "B": "Lớp Vật lý và Vận chuyển.",
+        "C": "Lớp Trình diễn và Lớp Phiên; được thực hiện trong Lớp Ứng dụng.",
+        "D": "Lớp Truy cập và Lớp Khu vực."
+      },
+      "correctAnswer": "C",
+      "explanation": "Internet Stack gộp các chức năng Session và Presentation vào Application Layer."
+    },
+    {
+      "id": 39,
+      "question": "Router trong mạng lõi xử lý gói tin đến lớp nào của chồng giao thức Internet?",
+      "options": {
+        "A": "Lớp Ứng dụng.",
+        "B": "Lớp Vận chuyển.",
+        "C": "Lớp Mạng và đôi khi Lớp Liên kết/Vật lý.",
+        "D": "Chỉ Lớp Vật lý."
+      },
+      "correctAnswer": "C",
+      "explanation": "Router phải đọc IP Header (Layer 3) và Frame Header (Layer 2) để chuyển tiếp."
+    },
+    {
+      "id": 40,
+      "question": "Việc mô tả 'Các bit trên đường dây' thuộc về lớp nào?",
+      "options": {
+        "A": "Lớp Liên kết.",
+        "B": "Lớp Vật lý.",
+        "C": "Lớp Mạng.",
+        "D": "Lớp Ứng dụng."
+      },
+      "correctAnswer": "B",
+      "explanation": "Physical Layer chịu trách nhiệm truyền các bit qua môi trường vật lý."
+    },
+    {
+      "id": 41,
+      "question": "Tầm nhìn ban đầu của Internet, khi nó không được thiết kế với yếu tố bảo mật, dựa trên giả định nào?",
+      "options": {
+        "A": "Internet được thiết kế để chống lại các cuộc tấn công quân sự.",
+        "B": "Internet là một nhóm người dùng tin tưởng lẫn nhau được kết nối đến một mạng trong suốt.",
+        "C": "Kẻ tấn công chỉ khai thác các lỗ hổng của Lớp Ứng dụng.",
+        "D": "Mạng lõi sẽ tự động xử lý mọi vấn đề bảo mật."
+      },
+      "correctAnswer": "B",
+      "explanation": "Internet ban đầu được thiết kế cho một nhóm người dùng tin tưởng nhau, không chú trọng bảo mật."
+    },
+    {
+      "id": 42,
+      "question": "Sự khác biệt cơ bản giữa Virus và Worm là gì, dựa trên cách chúng tự sao chép và lây nhiễm?",
+      "options": {
+        "A": "Virus lây nhiễm thụ động, còn Worm cần người dùng thực thi.",
+        "B": "Worm gây DoS còn Virus đánh cắp thông tin.",
+        "C": "Virus cần người dùng mở/thực thi tệp để lây nhiễm, trong khi Worm tự sao chép mà không cần người dùng tương tác.",
+        "D": "Virus tấn công máy chủ còn Worm tấn công host."
+      },
+      "correctAnswer": "C",
+      "explanation": "Virus cần hành động người dùng (mở file), còn Worm tự lan truyền mà không cần tương tác."
+    },
+    {
+      "id": 43,
+      "question": "Mục tiêu chính của một cuộc tấn công Từ chối Dịch vụ (DoS) là gì?",
+      "options": {
+        "A": "Đánh hơi mật khẩu.",
+        "B": "Giả mạo IP nguồn để ẩn danh tính.",
+        "C": "Làm tài nguyên mạng không sẵn sàng cho lưu lượng hợp pháp bằng cách triệt tiêu tài nguyên.",
+        "D": "Cài đặt phần mềm gián điệp."
+      },
+      "correctAnswer": "C",
+      "explanation": "DoS làm cạn tài nguyên để dịch vụ không thể phục vụ người dùng hợp pháp."
+    },
+    {
+      "id": 44,
+      "question": "Giả mạo địa chỉ IP (IP Spoofing) là hành động nào?",
+      "options": {
+        "A": "Đánh hơi các gói tin.",
+        "B": "Thay đổi địa chỉ đích của gói tin.",
+        "C": "Gửi gói tin với địa chỉ nguồn giả.",
+        "D": "Dùng server DNS giả để chuyển hướng lưu lượng."
+      },
+      "correctAnswer": "C",
+      "explanation": "IP spoofing là hành động gửi gói tin với địa chỉ nguồn bị giả mạo."
+    },
+    {
+      "id": 45,
+      "question": "Trong điều kiện nào thì Packet Sniffing xảy ra dễ dàng nhất?",
+      "options": {
+        "A": "Khi dữ liệu truyền qua cáp quang point-to-point.",
+        "B": "Khi router đang tính toán định tuyến.",
+        "C": "Trong môi trường broadcast như Ethernet chia sẻ hoặc WiFi, nơi NIC có thể đọc tất cả các gói.",
+        "D": "Khi ISP cấp 1 đang peering."
+      },
+      "correctAnswer": "C",
+      "explanation": "Broadcast media cho phép NIC ở chế độ promiscuous đọc toàn bộ gói tin."
+    },
+    {
+      "id": 46,
+      "question": "Dự án mạng máy tính nào được ARPA hình thành năm 1967, đánh dấu bước đầu quan trọng của Internet?",
+      "options": {
+        "A": "NSFnet",
+        "B": "ARPAnet",
+        "C": "ALOHAnet",
+        "D": "Minitel"
+      },
+      "correctAnswer": "B",
+      "explanation": "ARPAnet là mạng máy tính đầu tiên tạo nền móng cho Internet."
+    },
+    {
+      "id": 47,
+      "question": "Nhà khoa học nào đã trình bày lý thuyết hàng đợi năm 1961, chứng minh hiệu quả của chuyển mạch gói?",
+      "options": {
+        "A": "Tim Berners-Lee",
+        "B": "Vinton Cerf và Robert Kahn",
+        "C": "Leonard Kleinrock",
+        "D": "Paul Baran"
+      },
+      "correctAnswer": "C",
+      "explanation": "Kleinrock chứng minh chuyển mạch gói hiệu quả nhờ lý thuyết hàng đợi."
+    },
+    {
+      "id": 48,
+      "question": "Kiến trúc liên mạng hiện đại được định hình bởi nguyên lý nào của Cerf và Kahn (1974)?",
+      "options": {
+        "A": "Bộ định tuyến lưu trữ trạng thái mọi cuộc gọi.",
+        "B": "Mạng đảm bảo chất lượng (QoS).",
+        "C": "Tối giản, tự trị, best-effort, điều khiển phi tập trung.",
+        "D": "Sử dụng gói tin kích thước cố định."
+      },
+      "correctAnswer": "C",
+      "explanation": "Cerf & Kahn đề xuất kiến trúc tối giản, best-effort và không yêu cầu thay đổi nội mạng."
+    },
+    {
+      "id": 49,
+      "question": "Mốc thời gian nào đánh dấu việc triển khai chính thức giao thức TCP/IP?",
+      "options": {
+        "A": "1974",
+        "B": "1979",
+        "C": "1983",
+        "D": "1991"
+      },
+      "correctAnswer": "C",
+      "explanation": "Ngày 1/1/1983 là 'Flag Day', toàn bộ ARPAnet chuyển sang TCP/IP."
+    },
+    {
+      "id": 50,
+      "question": "Sự bùng nổ của World Wide Web đầu những năm 1990 được đánh dấu bởi sự ra đời của chuẩn nào?",
+      "options": {
+        "A": "TCP và IP",
+        "B": "DNS và SMTP",
+        "C": "HTML và HTTP",
+        "D": "3G và 4G LTE"
+      },
+      "correctAnswer": "C",
+      "explanation": "Berners-Lee đã phát triển HTML và HTTP, tạo nền tảng cho Web hiện đại."
+    },
+    {
+      "id": 51,
+      "question": "Giả sử một gói tin có chiều dài L bits được truyền qua 3 liên kết (2 bộ định tuyến), mỗi liên kết có tốc độ R bps. Bỏ qua mọi loại trễ khác. Độ trễ end-to-end là bao nhiêu?",
+      "options": {
+        "A": "L/R",
+        "B": "2L/R",
+        "C": "3L/R",
+        "D": "L/(3R)"
+      },
+      "correctAnswer": "C",
+      "explanation": "Có 3 liên kết nên độ trễ tổng = 3 × (L/R) theo cơ chế store-and-forward."
+    },
+    {
+      "id": 52,
+      "question": "Một liên kết có tốc độ R=100 Mbps. Gói tin dài trung bình L=1000 bits. Tốc độ đến trung bình a=50,000 gói/s. Cường độ lưu thông La/R bằng bao nhiêu?",
+      "options": {
+        "A": "0.5",
+        "B": "5",
+        "C": "0.05",
+        "D": "2"
+      },
+      "correctAnswer": "A",
+      "explanation": "L×a = 50 Mbps. La/R = 50/100 = 0.5."
+    },
+    {
+      "id": 53,
+      "question": "Điều gì xảy ra khi cường độ lưu thông La/R > 1?",
+      "options": {
+        "A": "Trễ truyền tải trở nên vô hạn.",
+        "B": "Tốc độ đến vượt quá khả năng phục vụ dẫn đến trễ xếp hàng vô hạn và mất gói.",
+        "C": "Trễ lan truyền nhỏ hơn trễ xử lý.",
+        "D": "Router chuyển sang dùng chuyển mạch kênh."
+      },
+      "correctAnswer": "B",
+      "explanation": "La/R > 1 nghĩa là lượng công việc đến nhiều hơn khả năng xử lý → queue tăng vô hạn, gây congestion."
+    },
+    {
+      "id": 54,
+      "question": "Tốc độ lan truyền (s) trong công thức d_prop = d/s thường xấp xỉ bao nhiêu?",
+      "options": {
+        "A": "100 km/giờ",
+        "B": "2 × 10^8 m/s",
+        "C": "Bằng tốc độ truyền tải R",
+        "D": "Tỷ lệ trung bình các gói tin đến"
+      },
+      "correctAnswer": "B",
+      "explanation": "Tốc độ lan truyền trong cáp thường vào khoảng 2×10^8 m/s, khoảng 2/3 tốc độ ánh sáng."
+    },
+    {
+      "id": 55,
+      "question": "Thành phần độ trễ nào biến thiên nhiều nhất và phụ thuộc mạnh nhất vào mức độ tắc nghẽn?",
+      "options": {
+        "A": "Trễ xử lý d_proc",
+        "B": "Trễ truyền tải d_trans",
+        "C": "Trễ lan truyền d_prop",
+        "D": "Trễ xếp hàng d_queue"
+      },
+      "correctAnswer": "D",
+      "explanation": "d_queue phụ thuộc trực tiếp vào mức độ tắc nghẽn, dao động mạnh nhất trong 4 loại trễ."
+    },
+    {
+      "id": 56,
+      "question": "Nếu chiều dài gói tin L tăng gấp đôi, điều gì xảy ra với trễ truyền tải d_trans = L/R?",
+      "options": {
+        "A": "Không thay đổi",
+        "B": "Giảm một nửa",
+        "C": "Tăng gấp đôi",
+        "D": "Tăng gấp bốn"
+      },
+      "correctAnswer": "C",
+      "explanation": "d_trans tỷ lệ thuận với L, nên L gấp đôi → d_trans gấp đôi."
+    },
+    {
+      "id": 57,
+      "question": "Một tuyến đường có hai liên kết nối tiếp: R1 = 100 Mbps, R2 = 10 Mbps. Thông lượng tối đa là bao nhiêu?",
+      "options": {
+        "A": "100 Mbps",
+        "B": "110 Mbps",
+        "C": "55 Mbps",
+        "D": "10 Mbps"
+      },
+      "correctAnswer": "D",
+      "explanation": "Thông lượng bị giới hạn bởi liên kết chậm nhất: min(R1, R2) = 10 Mbps."
+    },
+    {
+      "id": 58,
+      "question": "Đặc điểm nào đúng với ISP cấp 1 (Tier-1 ISP)?",
+      "options": {
+        "A": "Chỉ hoạt động trong khu vực nhỏ và phải trả tiền ISP cấp cao hơn.",
+        "B": "Chỉ cung cấp mạng truy cập.",
+        "C": "Là các ISP lớn toàn cầu và kết nối với nhau qua peering tại IXP.",
+        "D": "Là các mạng cung cấp nội dung như Google."
+      },
+      "correctAnswer": "C",
+      "explanation": "Tier-1 ISP là mạng thương mại lớn toàn cầu và peering trực tiếp với nhau."
+    },
+    {
+      "id": 59,
+      "question": "Tại sao các Content Provider Network (Google, Meta...) xây dựng mạng riêng?",
+      "options": {
+        "A": "Để sử dụng chuyển mạch kênh.",
+        "B": "Để dồn toàn bộ lưu lượng về ISP cấp 1.",
+        "C": "Đưa nội dung đến gần người dùng hơn, giảm độ trễ và chi phí bằng cách bỏ qua nhiều ISP trung gian.",
+        "D": "Để thay thế hoàn toàn Internet lõi."
+      },
+      "correctAnswer": "C",
+      "explanation": "Content provider networks định tuyến trực tiếp nội dung đến gần người dùng → giảm latency & chi phí."
+    },
+    {
+      "id": 60,
+      "question": "Tại sao mạng truy cập Cáp (HFC) được xem là mạng chia sẻ?",
+      "options": {
+        "A": "Vì dùng cáp quang.",
+        "B": "Vì hỗ trợ tải lên và tải xuống.",
+        "C": "Vì nhiều hộ gia đình chia sẻ chung băng thông tại cùng đầu cuối cáp.",
+        "D": "Vì chỉ sử dụng TDM."
+      },
+      "correctAnswer": "C",
+      "explanation": "Trong HFC, các hộ dân trong cùng khu vực chia sẻ băng thông đến cable headend."
+    },
+    {
+      "id": 61,
+      "question": "Đơn vị dữ liệu nào là đầu ra của Lớp Mạng (Network Layer) và được truyền tải qua Mạng Lõi (Core Network)?",
+      "options": {
+        "A": "Message",
+        "B": "Segment",
+        "C": "Datagram",
+        "D": "Frame"
+      },
+      "correctAnswer": "C",
+      "explanation": "Đơn vị dữ liệu của Lớp Mạng là Datagram (IP packet), được định tuyến từ nguồn đến đích."
+    },
+    {
+      "id": 62,
+      "question": "Một người dùng có tốc độ truy cập Rc = 10 Mbps, máy chủ có Rs = 50 Mbps. Đường trục có R = 100 Mbps và được chia sẻ cho 10 người dùng. Thông lượng tối đa người dùng này có thể đạt là bao nhiêu?",
+      "options": {
+        "A": "100 Mbps",
+        "B": "50 Mbps",
+        "C": "10 Mbps",
+        "D": "5 Mbps"
+      },
+      "correctAnswer": "C",
+      "explanation": "Thông lượng điểm cuối = min(Rc, Rs, R/10) = min(10, 50, 10) = 10 Mbps."
+    },
+    {
+      "id": 63,
+      "question": "Sự khác biệt chính giữa cách Router và Switch xử lý chồng giao thức là gì?",
+      "options": {
+        "A": "Switch xử lý đến Application Layer, Router chỉ xử lý đến Physical Layer.",
+        "B": "Router xử lý đến Network Layer, Switch xử lý đến Data Link Layer.",
+        "C": "Switch xử lý IP, Router xử lý Ethernet.",
+        "D": "Cả hai xử lý tất cả các lớp trong TCP/IP."
+      },
+      "correctAnswer": "B",
+      "explanation": "Router phải đọc IP header để định tuyến (Layer 3); Switch xử lý Layer 2 (Ethernet)."
+    },
+    {
+      "id": 64,
+      "question": "Loại mã độc nào có thể tự sao chép mà không cần người dùng thực thi tệp?",
+      "options": {
+        "A": "Virus",
+        "B": "Tấn công DoS",
+        "C": "Packet Sniffing",
+        "D": "Worm"
+      },
+      "correctAnswer": "D",
+      "explanation": "Worm tự lan truyền không cần hành động từ người dùng."
+    },
+    {
+      "id": 65,
+      "question": "Chức năng cơ bản chung của TCP và UDP trong Lớp Vận chuyển là gì?",
+      "options": {
+        "A": "Đảm bảo truyền dữ liệu tin cậy",
+        "B": "Chuyển dữ liệu từ tiến trình này đến tiến trình khác (process-to-process)",
+        "C": "Điều khiển tắc nghẽn",
+        "D": "Thiết lập kết nối"
+      },
+      "correctAnswer": "B",
+      "explanation": "TCP và UDP đều hỗ trợ process-to-process data delivery. Chỉ TCP cung cấp reliability và congestion control."
+    },
+    {
+      "id": 66,
+      "question": "Tại sao kiến trúc Internet yêu cầu bộ định tuyến không lưu trạng thái (stateless)?",
+      "options": {
+        "A": "Để hỗ trợ chuyển mạch kênh tốt hơn",
+        "B": "Để giảm trễ lan truyền",
+        "C": "Để hệ thống đơn giản, tự trị và có khả năng phục hồi cao hơn",
+        "D": "Để hỗ trợ ứng dụng thời gian thực"
+      },
+      "correctAnswer": "C",
+      "explanation": "Stateless routing giúp đơn giản hóa mạng, kiểm soát phi tập trung và khả năng phục hồi tốt."
+    },
+    {
+      "id": 67,
+      "question": "Theo mô hình phân lớp, Lớp Vật lý (Physical Layer) chịu trách nhiệm cho điều gì?",
+      "options": {
+        "A": "Giao diện lập trình ứng dụng",
+        "B": "Đóng gói dữ liệu thành Frame",
+        "C": "Truyền các bit trên phương tiện truyền thông vật lý",
+        "D": "Chuyển dữ liệu giữa các thành phần mạng lân cận"
+      },
+      "correctAnswer": "C",
+      "explanation": "Physical Layer đảm nhiệm việc truyền các bit 'trên đường dây'."
+    },
+    {
+      "id": 68,
+      "question": "Traceroute giúp đo lường điều gì trong mạng Internet thực tế?",
+      "options": {
+        "A": "Tốc độ lan truyền s",
+        "B": "Tổng số packet bị mất",
+        "C": "Độ trễ từ nguồn đến từng router dọc đường đi",
+        "D": "Băng thông của liên kết nút cổ chai"
+      },
+      "correctAnswer": "C",
+      "explanation": "Traceroute đo round-trip delay đến từng router trên tuyến đường đến đích."
+    },
+    {
+      "id": 69,
+      "question": "Một tài nguyên nào có thể bị triệt tiêu trong tấn công DoS?",
+      "options": {
+        "A": "Địa chỉ IP người dùng",
+        "B": "Băng thông của đường liên kết máy chủ",
+        "C": "Trễ xử lý tại nút",
+        "D": "Tốc độ lan truyền tín hiệu"
+      },
+      "correctAnswer": "B",
+      "explanation": "DoS làm cạn kiệt tài nguyên như CPU, RAM, hoặc băng thông đến server."
+    },
+    {
+      "id": 70,
+      "question": "Mạng truy cập cáp (HFC) sử dụng kỹ thuật nào để truyền video, dữ liệu và kênh điều khiển trên các dải tần khác nhau?",
+      "options": {
+        "A": "TDM",
+        "B": "FDM",
+        "C": "Packet Switching",
+        "D": "Circuit Switching"
+      },
+      "correctAnswer": "B",
+      "explanation": "HFC sử dụng Frequency Division Multiplexing để chia dải tần cho các loại tín hiệu."
+    },
+    {
+      "id": 71,
+      "question": "Phương tiện truyền thông nào sau đây được phân loại là Phương tiện truyền thông không được hướng dẫn (unguided media)?",
+      "options": {
+        "A": "Cáp đồng trục (Coaxial cable)",
+        "B": "Cáp quang (Fiber optic cable)",
+        "C": "Cặp xoắn (Twisted pair - TP)",
+        "D": "Sóng radio (Radio waves)"
+      },
+      "correctAnswer": "D",
+      "explanation": "Sóng radio là unguided media vì tín hiệu lan truyền tự do trong không gian; còn dây đồng, cáp quang, coaxial là guided media."
+    },
+    {
+      "id": 72,
+      "question": "Độ trễ lan truyền điển hình giữa hai thiết bị đầu cuối qua vệ tinh thường vào khoảng bao nhiêu?",
+      "options": {
+        "A": "Vài mili giây",
+        "B": "2 × 10^8 m/s",
+        "C": "Khoảng 270 msec",
+        "D": "45 Mbps"
+      },
+      "correctAnswer": "C",
+      "explanation": "Liên kết vệ tinh địa tĩnh có độ trễ khoảng 270 ms do khoảng cách rất lớn."
+    },
+    {
+      "id": 73,
+      "question": "Trong các loại cáp Cặp xoắn (Twisted Pair - TP), loại nào thường được sử dụng cho Ethernet 100 Mbps và 1 Gbps?",
+      "options": {
+        "A": "Loại 3",
+        "B": "Loại 5 (Category 5)",
+        "C": "Loại 6 (Category 6)",
+        "D": "Cáp đồng trục"
+      },
+      "correctAnswer": "B",
+      "explanation": "Category 5 (Cat5) thường dùng cho 100 Mbps và 1 Gbps Ethernet."
+    },
+    {
+      "id": 74,
+      "question": "Trong mô hình kinh tế ISP, Access ISP thường phải làm gì để kết nối với phần còn lại của Internet?",
+      "options": {
+        "A": "Kết nối trực tiếp với tất cả các ISP truy cập khác",
+        "B": "Trả tiền cho các ISP cấp cao hơn để được cung cấp dịch vụ (transit)",
+        "C": "Peering miễn phí với mọi ISP",
+        "D": "Chỉ kết nối với Content Provider Networks"
+      },
+      "correctAnswer": "B",
+      "explanation": "Access ISP phải mua dịch vụ từ ISP cấp cao hơn để kết nối với Internet toàn cầu."
+    },
+    {
+      "id": 75,
+      "question": "Băng thông (Bandwidth) của đường liên kết vật lý được định nghĩa là gì?",
+      "options": {
+        "A": "Chiều dài gói tin",
+        "B": "Tốc độ truyền tải của đường liên kết (R) tính bằng bps",
+        "C": "Tốc độ lan truyền tín hiệu",
+        "D": "Tỷ lệ trung bình gói tin đến"
+      },
+      "correctAnswer": "B",
+      "explanation": "Băng thông là khả năng truyền tải của đường liên kết, tính bằng bits per second (bps)."
+    },
+    {
+      "id": 76,
+      "question": "Tình huống nào khiến trễ lan truyền (d_prop) chiếm ưu thế hơn trễ truyền tải (d_trans)?",
+      "options": {
+        "A": "Gói tin rất dài và băng thông nhỏ",
+        "B": "La/R gần bằng 1",
+        "C": "Khoảng cách rất lớn và gói tin rất ngắn",
+        "D": "Thời gian xử lý lâu"
+      },
+      "correctAnswer": "C",
+      "explanation": "d_prop phụ thuộc vào khoảng cách. Khi d rất lớn và L nhỏ, d_prop trở thành thành phần chi phối."
+    },
+    {
+      "id": 77,
+      "question": "Peering liên kết (peering link) là gì và thường được dùng bởi các ISP nào?",
+      "options": {
+        "A": "Kết nối giữa hosts và access ISP",
+        "B": "Kết nối giữa các ISP lớn để trao đổi lưu lượng miễn phí, tránh phải trả tiền cho ISP trung gian",
+        "C": "Kết nối giữa switch và hosts",
+        "D": "Kết nối các router trong một mạng nội bộ"
+      },
+      "correctAnswer": "B",
+      "explanation": "Peering được dùng bởi ISP cấp 1 hoặc các ISP ngang hàng tại IXP để trao đổi lưu lượng không mất phí."
+    },
+    {
+      "id": 78,
+      "question": "Hầu hết các máy chủ (servers) hiện đại được đặt ở đâu trong cấu trúc mạng?",
+      "options": {
+        "A": "Trong mạng lõi",
+        "B": "Tại các router biên",
+        "C": "Trong các Data Center ở mạng biên",
+        "D": "Trong văn phòng DSLAM"
+      },
+      "correctAnswer": "C",
+      "explanation": "Servers thường đặt trong Data Centers, thuộc khu vực mạng biên để phục vụ người dùng hiệu quả."
+    },
+    {
+      "id": 79,
+      "question": "Cáp đồng trục (Coaxial Cable) thường được sử dụng trong mạng nào?",
+      "options": {
+        "A": "DSL",
+        "B": "Enterprise Ethernet",
+        "C": "HFC (Hybrid Fiber Coax)",
+        "D": "WiFi"
+      },
+      "correctAnswer": "C",
+      "explanation": "Coaxial cable là thành phần chính trong mạng HFC."
+    },
+    {
+      "id": 80,
+      "question": "Trễ xếp hàng (d_queue) tiến tới vô hạn khi điều kiện nào xảy ra?",
+      "options": {
+        "A": "La/R → 0",
+        "B": "La/R ≤ 0.5",
+        "C": "La/R → 1",
+        "D": "La/R = 0"
+      },
+      "correctAnswer": "C",
+      "explanation": "Khi La/R tiến tới 1, hệ thống gần như quá tải → trễ hàng đợi tăng tới vô hạn."
+    },
+    {
+      "id": 81,
+      "question": "Hai tổ chức hoặc tài liệu nào được sử dụng để định nghĩa và phát triển các Chuẩn Internet (Internet Standards)?",
+      "options": {
+        "A": "TCP và IP",
+        "B": "DNS và SMTP",
+        "C": "IXP và POP",
+        "D": "RFC và IETF"
+      },
+      "correctAnswer": "D",
+      "explanation": "IETF phát triển các chuẩn Internet và công bố chúng dưới dạng RFC (Request for Comments)."
+    },
+    {
+      "id": 82,
+      "question": "Điểm mạnh cơ bản của Chuyển mạch Kênh (Circuit Switching) là gì?",
+      "options": {
+        "A": "Chia sẻ linh hoạt tài nguyên để tăng số lượng người dùng",
+        "B": "Đảm bảo hiệu suất giống mạch điện vì tài nguyên được dành riêng",
+        "C": "Không cần thiết lập cuộc gọi trước",
+        "D": "Giảm thiểu trễ lan truyền"
+      },
+      "correctAnswer": "B",
+      "explanation": "Circuit switching dành riêng tài nguyên cho cuộc gọi, tạo hiệu suất ổn định giống mạch điện."
+    },
+    {
+      "id": 83,
+      "question": "Trong mô hình đoàn xe và trạm thu phí, điều gì tương ứng với Trễ do Truyền tải (d_trans)?",
+      "options": {
+        "A": "Thời gian xe lan truyền giữa các trạm",
+        "B": "Thời gian đẩy toàn bộ đoàn xe qua trạm thu phí",
+        "C": "Số lượng xe đang đợi",
+        "D": "Tốc độ di chuyển của xe"
+      },
+      "correctAnswer": "B",
+      "explanation": "d_trans là thời gian cần để đẩy toàn bộ gói tin qua liên kết, tương đương việc đẩy đoàn xe qua trạm."
+    },
+    {
+      "id": 84,
+      "question": "Giao thức IP thuộc lớp nào và chịu trách nhiệm cho chức năng nào?",
+      "options": {
+        "A": "Lớp Vận chuyển; truyền dữ liệu process-to-process",
+        "B": "Lớp Mạng; định tuyến datagrams từ nguồn tới đích",
+        "C": "Lớp Liên kết; truyền giữa các thành phần lân cận",
+        "D": "Lớp Ứng dụng; hỗ trợ ứng dụng mạng"
+      },
+      "correctAnswer": "B",
+      "explanation": "IP nằm ở Lớp Mạng và định tuyến datagrams end-to-end."
+    },
+    {
+      "id": 85,
+      "question": "Phương tiện truyền thông nào được phân loại là guided media?",
+      "options": {
+        "A": "Vi sóng",
+        "B": "Sóng radio",
+        "C": "Vệ tinh",
+        "D": "Cáp đồng trục"
+      },
+      "correctAnswer": "D",
+      "explanation": "Cáp đồng trục, cáp đồng và cáp quang đều là guided media (tín hiệu truyền trong vật liệu)."
+    },
+    {
+      "id": 86,
+      "question": "Khi gói tin bị mất trong hàng đợi (buffer đầy), điều gì có thể xảy ra?",
+      "options": {
+        "A": "Lớp Mạng tự động yêu cầu truyền lại",
+        "B": "Gói tin có thể được truyền lại bởi nút trước đó hoặc bởi hệ thống nguồn",
+        "C": "Toàn bộ kết nối bị hủy",
+        "D": "Gói tin được chuyển sang liên kết khác"
+      },
+      "correctAnswer": "B",
+      "explanation": "Gói bị mất có thể được truyền lại bởi router upstream hoặc bởi end-host (TCP), tùy giao thức."
+    },
+    {
+      "id": 87,
+      "question": "Hệ thống đầu cuối (Hosts) là gì và vai trò chính của chúng là gì?",
+      "options": {
+        "A": "Thiết bị chuyển mạch gói forwarding/routing",
+        "B": "Thiết bị máy tính chạy ứng dụng mạng như client và server",
+        "C": "Liên kết vật lý cung cấp băng thông",
+        "D": "Thiết bị điều khiển tắc nghẽn"
+      },
+      "correctAnswer": "B",
+      "explanation": "Hosts là thiết bị máy tính chạy ứng dụng mạng, bao gồm client và server."
+    },
+    {
+      "id": 88,
+      "question": "Mục tiêu cốt lõi của Content Provider Networks (Google, Akamai) là gì?",
+      "options": {
+        "A": "Bán băng thông cho ISP cấp 1",
+        "B": "Cung cấp dịch vụ và nội dung gần người dùng để giảm trễ và giảm phụ thuộc ISP trung gian",
+        "C": "Triển khai chuyển mạch kênh",
+        "D": "Điều khiển tất cả các giao thức định tuyến"
+      },
+      "correctAnswer": "B",
+      "explanation": "Content networks đặt server và POP gần người dùng, giảm latency và giảm chi phí đi qua ISP khác."
+    },
+    {
+      "id": 89,
+      "question": "Trong mạng hiện đại khoảng cách ngắn, thành phần độ trễ nào thường nhỏ nhất?",
+      "options": {
+        "A": "Trễ truyền tải (d_trans)",
+        "B": "Trễ lan truyền (d_prop)",
+        "C": "Trễ xử lý tại nút (d_proc)",
+        "D": "Trễ xếp hàng (d_queue)"
+      },
+      "correctAnswer": "C",
+      "explanation": "d_proc thường < 1 ms, nhỏ hơn các thành phần khác trong mạng hiện đại."
+    },
+    {
+      "id": 90,
+      "question": "Nguyên lý nào của Cerf và Kahn (1974) đã định hình kiến trúc Internet ngày nay?",
+      "options": {
+        "A": "Bắt buộc dùng Lớp Trình diễn và Phiên",
+        "B": "Yêu cầu chuyển mạch kênh để đảm bảo QoS",
+        "C": "Best-effort & routers stateless",
+        "D": "ISP phải kết nối theo mô hình bus"
+      },
+      "correctAnswer": "C",
+      "explanation": "Internet tuân theo nguyên tắc best-effort và các router không lưu trạng thái để đơn giản và linh hoạt."
+    },
+    {
+      "id": 91,
+      "question": "Giao thức mạng (Protocol) định nghĩa ba yếu tố nào là cốt lõi để các thực thể mạng có thể giao tiếp?",
+      "options": {
+        "A": "Tốc độ lan truyền, tốc độ truyền tải, và cường độ lưu thông.",
+        "B": "Định dạng, thứ tự các thông điệp được gửi và nhận, và các hành động được thực hiện dựa trên việc truyền và nhận thông điệp.",
+        "C": "Địa chỉ IP nguồn, địa chỉ IP đích, và cổng (port).",
+        "D": "Lớp ứng dụng, lớp vận chuyển, và lớp mạng."
+      },
+      "correctAnswer": "B",
+      "explanation": "Giao thức định nghĩa định dạng, thứ tự các thông điệp được gửi và nhận giữa các thực thể mạng, cùng với các hành động được thực hiện trên việc truyền và nhận thông điệp."
+    },
+    {
+      "id": 92,
+      "question": "Lớp Liên kết (Data Link Layer) thực hiện vai trò nào trong việc chuyển dữ liệu?",
+      "options": {
+        "A": "Chuyển dữ liệu giữa các tiến trình ứng dụng (process-to-process).",
+        "B": "Chuyển dữ liệu giữa các thành phần mạng lân cận (láng giềng).",
+        "C": "Định tuyến các gói dữ liệu từ nguồn tới đích (end-to-end).",
+        "D": "Hỗ trợ các ứng dụng mạng như Web và email."
+      },
+      "correctAnswer": "B",
+      "explanation": "Lớp Liên kết chịu trách nhiệm chuyển dữ liệu giữa các thành phần mạng lân cận."
+    },
+    {
+      "id": 93,
+      "question": "Tại sao độ trễ qua liên kết vệ tinh (satellite links) lại lớn hơn đáng kể (~270 msec) so với liên kết mặt đất?",
+      "options": {
+        "A": "Vì tốc độ truyền tải (R) của vệ tinh thường thấp hơn liên kết mặt đất.",
+        "B": "Vì khoảng cách vật lý của liên kết vệ tinh đến mặt đất lớn, làm tăng Trễ do Lan truyền (d = d/s).",
+        "C": "Vì vệ tinh sử dụng phương tiện truyền thông được hướng dẫn (guided media).",
+        "D": "Vì Trễ xếp hàng (d_queue) luôn lớn tại vệ tinh."
+      },
+      "correctAnswer": "B",
+      "explanation": "Độ trễ vệ tinh lớn vì khoảng cách d rất lớn, dẫn đến d_prop tăng mạnh."
+    },
+    {
+      "id": 94,
+      "question": "Tuyến đường tải tệp có 5 liên kết với tốc độ lần lượt R1=50, R2=10, R3=100, R4=5, R5=50 Mbps. Tốc độ đường liên kết nút cổ chai (bottleneck) là bao nhiêu?",
+      "options": {
+        "A": "50 Mbps",
+        "B": "10 Mbps",
+        "C": "5 Mbps",
+        "D": "100 Mbps"
+      },
+      "correctAnswer": "C",
+      "explanation": "Đường liên kết nút cổ chai là đường có tốc độ thấp nhất: 5 Mbps."
+    },
+    {
+      "id": 95,
+      "question": "Trong kiến trúc Internet 'mạng của các mạng', khái niệm này chủ yếu ám chỉ điều gì?",
+      "options": {
+        "A": "Internet chỉ sử dụng các giao thức TCP/IP.",
+        "B": "Internet được tạo thành từ nhiều ISP, Content Provider Network và các mạng khu vực kết nối với nhau.",
+        "C": "Các thiết bị đầu cuối được kết nối với nhau thông qua mạng không dây.",
+        "D": "Các ứng dụng mạng có thể giao tiếp với nhau."
+      },
+      "correctAnswer": "B",
+      "explanation": "Internet là sự kết nối của nhiều mạng: ISP, campus network, provider network..."
+    },
+    {
+      "id": 96,
+      "question": "Sự khác biệt giữa Ghép kênh theo Thời gian (TDM) và Ghép kênh theo Tần số (FDM) là gì?",
+      "options": {
+        "A": "TDM được sử dụng cho mạng cáp, còn FDM được sử dụng cho DSL.",
+        "B": "TDM chia kênh thành các dải tần số riêng biệt, FDM chia thành khe thời gian.",
+        "C": "FDM chia kênh thành các dải tần số riêng biệt, TDM chia kênh thành các khe thời gian riêng biệt.",
+        "D": "Cả hai đều cho phép chia sẻ tài nguyên linh hoạt."
+      },
+      "correctAnswer": "C",
+      "explanation": "FDM dùng nhiều băng tần khác nhau; TDM chia theo thời gian."
+    },
+    {
+      "id": 97,
+      "question": "Lý thuyết hàng đợi chỉ ra rằng khi cường độ lưu thông (La/R) tăng lên, thành phần độ trễ nào tăng đáng kể?",
+      "options": {
+        "A": "Trễ do truyền tải (d_trans).",
+        "B": "Trễ do lan truyền (d_prop).",
+        "C": "Trễ xếp hàng (d_queue).",
+        "D": "Trễ xử lý (d_proc)."
+      },
+      "correctAnswer": "C",
+      "explanation": "d_queue tăng bùng nổ khi La/R → 1."
+    },
+    {
+      "id": 98,
+      "question": "Mốc lịch sử nào đánh dấu việc Internet trở thành mạng thương mại?",
+      "options": {
+        "A": "ARPAnet (1967).",
+        "B": "Triển khai TCP/IP (1983).",
+        "C": "NSF gỡ bỏ giới hạn sử dụng thương mại của NSFnet (đầu thập niên 1990).",
+        "D": "Lý thuyết hàng đợi của Kleinrock (1961)."
+      },
+      "correctAnswer": "C",
+      "explanation": "Khi NSF cho phép sử dụng thương mại, Internet bắt đầu bùng nổ trong kinh doanh."
+    },
+    {
+      "id": 99,
+      "question": "Kỹ thuật tấn công IP Spoofing liên quan đến lớp giao thức nào nhất?",
+      "options": {
+        "A": "Lớp Ứng dụng",
+        "B": "Lớp Vận chuyển",
+        "C": "Lớp Mạng",
+        "D": "Lớp Liên kết"
+      },
+      "correctAnswer": "C",
+      "explanation": "Giả mạo IP là hành vi liên quan trực tiếp đến địa chỉ IP của Layer 3."
+    },
+    {
+      "id": 100,
+      "question": "TCP cung cấp những dịch vụ nào mà UDP không có?",
+      "options": {
+        "A": "Phân đoạn dữ liệu và định tuyến",
+        "B": "Truyền dữ liệu tin cậy và điều khiển tắc nghẽn",
+        "C": "Đóng gói dữ liệu thành Datagrams",
+        "D": "Định tuyến từ nguồn đến đích"
+      },
+      "correctAnswer": "B",
+      "explanation": "TCP có reliability, congestion control; UDP không có."
+    },
+    {
+      "id": 101,
+      "question": "Internet có thể được nhìn nhận theo hai quan điểm chính: quan điểm 'nuts and bolts' và quan điểm 'dịch vụ'. Quan điểm 'dịch vụ' mô tả Internet là gì?",
+      "options": {
+        "A": "Là một tập hợp các thiết bị định tuyến (routers) và liên kết vật lý (physical links) được kết nối với nhau.",
+        "B": "Là một cơ sở hạ tầng cung cấp các dịch vụ cho các ứng dụng mạng (Web, email, VoIP) thông qua giao diện lập trình.",
+        "C": "Là một 'mạng của các mạng' được điều khiển bởi các giao thức như TCP và IP.",
+        "D": "Là một tập hợp các hệ thống đầu cuối (hosts) chạy các ứng dụng mạng."
+      },
+      "correctAnswer": "B",
+      "explanation": "Quan điểm dịch vụ mô tả Internet là cơ sở hạ tầng cung cấp dịch vụ cho các ứng dụng thông qua giao diện lập trình."
+    },
+    {
+      "id": 102,
+      "question": "Trong mạng truy cập doanh nghiệp, Bộ chuyển mạch Ethernet (Ethernet Switch) chủ yếu làm việc ở lớp nào và có vai trò gì?",
+      "options": {
+        "A": "Lớp Mạng, thực hiện định tuyến giữa các mạng con.",
+        "B": "Lớp Vận chuyển, cung cấp độ tin cậy.",
+        "C": "Lớp Vật lý, chỉ xử lý bit trên đường dây.",
+        "D": "Lớp Liên kết, kết nối các hệ thống đầu cuối trong LAN và chuyển dữ liệu giữa các thành phần mạng lân cận."
+      },
+      "correctAnswer": "D",
+      "explanation": "Switch hoạt động ở Lớp Liên kết (Data Link Layer) và chuyển frame giữa các thành phần mạng lân cận."
+    },
+    {
+      "id": 103,
+      "question": "Nếu Lớp Trình diễn (Presentation Layer) có mặt trong chồng giao thức Internet, nó sẽ chịu trách nhiệm chính về điều gì?",
+      "options": {
+        "A": "Đồng bộ hóa và phục hồi trao đổi dữ liệu.",
+        "B": "Giải thích ý nghĩa dữ liệu, bao gồm mã hóa và nén.",
+        "C": "Cung cấp giao diện lập trình cho ứng dụng.",
+        "D": "Định tuyến dữ liệu từ nguồn tới đích."
+      },
+      "correctAnswer": "B",
+      "explanation": "Lớp Trình diễn chịu trách nhiệm mã hóa, nén và giải thích dữ liệu."
+    },
+    {
+      "id": 104,
+      "question": "Mạng cục bộ không dây (LAN) sử dụng giao thức 802.11 (WiFi) có đặc điểm nào về phạm vi và tốc độ truyền tải?",
+      "options": {
+        "A": "Phạm vi 10's km và tốc độ 1-10 Mbps.",
+        "B": "Phạm vi trong tòa nhà (khoảng 100 ft) và tốc độ 11 hoặc 54 Mbps.",
+        "C": "Phạm vi toàn cầu và tốc độ 270 msec.",
+        "D": "Sử dụng cáp đồng trục và tốc độ 30 Mbps tải xuống."
+      },
+      "correctAnswer": "B",
+      "explanation": "WiFi 802.11 hoạt động trong phạm vi khoảng 100 ft với tốc độ 11–54 Mbps."
+    },
+    {
+      "id": 105,
+      "question": "Một liên kết có độ dài d=1000 km và tốc độ lan truyền s=2×10^8 m/s. Trễ lan truyền (d_prop) là bao nhiêu?",
+      "options": {
+        "A": "2 giây.",
+        "B": "5 giây.",
+        "C": "5 mili giây (msec).",
+        "D": "200 giây."
+      },
+      "correctAnswer": "C",
+      "explanation": "d_prop = d/s = 1,000,000 m / 2×10^8 m/s = 0.005 s = 5 ms."
+    },
+    {
+      "id": 106,
+      "question": "Nguyên lý nào của kiến trúc kết nối liên mạng do Cerf và Kahn đề xuất đóng góp vào tính tự trị và khả năng phục hồi của Internet?",
+      "options": {
+        "A": "Chỉ sử dụng cáp quang cho truyền tải đường trục.",
+        "B": "Bắt buộc phải triển khai Lớp Phiên và Lớp Trình diễn.",
+        "C": "Tối giản hóa và các bộ định tuyến không lưu trạng thái (stateless).",
+        "D": "Sử dụng mô hình chuyển mạch kênh."
+      },
+      "correctAnswer": "C",
+      "explanation": "Kiến trúc Internet dựa trên tối giản hóa, stateless routers và best-effort service."
+    },
+    {
+      "id": 107,
+      "question": "Trong tấn công DDoS, kỹ thuật nào được sử dụng để ẩn danh tính nguồn cuộc tấn công?",
+      "options": {
+        "A": "Packet Sniffing.",
+        "B": "IP Spoofing.",
+        "C": "Triển khai Virus.",
+        "D": "Chạy Traceroute."
+      },
+      "correctAnswer": "B",
+      "explanation": "IP spoofing cho phép kẻ tấn công làm giả địa chỉ nguồn để che giấu danh tính."
+    },
+    {
+      "id": 108,
+      "question": "Sự khác biệt chính xác giữa DSL và HFC là gì?",
+      "options": {
+        "A": "Cả hai đều cung cấp truy cập dành riêng.",
+        "B": "DSL dùng tần số khác nhau cho thoại và dữ liệu, HFC dùng TDM.",
+        "C": "DSL có tốc độ tải xuống cao hơn tải lên, HFC ngược lại.",
+        "D": "DSL dùng đường dây dành riêng, HFC là mạng chia sẻ."
+      },
+      "correctAnswer": "D",
+      "explanation": "DSL dùng dây đồng riêng đến CO, trong khi HFC chia sẻ băng thông giữa các hộ gia đình."
+    },
+    {
+      "id": 109,
+      "question": "Một gói tin L bits truyền qua 4 router (5 liên kết) tốc độ R. Gói tin đến đích sau bao lâu?",
+      "options": {
+        "A": "L/R",
+        "B": "4L/R",
+        "C": "R/L",
+        "D": "5L/R"
+      },
+      "correctAnswer": "D",
+      "explanation": "Có 5 liên kết → mỗi liên kết gây trễ L/R → tổng = 5×(L/R)."
+    },
+    {
+      "id": 110,
+      "question": "Lợi ích chính của mô hình phân lớp giao thức (Layering) là gì?",
+      "options": {
+        "A": "Cho phép ứng dụng chạy trong Lớp Vật lý.",
+        "B": "Đảm bảo trễ lan truyền bằng 0.",
+        "C": "Cung cấp mô-đun hóa, dễ bảo trì và cập nhật mà không ảnh hưởng lớp khác.",
+        "D": "Yêu cầu tuân thủ nghiêm mô hình OSI 7 lớp."
+      },
+      "correctAnswer": "C",
+      "explanation": "Layering cho phép modularity — thay đổi lớp này không ảnh hưởng lớp khác."
+    },
+    {
+      "id": "111",
+      "question": "Trong các loại phần mềm có hại (malware), Spyware có chức năng chính là gì?",
+      "options": {
+        "A": "Tự động nhân bản và lây lan qua mạng mà không cần người dùng can thiệp",
+        "B": "Gửi lưu lượng giả để triệt tiêu tài nguyên mạng",
+        "C": "Bí mật thu thập thông tin cá nhân, hoạt động của người dùng và gửi dữ liệu ra ngoài",
+        "D": "Làm hỏng dữ liệu hệ thống bằng cách ghi đè file"
+      },
+      "correctAnswer": "C",
+      "explanation": "Spyware hoạt động ẩn, thu thập thông tin người dùng, mật khẩu, lịch sử duyệt web,... mà không cần sự cho phép."
+    },
+    {
+      "id": "112",
+      "question": "Botnet trong tấn công mạng là gì?",
+      "options": {
+        "A": "Một chương trình chống virus tự động hóa",
+        "B": "Một tập hợp các thiết bị bị chiếm quyền điều khiển từ xa để thực hiện các cuộc tấn công như DDoS",
+        "C": "Một giao thức mới thay thế TCP/IP",
+        "D": "Một kỹ thuật mã hóa nâng cao"
+      },
+      "correctAnswer": "B",
+      "explanation": "Botnet là mạng lưới máy tính bị nhiễm và điều khiển từ xa, thường được dùng để tấn công DDoS quy mô lớn."
+    },
+    {
+      "id": "113",
+      "question": "Trong mạng gia đình, thiết bị nào thường thực hiện Router + Firewall + NAT + Access Point?",
+      "options": {
+        "A": "Modem DSL",
+        "B": "Bộ chuyển mạch Ethernet",
+        "C": "Bộ định tuyến gia đình không dây (home wireless router)",
+        "D": "Máy chủ DNS"
+      },
+      "correctAnswer": "C",
+      "explanation": "Home wireless router tích hợp router, NAT, firewall, DHCP, WiFi AP vào một thiết bị."
+    },
+    {
+      "id": "114",
+      "question": "NAT trong mạng gia đình chủ yếu dùng để làm gì?",
+      "options": {
+        "A": "Mã hóa dữ liệu giữa các thiết bị nội bộ",
+        "B": "Cho phép nhiều thiết bị nội bộ dùng chung một địa chỉ IP công cộng khi truy cập Internet",
+        "C": "Tăng tốc độ truyền tải dữ liệu LAN",
+        "D": "Kiểm soát độ trễ lan truyền"
+      },
+      "correctAnswer": "B",
+      "explanation": "NAT cho phép nhiều thiết bị private IP dùng chung 1 public IP."
+    },
+    {
+      "id": "115",
+      "question": "Theo ví dụ trong slide, nếu số người dùng lớn và mỗi người chỉ hoạt động 10% thời gian, xác suất có hơn 10 người dùng đồng thời hoạt động là:",
+      "options": {
+        "A": "50%",
+        "B": "Gần 0% (≈0.0004)",
+        "C": "10%",
+        "D": "25%"
+      },
+      "correctAnswer": "B",
+      "explanation": "Ví dụ trong slide minh họa xác suất nhiều người dùng hoạt động cùng lúc là rất nhỏ."
+    },
+    {
+      "id": "116",
+      "question": "POP (Point-of-Presence) của ISP cấp 1 là gì?",
+      "options": {
+        "A": "Máy chủ đặt trong mỗi hộ gia đình",
+        "B": "Điểm nơi ISP cấp 1 kết nối với ISP khác, khách hàng lớn hoặc mạng khu vực",
+        "C": "Một thuật toán định tuyến nội bộ",
+        "D": "Một loại đường truyền cáp đồng trục"
+      },
+      "correctAnswer": "B",
+      "explanation": "POP là điểm hiện diện để Tier-1 ISP kết nối với các mạng khác."
+    },
+    {
+      "id": "117",
+      "question": "Trong kiến trúc Tier-1 ISP (ví dụ Sprint), các POP thường được kết nối bằng gì?",
+      "options": {
+        "A": "WiFi 802.11",
+        "B": "Liên kết vệ tinh tốc độ thấp",
+        "C": "Mạng cáp đồng trục chung cư",
+        "D": "Đường trục Internet (backbone) dung lượng cao"
+      },
+      "correctAnswer": "D",
+      "explanation": "POP của Tier-1 ISP được kết nối với nhau bằng backbone tốc độ rất cao."
+    },
+    {
+      "id": "118",
+      "question": "Các thiết bị IoT như camera IP, smart thermostat thuộc vai trò nào trong hệ thống Internet?",
+      "options": {
+        "A": "Router trong mạng lõi",
+        "B": "Hệ thống đầu cuối (host) chạy ứng dụng mạng",
+        "C": "ISP truy cập",
+        "D": "Thiết bị định tuyến biên"
+      },
+      "correctAnswer": "B",
+      "explanation": "IoT devices là hosts vì chúng chạy ứng dụng và giao thức mạng."
+    },
+    {
+      "id": "119",
+      "question": "Thành phần nào dưới đây KHÔNG thuộc sơ đồ mạng gia đình điển hình?",
+      "options": {
+        "A": "DSL/Cable modem",
+        "B": "Home wireless router",
+        "C": "NAT + DHCP server",
+        "D": "Tier-1 ISP backbone router"
+      },
+      "correctAnswer": "D",
+      "explanation": "Backbone router chỉ thuộc ISP cấp cao, không bao giờ nằm trong home network."
+    },
+    {
+      "id": "120",
+      "question": "Khi bộ đệm tại router đầy, điều gì xảy ra?",
+      "options": {
+        "A": "Router mở thêm bộ nhớ mới",
+        "B": "Router yêu cầu ISP giảm tốc độ",
+        "C": "Gói mới đến sẽ bị loại bỏ (packet loss)",
+        "D": "Gói được chuyển sang hàng đợi phụ"
+      },
+      "correctAnswer": "C",
+      "explanation": "Packet loss xảy ra khi queue đầy và gói mới đến bị loại bỏ."
+    }
+  ]
+}

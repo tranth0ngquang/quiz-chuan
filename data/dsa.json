@@ -1,0 +1,67 @@
+{
+  "id": "dsa",
+  "name": "Cấu trúc dữ liệu và Giải thuật",
+  "description": "Câu hỏi trắc nghiệm về cấu trúc dữ liệu và giải thuật",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Độ phức tạp thời gian của thuật toán tìm kiếm nhị phân (Binary Search) là gì?",
+      "options": {
+        "A": "O(n)",
+        "B": "O(log n)",
+        "C": "O(n log n)",
+        "D": "O(n²)"
+      },
+      "correctAnswer": "B",
+      "explanation": "Binary Search có độ phức tạp O(log n) vì mỗi lần so sánh loại bỏ một nửa không gian tìm kiếm."
+    },
+    {
+      "id": 2,
+      "question": "Cấu trúc dữ liệu nào hoạt động theo nguyên tắc LIFO (Last In First Out)?",
+      "options": {
+        "A": "Queue (Hàng đợi)",
+        "B": "Stack (Ngăn xếp)",
+        "C": "Linked List (Danh sách liên kết)",
+        "D": "Tree (Cây)"
+      },
+      "correctAnswer": "B",
+      "explanation": "Stack hoạt động theo nguyên tắc LIFO - phần tử được thêm vào cuối cùng sẽ được lấy ra đầu tiên."
+    },
+    {
+      "id": 3,
+      "question": "Thuật toán sắp xếp nào có độ phức tạp trung bình tốt nhất O(n log n)?",
+      "options": {
+        "A": "Bubble Sort",
+        "B": "Selection Sort",
+        "C": "Quick Sort",
+        "D": "Insertion Sort"
+      },
+      "correctAnswer": "C",
+      "explanation": "Quick Sort có độ phức tạp trung bình O(n log n), là một trong những thuật toán sắp xếp hiệu quả nhất."
+    },
+    {
+      "id": 4,
+      "question": "Hash Table sử dụng kỹ thuật nào để xử lý collision (va chạm)?",
+      "options": {
+        "A": "Binary Search",
+        "B": "Chaining hoặc Open Addressing",
+        "C": "Quick Sort",
+        "D": "Depth First Search"
+      },
+      "correctAnswer": "B",
+      "explanation": "Hash Table thường sử dụng Chaining (danh sách liên kết) hoặc Open Addressing (địa chỉ mở) để xử lý collision khi nhiều key hash về cùng một vị trí."
+    },
+    {
+      "id": 5,
+      "question": "Cây nhị phân tìm kiếm (Binary Search Tree) có tính chất gì?",
+      "options": {
+        "A": "Mọi node đều có đúng 2 con",
+        "B": "Node con bên trái có giá trị nhỏ hơn node cha, node con bên phải có giá trị lớn hơn node cha",
+        "C": "Tất cả các lá cùng độ sâu",
+        "D": "Cây luôn cân bằng hoàn hảo"
+      },
+      "correctAnswer": "B",
+      "explanation": "Trong Binary Search Tree, giá trị của node con trái luôn nhỏ hơn node cha, và giá trị node con phải luôn lớn hơn node cha."
+    }
+  ]
+}

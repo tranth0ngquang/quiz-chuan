@@ -1,0 +1,70 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Quiz Question Bank Schema",
+  "description": "Schema for quiz question bank JSON files",
+  "type": "object",
+  "required": ["id", "name", "description", "questions"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the question bank (e.g., 'dsa', 'network', 'calculus')"
+    },
+    "name": {
+      "type": "string",
+      "description": "Display name of the subject (e.g., 'Cấu trúc dữ liệu và giải thuật')"
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief description of the question bank"
+    },
+    "questions": {
+      "type": "array",
+      "description": "Array of questions",
+      "items": {
+        "type": "object",
+        "required": ["id", "question", "options", "correctAnswer"],
+        "properties": {
+          "id": {
+            "type": "integer",
+            "description": "Unique question ID within this bank"
+          },
+          "question": {
+            "type": "string",
+            "description": "The question text"
+          },
+          "options": {
+            "type": "object",
+            "required": ["A", "B", "C", "D"],
+            "properties": {
+              "A": {
+                "type": "string",
+                "description": "Answer option A"
+              },
+              "B": {
+                "type": "string",
+                "description": "Answer option B"
+              },
+              "C": {
+                "type": "string",
+                "description": "Answer option C"
+              },
+              "D": {
+                "type": "string",
+                "description": "Answer option D"
+              }
+            }
+          },
+          "correctAnswer": {
+            "type": "string",
+            "enum": ["A", "B", "C", "D"],
+            "description": "The correct answer (A, B, C, or D)"
+          },
+          "explanation": {
+            "type": "string",
+            "description": "Optional explanation for the correct answer"
+          }
+        }
+      }
+    }
+  }
+}
