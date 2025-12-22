@@ -1,0 +1,333 @@
+{
+  "partId": "subjunctive-mood",
+  "partName": "Câu điều kiện (Conditional Sentences / Subjunctive Mood)",
+  "questions": [
+    {
+      "id": 229,
+      "type": "single",
+      "question": "If you ______ any help, I will be willing to assist you.",
+      "options": { "A": "need", "B": "needed", "C": "be needed", "D": "had needed" },
+      "correctAnswer": "A",
+      "explanation": "Câu điều kiện **loại 1** (Type 1): If + S + V(hiện tại), S + will + V.\n\n📌 Mệnh đề chính có 'will' → mệnh đề If dùng **thì hiện tại đơn**.\n\n⚠️ Bẫy: (B) needed là loại 2, (D) had needed là loại 3."
+    },
+    {
+      "id": 230,
+      "type": "single",
+      "question": "I ______ my job more if it was closer to my place.",
+      "options": { "A": "enjoy", "B": "will enjoy", "C": "would enjoy", "D": "would have enjoyed" },
+      "correctAnswer": "C",
+      "explanation": "Câu điều kiện **loại 2** (Type 2): If + S + V(quá khứ), S + would + V.\n\n📌 Mệnh đề If có 'was' (quá khứ) → mệnh đề chính dùng **would + V**.\n\n⚠️ Bẫy: (D) would have enjoyed là loại 3."
+    },
+    {
+      "id": 231,
+      "type": "single",
+      "question": "If I were in your position, I ______ a closer look at the situation.",
+      "options": { "A": "took", "B": "will take", "C": "would take", "D": "would have taken" },
+      "correctAnswer": "C",
+      "explanation": "Câu điều kiện **loại 2**: If + S + were, S + would + V.\n\n📌 'If I were you' là cấu trúc cố định → mệnh đề chính dùng **would + V**.\n\n⚠️ Lưu ý: Trong câu điều kiện loại 2, 'were' dùng cho tất cả các ngôi."
+    },
+    {
+      "id": 232,
+      "type": "single",
+      "question": "If Maria had not given me information about the area, I ______ lost.",
+      "options": { "A": "will get", "B": "would be getting", "C": "get", "D": "would have gotten" },
+      "correctAnswer": "D",
+      "explanation": "Câu điều kiện **loại 3** (Type 3): If + S + had + V3, S + would have + V3.\n\n📌 Mệnh đề If có 'had not given' (quá khứ hoàn thành) → mệnh đề chính dùng **would have + V3**."
+    },
+    {
+      "id": 233,
+      "type": "single",
+      "question": "If they had checked the package properly, the food wouldn't ______ bad.",
+      "options": { "A": "goes", "B": "going", "C": "to go", "D": "have gone" },
+      "correctAnswer": "D",
+      "explanation": "Câu điều kiện **loại 3**: wouldn't + **have gone** (have + V3).\n\n📌 Cấu trúc: would/wouldn't + have + V3 cho loại 3."
+    },
+    {
+      "id": 234,
+      "type": "single",
+      "question": "If the weather is fine tomorrow, we ______ able to host an open-air concert.",
+      "options": { "A": "were", "B": "will be", "C": "would be", "D": "would have been" },
+      "correctAnswer": "B",
+      "explanation": "Câu điều kiện **loại 1**: If + S + V(hiện tại), S + will + V.\n\n📌 Mệnh đề If có 'is' (hiện tại) → mệnh đề chính dùng **will + V**."
+    },
+    {
+      "id": 235,
+      "type": "single",
+      "question": "If the company ______ a survey, it would have a better understanding of what its customers want.",
+      "options": { "A": "conducts", "B": "conducting", "C": "has conducted", "D": "had conducted" },
+      "correctAnswer": "D",
+      "explanation": "Câu điều kiện **loại 3**: If + S + had + V3, S + would have + V.\n\n📌 Mệnh đề chính có 'would have' → mệnh đề If dùng **had + V3**.\n\n⚠️ Bẫy: (A) conducts là loại 1, (C) has conducted không dùng trong câu điều kiện."
+    },
+    {
+      "id": 236,
+      "type": "single",
+      "question": "The clients wouldn't ______ so confused now if the travel agency had posted travel information on its website.",
+      "options": { "A": "be", "B": "being", "C": "have been", "D": "to be" },
+      "correctAnswer": "A",
+      "explanation": "Câu điều kiện **hỗn hợp** (Mixed): If + had V3 (quá khứ), S + would + V (hiện tại).\n\n📌 'now' = hiện tại → mệnh đề chính dùng **would + be** (không phải would have been).\n\n⚠️ Bẫy nâng cao: Mixed conditional - hành động quá khứ ảnh hưởng đến hiện tại."
+    },
+    {
+      "id": 237,
+      "type": "single",
+      "question": "If your injury gets worse, you ______ have to see a doctor immediately.",
+      "options": { "A": "will", "B": "should", "C": "would", "D": "might" },
+      "correctAnswer": "A",
+      "explanation": "Câu điều kiện **loại 1**: If + S + V(hiện tại), S + will + V.\n\n📌 Mệnh đề If có 'gets' (hiện tại) → mệnh đề chính dùng **will**."
+    },
+    {
+      "id": 238,
+      "type": "single",
+      "question": "If I were you, I ______ to serve as an assistant coordinator.",
+      "options": { "A": "continues", "B": "continued", "C": "will continue", "D": "would continue" },
+      "correctAnswer": "D",
+      "explanation": "Câu điều kiện **loại 2** với 'If I were you': S + would + V.\n\n📌 'If I were you' là cấu trúc cố định cho lời khuyên → dùng **would + V**."
+    },
+    {
+      "id": 239,
+      "type": "single",
+      "question": "If sales weren't so bad, we ______ a few days off. (take)",
+      "options": { "A": "take", "B": "will take", "C": "would take", "D": "would have taken" },
+      "correctAnswer": "C",
+      "explanation": "Câu điều kiện **loại 2**: If + S + weren't, S + would + V.\n\n📌 Mệnh đề If có 'weren't' (quá khứ) → mệnh đề chính dùng **would + take**."
+    },
+    {
+      "id": 240,
+      "type": "single",
+      "question": "If I had known about your difficulty, I ______ to help you. (try)",
+      "options": { "A": "try", "B": "will try", "C": "would try", "D": "would have tried" },
+      "correctAnswer": "D",
+      "explanation": "Câu điều kiện **loại 3**: If + S + had known, S + would have + V3.\n\n📌 Mệnh đề If có 'had known' → mệnh đề chính dùng **would have tried**."
+    },
+    {
+      "id": 241,
+      "type": "single",
+      "question": "If I ______ you, I would return the dress.",
+      "options": { "A": "am", "B": "was", "C": "were", "D": "had been" },
+      "correctAnswer": "C",
+      "explanation": "Câu điều kiện **loại 2**: If + S + were.\n\n📌 Trong câu điều kiện loại 2, luôn dùng **were** cho tất cả các ngôi (I, he, she, it...).\n\n⚠️ 'If I were you' = Nếu tôi là bạn (giả định trái với thực tế)."
+    },
+    {
+      "id": 242,
+      "type": "single",
+      "question": "If he had been elected chairman, things ______ differently. (go)",
+      "options": { "A": "go", "B": "will go", "C": "would go", "D": "would have gone" },
+      "correctAnswer": "D",
+      "explanation": "Câu điều kiện **loại 3**: If + S + had been, S + would have + V3.\n\n📌 Mệnh đề If có 'had been elected' → mệnh đề chính dùng **would have gone**."
+    },
+    {
+      "id": 243,
+      "type": "single",
+      "question": "If you ______ me to your party, I would gladly have gone to it.",
+      "options": { "A": "invite", "B": "invited", "C": "had invited", "D": "have invited" },
+      "correctAnswer": "C",
+      "explanation": "Câu điều kiện **loại 3**: If + S + had V3, S + would have + V3.\n\n📌 Mệnh đề chính có 'would have gone' → mệnh đề If dùng **had invited**."
+    },
+    {
+      "id": 244,
+      "type": "single",
+      "question": "If the merchandiser had attended the auction, she ______ a better deal.",
+      "options": { "A": "would find", "B": "found", "C": "would have found", "D": "would be founded" },
+      "correctAnswer": "C",
+      "explanation": "Câu điều kiện **loại 3**: If + S + had attended, S + would have + V3.\n\n📌 Mệnh đề If có 'had attended' → mệnh đề chính dùng **would have found**."
+    },
+    {
+      "id": 245,
+      "type": "single",
+      "question": "If you ______ closer to your workplace, you would use your car a lot less.",
+      "options": { "A": "live", "B": "living", "C": "lives", "D": "lived" },
+      "correctAnswer": "D",
+      "explanation": "Câu điều kiện **loại 2**: If + S + V(quá khứ), S + would + V.\n\n📌 Mệnh đề chính có 'would use' → mệnh đề If dùng **lived** (quá khứ đơn)."
+    },
+    {
+      "id": 246,
+      "type": "single",
+      "question": "If the train had left a little earlier, we ______ late for the meeting now.",
+      "options": { "A": "wouldn't be", "B": "hadn't been", "C": "won't be", "D": "aren't" },
+      "correctAnswer": "A",
+      "explanation": "Câu điều kiện **hỗn hợp** (Mixed): If + had V3 (quá khứ), S + would + V (hiện tại).\n\n📌 'now' = hiện tại → dùng **wouldn't be** (không phải hadn't been).\n\n⚠️ Mixed conditional: quá khứ ảnh hưởng đến hiện tại."
+    },
+    {
+      "id": 247,
+      "type": "single",
+      "question": "If you ______ me with this project, I wouldn't be finished with it today.",
+      "options": { "A": "hadn't helped", "B": "didn't help", "C": "don't help", "D": "won't help" },
+      "correctAnswer": "A",
+      "explanation": "Câu điều kiện **hỗn hợp**: If + hadn't V3 (quá khứ), S + wouldn't + V (hiện tại).\n\n📌 'today' = hiện tại, nhưng hành động giúp đỡ đã xảy ra trong quá khứ → **hadn't helped**."
+    },
+    {
+      "id": 248,
+      "type": "single",
+      "question": "If the railroad workers ______ a pay raise, they would possibly go on strike.",
+      "options": { "A": "hadn't had", "B": "had", "C": "have", "D": "will have" },
+      "correctAnswer": "A",
+      "explanation": "Câu điều kiện **hỗn hợp**: If + hadn't had (quá khứ hoàn thành), S + would + V.\n\n📌 Nghĩa: Nếu công nhân đường sắt không được tăng lương (trong quá khứ), họ có thể đình công (hiện tại/tương lai)."
+    },
+    {
+      "id": 249,
+      "type": "single",
+      "question": "If Mr. Bruno had not made that big mistake, he ______ eligible for a promotion.",
+      "options": { "A": "will be", "B": "would be", "C": "would have been", "D": "had been" },
+      "correctAnswer": "B",
+      "explanation": "Câu điều kiện **hỗn hợp**: If + had not made (quá khứ), S + would be (hiện tại).\n\n📌 Nếu không có từ chỉ thời gian, mệnh đề chính nói về kết quả hiện tại → **would be**."
+    },
+    {
+      "id": 250,
+      "type": "single",
+      "question": "If the landlord ______ a lower rent, I would be a tenant here in this apartment.",
+      "options": { "A": "offer", "B": "offered", "C": "has offered", "D": "had offered" },
+      "correctAnswer": "D",
+      "explanation": "Câu điều kiện **hỗn hợp**: If + had + V3 (quá khứ hoàn thành), S + would + V (hiện tại).\n\n📌 Mệnh đề chính có 'would be' → mệnh đề If dùng **had offered**."
+    },
+    {
+      "id": 251,
+      "type": "single",
+      "question": "If Danny had not had your assistance, he ______ not be finished with the course now.",
+      "options": { "A": "will", "B": "would", "C": "would have", "D": "had" },
+      "correctAnswer": "B",
+      "explanation": "Câu điều kiện **hỗn hợp**: If + had not had (quá khứ), S + would + V (hiện tại).\n\n📌 'now' = hiện tại → dùng **would** (không phải would have)."
+    },
+    {
+      "id": 252,
+      "type": "passage",
+      "passageType": "fill-in-the-blank",
+      "passageTitle": "Employees' Bonus Leave Policy Memo",
+      "passage": "To: Department Heads\nFrom: Jessica Parker\nDate: December 15\nSubject: Employees' Bonus Leave\n\nOn January 1, we are going to start a new company policy ____252____ employees' annual leave. Every year, one employee from each department will receive bonus leave if he/she ____253____ outstanding performance. The eligible employees will receive an additional three days of annual leave. We are going to have a meeting to finalize the list of employees eligible for bonus leave. ____254____ I ____255____ grateful if you could give me a list of eligible employees before the meeting.\n\nI hope to see you all at the meeting.",
+      "subQuestions": [
+        {
+          "id": 252,
+          "question": "Choose the correct word for blank 252",
+          "options": { "A": "despite", "B": "with regard to", "C": "as long as", "D": "in contrast to" },
+          "correctAnswer": "B",
+          "explanation": "**with regard to** = liên quan đến, về vấn đề.\n\n📌 'a new company policy with regard to employees' annual leave' = chính sách mới về nghỉ phép hàng năm."
+        },
+        {
+          "id": 253,
+          "question": "Choose the correct word for blank 253",
+          "options": { "A": "do", "B": "does", "C": "doing", "D": "did" },
+          "correctAnswer": "B",
+          "explanation": "Chủ ngữ 'he/she' (ngôi thứ 3 số ít) → động từ thêm **-s/-es**.\n\n📌 'if he/she does outstanding performance' = nếu anh/cô ấy có thành tích xuất sắc."
+        },
+        {
+          "id": 254,
+          "question": "Which sentence best fits blank 254?",
+          "options": {
+            "A": "We might cancel the meeting because of it.",
+            "B": "The meeting is going to be tomorrow morning at 10.",
+            "C": "No one in your department is eligible for a bonus.",
+            "D": "The meeting room is occupied at the moment."
+          },
+          "correctAnswer": "B",
+          "explanation": "Câu sau nói 'before the meeting' → cần thông tin về thời gian họp → **B**.\n\n📌 Logic: Thông báo thời gian họp trước khi yêu cầu danh sách."
+        },
+        {
+          "id": 255,
+          "question": "Choose the correct word for blank 255",
+          "options": { "A": "will be", "B": "would be", "C": "would have been", "D": "have been" },
+          "correctAnswer": "B",
+          "explanation": "Cấu trúc lịch sự: **I would be grateful if...** = Tôi sẽ rất biết ơn nếu...\n\n📌 Đây là cách nói lịch sự trong thư từ công việc, dùng **would** thay vì will."
+        }
+      ]
+    },
+    {
+      "id": 253,
+      "type": "passage",
+      "passageType": "reading-comprehension",
+      "passageTitle": "Thunder Internet Service - Customer Complaint",
+      "passage": "CUSTOMER SERVICE FORM\nName: Katherine Turner\nE-mail: kate80@ohmail.com\nDate: April 20\nPhone Number: (065) 332-5544\nSubject: Internet disconnection\n\nI have been using your Internet service for the last two years, and I have not had a single problem with you so far. In fact, I personally think you are the best Internet service provider in the country. However, yesterday, I started to have trouble with my Internet connection, and today I can't get any service at all. Of course, as soon as the problem occurred, I contacted the Customer Service Department to complain and talked to one of your technicians, Paul Taylor. Unfortunately, the problem has not been resolved yet. I would like to know when I can get Internet back.\n\n---\n\nE-MAIL RESPONSE\nTO: Katherine Turner <kate80@ohmail.com>\nFROM: Jane Davis <Davis_1021@thunder.com>\nDATE: April 21\nSUBJECT: Re: Internet disconnection\n\nDear Ms. Turner,\n\nI am terribly sorry that you are dissatisfied with our service. Thunder Internet Service is proud of providing the best quality service to its customers. Therefore, we will settle this issue in a prompt manner.\n\nI have talked to the technical team, and they assume that some of your equipment must have suffered a mechanical malfunction. We would like to dispatch a technician to your home to check your equipment tomorrow. The technician you talked to will give you a call first thing tomorrow morning to schedule a visit. His phone number is (312) 667-2211. You can call him directly if you do not hear from him early tomorrow.\n\nSincerely,\nJane Davis",
+      "subQuestions": [
+        {
+          "id": 256,
+          "question": "What information is NOT included on the form?",
+          "options": {
+            "A": "An e-mail address",
+            "B": "A telephone number",
+            "C": "A home's location",
+            "D": "The service problem"
+          },
+          "correctAnswer": "C",
+          "explanation": "Form có: E-mail (kate80@ohmail.com), Phone (065-332-5544), Subject (Internet disconnection).\n\n📌 KHÔNG có: Address (địa chỉ nhà) → **C**."
+        },
+        {
+          "id": 257,
+          "question": "On which date did the interruption of the service begin?",
+          "options": {
+            "A": "April 19",
+            "B": "April 20",
+            "C": "April 21",
+            "D": "April 22"
+          },
+          "correctAnswer": "A",
+          "explanation": "Form gửi ngày April 20, nói 'yesterday, I started to have trouble' → bắt đầu **April 19**.\n\n📌 Mẹo: 'yesterday' so với ngày gửi form."
+        },
+        {
+          "id": 258,
+          "question": "What is the purpose of the e-mail?",
+          "options": {
+            "A": "To inform a person of a technician's visit",
+            "B": "To give a customer a refund",
+            "C": "To apologize for a late shipment",
+            "D": "To complain about a product"
+          },
+          "correctAnswer": "A",
+          "explanation": "Email nói: 'We would like to dispatch a technician to your home to check your equipment tomorrow' → thông báo kỹ thuật viên sẽ đến → **A**."
+        },
+        {
+          "id": 259,
+          "question": "In the e-mail, the word 'assume' in paragraph 2, line 1 is closest in meaning to",
+          "options": {
+            "A": "concur",
+            "B": "suppose",
+            "C": "present",
+            "D": "allow"
+          },
+          "correctAnswer": "B",
+          "explanation": "**assume** = giả định, cho rằng ≈ **suppose**.\n\n📌 'they assume that some of your equipment...' = họ cho rằng một số thiết bị của bạn..."
+        },
+        {
+          "id": 260,
+          "question": "What is suggested about Paul Taylor?",
+          "options": {
+            "A": "He visited Ms. Turner.",
+            "B": "He will be calling Ms. Turner.",
+            "C": "He is on vacation.",
+            "D": "Ms. Turner has not talked to him."
+          },
+          "correctAnswer": "B",
+          "explanation": "'The technician you talked to will give you a call first thing tomorrow morning' → Paul Taylor sẽ gọi điện → **B**.\n\n📌 'The technician you talked to' = Paul Taylor (người Katherine đã nói chuyện)."
+        }
+      ]
+    },
+    {
+      "id": 261,
+      "type": "single",
+      "question": "If I ______ where he is, I would go to meet him right away.",
+      "options": { "A": "know", "B": "knew", "C": "had known", "D": "have known" },
+      "correctAnswer": "B",
+      "explanation": "Câu điều kiện **loại 2**: If + S + V(quá khứ), S + would + V.\n\n📌 Mệnh đề chính có 'would go' → mệnh đề If dùng **knew** (quá khứ đơn).\n\n⚠️ Giả định trái với thực tế hiện tại: Tôi không biết anh ấy ở đâu."
+    },
+    {
+      "id": 262,
+      "type": "single",
+      "question": "If it ______ tomorrow, the retreat will be canceled, and we will be on regular duty.",
+      "options": { "A": "rain", "B": "rains", "C": "rained", "D": "had rained" },
+      "correctAnswer": "B",
+      "explanation": "Câu điều kiện **loại 1**: If + S + V(hiện tại), S + will + V.\n\n📌 Mệnh đề chính có 'will be canceled' → mệnh đề If dùng **thì hiện tại đơn**.\n\n⚠️ 'it' (thời tiết) là ngôi thứ 3 số ít → **rains** (thêm -s)."
+    },
+    {
+      "id": 263,
+      "type": "single",
+      "question": "If I ______ in your position, I would apply for the position advertised in the paper.",
+      "options": { "A": "am", "B": "was", "C": "were", "D": "had been" },
+      "correctAnswer": "C",
+      "explanation": "Câu điều kiện **loại 2**: If + S + were.\n\n📌 Trong câu điều kiện loại 2, luôn dùng **were** cho tất cả các ngôi (I, he, she, it...).\n\n⚠️ 'If I were in your position' = Nếu tôi ở vị trí của bạn (giả định trái với thực tế)."
+    },
+    {
+      "id": 264,
+      "type": "single",
+      "question": "If you ______ your computer on a regular basis, you will not lose important data.",
+      "options": { "A": "back up", "B": "backed up", "C": "had backed up", "D": "backing up" },
+      "correctAnswer": "A",
+      "explanation": "Câu điều kiện **loại 1**: If + S + V(hiện tại), S + will + V.\n\n📌 Mệnh đề chính có 'will not lose' → mệnh đề If dùng **thì hiện tại đơn**.\n\n⚠️ 'you' đi với động từ nguyên mẫu → **back up**."
+    }
+  ]
+}

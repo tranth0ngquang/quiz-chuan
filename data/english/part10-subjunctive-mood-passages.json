@@ -1,0 +1,203 @@
+{
+  "partId": "subjunctive-mood-passages",
+  "partName": "Câu điều kiện - Đoạn văn (Subjunctive Mood Passages)",
+  "questions": [
+    {
+      "id": 335,
+      "type": "passage",
+      "passageType": "fill-in-the-blank",
+      "passageTitle": "Internal Memo - Remote Work Policy Review",
+      "passage": "The management team is reviewing the company's remote-work policy. If employees ____335____ more flexibility in their schedules, productivity would likely increase.\n\nIn addition, management stated that it would appreciate it if department heads ____336____ feedback regarding how the policy has affected their teams so far.\n\nIf the policy ____337____ implemented earlier, many of the scheduling issues employees are experiencing now could have been avoided.\n\nTherefore, all feedback should be submitted by Friday so that adjustments can be made promptly.",
+      "subQuestions": [
+        {
+          "id": 335,
+          "question": "Choose the correct form for blank 335",
+          "options": { "A": "have", "B": "had", "C": "will have", "D": "have had" },
+          "correctAnswer": "B",
+          "explanation": "Giả định hiện tại (**Second Conditional**): If employees **had**…, productivity **would** increase.\n\n📌 Cấu trúc: If + S + V2, S + would + V.\n\n⚠️ Bẫy: Thấy 'would' nhiều bạn chọn (C) will have ❌"
+        },
+        {
+          "id": 336,
+          "question": "Choose the correct form for blank 336",
+          "options": { "A": "will provide", "B": "provided", "C": "provide", "D": "had provided" },
+          "correctAnswer": "C",
+          "explanation": "**Subjunctive lịch sự**: would appreciate it if you + **bare infinitive** (động từ nguyên mẫu).\n\n📌 Đây là cấu trúc yêu cầu lịch sự chuẩn TOEIC trong email công việc.\n\n⚠️ Bẫy ETS rất nặng: Nhiều bạn chọn (B) provided vì thấy 'would' ❌"
+        },
+        {
+          "id": 337,
+          "question": "Choose the correct form for blank 337",
+          "options": { "A": "is", "B": "was", "C": "had been", "D": "has been" },
+          "correctAnswer": "C",
+          "explanation": "**Mixed Subjunctive**: Nguyên nhân quá khứ (had been implemented) → hệ quả hiện tại (now).\n\n📌 Cấu trúc chuẩn: If + **had been** + V3, S + would/could + V + now.\n\n📌 'now' trong mệnh đề chính là dấu hiệu Mixed Subjunctive."
+        }
+      ]
+    },
+    {
+      "id": 336,
+      "type": "passage",
+      "passageType": "reading-comprehension",
+      "passageTitle": "E-mail - System Upgrade Delay",
+      "passage": "Dear Ms. Collins,\n\nThank you for your message regarding the delay in the system upgrade.\n\nIf the software vendor had completed the testing phase on schedule, the upgrade would already be in place. Unfortunately, because this did not occur, several departments are still experiencing performance issues.\n\nManagement stated that if the vendor resolves the remaining problems by the end of this week, the upgrade will proceed as planned. Otherwise, alternative solutions will be considered.\n\nWe appreciate your patience and would be grateful if you could inform your team of the revised timeline.\n\nSincerely,\nIT Support Team",
+      "subQuestions": [
+        {
+          "id": 338,
+          "question": "Why is the system upgrade delayed?",
+          "options": {
+            "A": "Employees did not follow instructions",
+            "B": "The vendor failed to complete testing on time",
+            "C": "Management canceled the project",
+            "D": "The budget was reduced"
+          },
+          "correctAnswer": "B",
+          "explanation": "Câu **'If the vendor had completed the testing phase on schedule'** → thực tế là vendor **không** hoàn thành đúng hạn.\n\n📌 Đây là **Third Conditional** diễn tả điều không xảy ra trong quá khứ."
+        },
+        {
+          "id": 339,
+          "question": "What can be inferred about the system upgrade now?",
+          "options": {
+            "A": "It has already been completed",
+            "B": "It is no longer necessary",
+            "C": "It is causing ongoing issues",
+            "D": "It was rejected by management"
+          },
+          "correctAnswer": "C",
+          "explanation": "Câu **'several departments are still experiencing performance issues'** → vấn đề **đang** xảy ra hiện tại.\n\n📌 'still experiencing' = vẫn đang trải qua → ongoing issues."
+        },
+        {
+          "id": 340,
+          "question": "What will happen if the vendor fixes the problems this week?",
+          "options": {
+            "A": "The project will be canceled",
+            "B": "Employees will receive training",
+            "C": "The upgrade will move forward",
+            "D": "An external consultant will be hired"
+          },
+          "correctAnswer": "C",
+          "explanation": "Câu **'if the vendor resolves the remaining problems..., the upgrade will proceed as planned'**.\n\n📌 Đây là **First Conditional** (điều kiện có thể xảy ra): If + present, will + V."
+        },
+        {
+          "id": 341,
+          "question": "Which sentence best shows a polite subjunctive structure?",
+          "options": {
+            "A": "The upgrade would already be in place.",
+            "B": "Several departments are still experiencing issues.",
+            "C": "We would be grateful if you could inform your team…",
+            "D": "Alternative solutions will be considered."
+          },
+          "correctAnswer": "C",
+          "explanation": "**Subjunctive lịch sự** chuẩn TOEIC: **would be grateful if you could + V**.\n\n📌 Đây là cách nói lịch sự trong email công việc.\n\n📌 (A) là Third Conditional, (B) là câu trần thuật, (D) là câu bị động tương lai."
+        }
+      ]
+    },
+    {
+      "id": 337,
+      "type": "passage",
+      "passageType": "fill-in-the-blank",
+      "passageTitle": "E-mail - Conference Room Arrangement",
+      "passage": "Dear Team,\n\nIf the conference room ____342____ larger, we would be able to accommodate all participants in one session. Unfortunately, this is not the case.\n\nTherefore, management stated that it would appreciate it if employees ____343____ flexible with the meeting schedule this week.\n\nIf additional space ____344____ available in the future, the sessions will be reorganized accordingly.\n\nThank you for your cooperation.",
+      "subQuestions": [
+        {
+          "id": 342,
+          "question": "Choose the correct form for blank 342",
+          "options": { "A": "is", "B": "was", "C": "were", "D": "had been" },
+          "correctAnswer": "C",
+          "explanation": "Giả định hiện tại (**Second Conditional**): If … **were**, would + V.\n\n📌 Với động từ 'be', TOEIC ưu tiên dùng **were** cho mọi chủ ngữ trong If-clause.\n\n⚠️ Bẫy: (D) had been là loại 3/Mixed, không phù hợp vì không có mốc quá khứ."
+        },
+        {
+          "id": 343,
+          "question": "Choose the correct form for blank 343",
+          "options": { "A": "are", "B": "were", "C": "be", "D": "will be" },
+          "correctAnswer": "A",
+          "explanation": "**Subjunctive lịch sự**: would appreciate it if + S + **V (hiện tại)**.\n\n📌 Đây là cấu trúc yêu cầu lịch sự chuẩn TOEIC.\n\n⚠️ Bẫy ETS rất nặng: Nhiều bạn chọn (B) were vì thấy 'would' ❌"
+        },
+        {
+          "id": 344,
+          "question": "Choose the correct form for blank 344",
+          "options": { "A": "is", "B": "was", "C": "had been", "D": "has been" },
+          "correctAnswer": "A",
+          "explanation": "Điều kiện **loại 1** (real condition): If + **hiện tại**, will + V.\n\n📌 'in the future' + 'will be reorganized' → điều kiện có thể xảy ra thật."
+        }
+      ]
+    },
+    {
+      "id": 338,
+      "type": "passage",
+      "passageType": "fill-in-the-blank",
+      "passageTitle": "Memo - Project Completion Delays",
+      "passage": "Several departments are currently facing delays in project completion.\n\nIf the required resources ____345____ allocated earlier, the teams would not be experiencing these issues now.\n\nManagement noted that if additional staff ____346____ assigned this quarter, overall productivity will improve.\n\nPlease submit any further requests by the end of the week.",
+      "subQuestions": [
+        {
+          "id": 345,
+          "question": "Choose the correct form for blank 345",
+          "options": { "A": "are", "B": "were", "C": "had been", "D": "have been" },
+          "correctAnswer": "C",
+          "explanation": "**Mixed Subjunctive**: Nguyên nhân quá khứ (had been allocated earlier) → kết quả hiện tại (now).\n\n📌 'earlier' = quá khứ, 'now' = hiện tại → If + **had been** + V3.\n\n⚠️ Bẫy: (B) were là loại 2 thuần, không phù hợp với 'earlier'."
+        },
+        {
+          "id": 346,
+          "question": "Choose the correct form for blank 346",
+          "options": { "A": "are", "B": "were", "C": "had been", "D": "would be" },
+          "correctAnswer": "A",
+          "explanation": "Điều kiện **loại 1**: If + **hiện tại**, will + V.\n\n📌 'this quarter' + 'will improve' → điều kiện có thể xảy ra thật.\n\n⚠️ Bẫy ETS rất hay: Trộn Mixed + First Conditional trong cùng đoạn."
+        }
+      ]
+    },
+    {
+      "id": 339,
+      "type": "passage",
+      "passageType": "reading-comprehension",
+      "passageTitle": "Notice - System Access Issues",
+      "passage": "Due to recent system upgrades, some employees may experience temporary access issues.\n\nIf the upgrade had been completed according to the original timeline, these disruptions would not be occurring now.\n\nThe IT department stated that if the remaining issues are resolved by tomorrow, full access will be restored immediately.\n\nEmployees are advised to contact technical support if problems persist. The department would be grateful if all reports could include screenshots of any error messages.",
+      "subQuestions": [
+        {
+          "id": 347,
+          "question": "What problem are employees experiencing?",
+          "options": {
+            "A": "Delays in salary payments",
+            "B": "Temporary system access issues",
+            "C": "Reduced work hours",
+            "D": "Training cancellations"
+          },
+          "correctAnswer": "B",
+          "explanation": "Câu đầu tiên nói rõ: **'some employees may experience temporary access issues'**.\n\n📌 Đây là câu hỏi tìm thông tin trực tiếp (factual question)."
+        },
+        {
+          "id": 348,
+          "question": "What can be inferred about the system upgrade?",
+          "options": {
+            "A": "It has been canceled",
+            "B": "It is no longer necessary",
+            "C": "It was not completed on time",
+            "D": "It caused permanent damage"
+          },
+          "correctAnswer": "C",
+          "explanation": "Câu **'If the upgrade had been completed according to the original timeline...'** → Third Conditional diễn tả điều **không** xảy ra.\n\n📌 Thực tế: Upgrade **chưa** hoàn thành đúng hạn."
+        },
+        {
+          "id": 349,
+          "question": "What will happen if the remaining issues are fixed by tomorrow?",
+          "options": {
+            "A": "Employees will receive new equipment",
+            "B": "The system will be shut down",
+            "C": "Full access will be restored",
+            "D": "The upgrade will be postponed"
+          },
+          "correctAnswer": "C",
+          "explanation": "Câu **'if the remaining issues are resolved by tomorrow, full access will be restored immediately'**.\n\n📌 Đây là **First Conditional** (điều kiện có thể xảy ra): If + present, will + V."
+        },
+        {
+          "id": 350,
+          "question": "Which sentence contains a polite subjunctive structure?",
+          "options": {
+            "A": "Some employees may experience temporary access issues.",
+            "B": "These disruptions would not be occurring now.",
+            "C": "If the remaining issues are resolved by tomorrow…",
+            "D": "The department would be grateful if all reports could include screenshots…"
+          },
+          "correctAnswer": "D",
+          "explanation": "**Subjunctive lịch sự** chuẩn TOEIC: **would be grateful if … could + V**.\n\n📌 Đây là cách nói lịch sự trong văn bản công việc.\n\n📌 (A) là modal verb, (B) là Mixed Subjunctive, (C) là First Conditional."
+        }
+      ]
+    }
+  ]
+}

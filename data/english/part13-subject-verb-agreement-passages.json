@@ -1,0 +1,207 @@
+{
+  "partId": "subject-verb-agreement-passages",
+  "partName": "Subject-Verb Agreement - Passages (Part 6 & Part 7)",
+  "questions": [
+    {
+      "id": 452,
+      "type": "passage",
+      "passageType": "fill-in-the-blank",
+      "passageTitle": "Updated Work-from-Home Policy (Email)",
+      "passage": "To: All Staff\nFrom: Human Resources Department\nSubject: Updated Work-from-Home Policy\n\nDue to recent changes in company operations, a number of employees ____452____ now eligible to work remotely.\nEach staff member ____453____ required to submit a formal request before approval can be granted.\nThe HR team stated that all applications ____454____ reviewed within five business days.\nThat the new policy applies only to full-time employees ____455____ clearly stated in the official guidelines.",
+      "subQuestions": [
+        {
+          "id": 452,
+          "question": "Choose the correct verb for blank 452",
+          "options": { "A": "is", "B": "are", "C": "was", "D": "has been" },
+          "correctAnswer": "B",
+          "explanation": "**a number of + plural noun** → động từ số nhiều.\n\n📌 'a number of' = nhiều → 'employees' là số nhiều → dùng **are**.\n\n⚠️ Bẫy TOEIC: Đừng nhầm với 'the number of' (số lượng) → chia số ít."
+        },
+        {
+          "id": 453,
+          "question": "Choose the correct verb for blank 453",
+          "options": { "A": "are", "B": "were", "C": "is", "D": "have" },
+          "correctAnswer": "C",
+          "explanation": "**each + singular noun** → động từ số ít.\n\n📌 'Each staff member' = mỗi nhân viên (số ít) → dùng **is**.\n\n⚠️ Luật thép: each / every + noun → SINGULAR VERB."
+        },
+        {
+          "id": 454,
+          "question": "Choose the correct verb for blank 454",
+          "options": { "A": "are", "B": "is", "C": "has", "D": "was" },
+          "correctAnswer": "A",
+          "explanation": "**all + plural noun** → động từ số nhiều + câu bị động.\n\n📌 'all applications' = số nhiều → be + V3 → **are** reviewed.\n\n⚠️ Bẫy: Đừng nhìn 'HR team' ở câu trước mà rối."
+        },
+        {
+          "id": 455,
+          "question": "Choose the correct verb for blank 455",
+          "options": { "A": "are", "B": "were", "C": "have", "D": "is" },
+          "correctAnswer": "D",
+          "explanation": "**That-clause làm chủ ngữ** → động từ số ít.\n\n📌 'That the new policy applies...' là mệnh đề danh từ làm chủ ngữ → xem như MỘT ý → dùng **is**.\n\n⚠️ Bẫy nặng: 'employees' (số nhiều) chỉ nằm bên trong mệnh đề, KHÔNG quyết định động từ chính."
+        }
+      ]
+    },
+    {
+      "id": 456,
+      "type": "passage",
+      "passageType": "reading-comprehension",
+      "passageTitle": "Flexible Working Hours Notice",
+      "passage": "The management announced that the number of employees working flexible hours has increased significantly over the past year.\nMost of the staff members have reported higher job satisfaction as a result.\nHowever, working remotely for extended periods requires strong self-discipline and effective communication skills.\nThat these skills are essential to productivity is emphasized in the company's training materials.",
+      "subQuestions": [
+        {
+          "id": 456,
+          "question": "What has increased over the past year?",
+          "options": {
+            "A": "The number of training materials",
+            "B": "The level of job satisfaction",
+            "C": "The number of employees with flexible hours",
+            "D": "The amount of communication skills"
+          },
+          "correctAnswer": "C",
+          "explanation": "Bài viết nêu rõ: 'the number of employees working flexible hours has increased significantly'.\n\n⚠️ Bẫy: Job satisfaction được nói là 'higher', nhưng không nói là 'increased'."
+        },
+        {
+          "id": 457,
+          "question": "According to the notice, what is required for working remotely for long periods?",
+          "options": {
+            "A": "Fewer working hours",
+            "B": "Approval from the HR department",
+            "C": "Strong self-discipline and communication skills",
+            "D": "Additional financial support"
+          },
+          "correctAnswer": "C",
+          "explanation": "Bài viết nêu rõ: 'working remotely for extended periods requires strong self-discipline and effective communication skills'.\n\n⚠️ Bẫy: Không hề nhắc đến HR approval hay tiền bạc."
+        },
+        {
+          "id": 458,
+          "question": "Which sentence shows correct subject–verb agreement?",
+          "options": {
+            "A": "The number of employees working flexible hours have increased.",
+            "B": "Most of the staff members has reported higher job satisfaction.",
+            "C": "Working remotely for extended periods require strong self-discipline.",
+            "D": "That these skills are essential to productivity is emphasized."
+          },
+          "correctAnswer": "D",
+          "explanation": "Phân tích từng lựa chọn:\n\n❌ A: 'The number of...' = số ít → phải dùng 'has' (không phải 'have').\n\n❌ B: 'Most of the staff members' = số nhiều → phải dùng 'have' (không phải 'has').\n\n❌ C: 'Working remotely...' (gerund phrase) = số ít → phải dùng 'requires' (không phải 'require').\n\n✔ D: 'That these skills are essential...' (that-clause) = MỘT ý → dùng 'is' → ĐÚNG."
+        }
+      ]
+    },
+    {
+      "id": 459,
+      "type": "passage",
+      "passageType": "fill-in-the-blank",
+      "passageTitle": "Monthly Performance Review (Internal Memo)",
+      "passage": "To: Department Managers\nFrom: Operations Team\nSubject: Monthly Performance Review\n\nThe number of customer complaints ____459____ declined noticeably last month.\nHowever, several issues related to delivery delays ____460____ still being reported.\nEach of the regional offices ____461____ expected to submit a detailed analysis by Friday.\nThat corrective actions must be taken promptly ____462____ emphasized during the last meeting.",
+      "subQuestions": [
+        {
+          "id": 459,
+          "question": "Choose the correct verb for blank 459",
+          "options": { "A": "have", "B": "are", "C": "has", "D": "were" },
+          "correctAnswer": "C",
+          "explanation": "**the number of + plural noun** → động từ số ít.\n\n📌 Chủ ngữ chính = 'number' (số ít), 'last month' → quá khứ nhưng 'has declined' (hiện tại hoàn thành) vẫn đúng vì diễn tả kết quả đến hiện tại.\n\n⚠️ Bẫy: Nhìn thấy 'complaints' (số nhiều) rồi chia số nhiều → SAI."
+        },
+        {
+          "id": 460,
+          "question": "Choose the correct verb for blank 460",
+          "options": { "A": "is", "B": "are", "C": "has", "D": "was" },
+          "correctAnswer": "B",
+          "explanation": "**several + plural noun** → động từ số nhiều.\n\n📌 'several issues' = nhiều vấn đề → số nhiều + 'being reported' (đang được báo cáo) → dùng **are**."
+        },
+        {
+          "id": 461,
+          "question": "Choose the correct verb for blank 461",
+          "options": { "A": "are", "B": "were", "C": "is", "D": "have" },
+          "correctAnswer": "C",
+          "explanation": "**each of + plural noun** → động từ số ít.\n\n📌 'Each of the regional offices' → 'each' quyết định → số ít + bị động → **is** expected.\n\n⚠️ Bẫy nặng: 'offices' (số nhiều) đánh lạc hướng."
+        },
+        {
+          "id": 462,
+          "question": "Choose the correct verb for blank 462",
+          "options": { "A": "are", "B": "were", "C": "have", "D": "is" },
+          "correctAnswer": "D",
+          "explanation": "**That-clause làm chủ ngữ** → động từ số ít.\n\n📌 'That corrective actions must be taken promptly' là mệnh đề danh từ → xem như MỘT ý → dùng **is** emphasized."
+        }
+      ]
+    },
+    {
+      "id": 463,
+      "type": "passage",
+      "passageType": "reading-comprehension",
+      "passageTitle": "Building Maintenance Notice",
+      "passage": "The facilities department announced that most of the maintenance work on the building has been completed.\nA number of safety inspections are still scheduled for next week.\nWorking in restricted areas without authorization is strictly prohibited.\nThat all employees follow safety guidelines is essential to preventing accidents.",
+      "subQuestions": [
+        {
+          "id": 463,
+          "question": "What has been mostly completed?",
+          "options": {
+            "A": "Safety inspections",
+            "B": "Maintenance work on the building",
+            "C": "Authorization procedures",
+            "D": "Employee training programs"
+          },
+          "correctAnswer": "B",
+          "explanation": "Bài viết nêu rõ: 'most of the maintenance work on the building has been completed'.\n\n⚠️ Bẫy: Safety inspections vẫn đang được lên lịch (scheduled), chưa hoàn thành."
+        },
+        {
+          "id": 464,
+          "question": "What is mentioned about safety inspections?",
+          "options": {
+            "A": "They have been canceled",
+            "B": "They are optional",
+            "C": "They will occur next week",
+            "D": "They were completed early"
+          },
+          "correctAnswer": "C",
+          "explanation": "Bài viết nêu rõ: 'A number of safety inspections are still scheduled for next week'.\n\n📌 'scheduled for next week' = sẽ diễn ra vào tuần tới."
+        },
+        {
+          "id": 465,
+          "question": "Which sentence contains correct subject–verb agreement?",
+          "options": {
+            "A": "A number of safety inspections is still scheduled for next week.",
+            "B": "Working in restricted areas without authorization are prohibited.",
+            "C": "That all employees follow safety guidelines are essential.",
+            "D": "That all employees follow safety guidelines is essential."
+          },
+          "correctAnswer": "D",
+          "explanation": "Phân tích từng lựa chọn:\n\n❌ A: 'a number of + plural' → phải dùng 'are' (không phải 'is').\n\n❌ B: 'Working...' (gerund phrase) = số ít → phải dùng 'is' (không phải 'are').\n\n❌ C: 'That-clause' = một ý → phải dùng 'is' (không phải 'are').\n\n✔ D: 'That all employees follow safety guidelines' (that-clause) → số ít → dùng 'is' → ĐÚNG."
+        }
+      ]
+    },
+    {
+      "id": 466,
+      "type": "passage",
+      "passageType": "fill-in-the-blank",
+      "passageTitle": "Staffing Changes Announcement (Email)",
+      "passage": "Dear Staff,\n\nDue to recent staffing changes, some of the responsibilities previously handled by the HR team ____466____ now assigned to department supervisors.\nEach supervisor ____467____ required to ensure that the information provided to employees is accurate.\nThe HR director confirmed that the updated guidelines ____468____ distributed by the end of this week.\nThat clear communication reduces misunderstandings ____469____ widely acknowledged within the organization.\n\nSincerely,\nManagement",
+      "subQuestions": [
+        {
+          "id": 466,
+          "question": "Choose the correct verb for blank 466",
+          "options": { "A": "is", "B": "are", "C": "has", "D": "was" },
+          "correctAnswer": "B",
+          "explanation": "**some of + plural noun** → động từ số nhiều.\n\n📌 'some of the responsibilities' = một số trách nhiệm (số nhiều) + bị động → **are** assigned."
+        },
+        {
+          "id": 467,
+          "question": "Choose the correct verb for blank 467",
+          "options": { "A": "are", "B": "were", "C": "is", "D": "have" },
+          "correctAnswer": "C",
+          "explanation": "**each + singular noun** → động từ số ít.\n\n📌 'Each supervisor' = mỗi giám sát viên (số ít) + bị động → **is** required."
+        },
+        {
+          "id": 468,
+          "question": "Choose the correct verb for blank 468",
+          "options": { "A": "are", "B": "were", "C": "have", "D": "will be" },
+          "correctAnswer": "D",
+          "explanation": "**Thì tương lai + bị động**.\n\n📌 'guidelines' = số nhiều, 'by the end of this week' = tương lai → **will be** distributed.\n\n⚠️ Logic: Hành động phân phát sẽ xảy ra trong tương lai."
+        },
+        {
+          "id": 469,
+          "question": "Choose the correct verb for blank 469",
+          "options": { "A": "are", "B": "were", "C": "have", "D": "is" },
+          "correctAnswer": "D",
+          "explanation": "**That-clause làm chủ ngữ** → động từ số ít.\n\n📌 'That clear communication reduces misunderstandings' là mệnh đề danh từ → xem như MỘT ý → dùng **is** acknowledged."
+        }
+      ]
+    }
+  ]
+}

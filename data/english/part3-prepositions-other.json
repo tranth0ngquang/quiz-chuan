@@ -1,0 +1,126 @@
+{
+  "partId": "prepositions-other",
+  "partName": "Giới từ khác (by/with/as/about)",
+  "questions": [
+    {
+      "id": 15,
+      "type": "single",
+      "question": "My salary has been increased ______ 5 percent.",
+      "options": { "A": "by", "B": "with", "C": "to", "D": "at" },
+      "correctAnswer": "A",
+      "explanation": "'By' dùng để diễn tả mức tăng/giảm: increased by + số phần trăm."
+    },
+    {
+      "id": 16,
+      "type": "single",
+      "question": "We can send the quote ______ either e-mail or fax.",
+      "options": { "A": "with", "B": "by", "C": "through", "D": "in" },
+      "correctAnswer": "B",
+      "explanation": "'By' dùng với phương tiện liên lạc: by e-mail, by fax, by phone."
+    },
+    {
+      "id": 17,
+      "type": "single",
+      "question": "The brave woman hit the burglar over the head ______ a baseball bat.",
+      "options": { "A": "by", "B": "with", "C": "in", "D": "through" },
+      "correctAnswer": "B",
+      "explanation": "'With' dùng khi sử dụng công cụ cụ thể: hit with a bat, cut with a knife."
+    },
+    {
+      "id": 18,
+      "type": "single",
+      "question": "The newest camera model from Digital World comes ______ an extra lens.",
+      "options": { "A": "by", "B": "with", "C": "from", "D": "in" },
+      "correctAnswer": "B",
+      "explanation": "'Comes with' = đi kèm với. Đây là collocation rất hay gặp trong TOEIC."
+    },
+    {
+      "id": 19,
+      "type": "single",
+      "question": "Ms. Evans resigned ______ the senior marketing manager last Tuesday.",
+      "options": { "A": "as", "B": "from", "C": "with", "D": "by" },
+      "correctAnswer": "A",
+      "explanation": "'Resign as' + chức vụ: từ chức với tư cách là..."
+    },
+    {
+      "id": 20,
+      "type": "single",
+      "question": "During the last quarter, Dream Furniture's profits rose ______ 9 percent.",
+      "options": { "A": "by", "B": "at", "C": "with", "D": "on" },
+      "correctAnswer": "A",
+      "explanation": "'Rose by' + phần trăm: tăng bao nhiêu %."
+    },
+    {
+      "id": 21,
+      "type": "single",
+      "question": "You are only allowed to enter the factory ______ proper safety gear.",
+      "options": { "A": "without", "B": "with", "C": "by", "D": "as" },
+      "correctAnswer": "B",
+      "explanation": "'With' = mang theo, có. Phải có đồ bảo hộ mới được vào nhà máy."
+    },
+    {
+      "id": 53,
+      "type": "single",
+      "question": "She traveled to Paris ___ train.",
+      "options": { "A": "with", "B": "by", "C": "on", "D": "in" },
+      "correctAnswer": "B",
+      "explanation": "By dùng để chỉ phương tiện giao thông."
+    },
+    {
+      "id": 54,
+      "type": "single",
+      "question": "The door was opened ___ a key.",
+      "options": { "A": "by", "B": "with", "C": "as", "D": "from" },
+      "correctAnswer": "B",
+      "explanation": "With dùng để chỉ công cụ."
+    },
+    {
+      "id": 55,
+      "type": "single",
+      "question": "Ms. Brown resigned ___ sales manager last month.",
+      "options": { "A": "as", "B": "from", "C": "with", "D": "by" },
+      "correctAnswer": "A",
+      "explanation": "Resign as + chức danh."
+    },
+    {
+      "id": 62,
+      "type": "single",
+      "question": "He discussed the issue ___ his supervisor.",
+      "options": { "A": "about", "B": "with", "C": "by", "D": "as" },
+      "correctAnswer": "B",
+      "explanation": "With dùng khi nói chuyện cùng ai đó."
+    },
+    {
+      "id": 63,
+      "type": "single",
+      "question": "This memo provides information ___ the new policy.",
+      "options": { "A": "with", "B": "by", "C": "about", "D": "as" },
+      "correctAnswer": "C",
+      "explanation": "About dùng để chỉ chủ đề."
+    },
+    {
+      "id": 70,
+      "type": "single",
+      "question": "The report was prepared ______ the marketing team.",
+      "options": { "A": "with", "B": "by", "C": "as", "D": "about" },
+      "correctAnswer": "B",
+      "explanation": "**By** dùng trong câu bị động để chỉ tác nhân thực hiện hành động.\n\n📌 Cấu trúc: be + V3 + by + agent."
+    },
+    {
+      "id": 71,
+      "type": "single",
+      "question": "Ms. Chen has been working ______ an accountant for over ten years.",
+      "options": { "A": "by", "B": "with", "C": "as", "D": "about" },
+      "correctAnswer": "C",
+      "explanation": "**As** dùng để chỉ vai trò, nghề nghiệp: work as + job title.\n\n📌 Cụm: work as an accountant = làm việc với tư cách kế toán."
+    },
+    {
+      "id": 64,
+      "type": "single",
+      "question": "The CEO will be away ___ business next week.",
+      "options": { "A": "on", "B": "in", "C": "at", "D": "for" },
+      "correctAnswer": "A",
+      "explanation": "Cụm cố định: on business."
+    }
+  ]
+}

@@ -1,0 +1,566 @@
+{
+  "partId": "subjunctive-mood-extended",
+  "partName": "Câu điều kiện - Nâng cao (Conditional Sentences Extended)",
+  "questions": [
+    {
+      "id": 265,
+      "type": "single",
+      "question": "If you _____ any further assistance, please do not hesitate to contact us.",
+      "options": { "A": "need", "B": "needed", "C": "will need", "D": "had needed" },
+      "correctAnswer": "A",
+      "explanation": "Đây là câu điều kiện **loại 1** (có thể xảy ra). If-clause dùng **hiện tại đơn**.\n\n📌 TOEIC rất hay dùng mẫu câu lịch sự này trong email: 'If you need..., please...'"
+    },
+    {
+      "id": 266,
+      "type": "single",
+      "question": "If I were in charge of the project, I _____ the schedule more carefully.",
+      "options": { "A": "review", "B": "will review", "C": "would review", "D": "would have reviewed" },
+      "correctAnswer": "C",
+      "explanation": "Câu giả định hiện tại (**Second Conditional**). 'If I were...' là mẫu cố định → mệnh đề chính dùng **would + V**.\n\n📌 Giả định trái với thực tế: Tôi không phụ trách dự án."
+    },
+    {
+      "id": 267,
+      "type": "single",
+      "question": "If the technician had arrived earlier, the problem _____ by now.",
+      "options": { "A": "is solved", "B": "would be solved", "C": "would have been solved", "D": "has solved" },
+      "correctAnswer": "C",
+      "explanation": "Giả định quá khứ (**Third Conditional**). If + had + V3 → **would have + V3**.\n\n📌 'by now' không làm câu này thành mixed vì kết quả đã hoàn tất trong quá khứ."
+    },
+    {
+      "id": 268,
+      "type": "single",
+      "question": "If the company _____ more attention to customer feedback, it would have avoided many complaints.",
+      "options": { "A": "pays", "B": "paid", "C": "had paid", "D": "has paid" },
+      "correctAnswer": "C",
+      "explanation": "Nhìn mệnh đề chính có 'would have avoided' → giả định quá khứ → If-clause bắt buộc là **had + V3**.\n\n⚠️ Bẫy: (B) paid là loại 2, nhưng mệnh đề chính là loại 3."
+    },
+    {
+      "id": 269,
+      "type": "single",
+      "question": "If we had not stayed up so late last night, we _____ so exhausted now.",
+      "options": { "A": "would not be", "B": "would not have been", "C": "are not", "D": "will not be" },
+      "correctAnswer": "A",
+      "explanation": "**Mixed Subjunctive**: nguyên nhân quá khứ (had stayed up) → kết quả hiện tại (now).\n\n📌 'now' = hiện tại → mệnh đề chính dùng **would + V** (không phải would have V3).\n\n⚠️ Bẫy nâng cao: Nhiều người chọn (B) vì thấy If + had V3."
+    },
+    {
+      "id": 270,
+      "type": "single",
+      "question": "If the report _____ submitted on time, the manager would be more satisfied today.",
+      "options": { "A": "was", "B": "is", "C": "had been", "D": "has been" },
+      "correctAnswer": "C",
+      "explanation": "Câu giả định **hỗn hợp** (Mixed). Nguyên nhân quá khứ (không nộp đúng hạn) → ảnh hưởng hiện tại (today).\n\n📌 'today' = hiện tại, nhưng hành động nộp báo cáo là quá khứ → If-clause dùng **had + V3**."
+    },
+    {
+      "id": 271,
+      "type": "single",
+      "question": "I would appreciate it if you _____ me know about any changes.",
+      "options": { "A": "will let", "B": "let", "C": "would let", "D": "had let" },
+      "correctAnswer": "B",
+      "explanation": "**Subjunctive lịch sự** trong TOEIC. Mẫu chuẩn: 'I would appreciate it if you + V (bare/hiện tại đơn)'.\n\n📌 ETS rất hay ra dạng này trong email công việc. Đây là cách nói lịch sự thay vì mệnh lệnh."
+    },
+    {
+      "id": 272,
+      "type": "single",
+      "question": "If the weather is favorable tomorrow, the event _____ as planned.",
+      "options": { "A": "would proceed", "B": "will proceed", "C": "would have proceeded", "D": "proceeded" },
+      "correctAnswer": "B",
+      "explanation": "Điều kiện **loại 1** (real condition). Tomorrow + if + hiện tại → **will + V**.\n\n📌 Sự kiện có thể xảy ra thật → dùng loại 1."
+    },
+    {
+      "id": 273,
+      "type": "single",
+      "question": "If the company _____ a survey last year, it would understand its customers better now.",
+      "options": { "A": "conducts", "B": "has conducted", "C": "had conducted", "D": "was conducting" },
+      "correctAnswer": "C",
+      "explanation": "**Mixed Subjunctive**. Nguyên nhân quá khứ (did not conduct last year) → kết quả hiện tại (now).\n\n📌 'last year' = quá khứ → If-clause dùng **had + V3**.\n📌 'now' = hiện tại → mệnh đề chính dùng would + V."
+    },
+    {
+      "id": 274,
+      "type": "single",
+      "question": "If you had followed the instructions carefully, the device _____ properly.",
+      "options": { "A": "works", "B": "would work", "C": "would have worked", "D": "has worked" },
+      "correctAnswer": "C",
+      "explanation": "Giả định quá khứ (**Third Conditional**). If + had + V3 → **would have + V3**.\n\n📌 Đây là dạng cực hay gặp trong Part 5 TOEIC. Cả hai mệnh đề đều nói về quá khứ không có thật."
+    },
+    {
+      "id": 275,
+      "type": "single",
+      "question": "If you _____ any additional information, please contact the Human Resources department.",
+      "options": { "A": "need", "B": "needed", "C": "will need", "D": "had needed" },
+      "correctAnswer": "A",
+      "explanation": "Câu điều kiện **loại 1** (real condition). If-clause dùng **hiện tại đơn**.\n\n📌 TOEIC rất hay dùng mẫu câu lịch sự này trong email nội bộ: 'If you need..., please contact...'"
+    },
+    {
+      "id": 276,
+      "type": "single",
+      "question": "If I were responsible for the budget, I _____ the expenses more carefully.",
+      "options": { "A": "monitor", "B": "will monitor", "C": "would monitor", "D": "would have monitored" },
+      "correctAnswer": "C",
+      "explanation": "Giả định hiện tại (**Second Conditional**). If I were... → mệnh đề chính dùng **would + V**.\n\n📌 Giả định trái với thực tế: Tôi không chịu trách nhiệm về ngân sách."
+    },
+    {
+      "id": 277,
+      "type": "single",
+      "question": "If the report had been submitted on time, the manager _____ satisfied with the results.",
+      "options": { "A": "is", "B": "would be", "C": "would have been", "D": "has been" },
+      "correctAnswer": "C",
+      "explanation": "Giả định quá khứ (**Third Conditional**). If + had + V3 → **would have + V3**.\n\n📌 Cả hai mệnh đề đều nói về quá khứ không có thật."
+    },
+    {
+      "id": 278,
+      "type": "single",
+      "question": "If we had invested more in advertising last year, we _____ more customers now.",
+      "options": { "A": "will attract", "B": "would attract", "C": "would have attracted", "D": "attract" },
+      "correctAnswer": "B",
+      "explanation": "**Mixed Subjunctive**. Nguyên nhân quá khứ (had invested last year) → kết quả hiện tại (now).\n\n📌 'now' = hiện tại → mệnh đề chính dùng **would + V** (không phải would have V3).\n\n⚠️ Bẫy: (C) would have attracted chỉ đúng nếu kết quả cũng ở quá khứ."
+    },
+    {
+      "id": 279,
+      "type": "single",
+      "question": "If the technician _____ earlier, the issue would have been resolved already.",
+      "options": { "A": "arrives", "B": "arrived", "C": "had arrived", "D": "has arrived" },
+      "correctAnswer": "C",
+      "explanation": "Nhìn mệnh đề chính có 'would have been resolved' → giả định quá khứ → If-clause phải là **had + V3**.\n\n📌 Mẹo: Xác định loại câu điều kiện bằng cách nhìn mệnh đề chính trước."
+    },
+    {
+      "id": 280,
+      "type": "single",
+      "question": "I would be grateful if you _____ me updated on the progress of the project.",
+      "options": { "A": "will keep", "B": "kept", "C": "keep", "D": "had kept" },
+      "correctAnswer": "C",
+      "explanation": "**Subjunctive lịch sự** trong TOEIC. Mẫu chuẩn: 'would be grateful if you + V (hiện tại đơn/bare infinitive)'.\n\n📌 Đây là cách nói lịch sự trong email công việc, rất hay gặp trong Part 5/6."
+    },
+    {
+      "id": 281,
+      "type": "single",
+      "question": "If the weather is favorable tomorrow, the conference _____ outdoors.",
+      "options": { "A": "would be held", "B": "will be held", "C": "would have been held", "D": "has been held" },
+      "correctAnswer": "B",
+      "explanation": "Điều kiện **loại 1**. Tomorrow + if + hiện tại → **will + V**.\n\n📌 Sự kiện có thể xảy ra thật trong tương lai → dùng loại 1."
+    },
+    {
+      "id": 282,
+      "type": "single",
+      "question": "If the company _____ customer feedback more seriously, it would not be facing these problems today.",
+      "options": { "A": "takes", "B": "took", "C": "had taken", "D": "has taken" },
+      "correctAnswer": "C",
+      "explanation": "**Mixed Subjunctive**. Nguyên nhân quá khứ (did not take seriously) → kết quả hiện tại (today).\n\n📌 'today' = hiện tại → mệnh đề chính dùng would + V.\n📌 Hành động 'take feedback' là quá khứ → If-clause dùng **had + V3**."
+    },
+    {
+      "id": 283,
+      "type": "single",
+      "question": "If you had followed the safety instructions, the accident _____ occurred.",
+      "options": { "A": "would not", "B": "will not have", "C": "would not have", "D": "has not" },
+      "correctAnswer": "C",
+      "explanation": "Giả định quá khứ (**Third Conditional**). Cấu trúc chuẩn: **would not have + V3**.\n\n📌 If + had + V3 → would (not) have + V3."
+    },
+    {
+      "id": 284,
+      "type": "single",
+      "question": "If I _____ you, I would consult the legal department before signing the contract.",
+      "options": { "A": "am", "B": "was", "C": "were", "D": "had been" },
+      "correctAnswer": "C",
+      "explanation": "Mẫu cố định TOEIC: **If I were you** → giả định hiện tại, dùng **were** cho mọi chủ ngữ.\n\n📌 'If I were you' là cấu trúc cố định cho lời khuyên, rất hay gặp trong Part 5."
+    },
+    {
+      "id": 285,
+      "type": "single",
+      "question": "If the instructions _____ followed carefully, the machine would not have malfunctioned.",
+      "options": { "A": "are", "B": "were", "C": "had been", "D": "have been" },
+      "correctAnswer": "C",
+      "explanation": "Mệnh đề chính có 'would not have malfunctioned' → giả định quá khứ → If-clause phải dùng **had + V3**.\n\n📌 Mẹo: Xác định loại câu điều kiện bằng cách nhìn mệnh đề chính trước."
+    },
+    {
+      "id": 286,
+      "type": "single",
+      "question": "If I _____ more experience in management, I would apply for the position.",
+      "options": { "A": "have", "B": "had", "C": "had had", "D": "would have" },
+      "correctAnswer": "B",
+      "explanation": "Giả định hiện tại (**Second Conditional**). If-clause dùng **V2 (had)**.\n\n⚠️ Bẫy: (C) had had chỉ dùng khi If-clause là quá khứ hoàn thành (loại 3). Đây là loại 2 → dùng **had** (quá khứ đơn của have)."
+    },
+    {
+      "id": 287,
+      "type": "single",
+      "question": "If the company had responded to the complaint sooner, the customer _____ so dissatisfied now.",
+      "options": { "A": "would not be", "B": "would not have been", "C": "is not", "D": "will not be" },
+      "correctAnswer": "A",
+      "explanation": "**Mixed Subjunctive**. Nguyên nhân quá khứ (had responded) → kết quả hiện tại (now).\n\n📌 'now' = hiện tại → mệnh đề chính dùng **would + V** (không phải would have V3)."
+    },
+    {
+      "id": 288,
+      "type": "single",
+      "question": "If you _____ the meeting agenda in advance, you would be better prepared today.",
+      "options": { "A": "review", "B": "reviewed", "C": "had reviewed", "D": "have reviewed" },
+      "correctAnswer": "C",
+      "explanation": "**Mixed Subjunctive**. Kết quả hiện tại (today) → nguyên nhân giả định trong quá khứ → **had + V3**.\n\n📌 'today' = hiện tại, nhưng hành động xem agenda là quá khứ."
+    },
+    {
+      "id": 289,
+      "type": "single",
+      "question": "I would appreciate it if you _____ the attached document before the deadline.",
+      "options": { "A": "will review", "B": "reviewed", "C": "review", "D": "had reviewed" },
+      "correctAnswer": "C",
+      "explanation": "**Subjunctive lịch sự** TOEIC. Mẫu chuẩn: 'would appreciate it if you + V (hiện tại đơn/bare infinitive)'.\n\n📌 Đây là cách nói lịch sự trong email công việc, rất hay gặp trong Part 5/6."
+    },
+    {
+      "id": 290,
+      "type": "single",
+      "question": "If the weather _____ favorable tomorrow, the outdoor event will be postponed.",
+      "options": { "A": "is not", "B": "was not", "C": "had not been", "D": "would not be" },
+      "correctAnswer": "A",
+      "explanation": "Điều kiện **loại 1**. Tomorrow + mệnh đề chính dùng will → If-clause dùng **hiện tại đơn**.\n\n📌 Sự kiện có thể xảy ra thật trong tương lai → dùng loại 1."
+    },
+    {
+      "id": 291,
+      "type": "single",
+      "question": "If the technician _____ earlier, we would be able to use the system now.",
+      "options": { "A": "arrives", "B": "arrived", "C": "had arrived", "D": "has arrived" },
+      "correctAnswer": "C",
+      "explanation": "**Mixed Subjunctive**. Nguyên nhân quá khứ (had arrived) → kết quả hiện tại (now).\n\n📌 'now' = hiện tại → mệnh đề chính dùng would + V.\n📌 Hành động đến là quá khứ → If-clause dùng **had + V3**."
+    },
+    {
+      "id": 292,
+      "type": "single",
+      "question": "If I _____ you, I would consult a specialist before making a decision.",
+      "options": { "A": "am", "B": "was", "C": "were", "D": "had been" },
+      "correctAnswer": "C",
+      "explanation": "Mẫu cố định TOEIC: **If I were you** → giả định hiện tại, dùng **were** cho mọi chủ ngữ.\n\n📌 Đây là cấu trúc cố định cho lời khuyên, rất hay gặp trong Part 5."
+    },
+    {
+      "id": 293,
+      "type": "single",
+      "question": "If the company _____ a more flexible policy last year, employee satisfaction would be higher now.",
+      "options": { "A": "introduces", "B": "introduced", "C": "had introduced", "D": "has introduced" },
+      "correctAnswer": "C",
+      "explanation": "**Mixed Subjunctive**. Nguyên nhân quá khứ (last year) → kết quả hiện tại (now).\n\n📌 'last year' = quá khứ → If-clause dùng **had + V3**.\n📌 'now' = hiện tại → mệnh đề chính dùng would + V."
+    },
+    {
+      "id": 294,
+      "type": "single",
+      "question": "If the safety procedures had been followed, the accident _____ avoided.",
+      "options": { "A": "is", "B": "would be", "C": "would have been", "D": "has been" },
+      "correctAnswer": "C",
+      "explanation": "Giả định quá khứ (**Third Conditional**). Cấu trúc chuẩn TOEIC: **would have been + V3** (passive).\n\n📌 If + had been V3 → would have been V3."
+    },
+    {
+      "id": 295,
+      "type": "single",
+      "question": "If the manager _____ the proposal more carefully, the mistake would have been avoided.",
+      "options": { "A": "reviews", "B": "reviewed", "C": "had reviewed", "D": "has reviewed" },
+      "correctAnswer": "C",
+      "explanation": "Mệnh đề chính có 'would have been avoided' → giả định quá khứ. If-clause phải dùng **had + V3**.\n\n📌 Mẹo: Xác định loại câu điều kiện bằng cách nhìn mệnh đề chính trước."
+    },
+    {
+      "id": 296,
+      "type": "single",
+      "question": "If I _____ more confident in public speaking, I would volunteer to lead the presentation.",
+      "options": { "A": "am", "B": "was", "C": "were", "D": "had been" },
+      "correctAnswer": "C",
+      "explanation": "Giả định hiện tại (**Second Conditional**). Với động từ 'be', TOEIC ưu tiên dùng **were** cho mọi chủ ngữ trong If-clause.\n\n📌 'If I were' là cấu trúc cố định, không dùng 'was' trong văn viết chuẩn."
+    },
+    {
+      "id": 297,
+      "type": "single",
+      "question": "If the documents had been prepared in advance, we _____ facing delays now.",
+      "options": { "A": "would not be", "B": "would not have been", "C": "are not", "D": "will not be" },
+      "correctAnswer": "A",
+      "explanation": "**Mixed Subjunctive**. Nguyên nhân quá khứ (had been prepared) → kết quả hiện tại (now).\n\n📌 'now' = hiện tại → mệnh đề chính dùng **would + V** (không phải would have V3)."
+    },
+    {
+      "id": 298,
+      "type": "single",
+      "question": "If you _____ the client earlier, the issue would have been resolved by now.",
+      "options": { "A": "contact", "B": "contacted", "C": "had contacted", "D": "have contacted" },
+      "correctAnswer": "C",
+      "explanation": "Nhìn mệnh đề chính có 'would have been resolved' → giả định quá khứ → If-clause dùng **had + V3**.\n\n📌 'by now' = đến bây giờ, nhưng kết quả đã hoàn tất trong quá khứ."
+    },
+    {
+      "id": 299,
+      "type": "single",
+      "question": "I would be grateful if you _____ me informed of any updates regarding the schedule.",
+      "options": { "A": "will keep", "B": "kept", "C": "keep", "D": "had kept" },
+      "correctAnswer": "C",
+      "explanation": "**Subjunctive lịch sự** trong TOEIC. Cấu trúc chuẩn: 'would be grateful if you + V (hiện tại đơn/bare infinitive)'.\n\n📌 Đây là cách nói lịch sự trong email công việc."
+    },
+    {
+      "id": 300,
+      "type": "single",
+      "question": "If the software _____ properly, users would not be experiencing these errors now.",
+      "options": { "A": "functions", "B": "functioned", "C": "had functioned", "D": "has functioned" },
+      "correctAnswer": "C",
+      "explanation": "**Mixed Subjunctive**. Nguyên nhân giả định trong quá khứ → kết quả hiện tại (now).\n\n📌 'now' = hiện tại → mệnh đề chính dùng would + V.\n📌 Hành động hoạt động đúng là quá khứ → If-clause dùng **had + V3**."
+    },
+    {
+      "id": 301,
+      "type": "single",
+      "question": "If we _____ enough data, we would make a more accurate forecast.",
+      "options": { "A": "have", "B": "had", "C": "had had", "D": "would have" },
+      "correctAnswer": "B",
+      "explanation": "Giả định hiện tại (**Second Conditional**). If-clause dùng **V2 (had)**.\n\n⚠️ Bẫy: (C) had had chỉ dùng khi If-clause là quá khứ hoàn thành (loại 3). Đây là loại 2 → dùng **had** (quá khứ đơn của have)."
+    },
+    {
+      "id": 302,
+      "type": "single",
+      "question": "If the instructions had not been ignored, the system _____ damaged.",
+      "options": { "A": "is not", "B": "would not be", "C": "would not have been", "D": "has not been" },
+      "correctAnswer": "C",
+      "explanation": "Giả định quá khứ ở dạng **bị động**. Cấu trúc: **would not have been + V3**.\n\n📌 If + had not been V3 → would not have been V3."
+    },
+    {
+      "id": 303,
+      "type": "single",
+      "question": "If I _____ your supervisor, I would recommend additional training for the team.",
+      "options": { "A": "am", "B": "was", "C": "were", "D": "had been" },
+      "correctAnswer": "C",
+      "explanation": "Mẫu cố định TOEIC: **If I were + noun** → giả định hiện tại.\n\n📌 Trong câu điều kiện loại 2, luôn dùng **were** cho tất cả các ngôi."
+    },
+    {
+      "id": 304,
+      "type": "single",
+      "question": "If the company _____ a backup system last year, it would not be facing data loss issues today.",
+      "options": { "A": "implements", "B": "implemented", "C": "had implemented", "D": "has implemented" },
+      "correctAnswer": "C",
+      "explanation": "**Mixed Subjunctive**. Nguyên nhân quá khứ (last year) → hệ quả hiện tại (today).\n\n📌 'last year' = quá khứ → If-clause dùng **had + V3**.\n📌 'today' = hiện tại → mệnh đề chính dùng would + V."
+    },
+    {
+      "id": 305,
+      "type": "single",
+      "question": "If the schedule _____ adjusted earlier, the team would not be working overtime now.",
+      "options": { "A": "is", "B": "was", "C": "had been", "D": "has been" },
+      "correctAnswer": "C",
+      "explanation": "**Mixed Subjunctive**. Nguyên nhân quá khứ (had been adjusted) → kết quả hiện tại (now).\n\n📌 'now' = hiện tại → mệnh đề chính dùng would + V.\n📌 Hành động điều chỉnh là quá khứ → If-clause dùng **had + V3**."
+    },
+    {
+      "id": 306,
+      "type": "single",
+      "question": "If I _____ more familiar with the software, I would complete the task more quickly.",
+      "options": { "A": "am", "B": "was", "C": "were", "D": "had been" },
+      "correctAnswer": "C",
+      "explanation": "Giả định hiện tại (**Second Conditional**). Với 'be', TOEIC ưu tiên dùng **were** cho mọi chủ ngữ.\n\n📌 'If I were' là cấu trúc cố định, không dùng 'was' trong văn viết chuẩn."
+    },
+    {
+      "id": 307,
+      "type": "single",
+      "question": "If the supplier had delivered the materials on time, production _____ delayed.",
+      "options": { "A": "is not", "B": "would not be", "C": "would not have been", "D": "has not been" },
+      "correctAnswer": "C",
+      "explanation": "Giả định quá khứ ở dạng **bị động** (**Third Conditional**). Cấu trúc chuẩn: **would not have been + V3**.\n\n📌 If + had V3 → would have been V3."
+    },
+    {
+      "id": 308,
+      "type": "single",
+      "question": "If the company _____ sufficient training last year, employees would perform better today.",
+      "options": { "A": "provides", "B": "provided", "C": "had provided", "D": "has provided" },
+      "correctAnswer": "C",
+      "explanation": "**Mixed Subjunctive**. Nguyên nhân quá khứ (last year) → kết quả hiện tại (today).\n\n📌 'last year' = quá khứ → If-clause dùng **had + V3**.\n📌 'today' = hiện tại → mệnh đề chính dùng would + V."
+    },
+    {
+      "id": 309,
+      "type": "single",
+      "question": "I would appreciate it if you _____ the final report by the end of the day.",
+      "options": { "A": "will submit", "B": "submitted", "C": "submit", "D": "had submitted" },
+      "correctAnswer": "C",
+      "explanation": "**Subjunctive lịch sự** trong TOEIC. Mẫu chuẩn: 'would appreciate it if you + V (hiện tại đơn/bare infinitive)'.\n\n📌 Đây là cách nói lịch sự trong email công việc, rất hay gặp trong Part 5/6."
+    },
+    {
+      "id": 310,
+      "type": "single",
+      "question": "If the technician _____ the problem correctly, the system would have been fixed already.",
+      "options": { "A": "identifies", "B": "identified", "C": "had identified", "D": "has identified" },
+      "correctAnswer": "C",
+      "explanation": "Nhìn mệnh đề chính có 'would have been fixed' → giả định quá khứ → If-clause dùng **had + V3**.\n\n📌 Mẹo: Xác định loại câu điều kiện bằng cách nhìn mệnh đề chính trước."
+    },
+    {
+      "id": 311,
+      "type": "single",
+      "question": "If we _____ more time now, we could review the proposal in greater detail.",
+      "options": { "A": "have", "B": "had", "C": "had had", "D": "will have" },
+      "correctAnswer": "B",
+      "explanation": "Giả định hiện tại (**Second Conditional**). Dù có 'now', if-clause vẫn dùng **V2 (had)** cho Second Conditional.\n\n⚠️ Bẫy: (C) had had chỉ dùng cho loại 3. Đây là loại 2 → dùng **had** (quá khứ đơn của have)."
+    },
+    {
+      "id": 312,
+      "type": "single",
+      "question": "If the safety guidelines had been followed, the equipment _____ damaged.",
+      "options": { "A": "is not", "B": "would not be", "C": "would not have been", "D": "has not been" },
+      "correctAnswer": "C",
+      "explanation": "Giả định quá khứ, thể **bị động** (**Third Conditional**). Cấu trúc chuẩn TOEIC: **would not have been + V3**.\n\n📌 If + had been V3 → would not have been V3."
+    },
+    {
+      "id": 313,
+      "type": "single",
+      "question": "If I _____ in your position, I would request additional support from management.",
+      "options": { "A": "am", "B": "was", "C": "were", "D": "had been" },
+      "correctAnswer": "C",
+      "explanation": "Mẫu cố định TOEIC: **If I were in your position** → giả định hiện tại, luôn chọn **were**.\n\n📌 Đây là cấu trúc cố định cho lời khuyên, rất hay gặp trong Part 5."
+    },
+    {
+      "id": 314,
+      "type": "single",
+      "question": "If the company _____ a clear strategy earlier, it would not be facing these challenges now.",
+      "options": { "A": "develops", "B": "developed", "C": "had developed", "D": "has developed" },
+      "correctAnswer": "C",
+      "explanation": "**Mixed Subjunctive**. Nguyên nhân quá khứ (had developed earlier) → hệ quả hiện tại (now).\n\n📌 'earlier' = quá khứ → If-clause dùng **had + V3**.\n📌 'now' = hiện tại → mệnh đề chính dùng would + V."
+    },
+    {
+      "id": 315,
+      "type": "single",
+      "question": "If the presentation _____ prepared more carefully, it would have impressed the clients.",
+      "options": { "A": "is", "B": "was", "C": "had been", "D": "has been" },
+      "correctAnswer": "C",
+      "explanation": "Mệnh đề chính có 'would have impressed' → giả định quá khứ (**Third Conditional**).\n\n📌 If-clause phải dùng **had + V3** (had been prepared).\n\n⚠️ Bẫy: (B) was là loại 2, không khớp với mệnh đề chính."
+    },
+    {
+      "id": 316,
+      "type": "single",
+      "question": "If I _____ more time now, I would help you with the report.",
+      "options": { "A": "have", "B": "had", "C": "had had", "D": "will have" },
+      "correctAnswer": "B",
+      "explanation": "Giả định hiện tại (**Second Conditional**). Có 'now' nhưng If-clause vẫn dùng **V2** (had).\n\n📌 'now' chỉ là dấu hiệu thời điểm, không phải thì hiện tại.\n\n⚠️ Bẫy: (C) had had là loại 3."
+    },
+    {
+      "id": 317,
+      "type": "single",
+      "question": "If the company had invested in new technology earlier, productivity _____ higher today.",
+      "options": { "A": "will be", "B": "would be", "C": "would have been", "D": "has been" },
+      "correctAnswer": "B",
+      "explanation": "**Mixed Subjunctive**. Nguyên nhân quá khứ → kết quả hiện tại (today).\n\n📌 'today' = hiện tại → mệnh đề chính dùng **would + V**.\n\n⚠️ Bẫy: (C) would have been là khi cả 2 mệnh đề đều quá khứ."
+    },
+    {
+      "id": 318,
+      "type": "single",
+      "question": "I would appreciate it if you _____ the meeting agenda to all participants.",
+      "options": { "A": "will send", "B": "sent", "C": "send", "D": "had sent" },
+      "correctAnswer": "C",
+      "explanation": "**Subjunctive lịch sự** TOEIC. Công thức chuẩn: **would appreciate it if you + bare infinitive**.\n\n📌 Đây là cấu trúc yêu cầu lịch sự, rất phổ biến trong email công việc."
+    },
+    {
+      "id": 319,
+      "type": "single",
+      "question": "If the instructions had been followed correctly, the device _____ malfunctioned.",
+      "options": { "A": "will not have", "B": "would not", "C": "would not have", "D": "has not" },
+      "correctAnswer": "C",
+      "explanation": "Giả định quá khứ (**Third Conditional**). Cấu trúc đúng: **would not have + V3**.\n\n📌 If + had been V3 → would not have + V3 (malfunctioned)."
+    },
+    {
+      "id": 320,
+      "type": "single",
+      "question": "If the manager _____ more attentive, these issues would not be occurring now.",
+      "options": { "A": "is", "B": "was", "C": "were", "D": "had been" },
+      "correctAnswer": "C",
+      "explanation": "Giả định hiện tại với động từ 'be'. TOEIC ưu tiên dùng **'were'** cho mọi chủ ngữ.\n\n📌 'now' = hiện tại → Second Conditional.\n\n⚠️ Bẫy: (D) had been là loại 3."
+    },
+    {
+      "id": 321,
+      "type": "single",
+      "question": "If the shipment had arrived on schedule, customers _____ complaining about delays now.",
+      "options": { "A": "would not be", "B": "would not have been", "C": "are not", "D": "will not be" },
+      "correctAnswer": "A",
+      "explanation": "**Mixed Subjunctive**. Nguyên nhân quá khứ (had arrived) → hệ quả hiện tại (now).\n\n📌 'now' = hiện tại → mệnh đề chính dùng **would + V**.\n\n⚠️ Bẫy: (B) là loại 3 thuần, không phù hợp với 'now'."
+    },
+    {
+      "id": 322,
+      "type": "single",
+      "question": "If we _____ the budget constraints, we would propose an alternative plan.",
+      "options": { "A": "understand", "B": "understood", "C": "had understood", "D": "have understood" },
+      "correctAnswer": "B",
+      "explanation": "Giả định hiện tại (**Second Conditional**). If-clause dùng **V2** (understood).\n\n📌 Mệnh đề chính 'would propose' xác nhận đây là loại 2."
+    },
+    {
+      "id": 323,
+      "type": "single",
+      "question": "If the company _____ a risk assessment last year, it would not be facing safety concerns today.",
+      "options": { "A": "conducts", "B": "conducted", "C": "had conducted", "D": "has conducted" },
+      "correctAnswer": "C",
+      "explanation": "**Mixed Subjunctive**. Nguyên nhân quá khứ (last year) → kết quả hiện tại (today).\n\n📌 'last year' = quá khứ → If-clause dùng **had + V3**.\n📌 'today' = hiện tại → mệnh đề chính dùng would + V."
+    },
+    {
+      "id": 324,
+      "type": "single",
+      "question": "If I _____ you, I would postpone the decision until more information is available.",
+      "options": { "A": "am", "B": "was", "C": "were", "D": "had been" },
+      "correctAnswer": "C",
+      "explanation": "Mẫu cố định TOEIC: **If I were you** → giả định hiện tại, luôn chọn **'were'**.\n\n📌 Đây là cấu trúc cố định cho lời khuyên, rất hay gặp trong Part 5."
+    },
+    {
+      "id": 325,
+      "type": "single",
+      "question": "If the manager _____ the issue earlier, we would not be dealing with it now.",
+      "options": { "A": "addresses", "B": "addressed", "C": "had addressed", "D": "has addressed" },
+      "correctAnswer": "C",
+      "explanation": "**Mixed Subjunctive**. Nguyên nhân quá khứ (had addressed) → kết quả hiện tại (now).\n\n⚠️ Bẫy: Thấy 'would not be' nhiều bạn chọn (B) nhưng sai vì 'earlier' = quá khứ → **had + V3**."
+    },
+    {
+      "id": 326,
+      "type": "single",
+      "question": "If I _____ more experience, I would be eligible for the promotion.",
+      "options": { "A": "have", "B": "had", "C": "had had", "D": "will have" },
+      "correctAnswer": "B",
+      "explanation": "Giả định hiện tại (**Second Conditional**). Không có mốc quá khứ → không dùng had had.\n\n⚠️ Bẫy rất hay gặp: (C) had had chỉ dùng cho loại 3."
+    },
+    {
+      "id": 327,
+      "type": "single",
+      "question": "If the shipment had arrived on time, the customers _____ complaining today.",
+      "options": { "A": "would not be", "B": "would not have been", "C": "are not", "D": "will not be" },
+      "correctAnswer": "A",
+      "explanation": "**Mixed Subjunctive**. 'today' → hiện tại → mệnh đề chính dùng **would + V**.\n\n⚠️ Bẫy cực mạnh: Nhiều bạn chọn (B) vì quen tay với loại 3."
+    },
+    {
+      "id": 328,
+      "type": "single",
+      "question": "If you _____ the instructions more carefully, the error would have been avoided.",
+      "options": { "A": "follow", "B": "followed", "C": "had followed", "D": "have followed" },
+      "correctAnswer": "C",
+      "explanation": "Nhìn mệnh đề chính có 'would have been avoided' → giả định quá khứ → If + **had + V3**.\n\n📌 Mẹo: Xác định loại câu điều kiện bằng cách nhìn mệnh đề chính trước."
+    },
+    {
+      "id": 329,
+      "type": "single",
+      "question": "I would appreciate it if you _____ me informed of any changes.",
+      "options": { "A": "will keep", "B": "kept", "C": "keep", "D": "had kept" },
+      "correctAnswer": "C",
+      "explanation": "**Subjunctive lịch sự** TOEIC. Công thức chuẩn: **would appreciate it if you + bare infinitive**.\n\n⚠️ Bẫy: Chọn (B) vì thấy 'would' nhưng đây là subjunctive lịch sự."
+    },
+    {
+      "id": 330,
+      "type": "single",
+      "question": "If the company _____ a backup system last year, it would not be facing this problem now.",
+      "options": { "A": "implements", "B": "implemented", "C": "had implemented", "D": "has implemented" },
+      "correctAnswer": "C",
+      "explanation": "**Mixed Subjunctive**. Nguyên nhân quá khứ (last year) + kết quả hiện tại (now).\n\n⚠️ Bẫy: (B) implemented là quá khứ thật, không phải giả định."
+    },
+    {
+      "id": 331,
+      "type": "single",
+      "question": "If I _____ you, I would reconsider the decision.",
+      "options": { "A": "am", "B": "was", "C": "were", "D": "had been" },
+      "correctAnswer": "C",
+      "explanation": "Mẫu cố định TOEIC: **If I were you** → giả định hiện tại.\n\n⚠️ Bẫy kinh điển: (B) 'was' nghe tự nhiên nhưng sai trong văn viết chuẩn."
+    },
+    {
+      "id": 332,
+      "type": "single",
+      "question": "If the technician _____ the system correctly, it would be functioning properly now.",
+      "options": { "A": "configures", "B": "configured", "C": "had configured", "D": "has configured" },
+      "correctAnswer": "C",
+      "explanation": "**Mixed Subjunctive**. 'now' → hiện tại. Nguyên nhân giả định trong quá khứ → **had + V3**.\n\n📌 Hành động cấu hình là quá khứ → If-clause dùng had configured."
+    },
+    {
+      "id": 333,
+      "type": "single",
+      "question": "If we _____ enough information at the time, we would have made a better decision.",
+      "options": { "A": "have", "B": "had", "C": "had had", "D": "will have" },
+      "correctAnswer": "C",
+      "explanation": "Giả định quá khứ hoàn toàn (**Third Conditional**). 'at the time' + would have → If + **had had**.\n\n⚠️ Bẫy rất sâu: (B) had là loại 2, nhưng đây là loại 3 → cần **had had** (quá khứ hoàn thành của 'have')."
+    },
+    {
+      "id": 334,
+      "type": "single",
+      "question": "If the meeting _____ canceled earlier, employees would not be waiting outside now.",
+      "options": { "A": "is", "B": "was", "C": "had been", "D": "has been" },
+      "correctAnswer": "C",
+      "explanation": "**Mixed Subjunctive** dạng bị động. Nguyên nhân quá khứ (had been canceled) → hệ quả hiện tại (now).\n\n📌 'now' = hiện tại → mệnh đề chính dùng would + V."
+    }
+  ]
+}

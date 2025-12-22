@@ -1,0 +1,335 @@
+{
+  "partId": "passages",
+  "partName": "Đoạn văn (Part 6 - Fill-in-blank & Part 7 - Reading)",
+  "questions": [
+    {
+      "id": 38,
+      "type": "passage",
+      "passageType": "fill-in-the-blank",
+      "passageTitle": "Homemade Furniture Co. Advertisement",
+      "passage": "Homemade Furniture Co. is pleased to announce that we have completed the renovations and will reopen ____38____ Thursday, February 20. We promise ____39____ providing the best quality furniture in town with affordable prices.\n\nTo celebrate our reopening, we invite you to our special sale. In the months of February and March, all sofas and beds are 30 percent off. In addition, if your ____40____ is over $300, you will get an additional 5 percent off. Call us now at (818) 987-0008. ____41____",
+      "subQuestions": [
+        {
+          "id": 38,
+          "question": "Choose the correct preposition for blank 38",
+          "options": { "A": "to", "B": "in", "C": "at", "D": "on" },
+          "correctAnswer": "D",
+          "explanation": "'On' dùng với ngày cụ thể: on Thursday, February 20."
+        },
+        {
+          "id": 39,
+          "question": "Choose the correct form for blank 39",
+          "options": { "A": "continue", "B": "to continue", "C": "continuing", "D": "continuous" },
+          "correctAnswer": "B",
+          "explanation": "'Promise to + infinitive': cam kết sẽ làm gì."
+        },
+        {
+          "id": 40,
+          "question": "Choose the correct word for blank 40",
+          "options": { "A": "purchase", "B": "purchases", "C": "purchasing", "D": "purchased" },
+          "correctAnswer": "A",
+          "explanation": "'Your + danh từ số ít': your purchase = giao dịch mua hàng của bạn."
+        },
+        {
+          "id": 41,
+          "question": "Choose the appropriate closing sentence for blank 41",
+          "options": {
+            "A": "Please make sure you order before April.",
+            "B": "Don't forget that the special gifts are limited.",
+            "C": "We are sorry for the inconvenience.",
+            "D": "We will be happy to answer any questions you may have."
+          },
+          "correctAnswer": "D",
+          "explanation": "Đây là quảng cáo nên cần câu kết thân thiện, mời gọi khách hàng liên hệ."
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "type": "passage",
+      "passageType": "reading-comprehension",
+      "passageTitle": "International Gentle Art Award",
+      "passage": "September 15 – Gentle Art is a nonprofit organization and has been hosting an international design contest for the last 8 years. This contest is to encourage young designers to be creative and to show their talent.\n\nThis year, participants will design a poster that represents the following concept: \"We respect one another.\" The top ten finalists will be awarded a Gentle Art Award certificate, and the winner will be awarded 10,000 dollars. The contest is open to all individuals and groups. Entries must be submitted online. Visit the official website at www.gentleart.com.",
+      "subQuestions": [
+        {
+          "id": 42,
+          "question": "What does this article discuss?",
+          "options": {
+            "A": "An annual art exhibition",
+            "B": "A new style of architecture",
+            "C": "An art competition",
+            "D": "A business contract"
+          },
+          "correctAnswer": "C",
+          "explanation": "Bài viết nói về cuộc thi thiết kế quốc tế (international design contest)."
+        },
+        {
+          "id": 43,
+          "question": "For whom is the article most likely intended?",
+          "options": {
+            "A": "Art students",
+            "B": "Travel agencies",
+            "C": "Advertisers",
+            "D": "Gallery owners"
+          },
+          "correctAnswer": "A",
+          "explanation": "Cuộc thi nhằm khuyến khích 'young designers' sáng tạo."
+        },
+        {
+          "id": 44,
+          "question": "What will the participants design?",
+          "options": { "A": "A logo", "B": "A poster", "C": "A book cover", "D": "A stamp" },
+          "correctAnswer": "B",
+          "explanation": "Bài viết nêu rõ: 'participants will design a poster'."
+        },
+        {
+          "id": 45,
+          "question": "What should people do if they want to participate in the event?",
+          "options": {
+            "A": "Send an e-mail",
+            "B": "Fax an application form",
+            "C": "Phone the organization",
+            "D": "Register on the website"
+          },
+          "correctAnswer": "D",
+          "explanation": "'Entries must be submitted online. Visit the official website'."
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "type": "passage",
+      "passageType": "fill-in-the-blank",
+      "passageTitle": "Annual Staff Training Session",
+      "passage": "The annual staff training session will be held ____86____ the main conference room ____87____ the third floor. All employees must arrive ____88____ 8:30 a.m. and remain seated ____89____ the presentation.\n\n____90____ unexpected technical issues, the session may be extended by 30 minutes.",
+      "subQuestions": [
+        {
+          "id": 86,
+          "question": "Choose the correct preposition for blank 86",
+          "options": { "A": "at", "B": "in", "C": "on", "D": "by" },
+          "correctAnswer": "B",
+          "explanation": "**in + room** → bên trong một không gian khép kín."
+        },
+        {
+          "id": 87,
+          "question": "Choose the correct preposition for blank 87",
+          "options": { "A": "in", "B": "at", "C": "on", "D": "by" },
+          "correctAnswer": "C",
+          "explanation": "**on + floor** → quy tắc cứng TOEIC. 'On the third floor'."
+        },
+        {
+          "id": 88,
+          "question": "Choose the correct preposition for blank 88",
+          "options": { "A": "in", "B": "on", "C": "at", "D": "until" },
+          "correctAnswer": "C",
+          "explanation": "**at + giờ cụ thể** → at 8:30 a.m."
+        },
+        {
+          "id": 89,
+          "question": "Choose the correct word for blank 89",
+          "options": { "A": "while", "B": "during", "C": "until", "D": "for" },
+          "correctAnswer": "B",
+          "explanation": "Sau chỗ trống là **noun phrase** (the presentation) → dùng **during**."
+        },
+        {
+          "id": 90,
+          "question": "Choose the correct word for blank 90",
+          "options": { "A": "Because", "B": "Because of", "C": "Although", "D": "While" },
+          "correctAnswer": "B",
+          "explanation": "Sau chỗ trống là **noun phrase** (unexpected technical issues) → dùng **because of**."
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "type": "passage",
+      "passageType": "reading-comprehension",
+      "passageTitle": "Global Tech Solutions New Branch Announcement",
+      "passage": "Global Tech Solutions has offices throughout Asia and Europe. Last Friday, the company announced that a new branch office will open on Pine Street next month.\n\nEmployees who are interested in transferring to the new location must submit their requests by October 15. Although the office is still under construction, the management team expects all renovations to be completed on time.",
+      "subQuestions": [
+        {
+          "id": 91,
+          "question": "What is the main purpose of the announcement?",
+          "options": {
+            "A": "To introduce a new product",
+            "B": "To inform employees about a new office",
+            "C": "To report financial results",
+            "D": "To cancel a construction project"
+          },
+          "correctAnswer": "B",
+          "explanation": "Đoạn văn nói về mở chi nhánh mới → thông báo nội bộ về văn phòng mới."
+        },
+        {
+          "id": 92,
+          "question": "Where will the new branch office be located?",
+          "options": {
+            "A": "In Asia",
+            "B": "In Europe",
+            "C": "On Pine Street",
+            "D": "At the headquarters"
+          },
+          "correctAnswer": "C",
+          "explanation": "'will open on Pine Street'. **on + street** là quy tắc cứng TOEIC."
+        },
+        {
+          "id": 93,
+          "question": "By when must employees submit their transfer requests?",
+          "options": {
+            "A": "Next month",
+            "B": "Last Friday",
+            "C": "By October 15",
+            "D": "On time"
+          },
+          "correctAnswer": "C",
+          "explanation": "'must submit their requests by October 15' → **by** chỉ deadline."
+        },
+        {
+          "id": 94,
+          "question": "Which of the following is TRUE according to the passage?",
+          "options": {
+            "A": "The office renovations have already finished",
+            "B": "The office will not open next month",
+            "C": "The company has offices in only one country",
+            "D": "The office is still being renovated"
+          },
+          "correctAnswer": "D",
+          "explanation": "'Although the office is still under construction' → đang được sửa chữa/xây dựng."
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "type": "passage",
+      "passageType": "fill-in-the-blank",
+      "passageTitle": "Customer Service Relocation Notice",
+      "passage": "The customer service department will be temporarily relocated ____95____ renovations being made to the main office.\n\nAll staff members are asked to work ____96____ the temporary office ____97____ the second floor of Building B ____98____ further notice.\n\n____99____ the inconvenience, management expects daily operations to continue as usual.",
+      "subQuestions": [
+        {
+          "id": 95,
+          "question": "Choose the correct word for blank 95",
+          "options": { "A": "because", "B": "because of", "C": "although", "D": "while" },
+          "correctAnswer": "B",
+          "explanation": "Sau chỗ trống là **noun phrase** (renovations being made…) → dùng **because of**."
+        },
+        {
+          "id": 96,
+          "question": "Choose the correct preposition for blank 96",
+          "options": { "A": "at", "B": "in", "C": "on", "D": "by" },
+          "correctAnswer": "B",
+          "explanation": "**work in an office** → làm việc bên trong không gian văn phòng."
+        },
+        {
+          "id": 97,
+          "question": "Choose the correct preposition for blank 97",
+          "options": { "A": "at", "B": "by", "C": "on", "D": "in" },
+          "correctAnswer": "C",
+          "explanation": "**on the second floor** → quy tắc cứng TOEIC: on + floor."
+        },
+        {
+          "id": 98,
+          "question": "Choose the correct preposition for blank 98",
+          "options": { "A": "for", "B": "by", "C": "until", "D": "during" },
+          "correctAnswer": "C",
+          "explanation": "**until further notice** = cho đến khi có thông báo mới."
+        },
+        {
+          "id": 99,
+          "question": "Choose the correct word for blank 99",
+          "options": { "A": "Because", "B": "Although", "C": "Because of", "D": "During" },
+          "correctAnswer": "B",
+          "explanation": "Mặc dù có sự bất tiện, ban quản lý vẫn kỳ vọng... → **Although**."
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "type": "passage",
+      "passageType": "reading-comprehension",
+      "passageTitle": "Jackson Electronics Annual Exhibition",
+      "passage": "Jackson Electronics announced yesterday that its annual product exhibition will be held at the City Convention Center on November 18.\n\nDue to limited parking space at the venue, visitors are encouraged to arrive by public transportation. The exhibition will remain open from 9:00 a.m. until 6:00 p.m. and will feature demonstrations of the company's latest devices.",
+      "subQuestions": [
+        {
+          "id": 100,
+          "question": "Where will the exhibition take place?",
+          "options": {
+            "A": "At Jackson Electronics headquarters",
+            "B": "At a transportation hub",
+            "C": "At the City Convention Center",
+            "D": "At a public parking area"
+          },
+          "correctAnswer": "C",
+          "explanation": "'held at the City Convention Center'. **at + địa điểm cụ thể**."
+        },
+        {
+          "id": 101,
+          "question": "Why are visitors advised to use public transportation?",
+          "options": {
+            "A": "Parking is expensive",
+            "B": "Parking is limited",
+            "C": "The venue is far away",
+            "D": "Public transportation is free"
+          },
+          "correctAnswer": "B",
+          "explanation": "'Due to limited parking space...' → chỗ đậu xe có hạn."
+        },
+        {
+          "id": 102,
+          "question": "How long will the exhibition be open?",
+          "options": {
+            "A": "For six hours",
+            "B": "For seven hours",
+            "C": "For eight hours",
+            "D": "For nine hours"
+          },
+          "correctAnswer": "D",
+          "explanation": "9:00 a.m. → 6:00 p.m. = 9 tiếng. ⚠️ Bẫy tính nhầm!"
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "type": "passage",
+      "passageType": "reading-comprehension",
+      "passageTitle": "North Shore Consulting Office Notice",
+      "passage": "Employees at North Shore Consulting are reminded that the office will close early this Friday.\n\nAlthough most departments will stop operations at 3:00 p.m., essential staff members are required to remain on duty until all client requests have been processed.\n\nFurther details regarding work schedules will be provided by department managers.",
+      "subQuestions": [
+        {
+          "id": 103,
+          "question": "What is the purpose of this notice?",
+          "options": {
+            "A": "To announce new client services",
+            "B": "To inform employees of a schedule change",
+            "C": "To recruit additional staff",
+            "D": "To cancel client appointments"
+          },
+          "correctAnswer": "B",
+          "explanation": "Nội dung chính: đóng cửa sớm → thông báo thay đổi lịch làm việc."
+        },
+        {
+          "id": 104,
+          "question": "When will most departments stop operating?",
+          "options": {
+            "A": "At noon",
+            "B": "At 3:00 p.m.",
+            "C": "At 6:00 p.m.",
+            "D": "After all client requests"
+          },
+          "correctAnswer": "B",
+          "explanation": "'stop operations at 3:00 p.m.'"
+        },
+        {
+          "id": 105,
+          "question": "Who must continue working after 3:00 p.m.?",
+          "options": {
+            "A": "All employees",
+            "B": "Department managers",
+            "C": "Essential staff members",
+            "D": "New employees"
+          },
+          "correctAnswer": "C",
+          "explanation": "'essential staff members are required to remain on duty'"
+        }
+      ]
+    }
+  ]
+}

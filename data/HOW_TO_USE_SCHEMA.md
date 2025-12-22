@@ -2,6 +2,17 @@
 
 Sử dụng schema JSON này để yêu cầu AI (ChatGPT, Claude, Gemini, v.v.) tạo bộ câu hỏi mới.
 
+## Các loại câu hỏi được hỗ trợ
+
+### 1. Câu hỏi đơn (Single Question)
+Câu hỏi trắc nghiệm thông thường với 4 đáp án A, B, C, D.
+
+### 2. Câu hỏi đoạn văn (Passage Question)
+Bao gồm 2 loại:
+
+- **Reading Comprehension (Đọc hiểu)**: Một đoạn văn với nhiều câu hỏi về nội dung.
+- **Fill-in-the-blank (Điền từ)**: Một đoạn văn có chỗ trống cần điền từ phù hợp.
+
 ## Cách sử dụng
 
 Sao chép nội dung file `schema.json` và sử dụng prompt như sau:
@@ -38,20 +49,83 @@ Yêu cầu:
 - Format id của question bank: "operating-system"
 ```
 
-### Tạo câu hỏi về Tiếng Anh
+### Tạo câu hỏi TOEIC với đoạn văn (Passage-based)
 
 ```
-Hãy tạo 30 câu hỏi trắc nghiệm Tiếng Anh TOEIC Part 5 (Grammar) theo JSON Schema sau:
-
-{
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  ...
-}
+Hãy tạo bộ câu hỏi TOEIC bao gồm:
+- 2 đoạn văn điền từ (fill-in-the-blank), mỗi đoạn 4 câu hỏi
+- 2 đoạn văn đọc hiểu (reading-comprehension), mỗi đoạn 4 câu hỏi
 
 Yêu cầu:
-- Các chủ đề ngữ pháp: Tenses, Prepositions, Conditionals, Passive Voice
-- Có giải thích ngữ pháp cho từng câu
-- Format id: "toeic-grammar"
+- Đối với fill-in-the-blank: sử dụng format ____N____ trong đoạn văn (N là id của subQuestion)
+- Đối với reading-comprehension: câu hỏi về nội dung, ý chính, chi tiết
+- Mỗi câu có giải thích ngữ pháp/từ vựng
+```
+
+## Cấu trúc câu hỏi đoạn văn
+
+### Fill-in-the-blank (Điền từ vào chỗ trống)
+
+```json
+{
+  "id": 3,
+  "type": "passage",
+  "passageType": "fill-in-the-blank",
+  "passageTitle": "Job Advertisement",
+  "passage": "We are looking for a ____1____ candidate. The position requires ____2____ in marketing.",
+  "subQuestions": [
+    {
+      "id": 1,
+      "question": "Choose the correct word for blank 1",
+      "options": {
+        "A": "qualify",
+        "B": "qualified",
+        "C": "qualifying",
+        "D": "qualification"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Qualified' is an adjective describing the candidate."
+    },
+    {
+      "id": 2,
+      "question": "Choose the correct word for blank 2",
+      "options": {
+        "A": "experience",
+        "B": "experiences",
+        "C": "experienced",
+        "D": "experiencing"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Experience' as an uncountable noun is correct here."
+    }
+  ]
+}
+```
+
+### Reading Comprehension (Đọc hiểu)
+
+```json
+{
+  "id": 4,
+  "type": "passage",
+  "passageType": "reading-comprehension",
+  "passageTitle": "Company Announcement",
+  "passage": "ABC Company is pleased to announce the opening of our new branch...",
+  "subQuestions": [
+    {
+      "id": 13,
+      "question": "What is the purpose of this announcement?",
+      "options": {
+        "A": "To advertise products",
+        "B": "To announce a new branch",
+        "C": "To recruit employees",
+        "D": "To report earnings"
+      },
+      "correctAnswer": "B",
+      "explanation": "The announcement is about opening a new branch."
+    }
+  ]
+}
 ```
 
 ## Sau khi có data
@@ -67,6 +141,7 @@ export const questionBanks: QuestionBank[] = [
   networkBank as QuestionBank,
   dsaBank as QuestionBank,
   calculusBank as QuestionBank,
+  englishBank as QuestionBank,
   osBank as QuestionBank, // Thêm mới
 ];
 ```
@@ -83,8 +158,9 @@ npm run dev
 3. **Đáp án nhiễu tốt**: Các đáp án sai nên hợp lý, không quá dễ loại
 4. **Giải thích rõ ràng**: Giúp người học hiểu tại sao đáp án đó đúng
 5. **Số lượng hợp lý**: 20-50 câu mỗi bộ đề
+6. **Đoạn văn đa dạng**: Sử dụng các loại văn bản thực tế (email, memo, quảng cáo, báo chí)
 
-## Ví dụ câu hỏi tốt
+## Ví dụ câu hỏi đơn tốt
 
 ```json
 {

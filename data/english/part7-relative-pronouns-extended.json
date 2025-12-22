@@ -1,0 +1,688 @@
+{
+  "partId": "relative-pronouns-extended",
+  "partName": "Đại từ quan hệ & Trạng từ quan hệ - Nâng cao (Extended Practice)",
+  "questions": [
+    {
+      "id": 151,
+      "type": "single",
+      "question": "The company is looking for an assistant ______ can manage schedules and handle client calls.",
+      "options": { "A": "who", "B": "which", "C": "where", "D": "whom" },
+      "correctAnswer": "A",
+      "explanation": "Chỗ trống mở đầu mệnh đề quan hệ và đứng trước động từ \"can manage\" ⇒ nó đang làm **chủ ngữ** của mệnh đề quan hệ (subject relative pronoun). Tiền tố \"an assistant\" là **người** ⇒ dùng **who**.\n\n⚠️ Bẫy: (D) whom là tân ngữ, không đứng làm chủ ngữ trước động từ - \"whom can manage\" là SAI."
+    },
+    {
+      "id": 152,
+      "type": "single",
+      "question": "The software ______ improves data security will be installed on all office computers.",
+      "options": { "A": "who", "B": "which", "C": "whom", "D": "where" },
+      "correctAnswer": "B",
+      "explanation": "Tiền tố \"The software\" là **vật**. Chỗ trống làm **chủ ngữ** của mệnh đề quan hệ trước động từ \"improves\" ⇒ dùng **which** (hoặc that).\n\n⚠️ Bẫy:\n- (A)/(C) chỉ dùng cho người\n- (D) where là trạng từ quan hệ cho nơi chốn, không nối \"software\""
+    },
+    {
+      "id": 153,
+      "type": "single",
+      "question": "Ms. Turner appreciated the report ______ I submitted yesterday.",
+      "options": { "A": "who", "B": "which", "C": "where", "D": "when" },
+      "correctAnswer": "B",
+      "explanation": "Đây là **object relative pronoun**: \"I submitted ____ yesterday\" cần một **tân ngữ** cho động từ \"submitted\". Tiền tố \"the report\" là vật ⇒ dùng **which** (hoặc that).\n\n📌 Mẹo nhanh: Sau chỗ trống có đủ S + V (I submitted) ⇒ chỗ trống là **tân ngữ**."
+    },
+    {
+      "id": 154,
+      "type": "single",
+      "question": "Employees ______ names are not on the list must contact Human Resources by noon.",
+      "options": { "A": "who", "B": "whose", "C": "whom", "D": "which" },
+      "correctAnswer": "B",
+      "explanation": "\"names\" là danh từ sở hữu của \"Employees\" ⇒ cần **tính sở hữu** ⇒ **whose + noun**.\n\n⚠️ Bẫy cực hay TOEIC: nhiều bạn chọn (A) who vì thấy 'Employees' là người, nhưng câu cần 'sở hữu' chứ không phải 'người làm chủ ngữ/tân ngữ'."
+    },
+    {
+      "id": 155,
+      "type": "single",
+      "question": "The marketing plans ______ the director approved will be presented at Friday's meeting.",
+      "options": { "A": "who", "B": "that", "C": "where", "D": "why" },
+      "correctAnswer": "B",
+      "explanation": "Ta có \"the director approved ____\" ⇒ chỗ trống là **tân ngữ** của \"approved\" (object relative). Tiền tố \"plans\" là vật ⇒ dùng **that/which**.\n\n⚠️ Bẫy: where/why là trạng từ quan hệ (nơi chốn/lý do), không thể làm tân ngữ trực tiếp cho \"approved\"."
+    },
+    {
+      "id": 156,
+      "type": "single",
+      "question": "This is the office ______ I first met the regional manager.",
+      "options": { "A": "which", "B": "who", "C": "where", "D": "what" },
+      "correctAnswer": "C",
+      "explanation": "\"the office\" là **nơi chốn** ⇒ dùng **where** (= in which).\n\n📌 Vì sao không dùng which? Nếu dùng which thì phải có giới từ: \"the office in which I first met...\". Còn \"the office which I first met...\" sai vì \"meet\" không cần tân ngữ là 'office'.\n\n📌 Mẹo: Noun chỉ nơi + mệnh đề đầy đủ (I first met ...) ⇒ ưu tiên **where**."
+    },
+    {
+      "id": 157,
+      "type": "single",
+      "question": "April 1 is the day ______ the company announces its annual performance bonuses.",
+      "options": { "A": "when", "B": "where", "C": "which", "D": "who" },
+      "correctAnswer": "A",
+      "explanation": "\"the day\" là **thời gian** ⇒ dùng **when** (= on which).\n\n⚠️ Bẫy: (C) which đôi khi vẫn đúng nếu cấu trúc khác (\"the day on which...\") nhưng trong đáp án chỉ có when phù hợp tự nhiên nhất."
+    },
+    {
+      "id": 158,
+      "type": "single",
+      "question": "We do not understand the reason ______ the shipment was delayed.",
+      "options": { "A": "which", "B": "where", "C": "why", "D": "who" },
+      "correctAnswer": "C",
+      "explanation": "\"the reason\" ⇒ trạng từ quan hệ cho **lý do** là **why** (= for which).\n\n⚠️ Bẫy: (A) which nghe có vẻ nối được, nhưng câu đúng kiểu TOEIC thường là \"the reason why...\" hoặc \"the reason for which...\"."
+    },
+    {
+      "id": 159,
+      "type": "single",
+      "question": "The staff were surprised by ______ the CEO said during the press conference.",
+      "options": { "A": "that", "B": "which", "C": "what", "D": "who" },
+      "correctAnswer": "C",
+      "explanation": "**what** = \"the thing(s) that\" và **không cần antecedent trước nó**. Ở đây câu cần nghĩa: \"bởi những gì CEO đã nói\" ⇒ dùng **what**.\n\n⚠️ Bẫy rất hay: (A) that cần có danh từ đứng trước làm antecedent (vd: \"the statement that...\"). Còn ở đây không có danh từ đó."
+    },
+    {
+      "id": 160,
+      "type": "single",
+      "question": "Smartphones are changing ______ people communicate with one another in the workplace.",
+      "options": { "A": "when", "B": "where", "C": "why", "D": "how" },
+      "correctAnswer": "D",
+      "explanation": "Ý là \"thay đổi **cách thức** con người giao tiếp\" ⇒ **how**.\n\n📌 Đây là kiểu TOEIC hay ra: how đóng vai trò nối mệnh đề theo nghĩa \"the way (that)\".\n\n⚠️ Bẫy: where/when/why chỉ nơi-thời gian-lý do, không diễn tả 'cách'."
+    },
+    {
+      "id": 161,
+      "type": "single",
+      "question": "The consultant ______ recommendations were adopted by the board has over 20 years of experience.",
+      "options": { "A": "who", "B": "which", "C": "whose", "D": "whom" },
+      "correctAnswer": "C",
+      "explanation": "Danh từ \"recommendations\" là **sở hữu của consultant** ⇒ cần đại từ quan hệ sở hữu **whose + noun**.\n\n⚠️ Bẫy ETS: nhiều bạn thấy \"consultant\" là người nên chọn who, nhưng câu hỏi trọng tâm là **sở hữu**."
+    },
+    {
+      "id": 162,
+      "type": "single",
+      "question": "The conference room ______ we held the annual meeting has been renovated.",
+      "options": { "A": "which", "B": "where", "C": "when", "D": "what" },
+      "correctAnswer": "B",
+      "explanation": "\"the conference room\" là **nơi chốn** và mệnh đề sau đầy đủ (we held the annual meeting) ⇒ dùng **where** (= in which).\n\n⚠️ Bẫy: which chỉ dùng nếu có giới từ hoặc thiếu thành phần (the room in which...)."
+    },
+    {
+      "id": 163,
+      "type": "single",
+      "question": "The documents ______ you requested have been sent to your e-mail address.",
+      "options": { "A": "who", "B": "when", "C": "which", "D": "where" },
+      "correctAnswer": "C",
+      "explanation": "\"you requested ___\" đã có chủ ngữ + động từ ⇒ chỗ trống là **tân ngữ** (object relative). \"documents\" là vật ⇒ **which/that**.\n\n📌 Mẹo: Sau chỗ trống có S + V đầy đủ ⇒ đại từ quan hệ làm tân ngữ."
+    },
+    {
+      "id": 164,
+      "type": "single",
+      "question": "This is exactly ______ the operations manager explained during yesterday's briefing.",
+      "options": { "A": "that", "B": "which", "C": "what", "D": "who" },
+      "correctAnswer": "C",
+      "explanation": "**what = the thing that** và không cần danh từ đứng trước. Câu mang nghĩa: \"đây chính là những gì người quản lý vận hành đã giải thích\".\n\n⚠️ Bẫy TOEIC nặng: nhiều người chọn that, nhưng thiếu antecedent (danh từ đứng trước)."
+    },
+    {
+      "id": 165,
+      "type": "single",
+      "question": "The supplier ______ products consistently meet our quality standards will receive a long-term contract.",
+      "options": { "A": "whose", "B": "which", "C": "who", "D": "whom" },
+      "correctAnswer": "A",
+      "explanation": "\"products\" là danh từ **thuộc về supplier** ⇒ dùng **whose + noun**.\n\n⚠️ Bẫy: who đúng là cho người, nhưng không diễn đạt được quan hệ sở hữu."
+    },
+    {
+      "id": 166,
+      "type": "single",
+      "question": "July is the month ______ many employees take their annual leave.",
+      "options": { "A": "where", "B": "which", "C": "when", "D": "why" },
+      "correctAnswer": "C",
+      "explanation": "\"the month\" là **thời gian** ⇒ dùng **when** (= in which).\n\n⚠️ Bẫy: where chỉ nơi chốn; which cần giới từ đi kèm."
+    },
+    {
+      "id": 167,
+      "type": "single",
+      "question": "The manager praised the team ______ completed the project ahead of schedule.",
+      "options": { "A": "which", "B": "whom", "C": "who", "D": "where" },
+      "correctAnswer": "C",
+      "explanation": "Sau chỗ trống là động từ \"completed\" ⇒ đại từ quan hệ làm **chủ ngữ**. \"the team\" (tập thể người) ⇒ dùng **who**.\n\n⚠️ Bẫy: whom chỉ dùng làm tân ngữ, không đứng trước động từ."
+    },
+    {
+      "id": 168,
+      "type": "single",
+      "question": "We could not understand the reason ______ the proposal was rejected.",
+      "options": { "A": "which", "B": "where", "C": "why", "D": "that" },
+      "correctAnswer": "C",
+      "explanation": "\"the reason\" ⇒ trạng từ quan hệ **why** (= for which).\n\n📌 Lưu ý ETS: reason + why / that / Ø đều có thể đúng, nhưng nếu có why trong đáp án thì ưu tiên why."
+    },
+    {
+      "id": 169,
+      "type": "single",
+      "question": "The training program ______ the company introduced last year has improved employee performance.",
+      "options": { "A": "who", "B": "which", "C": "where", "D": "when" },
+      "correctAnswer": "B",
+      "explanation": "\"the company introduced ___\" ⇒ chỗ trống là **tân ngữ** của introduced. \"program\" là vật ⇒ **which/that**.\n\n⚠️ Bẫy: where/when không làm tân ngữ cho động từ."
+    },
+    {
+      "id": 170,
+      "type": "single",
+      "question": "Online collaboration tools are changing ______ teams work across different locations.",
+      "options": { "A": "when", "B": "where", "C": "how", "D": "why" },
+      "correctAnswer": "C",
+      "explanation": "Ý nghĩa: \"thay đổi **cách thức** các nhóm làm việc\" ⇒ **how** (= the way that).\n\n⚠️ Bẫy quen TOEIC: where nói về địa điểm, không diễn đạt phương thức."
+    },
+    {
+      "id": 171,
+      "type": "single",
+      "question": "The employee ______ performance improved significantly was promoted last month.",
+      "options": { "A": "whose", "B": "who", "C": "whom", "D": "which" },
+      "correctAnswer": "A",
+      "explanation": "\"performance\" là danh từ **thuộc về employee** ⇒ cần đại từ quan hệ sở hữu **whose + noun**.\n\n⚠️ Bẫy: nhiều bạn chọn who vì thấy 'employee' là người, nhưng câu này hỏi về **sở hữu**, không phải chủ ngữ."
+    },
+    {
+      "id": 172,
+      "type": "single",
+      "question": "This is the system ______ allows managers to track project progress in real time.",
+      "options": { "A": "who", "B": "which", "C": "where", "D": "what" },
+      "correctAnswer": "B",
+      "explanation": "\"system\" là vật. Sau chỗ trống là động từ \"allows\" ⇒ đại từ quan hệ làm **chủ ngữ** ⇒ **which** (hoặc that).\n\n⚠️ Bẫy: where chỉ dùng cho nơi chốn."
+    },
+    {
+      "id": 173,
+      "type": "single",
+      "question": "The client ______ we met yesterday is interested in signing a long-term contract.",
+      "options": { "A": "who", "B": "whose", "C": "whom", "D": "which" },
+      "correctAnswer": "C",
+      "explanation": "\"we met ___\" đã có chủ ngữ + động từ ⇒ chỗ trống là **tân ngữ**. Đối tượng là người ⇒ **whom / who / that** đều đúng, nhưng đáp án chuẩn hình thức là **whom**.\n\n📌 Mẹo: Sau S + V ⇒ cần tân ngữ ⇒ whom cho người."
+    },
+    {
+      "id": 174,
+      "type": "single",
+      "question": "The factory ______ the new equipment was installed has increased its output.",
+      "options": { "A": "which", "B": "when", "C": "where", "D": "what" },
+      "correctAnswer": "C",
+      "explanation": "\"the factory\" là nơi chốn; mệnh đề sau đầy đủ (the new equipment was installed) ⇒ dùng **where** (= in which).\n\n⚠️ Bẫy: which cần giới từ đi kèm."
+    },
+    {
+      "id": 175,
+      "type": "single",
+      "question": "What surprised the auditors most was ______ the financial records were organized.",
+      "options": { "A": "that", "B": "which", "C": "how", "D": "where" },
+      "correctAnswer": "C",
+      "explanation": "Cấu trúc nhấn mạnh cách thức: **how = the way that**.\n\n⚠️ Bẫy: that/which không diễn đạt được ý 'cách thức'."
+    },
+    {
+      "id": 176,
+      "type": "single",
+      "question": "The seminar ______ you attended last week focused on digital transformation.",
+      "options": { "A": "where", "B": "when", "C": "which", "D": "who" },
+      "correctAnswer": "C",
+      "explanation": "\"you attended ___\" ⇒ chỗ trống là **tân ngữ** của attended. \"seminar\" là vật ⇒ **which/that**.\n\n⚠️ Bẫy: where/when là trạng từ, không làm tân ngữ."
+    },
+    {
+      "id": 177,
+      "type": "single",
+      "question": "There was a period ______ the company struggled to remain profitable.",
+      "options": { "A": "where", "B": "which", "C": "when", "D": "why" },
+      "correctAnswer": "C",
+      "explanation": "\"a period\" là **thời gian** ⇒ dùng **when** (= during which).\n\n⚠️ Bẫy: where đôi khi bị chọn nhầm vì 'period' trừu tượng, nhưng TOEIC chuẩn vẫn là when."
+    },
+    {
+      "id": 178,
+      "type": "single",
+      "question": "The proposal was rejected, ______ disappointed several department heads.",
+      "options": { "A": "which", "B": "that", "C": "what", "D": "who" },
+      "correctAnswer": "A",
+      "explanation": "Mệnh đề sau dấu phẩy diễn tả **toàn bộ mệnh đề trước** ⇒ dùng **which** (non-defining relative clause).\n\n⚠️ Bẫy nặng ETS: **that KHÔNG dùng** sau dấu phẩy trong mệnh đề quan hệ không xác định."
+    },
+    {
+      "id": 179,
+      "type": "single",
+      "question": "The reason ______ the launch was delayed has not been officially announced.",
+      "options": { "A": "which", "B": "where", "C": "why", "D": "when" },
+      "correctAnswer": "C",
+      "explanation": "\"the reason\" ⇒ trạng từ quan hệ **why** (= for which).\n\n📌 Mẹo ETS: nếu thấy 'reason' + chỗ trống, ưu tiên why."
+    },
+    {
+      "id": 180,
+      "type": "single",
+      "question": "Remote work policies have changed ______ employees balance their professional and personal lives.",
+      "options": { "A": "when", "B": "where", "C": "how", "D": "why" },
+      "correctAnswer": "C",
+      "explanation": "Ý nghĩa là thay đổi **cách thức** cân bằng công việc – cuộc sống ⇒ **how**.\n\n⚠️ Bẫy: where/when không diễn đạt phương thức."
+    },
+    {
+      "id": 181,
+      "type": "single",
+      "question": "The training session, ______ was held last Friday, received very positive feedback from employees.",
+      "options": { "A": "that", "B": "what", "C": "which", "D": "who" },
+      "correctAnswer": "C",
+      "explanation": "Có **dấu phẩy** ⇒ mệnh đề quan hệ **không xác định (non-defining)** ⇒ dùng **which**, KHÔNG dùng that.\n\n⚠️ Bẫy ETS cực quen: thấy dấu phẩy → loại that ngay."
+    },
+    {
+      "id": 182,
+      "type": "single",
+      "question": "The software update ______ the IT team released yesterday fixed several security issues.",
+      "options": { "A": "who", "B": "where", "C": "which", "D": "when" },
+      "correctAnswer": "C",
+      "explanation": "\"the IT team released ___\" ⇒ chỗ trống là **tân ngữ** của released. \"update\" là vật ⇒ **which/that**."
+    },
+    {
+      "id": 183,
+      "type": "single",
+      "question": "This is ______ the finance director emphasized during the budget meeting.",
+      "options": { "A": "that", "B": "which", "C": "what", "D": "who" },
+      "correctAnswer": "C",
+      "explanation": "**what = the thing that**, không cần danh từ đứng trước.\n\n⚠️ Bẫy nặng: nhiều người chọn that nhưng câu không có antecedent (danh từ đứng trước)."
+    },
+    {
+      "id": 184,
+      "type": "single",
+      "question": "The department ______ employees consistently exceed their sales targets will receive additional funding.",
+      "options": { "A": "who", "B": "which", "C": "whose", "D": "where" },
+      "correctAnswer": "C",
+      "explanation": "\"employees\" là danh từ **thuộc về department** ⇒ dùng **whose + noun**.\n\n📌 Lưu ý: whose dùng được cho **vật/tổ chức**, không chỉ người."
+    },
+    {
+      "id": 185,
+      "type": "single",
+      "question": "There was a time ______ the company relied heavily on manual data entry.",
+      "options": { "A": "where", "B": "which", "C": "when", "D": "why" },
+      "correctAnswer": "C",
+      "explanation": "\"a time\" là **thời gian** ⇒ dùng **when** (= at which).\n\n⚠️ Bẫy: where đôi khi bị chọn nhầm, nhưng TOEIC chuẩn dùng when."
+    },
+    {
+      "id": 186,
+      "type": "single",
+      "question": "The consultant explained the method ______ the problem could be resolved efficiently.",
+      "options": { "A": "which", "B": "how", "C": "where", "D": "when" },
+      "correctAnswer": "B",
+      "explanation": "Diễn tả **cách thức** giải quyết ⇒ **how** (= the way that).\n\n📌 Lưu ý: the method how là chấp nhận được trong TOEIC theo nghĩa how = conjunction."
+    },
+    {
+      "id": 187,
+      "type": "single",
+      "question": "The report ______ the manager referred to during the meeting is confidential.",
+      "options": { "A": "who", "B": "which", "C": "where", "D": "when" },
+      "correctAnswer": "B",
+      "explanation": "\"referred to ___\" ⇒ chỗ trống là **tân ngữ của giới từ to**. \"report\" là vật ⇒ **which/that**.\n\n⚠️ Bẫy ETS: giới từ thường bị đẩy về cuối câu."
+    },
+    {
+      "id": 188,
+      "type": "single",
+      "question": "The reason ______ many customers prefer this brand is its reliable after-sales service.",
+      "options": { "A": "which", "B": "where", "C": "why", "D": "when" },
+      "correctAnswer": "C",
+      "explanation": "\"the reason\" ⇒ trạng từ quan hệ **why** (= for which).\n\n⚠️ Bẫy: which nghe hợp tai nhưng TOEIC ưu tiên why."
+    },
+    {
+      "id": 189,
+      "type": "single",
+      "question": "The company headquarters, ______ is located downtown, will undergo major renovations.",
+      "options": { "A": "that", "B": "which", "C": "where", "D": "what" },
+      "correctAnswer": "B",
+      "explanation": "Có **dấu phẩy** ⇒ non-defining clause ⇒ dùng **which**, không dùng that.\n\n📌 Lưu ý: where chỉ nơi chốn, nhưng ở đây cần đại từ quan hệ làm **chủ ngữ** cho 'is located'."
+    },
+    {
+      "id": 190,
+      "type": "single",
+      "question": "Flexible schedules have changed ______ employees approach their work-life balance.",
+      "options": { "A": "when", "B": "where", "C": "how", "D": "why" },
+      "correctAnswer": "C",
+      "explanation": "Ý nghĩa: thay đổi **cách thức** tiếp cận cân bằng công việc – cuộc sống ⇒ **how**.\n\n⚠️ Bẫy quen TOEIC: where/when không diễn tả phương thức."
+    },
+    {
+      "id": 191,
+      "type": "single",
+      "question": "The new policy, ______ was announced yesterday, will take effect next month.",
+      "options": { "A": "that", "B": "which", "C": "what", "D": "where" },
+      "correctAnswer": "B",
+      "explanation": "Có **dấu phẩy** ⇒ mệnh đề quan hệ **không xác định** ⇒ dùng **which**, KHÔNG dùng that.\n\n⚠️ Bẫy ETS kinh điển: thấy dấu phẩy là loại that ngay."
+    },
+    {
+      "id": 192,
+      "type": "single",
+      "question": "The manager explained ______ the delay had occurred during the shipment process.",
+      "options": { "A": "that", "B": "which", "C": "why", "D": "where" },
+      "correctAnswer": "C",
+      "explanation": "Câu hỏi về **lý do** ⇒ dùng **why** (= for what reason).\n\n⚠️ Bẫy: that nghe hợp tai nhưng không diễn đạt được ý 'lý do'."
+    },
+    {
+      "id": 193,
+      "type": "single",
+      "question": "The analyst ______ report was cited in the meeting will give a presentation tomorrow.",
+      "options": { "A": "who", "B": "which", "C": "whose", "D": "whom" },
+      "correctAnswer": "C",
+      "explanation": "\"report\" là danh từ **thuộc về analyst** ⇒ đại từ quan hệ sở hữu **whose + noun**.\n\n⚠️ Bẫy: who chỉ nối người, không thể nối quan hệ sở hữu."
+    },
+    {
+      "id": 194,
+      "type": "single",
+      "question": "This is exactly ______ the board members were concerned about.",
+      "options": { "A": "that", "B": "which", "C": "what", "D": "who" },
+      "correctAnswer": "C",
+      "explanation": "**what = the thing(s) that** và không cần antecedent.\n\n⚠️ Bẫy ETS rất nặng: nhiều người chọn that nhưng câu thiếu danh từ đứng trước."
+    },
+    {
+      "id": 195,
+      "type": "single",
+      "question": "The office ______ Mr. Tan works will be relocated next year.",
+      "options": { "A": "which", "B": "where", "C": "when", "D": "what" },
+      "correctAnswer": "B",
+      "explanation": "\"the office\" là **nơi chốn**; mệnh đề sau đầy đủ (Mr. Tan works) ⇒ dùng **where** (= at which)."
+    },
+    {
+      "id": 196,
+      "type": "single",
+      "question": "The training materials ______ the instructor referred to are available online.",
+      "options": { "A": "who", "B": "which", "C": "where", "D": "when" },
+      "correctAnswer": "B",
+      "explanation": "\"referred to ___\" ⇒ chỗ trống là **tân ngữ của giới từ to**. \"materials\" là vật ⇒ **which/that**.\n\n⚠️ Bẫy: giới từ bị đẩy về cuối câu."
+    },
+    {
+      "id": 197,
+      "type": "single",
+      "question": "There was a situation ______ immediate action was required.",
+      "options": { "A": "which", "B": "why", "C": "when", "D": "where" },
+      "correctAnswer": "D",
+      "explanation": "\"a situation\" (tình huống – trừu tượng) được TOEIC xử lý như **nơi chốn/ngữ cảnh** ⇒ dùng **where**.\n\n⚠️ Bẫy nâng cao: nhiều bạn chọn when vì nghĩ là thời gian."
+    },
+    {
+      "id": 198,
+      "type": "single",
+      "question": "The CEO praised the employees ______ handled the crisis effectively.",
+      "options": { "A": "which", "B": "whom", "C": "who", "D": "where" },
+      "correctAnswer": "C",
+      "explanation": "Sau chỗ trống là động từ \"handled\" ⇒ đại từ quan hệ làm **chủ ngữ**. \"employees\" là người ⇒ **who**.\n\n⚠️ Bẫy: whom chỉ làm tân ngữ."
+    },
+    {
+      "id": 199,
+      "type": "single",
+      "question": "The period ______ the company expanded into overseas markets was challenging but rewarding.",
+      "options": { "A": "which", "B": "when", "C": "where", "D": "why" },
+      "correctAnswer": "B",
+      "explanation": "\"the period\" là **thời gian** ⇒ dùng **when** (= during which).\n\n⚠️ Bẫy: where nghe có vẻ đúng nhưng TOEIC chuẩn vẫn là when."
+    },
+    {
+      "id": 200,
+      "type": "single",
+      "question": "Digital tools have transformed ______ organizations communicate with their customers.",
+      "options": { "A": "when", "B": "where", "C": "how", "D": "why" },
+      "correctAnswer": "C",
+      "explanation": "Ý nghĩa: thay đổi **cách thức** giao tiếp ⇒ **how** (= the way that).\n\n⚠️ Bẫy cuối: where/when không diễn đạt phương thức."
+    },
+    {
+      "id": 201,
+      "type": "single",
+      "question": "The proposal, ______ was discussed during the meeting, will be revised next week.",
+      "options": { "A": "that", "B": "which", "C": "what", "D": "where" },
+      "correctAnswer": "B",
+      "explanation": "Có **dấu phẩy** ⇒ mệnh đề quan hệ **không xác định** ⇒ chỉ dùng **which**, KHÔNG dùng that.\n\n⚠️ Đây là bẫy ETS cực kinh điển."
+    },
+    {
+      "id": 202,
+      "type": "single",
+      "question": "This is exactly ______ the board members were hoping to hear.",
+      "options": { "A": "that", "B": "which", "C": "what", "D": "who" },
+      "correctAnswer": "C",
+      "explanation": "**what = the thing(s) that** và **không cần danh từ đứng trước**.\n\n⚠️ Bẫy rất nặng vì nhiều bạn quen tay chọn that."
+    },
+    {
+      "id": 203,
+      "type": "single",
+      "question": "The department ______ budget was reduced must reconsider its hiring plan.",
+      "options": { "A": "which", "B": "who", "C": "whose", "D": "where" },
+      "correctAnswer": "C",
+      "explanation": "\"budget\" là danh từ **thuộc về department** ⇒ dùng **whose + noun**.\n\n📌 Lưu ý: whose dùng được cho **vật/tổ chức**, không chỉ người."
+    },
+    {
+      "id": 204,
+      "type": "single",
+      "question": "The report ______ the manager referred to contains confidential information.",
+      "options": { "A": "who", "B": "which", "C": "where", "D": "when" },
+      "correctAnswer": "B",
+      "explanation": "\"referred to ___\" ⇒ chỗ trống là **tân ngữ của giới từ**. \"report\" là vật ⇒ **which/that**.\n\n⚠️ Bẫy là giới từ bị đẩy về cuối câu."
+    },
+    {
+      "id": 205,
+      "type": "single",
+      "question": "There was a situation ______ immediate action was necessary.",
+      "options": { "A": "which", "B": "why", "C": "when", "D": "where" },
+      "correctAnswer": "D",
+      "explanation": "\"situation\" (tình huống) được ETS xử lý như **bối cảnh/ngữ cảnh** ⇒ dùng **where**.\n\n⚠️ Rất nhiều bạn chọn nhầm when."
+    },
+    {
+      "id": 206,
+      "type": "single",
+      "question": "The consultant explained the reason ______ the project failed to meet its deadline.",
+      "options": { "A": "which", "B": "where", "C": "why", "D": "when" },
+      "correctAnswer": "C",
+      "explanation": "\"the reason\" ⇒ trạng từ quan hệ **why** (= for which).\n\n⚠️ Bẫy: which nghe hợp tai nhưng ETS ưu tiên why."
+    },
+    {
+      "id": 207,
+      "type": "single",
+      "question": "The software update ______ was released last month has improved system performance.",
+      "options": { "A": "where", "B": "who", "C": "which", "D": "what" },
+      "correctAnswer": "C",
+      "explanation": "\"update\" là vật và chỗ trống làm **chủ ngữ** cho động từ \"was released\" ⇒ **which/that**.\n\n⚠️ Bẫy: what không có antecedent đứng trước."
+    },
+    {
+      "id": 208,
+      "type": "single",
+      "question": "The decision ______ the executives were divided over delayed the merger.",
+      "options": { "A": "which", "B": "where", "C": "what", "D": "when" },
+      "correctAnswer": "A",
+      "explanation": "\"were divided over ___\" ⇒ tân ngữ của giới từ over. \"decision\" là vật ⇒ **which/that**.\n\n⚠️ Bẫy nâng cao: cấu trúc giới từ bị đẩy về cuối."
+    },
+    {
+      "id": 209,
+      "type": "single",
+      "question": "This is the office ______ the regional manager works.",
+      "options": { "A": "which", "B": "when", "C": "where", "D": "what" },
+      "correctAnswer": "C",
+      "explanation": "\"the office\" là **nơi chốn** và mệnh đề sau đầy đủ ⇒ **where** (= at which).\n\n⚠️ Bẫy: nhiều người chọn which vì quen tay."
+    },
+    {
+      "id": 210,
+      "type": "single",
+      "question": "Flexible work arrangements have changed ______ employees approach their daily tasks.",
+      "options": { "A": "when", "B": "where", "C": "how", "D": "why" },
+      "correctAnswer": "C",
+      "explanation": "Ý nghĩa là thay đổi **cách thức** ⇒ **how** (= the way that).\n\n⚠️ Bẫy cuối: where/when không diễn đạt phương thức."
+    },
+    {
+      "id": 211,
+      "type": "passage",
+      "passageType": "fill-in-the-blank",
+      "passageTitle": "Annual Staff Training Seminar Notice",
+      "passage": "The annual staff training seminar, ____211____ was postponed last month, will now be held on July 15. The seminar focuses on improving communication skills, ____212____ many employees consider essential for career advancement. Participants will learn ____213____ effective teamwork can be achieved in a fast-paced work environment. Employees ____214____ managers have recommended them are given priority registration. This event will take place at the downtown conference center, ____215____ the company has hosted similar events in the past.",
+      "subQuestions": [
+        {
+          "id": 211,
+          "question": "Choose the correct word for blank 211",
+          "options": { "A": "that", "B": "which", "C": "what", "D": "where" },
+          "correctAnswer": "B",
+          "explanation": "Có **dấu phẩy** → mệnh đề quan hệ **không xác định** ⇒ dùng **which**, KHÔNG dùng that.\n\n⚠️ Bẫy ETS kinh điển: thấy dấu phẩy là loại that ngay."
+        },
+        {
+          "id": 212,
+          "question": "Choose the correct word for blank 212",
+          "options": { "A": "which", "B": "what", "C": "who", "D": "when" },
+          "correctAnswer": "A",
+          "explanation": "\"communication skills\" = vật. **which** thay cho toàn bộ cụm danh từ phía trước.\n\n📌 skills, which many employees consider essential = kỹ năng mà nhiều nhân viên cho là cần thiết."
+        },
+        {
+          "id": 213,
+          "question": "Choose the correct word for blank 213",
+          "options": { "A": "that", "B": "what", "C": "how", "D": "where" },
+          "correctAnswer": "C",
+          "explanation": "Diễn tả **cách thức** ⇒ **how** (= the way that).\n\n📌 learn how effective teamwork can be achieved = học cách đạt được làm việc nhóm hiệu quả."
+        },
+        {
+          "id": 214,
+          "question": "Choose the correct word for blank 214",
+          "options": { "A": "who", "B": "whose", "C": "whom", "D": "which" },
+          "correctAnswer": "B",
+          "explanation": "\"managers\" có quan hệ **sở hữu** với \"employees\" ⇒ dùng **whose**.\n\n📌 employees whose managers have recommended them = nhân viên mà quản lý của họ đã đề cử."
+        },
+        {
+          "id": 215,
+          "question": "Choose the correct word for blank 215",
+          "options": { "A": "which", "B": "when", "C": "where", "D": "what" },
+          "correctAnswer": "C",
+          "explanation": "\"conference center\" = **nơi chốn** ⇒ dùng **where**.\n\n📌 where the company has hosted = nơi mà công ty đã tổ chức."
+        }
+      ]
+    },
+    {
+      "id": 212,
+      "type": "passage",
+      "passageType": "reading-comprehension",
+      "passageTitle": "Global Tech Solutions Mentoring Program",
+      "passage": "Global Tech Solutions recently introduced a mentoring program for new employees. The program pairs junior staff with experienced managers who have extensive knowledge of company operations. Participants are encouraged to discuss challenges that they face during their first year at work. The company believes that mentoring is one of the most effective ways to support employees whose performance is still developing. This initiative has received positive feedback from staff members, many of whom stated that the program helped them adjust more quickly to their roles.",
+      "subQuestions": [
+        {
+          "id": 216,
+          "question": "What is the main purpose of the mentoring program?",
+          "options": {
+            "A": "To evaluate employee performance",
+            "B": "To provide guidance to new employees",
+            "C": "To replace traditional training seminars",
+            "D": "To reduce the number of managers"
+          },
+          "correctAnswer": "B",
+          "explanation": "\"mentoring program for new employees\" ⇒ main purpose = **hỗ trợ, hướng dẫn nhân viên mới**.\n\n📌 Câu hỏi 'main purpose' → tìm ý chính, thường nằm ở câu đầu."
+        },
+        {
+          "id": 217,
+          "question": "Who are mentors in this program?",
+          "options": {
+            "A": "Junior staff members",
+            "B": "External consultants",
+            "C": "Managers with extensive experience",
+            "D": "Employees from other departments"
+          },
+          "correctAnswer": "C",
+          "explanation": "Dòng 2: \"experienced managers **who** have extensive knowledge...\" ⇒ mentors = **managers có kinh nghiệm**.\n\n📌 who = đại từ quan hệ chỉ người làm chủ ngữ."
+        },
+        {
+          "id": 218,
+          "question": "What does the word 'whom' in line 6 refer to?",
+          "options": {
+            "A": "Managers",
+            "B": "New employees",
+            "C": "Staff members",
+            "D": "Challenges"
+          },
+          "correctAnswer": "C",
+          "explanation": "\"staff members, many of **whom** stated that...\" ⇒ whom = **staff members** (object relative pronoun).\n\n📌 Mẹo: whom thay thế cho danh từ đứng ngay trước dấu phẩy."
+        },
+        {
+          "id": 219,
+          "question": "Which statement is TRUE according to the passage?",
+          "options": {
+            "A": "The program is mandatory for all employees",
+            "B": "Only managers benefit from the program",
+            "C": "Employees can discuss problems they encounter",
+            "D": "The program focuses mainly on technical skills"
+          },
+          "correctAnswer": "C",
+          "explanation": "Dòng 3: \"discuss challenges **that** they face\" ⇒ nhân viên có thể thảo luận các vấn đề họ gặp phải.\n\n📌 that = đại từ quan hệ nối vật/người trong mệnh đề xác định."
+        }
+      ]
+    },
+    {
+      "id": 213,
+      "type": "passage",
+      "passageType": "fill-in-the-blank",
+      "passageTitle": "Customer Feedback Survey Results",
+      "passage": "The customer feedback survey, ____220____ was conducted earlier this year, revealed several areas for improvement. Many respondents mentioned issues related to delivery speed, ____221____ the company has already begun addressing. The survey also highlighted ____222____ customers value most when choosing a service provider. Clients ____223____ responses indicated dissatisfaction will be contacted directly by the support team. This initiative demonstrates the company's commitment to improving service quality, ____224____ is essential in today's competitive market.",
+      "subQuestions": [
+        {
+          "id": 220,
+          "question": "Choose the correct word for blank 220",
+          "options": { "A": "that", "B": "which", "C": "what", "D": "where" },
+          "correctAnswer": "B",
+          "explanation": "Có **dấu phẩy** → mệnh đề quan hệ **không xác định** ⇒ dùng **which**, KHÔNG dùng that.\n\n⚠️ Bẫy ETS: thấy dấu phẩy là loại that ngay."
+        },
+        {
+          "id": 221,
+          "question": "Choose the correct word for blank 221",
+          "options": { "A": "what", "B": "which", "C": "where", "D": "when" },
+          "correctAnswer": "B",
+          "explanation": "\"issues\" = vật, mệnh đề quan hệ sau dấu phẩy ⇒ dùng **which**.\n\n📌 issues, which the company has begun addressing = các vấn đề mà công ty đã bắt đầu giải quyết."
+        },
+        {
+          "id": 222,
+          "question": "Choose the correct word for blank 222",
+          "options": { "A": "which", "B": "what", "C": "how", "D": "why" },
+          "correctAnswer": "B",
+          "explanation": "**what = the thing(s) that** và **không có danh từ đứng trước**.\n\n📌 highlighted what customers value most = làm nổi bật điều khách hàng đánh giá cao nhất."
+        },
+        {
+          "id": 223,
+          "question": "Choose the correct word for blank 223",
+          "options": { "A": "who", "B": "whom", "C": "whose", "D": "which" },
+          "correctAnswer": "C",
+          "explanation": "\"responses\" là **sở hữu của clients** ⇒ dùng **whose + noun**.\n\n📌 clients whose responses indicated dissatisfaction = khách hàng mà phản hồi của họ cho thấy sự không hài lòng."
+        },
+        {
+          "id": 224,
+          "question": "Choose the correct word for blank 224",
+          "options": { "A": "that", "B": "which", "C": "where", "D": "how" },
+          "correctAnswer": "B",
+          "explanation": "**which** thay cho **toàn bộ mệnh đề phía trước** (non-defining clause sau dấu phẩy).\n\n📌 which is essential = điều này rất cần thiết."
+        }
+      ]
+    },
+    {
+      "id": 214,
+      "type": "passage",
+      "passageType": "reading-comprehension",
+      "passageTitle": "Apex Consulting Online Training Platform",
+      "passage": "Apex Consulting recently launched an online training platform designed for remote employees. The platform offers courses that focus on time management and effective communication skills. Employees who complete the training are encouraged to share feedback with supervisors. According to company representatives, this program helps workers understand how productivity can be maintained outside the office. Many participants, some of whom had never worked remotely before, reported higher job satisfaction after completing the courses.",
+      "subQuestions": [
+        {
+          "id": 225,
+          "question": "What is the main purpose of the online training platform?",
+          "options": {
+            "A": "To replace in-person meetings",
+            "B": "To support employees working remotely",
+            "C": "To evaluate employee performance",
+            "D": "To reduce training costs"
+          },
+          "correctAnswer": "B",
+          "explanation": "Dòng 1: \"designed for remote employees\" ⇒ mục đích chính = **hỗ trợ nhân viên làm việc từ xa**.\n\n📌 Câu hỏi 'main purpose' → tìm ý chính ở câu đầu."
+        },
+        {
+          "id": 226,
+          "question": "What type of courses does the platform offer?",
+          "options": {
+            "A": "Technical software training",
+            "B": "Leadership development programs",
+            "C": "Courses on time management and communication",
+            "D": "Sales and marketing workshops"
+          },
+          "correctAnswer": "C",
+          "explanation": "Dòng 2: \"courses **that** focus on time management and effective communication skills\".\n\n📌 that = đại từ quan hệ nối vật trong mệnh đề xác định."
+        },
+        {
+          "id": 227,
+          "question": "Who is encouraged to provide feedback?",
+          "options": {
+            "A": "All company managers",
+            "B": "Only remote supervisors",
+            "C": "Employees who complete the training",
+            "D": "New employees only"
+          },
+          "correctAnswer": "C",
+          "explanation": "Dòng 3: \"Employees **who** complete the training are encouraged to share feedback\".\n\n📌 who = đại từ quan hệ chỉ người làm chủ ngữ."
+        },
+        {
+          "id": 228,
+          "question": "What does the phrase 'whom' in the last sentence refer to?",
+          "options": {
+            "A": "Company representatives",
+            "B": "Supervisors",
+            "C": "Participants",
+            "D": "Remote employees"
+          },
+          "correctAnswer": "C",
+          "explanation": "\"Many participants, some of **whom** had never worked remotely before\" ⇒ whom = **participants**.\n\n📌 whom là object relative pronoun, quay về danh từ đứng ngay trước dấu phẩy."
+        }
+      ]
+    }
+  ]
+}

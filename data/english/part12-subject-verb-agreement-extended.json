@@ -1,0 +1,486 @@
+{
+  "partId": "subject-verb-agreement-extended",
+  "partName": "Sự hòa hợp Chủ ngữ - Động từ Nâng cao (Subject-Verb Agreement Extended)",
+  "questions": [
+    {
+      "id": 392,
+      "type": "single",
+      "question": "The manager said that the new policy _____ effect the following Monday.",
+      "options": { "A": "takes", "B": "took", "C": "would take", "D": "has taken" },
+      "correctAnswer": "C",
+      "explanation": "Main clause là quá khứ (said) → mệnh đề sau that thường **lùi thì**. Nội dung là 'tương lai so với thời điểm nói trong quá khứ' (the following Monday) → dùng **would + V**.\n\n⚠️ Bẫy: (A) takes là hiện tại (không lùi thì); (B) took là quá khứ đơn nhưng không diễn đạt đúng ý 'sẽ có hiệu lực'; (D) has taken là hiện tại hoàn thành (sai mốc thời gian)."
+    },
+    {
+      "id": 393,
+      "type": "single",
+      "question": "The report states that the company _____ a net loss last quarter.",
+      "options": { "A": "records", "B": "recorded", "C": "has recorded", "D": "will record" },
+      "correctAnswer": "B",
+      "explanation": "Main clause hiện tại (states) nên mệnh đề that có thể dùng nhiều thì theo ý nghĩa. Có mốc thời gian **quá khứ rõ** (last quarter) → dùng **quá khứ đơn**: **recorded**.\n\n⚠️ Bẫy: (C) has recorded thường đi với mốc 'từ quá khứ đến hiện tại' và KHÔNG hợp với 'last quarter' (mốc đã kết thúc)."
+    },
+    {
+      "id": 394,
+      "type": "single",
+      "question": "Everyone knows that this bridge _____ in 1998.",
+      "options": { "A": "is completed", "B": "was completed", "C": "has been completed", "D": "would be completed" },
+      "correctAnswer": "B",
+      "explanation": "Sự kiện lịch sử có **mốc năm cụ thể** (in 1998) → quá khứ đơn, bị động: **was completed**.\n\n⚠️ Bẫy: (C) has been completed không hợp với mốc thời gian quá khứ kết thúc; (A) is completed nghe như trạng thái hiện tại (không đúng mốc 1998)."
+    },
+    {
+      "id": 395,
+      "type": "single",
+      "question": "Most senior employees in the sales department _____ eligible for the new bonus program.",
+      "options": { "A": "is", "B": "are", "C": "was", "D": "be" },
+      "correctAnswer": "B",
+      "explanation": "Chủ ngữ chính: **employees** (số nhiều). Cụm giới từ 'in the sales department' chỉ bổ nghĩa, không quyết định động từ → dùng **are**.\n\n⚠️ Bẫy TOEIC rất hay: Thấy 'department' (số ít) gần động từ nên chọn (A) is — sai vì department chỉ nằm trong cụm giới từ."
+    },
+    {
+      "id": 396,
+      "type": "single",
+      "question": "The letter offering me a position _____ arrived this morning.",
+      "options": { "A": "have", "B": "has", "C": "are", "D": "were" },
+      "correctAnswer": "B",
+      "explanation": "Chủ ngữ chính: **The letter** (số ít). 'offering me a position' là **participial phrase** bổ nghĩa cho letter → động từ số ít: **has**.\n\n📌 Mẹo: Xác định noun chính, bỏ qua các cụm bổ nghĩa."
+    },
+    {
+      "id": 397,
+      "type": "single",
+      "question": "Working overtime every weekend _____ employees' productivity in the long run.",
+      "options": { "A": "reduce", "B": "reduces", "C": "reducing", "D": "have reduced" },
+      "correctAnswer": "B",
+      "explanation": "Chủ ngữ là **V-ing** (Working overtime...) → xem như danh từ số ít → động từ chia số ít: **reduces**.\n\n⚠️ Bẫy: (A) reduce là dạng nguyên mẫu số nhiều; (C) reducing thiếu động từ chính; (D) have reduced số nhiều."
+    },
+    {
+      "id": 398,
+      "type": "single",
+      "question": "Some of the equipment in the lab _____ outdated and needs replacement.",
+      "options": { "A": "are", "B": "is", "C": "were", "D": "have been" },
+      "correctAnswer": "B",
+      "explanation": "**equipment** là **uncountable noun** (không đếm được) → luôn coi là số ít trong ngữ pháp TOEIC → dùng **is**.\n\n⚠️ Bẫy: 'Some of' làm nhiều bạn tưởng số nhiều → chọn are. Nhưng quyết định nằm ở danh từ sau of: **equipment** (không đếm được) → số ít."
+    },
+    {
+      "id": 399,
+      "type": "single",
+      "question": "Each of the hotel guests _____ given a welcome package upon arrival.",
+      "options": { "A": "are", "B": "were", "C": "is", "D": "was" },
+      "correctAnswer": "D",
+      "explanation": "**Each of + plural noun** → động từ chia **SỐ ÍT**. Câu ở bị động quá khứ (given upon arrival) phù hợp: **was given**.\n\n⚠️ Bẫy kép: (1) 'guests' số nhiều nhưng vẫn phải chia số ít vì 'each'; (2) bị động: was given (không phải was gave)."
+    },
+    {
+      "id": 400,
+      "type": "single",
+      "question": "A number of applicants _____ submitted their resumes online.",
+      "options": { "A": "has", "B": "have", "C": "is", "D": "was" },
+      "correctAnswer": "B",
+      "explanation": "**A number of + plural noun** → nghĩa là 'nhiều' → động từ **số nhiều**: **have**.\n\n⚠️ Bẫy TOEIC cực hay: Nhầm với 'The number of' (sẽ dùng số ít).\n\n📌 Ghi nhớ: A number of = nhiều (plural) | The number of = số lượng (singular)."
+    },
+    {
+      "id": 401,
+      "type": "single",
+      "question": "The number of customers visiting our website _____ increased since the new advertisement launched.",
+      "options": { "A": "have", "B": "are", "C": "has", "D": "were" },
+      "correctAnswer": "C",
+      "explanation": "**The number of + plural noun** → chủ ngữ chính là 'the number' (số ít) → dùng **has**. 'since + mốc quá khứ' → hiện tại hoàn thành: **has increased**.\n\n⚠️ Bẫy: Nhìn thấy 'customers' (số nhiều) nên chọn have/are — sai vì noun chính là **number**."
+    },
+    {
+      "id": 402,
+      "type": "single",
+      "question": "The supervisor explained that the documents _____ before the meeting began.",
+      "options": { "A": "are prepared", "B": "were prepared", "C": "have prepared", "D": "will be prepared" },
+      "correctAnswer": "B",
+      "explanation": "Main clause: **explained** (quá khứ). Hành động 'chuẩn bị tài liệu' xảy ra trước hoặc cùng thời điểm với 'meeting began' → dùng **quá khứ đơn bị động**: **were prepared**.\n\n⚠️ Bẫy: (A) hiện tại; (D) tương lai; (C) sai cấu trúc (thiếu bị động)."
+    },
+    {
+      "id": 403,
+      "type": "single",
+      "question": "The number of errors found in the final report _____ unacceptable.",
+      "options": { "A": "are", "B": "were", "C": "is", "D": "have been" },
+      "correctAnswer": "C",
+      "explanation": "Chủ ngữ chính là **'the number'** (số ít), không phải 'errors'. Câu mô tả trạng thái → hiện tại đơn: **is**.\n\n⚠️ Bẫy TOEIC kinh điển: Nhìn thấy 'errors' (số nhiều) rồi chia are."
+    },
+    {
+      "id": 404,
+      "type": "single",
+      "question": "Some of the information provided by the supplier _____ inaccurate.",
+      "options": { "A": "are", "B": "were", "C": "is", "D": "have been" },
+      "correctAnswer": "C",
+      "explanation": "**information** là danh từ **không đếm được** → số ít. 'Some of' KHÔNG quyết định số, **danh từ sau of** mới quyết định.\n\n⚠️ Bẫy: Nhiều thí sinh thấy 'some of' là chọn số nhiều."
+    },
+    {
+      "id": 405,
+      "type": "single",
+      "question": "The consultant said that improving customer service _____ essential for the company's growth.",
+      "options": { "A": "are", "B": "were", "C": "is", "D": "have been" },
+      "correctAnswer": "C",
+      "explanation": "Chủ ngữ thật: **'improving customer service'** (gerund phrase) → được xem là một việc → số ít → **is**.\n\n⚠️ Bẫy: Bị lừa bởi 'customers' phía sau.\n\n📌 V-ing làm chủ ngữ = số ít."
+    },
+    {
+      "id": 406,
+      "type": "single",
+      "question": "Every applicant _____ required to submit two reference letters.",
+      "options": { "A": "are", "B": "were", "C": "is", "D": "have been" },
+      "correctAnswer": "C",
+      "explanation": "**Every + danh từ số ít** → động từ luôn chia số ít: **is**. Không cần nhìn phần còn lại.\n\n⚠️ Bẫy: Nhiều người quen tay chọn 'are required' theo phản xạ."
+    },
+    {
+      "id": 407,
+      "type": "single",
+      "question": "A number of employees _____ concerned about the recent policy changes.",
+      "options": { "A": "is", "B": "was", "C": "are", "D": "has been" },
+      "correctAnswer": "C",
+      "explanation": "**A number of** = nhiều → động từ **số nhiều**: **are**. 'concerned' là tính từ nên cần be.\n\n⚠️ Bẫy: Nhầm với 'the number of' (số ít).\n\n📌 A number of = many → plural."
+    },
+    {
+      "id": 408,
+      "type": "single",
+      "question": "The HR manager stated that the training sessions _____ postponed until further notice.",
+      "options": { "A": "are", "B": "were", "C": "have", "D": "will" },
+      "correctAnswer": "B",
+      "explanation": "Main clause ở quá khứ (stated) → mệnh đề sau that thường **lùi thì**. Nội dung là thông báo đã quyết định → **quá khứ đơn bị động**: **were postponed**.\n\n⚠️ Bẫy: (A) are không lùi thì; (D) will thiếu động từ chính."
+    },
+    {
+      "id": 409,
+      "type": "single",
+      "question": "There _____ been an increase in demand for remote-working positions.",
+      "options": { "A": "have", "B": "has", "C": "are", "D": "were" },
+      "correctAnswer": "B",
+      "explanation": "Cấu trúc **There + be** → nhìn danh từ thật phía sau: **an increase** (số ít). Hiện tại hoàn thành → **has been**.\n\n⚠️ Bẫy: Nhầm với 'positions' phía sau."
+    },
+    {
+      "id": 410,
+      "type": "single",
+      "question": "The director believes that the new strategy _____ long-term benefits.",
+      "options": { "A": "brings", "B": "brought", "C": "will bring", "D": "has brought" },
+      "correctAnswer": "C",
+      "explanation": "Main clause hiện tại (believes) → mệnh đề that có thể dùng thì theo ý nghĩa. 'strategy' mang lợi ích trong **tương lai** → **will bring**.\n\n⚠️ Bẫy: (A) brings nghe hợp ngữ pháp nhưng sai ý nghĩa thời gian."
+    },
+    {
+      "id": 411,
+      "type": "single",
+      "question": "That the shipment arrived earlier than expected _____ a pleasant surprise to the clients.",
+      "options": { "A": "are", "B": "were", "C": "is", "D": "have been" },
+      "correctAnswer": "C",
+      "explanation": "Chủ ngữ là **mệnh đề danh từ** bắt đầu bằng 'That ...' → được xem là một ý → số ít → **is**.\n\n⚠️ Bẫy TOEIC: Thấy 'clients' (số nhiều) rồi chia sai.\n\n📌 That-clause làm chủ ngữ = số ít."
+    },
+    {
+      "id": 412,
+      "type": "single",
+      "question": "The committee decided that the proposal _____ further review before approval.",
+      "options": { "A": "require", "B": "requires", "C": "required", "D": "will require" },
+      "correctAnswer": "D",
+      "explanation": "Main clause ở quá khứ (decided). Hành động 'cần xem xét thêm' xảy ra **SAU** thời điểm quyết định → tương lai trong quá khứ → **will require**.\n\n⚠️ Bẫy: (B) requires không lùi thì; (C) required sai nghĩa thời gian.\n\n📌 TOEIC: 'decided that ... will require' khi nhấn mạnh yêu cầu trong tương lai."
+    },
+    {
+      "id": 413,
+      "type": "single",
+      "question": "Each of the reports submitted by the departments _____ reviewed carefully.",
+      "options": { "A": "are", "B": "were", "C": "is", "D": "have" },
+      "correctAnswer": "C",
+      "explanation": "**Each of + plural noun** → động từ chia **SỐ ÍT**. Câu bị động → **is reviewed**.\n\n⚠️ Bẫy TOEIC rất hay: Nhìn thấy 'reports' (số nhiều) rồi chọn are/were."
+    },
+    {
+      "id": 414,
+      "type": "single",
+      "question": "The finance director stated that sales figures _____ significantly during the previous quarter.",
+      "options": { "A": "increase", "B": "increased", "C": "have increased", "D": "will increase" },
+      "correctAnswer": "B",
+      "explanation": "Main clause quá khứ (stated). Có mốc quá khứ rõ **'during the previous quarter'** → dùng **quá khứ đơn**: **increased**.\n\n⚠️ Bẫy: (C) hiện tại hoàn thành không đi với mốc thời gian đã kết thúc."
+    },
+    {
+      "id": 415,
+      "type": "single",
+      "question": "Most of the staff at the branch office _____ satisfied with the new working hours.",
+      "options": { "A": "is", "B": "are", "C": "was", "D": "has been" },
+      "correctAnswer": "B",
+      "explanation": "**staff** (trong TOEIC) thường được xem là danh từ tập hợp mang nghĩa **số nhiều** khi nói về các cá nhân. 'Most of the staff' → **are**.\n\n⚠️ Bẫy: Coi staff là số ít rồi chọn is."
+    },
+    {
+      "id": 416,
+      "type": "single",
+      "question": "To reduce operating costs _____ one of the company's main priorities this year.",
+      "options": { "A": "are", "B": "were", "C": "is", "D": "have been" },
+      "correctAnswer": "C",
+      "explanation": "**To-infinitive** làm chủ ngữ → xem như MỘT việc → số ít → **is**.\n\n⚠️ Bẫy: 'many priorities' phía sau dễ gây nhiễu.\n\n📌 To + V làm chủ ngữ = số ít."
+    },
+    {
+      "id": 417,
+      "type": "single",
+      "question": "A large amount of confidential data _____ leaked during the system failure.",
+      "options": { "A": "have", "B": "were", "C": "has", "D": "are" },
+      "correctAnswer": "C",
+      "explanation": "**A large amount of + uncountable noun** (data được xem là uncountable trong TOEIC) → động từ số ít → **has**.\n\n⚠️ Bẫy: Thấy 'data' tưởng số nhiều.\n\n📌 Amount of + uncountable → singular."
+    },
+    {
+      "id": 418,
+      "type": "single",
+      "question": "The project manager explained that the delays _____ caused by unexpected supply issues.",
+      "options": { "A": "are", "B": "were", "C": "have", "D": "will" },
+      "correctAnswer": "B",
+      "explanation": "Main clause quá khứ (explained) → mệnh đề that **lùi thì**. 'delays' (số nhiều) + bị động → **were caused**.\n\n⚠️ Bẫy: Chọn are vì nhìn delays mà quên lùi thì."
+    },
+    {
+      "id": 419,
+      "type": "single",
+      "question": "The number of complaints received by customer service _____ declined recently.",
+      "options": { "A": "have", "B": "are", "C": "has", "D": "were" },
+      "correctAnswer": "C",
+      "explanation": "**The number of + plural noun** → chủ ngữ chính là 'number' (số ít). 'recently' → hiện tại hoàn thành → **has declined**.\n\n⚠️ Bẫy: Nhìn 'complaints' rồi chia have."
+    },
+    {
+      "id": 420,
+      "type": "single",
+      "question": "Working under pressure for long periods _____ employees' health.",
+      "options": { "A": "affect", "B": "affects", "C": "affecting", "D": "have affected" },
+      "correctAnswer": "B",
+      "explanation": "**Gerund phrase** (Working under pressure...) làm chủ ngữ → số ít → **affects**.\n\n⚠️ Bẫy: Thấy 'employees'' (sở hữu cách số nhiều) rồi chia sai.\n\n📌 V-ing làm chủ ngữ = số ít."
+    },
+    {
+      "id": 421,
+      "type": "single",
+      "question": "That the company will expand into overseas markets _____ confirmed by the CEO yesterday.",
+      "options": { "A": "are", "B": "were", "C": "was", "D": "have been" },
+      "correctAnswer": "C",
+      "explanation": "Mệnh đề danh từ bắt đầu bằng **'That...'** → xem như MỘT ý → số ít. Câu bị động + 'yesterday' → **was confirmed**.\n\n⚠️ Bẫy TOEIC: Thấy 'markets' (số nhiều) ở trong mệnh đề mà chia sai.\n\n📌 That-clause làm chủ ngữ = số ít."
+    },
+    {
+      "id": 422,
+      "type": "single",
+      "question": "The manager announced that the company _____ additional staff next year.",
+      "options": { "A": "hire", "B": "hires", "C": "will hire", "D": "hiring" },
+      "correctAnswer": "C",
+      "explanation": "Main clause hiện tại (announced) nhưng nội dung nói về **kế hoạch tương lai** (next year). Với động từ tường thuật kiểu announce, TOEIC chấp nhận **will + V** để nói kế hoạch tương lai.\n\n⚠️ Bẫy: (B) hires là hiện tại; (A) hire thiếu thì; (D) hiring sai cấu trúc."
+    },
+    {
+      "id": 423,
+      "type": "single",
+      "question": "Each of the department heads _____ responsible for submitting the budget proposal.",
+      "options": { "A": "are", "B": "were", "C": "is", "D": "have been" },
+      "correctAnswer": "C",
+      "explanation": "**Each of + plural noun** → động từ luôn chia số ít. Không được chia theo 'heads'.\n\n⚠️ Bẫy TOEIC cực quen: Thấy danh từ số nhiều phía sau rồi chọn are."
+    },
+    {
+      "id": 424,
+      "type": "single",
+      "question": "The report indicates that sales _____ steadily since the beginning of the year.",
+      "options": { "A": "increase", "B": "increased", "C": "have increased", "D": "will increase" },
+      "correctAnswer": "C",
+      "explanation": "**since + mốc thời gian quá khứ** → **hiện tại hoàn thành**. Chủ ngữ sales (số nhiều) → **have increased**.\n\n⚠️ Bẫy: (B) quá khứ đơn không dùng với since."
+    },
+    {
+      "id": 425,
+      "type": "single",
+      "question": "Most of the furniture in the office _____ replaced during the renovation.",
+      "options": { "A": "are", "B": "were", "C": "has been", "D": "have been" },
+      "correctAnswer": "C",
+      "explanation": "**furniture** là danh từ **không đếm được** → số ít. Câu bị động → **has been replaced**.\n\n⚠️ Bẫy nặng: 'Most of' + furniture khiến nhiều người chọn số nhiều."
+    },
+    {
+      "id": 426,
+      "type": "single",
+      "question": "Working late on a regular basis _____ employees less productive over time.",
+      "options": { "A": "make", "B": "makes", "C": "making", "D": "have made" },
+      "correctAnswer": "B",
+      "explanation": "**Gerund phrase** (Working late...) làm chủ ngữ → được xem là một việc → động từ số ít: **makes**.\n\n⚠️ Bẫy: Thấy 'employees' (số nhiều) nhưng đó chỉ là tân ngữ."
+    },
+    {
+      "id": 427,
+      "type": "single",
+      "question": "The marketing director said that the advertisement _____ extremely effective.",
+      "options": { "A": "is", "B": "was", "C": "has been", "D": "will be" },
+      "correctAnswer": "B",
+      "explanation": "Main clause quá khứ (said) → mệnh đề that **lùi thì**. Câu mô tả đánh giá trong quá khứ → **was**.\n\n⚠️ Bẫy: (A) is không lùi thì."
+    },
+    {
+      "id": 428,
+      "type": "single",
+      "question": "A number of clients _____ dissatisfied with the recent service delays.",
+      "options": { "A": "is", "B": "was", "C": "are", "D": "has been" },
+      "correctAnswer": "C",
+      "explanation": "**A number of** = nhiều → động từ **số nhiều**: **are**. 'dissatisfied' là tính từ nên cần be.\n\n⚠️ Bẫy: Nhầm với 'the number of' (số ít).\n\n📌 A number of = many → plural."
+    },
+    {
+      "id": 429,
+      "type": "single",
+      "question": "The number of visitors to the website _____ increased significantly after the redesign.",
+      "options": { "A": "have", "B": "are", "C": "has", "D": "were" },
+      "correctAnswer": "C",
+      "explanation": "**The number of + plural noun** → chủ ngữ chính là 'number' (số ít). Hiện tại hoàn thành phù hợp ngữ cảnh → **has increased**.\n\n⚠️ Bẫy: Nhìn 'visitors' rồi chia sai."
+    },
+    {
+      "id": 430,
+      "type": "single",
+      "question": "That the deadline was extended _____ a relief to the entire team.",
+      "options": { "A": "are", "B": "were", "C": "is", "D": "have been" },
+      "correctAnswer": "C",
+      "explanation": "Mệnh đề danh từ bắt đầu bằng **'That...'** → xem như một ý → số ít → **is**.\n\n⚠️ Bẫy TOEIC: 'team' (danh từ tập hợp) không ảnh hưởng đến động từ chính."
+    },
+    {
+      "id": 431,
+      "type": "single",
+      "question": "There _____ been a significant improvement in customer satisfaction this year.",
+      "options": { "A": "have", "B": "are", "C": "has", "D": "were" },
+      "correctAnswer": "C",
+      "explanation": "Cấu trúc **There + be** → nhìn danh từ thật phía sau: **a significant improvement** (số ít). Hiện tại hoàn thành → **has been**.\n\n⚠️ Bẫy: 'satisfaction' là không đếm được nhưng không phải chủ ngữ trực tiếp."
+    },
+    {
+      "id": 432,
+      "type": "single",
+      "question": "The notice explains that all employees _____ required to attend the safety training session.",
+      "options": { "A": "is", "B": "was", "C": "are", "D": "has been" },
+      "correctAnswer": "C",
+      "explanation": "Chủ ngữ: **all employees** (số nhiều). 'required' là V3 dùng như tính từ trong bị động → cần be số nhiều → **are**.\n\n⚠️ Bẫy: Nhiều bạn bị 'notice explains that' làm rối thì, nhưng trọng tâm là agreement."
+    },
+    {
+      "id": 433,
+      "type": "single",
+      "question": "The HR director stated that the orientation program _____ postponed until next month.",
+      "options": { "A": "is", "B": "was", "C": "has", "D": "will" },
+      "correctAnswer": "B",
+      "explanation": "Main clause quá khứ (stated) → mệnh đề that **lùi thì**. Bị động quá khứ đơn: **was postponed**.\n\n⚠️ Bẫy: (A) is không lùi thì; (D) will thiếu động từ chính."
+    },
+    {
+      "id": 434,
+      "type": "single",
+      "question": "Most of the feedback received from customers _____ positive.",
+      "options": { "A": "are", "B": "were", "C": "is", "D": "have been" },
+      "correctAnswer": "C",
+      "explanation": "**feedback** là danh từ **không đếm được**. 'most of + uncountable noun' → động từ số ít: **is**.\n\n⚠️ Bẫy rất quen: Thấy 'most of' là chia số nhiều."
+    },
+    {
+      "id": 435,
+      "type": "single",
+      "question": "The manager emphasized that improving internal communication _____ essential to productivity.",
+      "options": { "A": "are", "B": "were", "C": "is", "D": "have been" },
+      "correctAnswer": "C",
+      "explanation": "**Gerund phrase** (improving internal communication) làm chủ ngữ → một việc → số ít: **is**.\n\n⚠️ Bẫy: 'internal communication' nghe như nhiều thứ nhưng ngữ pháp vẫn là một khái niệm."
+    },
+    {
+      "id": 436,
+      "type": "single",
+      "question": "Each of the conference rooms _____ equipped with updated audiovisual systems.",
+      "options": { "A": "are", "B": "were", "C": "is", "D": "have" },
+      "correctAnswer": "C",
+      "explanation": "**Each of + plural noun** → động từ số ít. Câu bị động → **is equipped**.\n\n⚠️ Bẫy TOEIC cực hay: 'rooms' số nhiều nhưng không quyết định động từ."
+    },
+    {
+      "id": 437,
+      "type": "single",
+      "question": "A number of participants _____ requested additional information about the seminar.",
+      "options": { "A": "has", "B": "have", "C": "is", "D": "was" },
+      "correctAnswer": "B",
+      "explanation": "**A number of** = nhiều → động từ **số nhiều**: **have**. 'requested' là quá khứ đơn phù hợp ngữ cảnh.\n\n⚠️ Bẫy: Nhầm với 'the number of'.\n\n📌 A number of = many → plural."
+    },
+    {
+      "id": 438,
+      "type": "single",
+      "question": "The number of complaints filed this month _____ significantly lower than expected.",
+      "options": { "A": "are", "B": "were", "C": "is", "D": "have been" },
+      "correctAnswer": "C",
+      "explanation": "**The number of + plural noun** → chủ ngữ chính là 'number' (số ít). Câu mô tả trạng thái so sánh → hiện tại đơn: **is**.\n\n⚠️ Bẫy: Thấy 'complaints' rồi chia số nhiều."
+    },
+    {
+      "id": 439,
+      "type": "single",
+      "question": "That the shipment arrived ahead of schedule _____ mentioned in the client's email.",
+      "options": { "A": "are", "B": "were", "C": "is", "D": "have been" },
+      "correctAnswer": "C",
+      "explanation": "Mệnh đề danh từ bắt đầu bằng **That…** → xem như một ý → số ít. Bị động hiện tại đơn: **is mentioned**.\n\n⚠️ Bẫy: 'email', 'clients' phía sau không ảnh hưởng động từ."
+    },
+    {
+      "id": 440,
+      "type": "single",
+      "question": "There _____ been several changes to the company's travel policy this year.",
+      "options": { "A": "has", "B": "is", "C": "have", "D": "was" },
+      "correctAnswer": "C",
+      "explanation": "Cấu trúc **There + be** → nhìn danh từ thật phía sau: **several changes** (số nhiều). 'this year' → hiện tại hoàn thành → **have been**.\n\n⚠️ Bẫy: Quen tay chọn has been."
+    },
+    {
+      "id": 441,
+      "type": "single",
+      "question": "Working remotely for extended periods _____ employees to develop new time-management skills.",
+      "options": { "A": "encourage", "B": "encourages", "C": "encouraging", "D": "have encouraged" },
+      "correctAnswer": "B",
+      "explanation": "**Gerund phrase** (Working remotely...) làm chủ ngữ → một việc → động từ số ít: **encourages**.\n\n⚠️ Bẫy: Thấy 'employees' là tân ngữ số nhiều nên chia sai.\n\n📌 V-ing làm chủ ngữ = số ít."
+    },
+    {
+      "id": 442,
+      "type": "single",
+      "question": "The results of the customer survey _____ unexpectedly positive.",
+      "options": { "A": "is", "B": "was", "C": "are", "D": "has been" },
+      "correctAnswer": "C",
+      "explanation": "Chủ ngữ chính là **results** (số nhiều), không phải survey. 'of the customer survey' chỉ là cụm giới từ → chia số nhiều: **are**.\n\n⚠️ Bẫy cực quen: Nhìn thấy 'survey' (số ít) rồi chọn is."
+    },
+    {
+      "id": 443,
+      "type": "single",
+      "question": "That the new regulations will affect small businesses _____ not been fully considered.",
+      "options": { "A": "have", "B": "are", "C": "has", "D": "were" },
+      "correctAnswer": "C",
+      "explanation": "Chủ ngữ là **mệnh đề danh từ** bắt đầu bằng That... → xem như MỘT ý → số ít. Cấu trúc hiện tại hoàn thành bị động: **has not been considered**.\n\n⚠️ Bẫy: Nhìn thấy 'businesses' (số nhiều) rồi chia sai."
+    },
+    {
+      "id": 444,
+      "type": "single",
+      "question": "Most of the staff who work late every night _____ experiencing burnout.",
+      "options": { "A": "is", "B": "are", "C": "was", "D": "has been" },
+      "correctAnswer": "B",
+      "explanation": "**Most of the staff** → staff trong TOEIC thường mang nghĩa **số nhiều** khi nói về con người. 'who work late...' chỉ là mệnh đề quan hệ → dùng **are**.\n\n⚠️ Bẫy: Coi staff là danh từ số ít."
+    },
+    {
+      "id": 445,
+      "type": "single",
+      "question": "Each of the documents submitted by the applicants _____ reviewed twice.",
+      "options": { "A": "are", "B": "were", "C": "is", "D": "have" },
+      "correctAnswer": "C",
+      "explanation": "**Each of + plural noun** → động từ **LUÔN chia số ít**. Câu bị động → **is reviewed**.\n\n⚠️ Bẫy: 'documents' (số nhiều) rất dễ khiến chọn are/were."
+    },
+    {
+      "id": 446,
+      "type": "single",
+      "question": "A number of problems _____ identified during the system audit.",
+      "options": { "A": "has", "B": "is", "C": "were", "D": "have" },
+      "correctAnswer": "C",
+      "explanation": "**A number of** = nhiều → động từ số nhiều. Có mốc quá khứ rõ (during the audit) → quá khứ đơn: **were identified**.\n\n⚠️ Bẫy kép: Nhầm với 'the number of' + chia hiện tại."
+    },
+    {
+      "id": 447,
+      "type": "single",
+      "question": "The number of employees working remotely _____ increased rapidly over the past two years.",
+      "options": { "A": "have", "B": "are", "C": "has", "D": "were" },
+      "correctAnswer": "C",
+      "explanation": "**The number of + plural noun** → chủ ngữ chính là 'number' (số ít). 'over the past two years' → hiện tại hoàn thành → **has increased**.\n\n⚠️ Bẫy: Nhìn 'employees' rồi chia have."
+    },
+    {
+      "id": 448,
+      "type": "single",
+      "question": "Working under unrealistic deadlines _____ one of the main causes of employee dissatisfaction.",
+      "options": { "A": "are", "B": "were", "C": "is", "D": "have been" },
+      "correctAnswer": "C",
+      "explanation": "**Gerund phrase** (Working under...) làm chủ ngữ → một việc → số ít: **is**.\n\n⚠️ Bẫy: Thấy 'deadlines', 'causes' (số nhiều) nhưng đều không phải chủ ngữ."
+    },
+    {
+      "id": 449,
+      "type": "single",
+      "question": "The CEO said that the merger _____ completed earlier than expected.",
+      "options": { "A": "is", "B": "has", "C": "was", "D": "will" },
+      "correctAnswer": "C",
+      "explanation": "Main clause quá khứ (said) → mệnh đề that **lùi thì**. 'completed' là hành động đã xảy ra → **was completed**.\n\n⚠️ Bẫy: Chọn 'has completed' vì thấy 'earlier'."
+    },
+    {
+      "id": 450,
+      "type": "single",
+      "question": "There _____ been little progress on the construction project so far.",
+      "options": { "A": "have", "B": "are", "C": "has", "D": "were" },
+      "correctAnswer": "C",
+      "explanation": "**There + be** → nhìn danh từ thật phía sau: **little progress** (không đếm được) → số ít. 'so far' → hiện tại hoàn thành → **has been**.\n\n⚠️ Bẫy: Nhầm 'progress' là số nhiều."
+    },
+    {
+      "id": 451,
+      "type": "single",
+      "question": "That several meetings were canceled at short notice _____ a serious inconvenience to the staff.",
+      "options": { "A": "are", "B": "were", "C": "is", "D": "have been" },
+      "correctAnswer": "C",
+      "explanation": "Chủ ngữ là **mệnh đề danh từ** That... → xem như MỘT ý → số ít. 'a serious inconvenience' cũng là số ít → **is**.\n\n⚠️ Bẫy nặng: 'meetings' (số nhiều) đánh lạc hướng."
+    }
+  ]
+}

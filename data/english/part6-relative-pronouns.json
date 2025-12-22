@@ -1,0 +1,353 @@
+{
+  "partId": "relative-pronouns",
+  "partName": "Đại từ quan hệ & Trạng từ quan hệ (who/which/that/whose/whom/where/when/why/how)",
+  "questions": [
+    {
+      "id": 111,
+      "type": "single",
+      "question": "We need to hire someone ______ has excellent public speaking skills.",
+      "options": { "A": "who", "B": "which", "C": "whom", "D": "whose" },
+      "correctAnswer": "A",
+      "explanation": "**who** dùng cho người làm CHỦ NGỮ. 'Someone' là người, và 'has' cần chủ ngữ → **who**.\n\n📌 Quy tắc:\n- **who** = người (chủ ngữ)\n- **which** = vật\n- **whom** = người (tân ngữ)"
+    },
+    {
+      "id": 112,
+      "type": "single",
+      "question": "Geology is the study of the rocks and solids ______ make up the Earth.",
+      "options": { "A": "who", "B": "that", "C": "whom", "D": "whose" },
+      "correctAnswer": "B",
+      "explanation": "**that** dùng cho cả người và vật. 'Rocks and solids' là vật → dùng **that** hoặc **which**.\n\n📌 Lưu ý: **that** thường được ưu tiên sau:\n- all, everything, nothing, something\n- the first, the last, the only\n- so sánh nhất (the best, the most...)"
+    },
+    {
+      "id": 113,
+      "type": "single",
+      "question": "A lot of the products ______ are traded online are cheaper than their regular prices.",
+      "options": { "A": "who", "B": "which", "C": "whom", "D": "whose" },
+      "correctAnswer": "B",
+      "explanation": "**which** dùng cho VẬT. 'Products' là vật → **which**.\n\n📌 Phân biệt:\n- **who/whom** = người\n- **which/that** = vật"
+    },
+    {
+      "id": 114,
+      "type": "single",
+      "question": "John Cox is one of the managers ______ is interested in leading the upcoming project.",
+      "options": { "A": "who", "B": "which", "C": "whom", "D": "whose" },
+      "correctAnswer": "A",
+      "explanation": "**who** vì 'managers' là người và làm CHỦ NGỮ của 'is interested'.\n\n📌 Mẹo: Nếu sau chỗ trống có ĐỘNG TỪ → cần đại từ làm chủ ngữ (who, which, that)."
+    },
+    {
+      "id": 115,
+      "type": "single",
+      "question": "Katie enjoys listening to radio programs ______ deal with serious political issues.",
+      "options": { "A": "who", "B": "which", "C": "whom", "D": "where" },
+      "correctAnswer": "B",
+      "explanation": "**which** vì 'radio programs' là VẬT và làm chủ ngữ của 'deal with'.\n\n📌 TOEIC hay bẫy:\n- who = người\n- which = vật\n- where = nơi chốn (không làm chủ ngữ)"
+    },
+    {
+      "id": 116,
+      "type": "single",
+      "question": "John Davis is a linguist ______ developed an innovative approach to language teaching.",
+      "options": { "A": "who", "B": "in which", "C": "whom", "D": "which" },
+      "correctAnswer": "A",
+      "explanation": "**who** vì 'linguist' là NGƯỜI và làm CHỦ NGỮ của 'developed'.\n\n📌 Phân biệt who vs whom:\n- **who** = S (chủ ngữ) - ai làm gì\n- **whom** = O (tân ngữ) - ai bị/được làm gì"
+    },
+    {
+      "id": 117,
+      "type": "single",
+      "question": "The black suit ______ you ordered is currently out of stock.",
+      "options": { "A": "who", "B": "which", "C": "whom", "D": "whose" },
+      "correctAnswer": "B",
+      "explanation": "'Suit' là VẬT → dùng **which** hoặc **that**.\n\n⚠️ Bẫy: Đừng nhầm với 'who' chỉ vì phía sau có 'you'. Hãy xác định DANH TỪ đứng trước là gì."
+    },
+    {
+      "id": 118,
+      "type": "single",
+      "question": "Ellis Morris was one of the best researchers ______ I have ever worked with.",
+      "options": { "A": "who", "B": "which", "C": "that", "D": "whose" },
+      "correctAnswer": "C",
+      "explanation": "**that** được ưu tiên sau **the best** (so sánh nhất).\n\n📌 Quy tắc TOEIC: Sau so sánh nhất (the best, the most, the first, the only...) → ưu tiên **that**."
+    },
+    {
+      "id": 119,
+      "type": "single",
+      "question": "The guest speaker ______ I saw at the forum spoke both English and French fluently.",
+      "options": { "A": "who", "B": "which", "C": "whom", "D": "whose" },
+      "correctAnswer": "C",
+      "explanation": "**whom** vì 'speaker' là người và làm TÂN NGỮ của 'I saw'.\n\n📌 Mẹo nhận biết whom:\n- Sau chỗ trống có S + V → cần tân ngữ → **whom**\n- 'I saw whom' = tôi thấy ai"
+    },
+    {
+      "id": 120,
+      "type": "single",
+      "question": "European Dining carefully chooses fresh vegetables ______ are organically grown.",
+      "options": { "A": "who", "B": "which", "C": "whom", "D": "whose" },
+      "correctAnswer": "B",
+      "explanation": "'Vegetables' là VẬT và làm CHỦ NGỮ của 'are grown' → **which**.\n\n⚠️ Bẫy: 'whom' chỉ dùng cho NGƯỜI, không dùng cho vật!"
+    },
+    {
+      "id": 121,
+      "type": "single",
+      "question": "The engineers ______ I used to work with were exceptionally talented.",
+      "options": { "A": "who", "B": "which", "C": "whom", "D": "whose" },
+      "correctAnswer": "A",
+      "explanation": "**who** vì 'engineers' là người và làm CHỦ NGỮ của 'were talented'.\n\n📌 Mẹo nhận biết who vs whom:\n- **who** = S (chủ ngữ) - ai làm gì\n- **whom** = O (tân ngữ) - ai bị/được làm gì"
+    },
+    {
+      "id": 122,
+      "type": "single",
+      "question": "These are the perfect marketing plans ______ the management has been looking for.",
+      "options": { "A": "who", "B": "that", "C": "how", "D": "whom" },
+      "correctAnswer": "B",
+      "explanation": "'Plans' là VẬT và làm TÂN NGỮ của 'looking for' → **that** hoặc **which**.\n\n📌 Sau 'look for' cần tân ngữ là vật → **that**."
+    },
+    {
+      "id": 123,
+      "type": "single",
+      "question": "This building was designed by an architect ______ I studied with in Italy.",
+      "options": { "A": "who", "B": "which", "C": "he", "D": "him" },
+      "correctAnswer": "A",
+      "explanation": "'Architect' là NGƯỜI. Mặc dù làm tân ngữ của 'studied with', trong văn nói/viết hiện đại **who** thường thay thế **whom**.\n\n📌 Lưu ý: **he/him** không phải đại từ quan hệ → loại ngay!"
+    },
+    {
+      "id": 124,
+      "type": "single",
+      "question": "What was the name of the photographer ______ photos are displayed in City Hall?",
+      "options": { "A": "who", "B": "whose", "C": "which", "D": "whom" },
+      "correctAnswer": "B",
+      "explanation": "**whose** = của ai, chỉ SỞ HỮU. 'Whose photos' = ảnh của ai.\n\n📌 Công thức: **whose + N** (whose photos, whose car, whose responsibility...)"
+    },
+    {
+      "id": 125,
+      "type": "single",
+      "question": "A misunderstanding is ______ caused a lot of tension in the office.",
+      "options": { "A": "that", "B": "what", "C": "whose", "D": "which" },
+      "correctAnswer": "B",
+      "explanation": "**what** = the thing that = cái mà. 'What caused' = cái mà đã gây ra.\n\n📌 Phân biệt:\n- **what** = cái mà (không có danh từ đứng trước)\n- **that/which** = cái mà (CÓ danh từ đứng trước)"
+    },
+    {
+      "id": 126,
+      "type": "single",
+      "question": "I met the writer ______ book won the American Literature Award for best novel.",
+      "options": { "A": "who", "B": "whose", "C": "whom", "D": "which" },
+      "correctAnswer": "B",
+      "explanation": "**whose** chỉ sở hữu. 'Whose book' = cuốn sách của người đó.\n\n📌 Mẹo: Nếu sau chỗ trống là DANH TỪ (không có mạo từ a/an/the) → thường là **whose**."
+    },
+    {
+      "id": 127,
+      "type": "single",
+      "question": "______ she said at the press conference was true.",
+      "options": { "A": "That", "B": "What", "C": "Which", "D": "Who" },
+      "correctAnswer": "B",
+      "explanation": "**What** = Điều mà, cái mà. 'What she said' = Điều cô ấy nói (làm chủ ngữ của 'was true').\n\n📌 **What** đứng đầu câu thường là chủ ngữ của mệnh đề chính."
+    },
+    {
+      "id": 128,
+      "type": "single",
+      "question": "The company is hiring an accountant ______ responsibilities will include budget management.",
+      "options": { "A": "which", "B": "who", "C": "whose", "D": "whom" },
+      "correctAnswer": "C",
+      "explanation": "**whose** + responsibilities = trách nhiệm của người đó.\n\n📌 Sau **whose** là DANH TỪ chỉ sở hữu, không phải động từ."
+    },
+    {
+      "id": 129,
+      "type": "single",
+      "question": "______ the consultant told us was the best advice for our company.",
+      "options": { "A": "What", "B": "Who", "C": "Which", "D": "That" },
+      "correctAnswer": "A",
+      "explanation": "**What** = Điều mà. 'What the consultant told us' = Điều mà cố vấn nói với chúng tôi.\n\n📌 **What** thường đứng đầu câu khi không có danh từ đi trước."
+    },
+    {
+      "id": 130,
+      "type": "single",
+      "question": "Employees ______ names are not on the list must contact Mr. Perry in the Accounting Department.",
+      "options": { "A": "who", "B": "whose", "C": "whom", "D": "their" },
+      "correctAnswer": "B",
+      "explanation": "**whose** + names = tên của họ. Chỉ sở hữu.\n\n⚠️ Bẫy: 'their' không phải đại từ quan hệ → không thể nối 2 mệnh đề."
+    },
+    {
+      "id": 131,
+      "type": "single",
+      "question": "I applied to the company ______ I once worked as an intern.",
+      "options": { "A": "which", "B": "where", "C": "when", "D": "that" },
+      "correctAnswer": "B",
+      "explanation": "**where** = ở đâu, nơi mà. 'The company where I worked' = công ty nơi tôi đã làm việc.\n\n📌 Trạng từ quan hệ:\n- **where** = nơi chốn (in/at which)\n- **when** = thời gian (at/on which)\n- **why** = lý do (for which)"
+    },
+    {
+      "id": 132,
+      "type": "single",
+      "question": "That was ______ Mr. Garcia handled the financial crisis.",
+      "options": { "A": "where", "B": "when", "C": "why", "D": "how" },
+      "correctAnswer": "D",
+      "explanation": "**how** = cách mà. 'That was how' = Đó là cách mà.\n\n📌 **how** thường đi với cách thức, phương pháp."
+    },
+    {
+      "id": 133,
+      "type": "single",
+      "question": "The last time I saw Mr. Kim was the day ______ we attended the conference about the Chinese market.",
+      "options": { "A": "where", "B": "when", "C": "why", "D": "how" },
+      "correctAnswer": "B",
+      "explanation": "**when** = khi, lúc mà. 'The day when' = ngày mà.\n\n📌 **when** thay thế cho 'on/at which' khi nói về thời gian."
+    },
+    {
+      "id": 134,
+      "type": "single",
+      "question": "We are curious about the reason ______ you made that decision.",
+      "options": { "A": "where", "B": "when", "C": "why", "D": "how" },
+      "correctAnswer": "C",
+      "explanation": "**why** = tại sao. 'The reason why' = lý do tại sao.\n\n📌 **why** thường đi sau 'the reason'."
+    },
+    {
+      "id": 135,
+      "type": "single",
+      "question": "The place ______ we went for the company dinner served a great seafood buffet.",
+      "options": { "A": "when", "B": "where", "C": "why", "D": "how" },
+      "correctAnswer": "B",
+      "explanation": "**where** = nơi mà. 'The place where we went' = nơi chúng tôi đã đến.\n\n📌 **where** thường đi sau: place, restaurant, hotel, city, country..."
+    },
+    {
+      "id": 136,
+      "type": "single",
+      "question": "Smartphones are changing ______ people interact with one another.",
+      "options": { "A": "when", "B": "where", "C": "why", "D": "how" },
+      "correctAnswer": "D",
+      "explanation": "**how** = cách mà. 'How people interact' = cách mà mọi người tương tác.\n\n📌 'changing how' = thay đổi cách thức."
+    },
+    {
+      "id": 137,
+      "type": "single",
+      "question": "Applicants ______ applications have passed the screening process will receive an e-mail from the HR Department.",
+      "options": { "A": "whose", "B": "who", "C": "whom", "D": "their" },
+      "correctAnswer": "A",
+      "explanation": "**whose** + applications = đơn ứng tuyển của họ. Chỉ sở hữu.\n\n📌 'Whose + N' nối applicants với applications."
+    },
+    {
+      "id": 138,
+      "type": "single",
+      "question": "Ann Lewinski is an accomplished figure skater ______ won the world championship three years in a row.",
+      "options": { "A": "which", "B": "who", "C": "her", "D": "she" },
+      "correctAnswer": "B",
+      "explanation": "'Figure skater' là NGƯỜI và làm CHỦ NGỮ của 'won' → **who**.\n\n⚠️ 'her/she' không phải đại từ quan hệ → loại!"
+    },
+    {
+      "id": 139,
+      "type": "single",
+      "question": "During intermission, please visit the lounge, ______ you can purchase refreshments.",
+      "options": { "A": "when", "B": "where", "C": "that", "D": "why" },
+      "correctAnswer": "B",
+      "explanation": "**where** = nơi mà. 'The lounge, where you can...' = phòng chờ, nơi bạn có thể...\n\n📌 Đây là mệnh đề quan hệ KHÔNG XÁC ĐỊNH (có dấu phẩy) → không dùng **that**."
+    },
+    {
+      "id": 140,
+      "type": "single",
+      "question": "Many people visit the place ______ the founder of IBS Co. was born.",
+      "options": { "A": "where", "B": "it", "C": "that", "D": "its" },
+      "correctAnswer": "A",
+      "explanation": "**where** = nơi mà. 'The place where' = nơi mà.\n\n📌 'it/its' không phải đại từ quan hệ → loại!"
+    },
+    {
+      "id": 141,
+      "type": "single",
+      "question": "The Smart Process Management Software is ______ our company needs to improve work efficiency.",
+      "options": { "A": "which", "B": "that", "C": "what", "D": "whose" },
+      "correctAnswer": "C",
+      "explanation": "**what** = cái mà. 'Is what our company needs' = là cái mà công ty chúng tôi cần.\n\n📌 Sau động từ 'be' + **what** khi không có danh từ đi trước."
+    },
+    {
+      "id": 142,
+      "type": "single",
+      "question": "I want to work for a company ______ specializes in the importing business.",
+      "options": { "A": "who", "B": "which", "C": "whose", "D": "what" },
+      "correctAnswer": "B",
+      "explanation": "'Company' là VẬT và làm CHỦ NGỮ của 'specializes' → **which** hoặc **that**.\n\n📌 Công ty được coi là VẬT, không phải người."
+    },
+    {
+      "id": 143,
+      "type": "single",
+      "question": "The magazines ______ you are looking for are available for free on the Internet.",
+      "options": { "A": "which", "B": "who", "C": "when", "D": "where" },
+      "correctAnswer": "A",
+      "explanation": "'Magazines' là VẬT và làm TÂN NGỮ của 'looking for' → **which** hoặc **that**."
+    },
+    {
+      "id": 144,
+      "type": "single",
+      "question": "They have finally reached an agreement ______ both of them are very pleased with.",
+      "options": { "A": "that", "B": "whose", "C": "what", "D": "where" },
+      "correctAnswer": "A",
+      "explanation": "'Agreement' là VẬT và làm TÂN NGỮ của 'pleased with' → **that** hoặc **which**.\n\n📌 'Pleased with + that/which' = hài lòng với cái gì."
+    },
+    {
+      "id": 145,
+      "type": "passage",
+      "passageType": "fill-in-the-blank",
+      "passageTitle": "Company Workshop Postponement Memo",
+      "passage": "Dear all employees,\n\nI would like to let you know that management has decided to postpone the company workshop, which was scheduled for December 3. As you know, we are dealing with the biggest order ____145____ we have ever received. It will be too difficult ____146____ the event into our schedule at this busy time. ____147____ Mr. Lee in the HR Department will e-mail you as soon as the date is set. If you have any ____148____ questions, feel free to contact Mr. Lee at (055) 343-6655.",
+      "subQuestions": [
+        {
+          "id": 145,
+          "question": "Choose the correct word for blank 145",
+          "options": { "A": "who", "B": "that", "C": "whose", "D": "where" },
+          "correctAnswer": "B",
+          "explanation": "**that** được ưu tiên sau 'the biggest' (so sánh nhất). 'The biggest order that we have ever received'."
+        },
+        {
+          "id": 146,
+          "question": "Choose the correct form for blank 146",
+          "options": { "A": "to fit", "B": "fitting", "C": "fit", "D": "being fit" },
+          "correctAnswer": "A",
+          "explanation": "Cấu trúc: **It is + adj + to V**. 'It will be too difficult to fit' = Sẽ quá khó để sắp xếp."
+        },
+        {
+          "id": 147,
+          "question": "Which sentence best fits blank 147?",
+          "options": {
+            "A": "It is best to cancel the workshop.",
+            "B": "A new date has not been arranged yet.",
+            "C": "The workshop is only for new employees.",
+            "D": "This postponement will cause a serious loss."
+          },
+          "correctAnswer": "B",
+          "explanation": "Câu sau nói 'as soon as the date is set' (ngay khi ngày được ấn định) → có nghĩa là chưa có ngày mới → **B**."
+        },
+        {
+          "id": 148,
+          "question": "Choose the correct word for blank 148",
+          "options": { "A": "far", "B": "further", "C": "farther", "D": "furthest" },
+          "correctAnswer": "B",
+          "explanation": "**further questions** = các câu hỏi thêm. 'Further' dùng cho nghĩa bóng (thêm, bổ sung).\n\n📌 Phân biệt:\n- **further** = thêm (nghĩa bóng)\n- **farther** = xa hơn (khoảng cách vật lý)"
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "type": "passage",
+      "passageType": "reading-comprehension",
+      "passageTitle": "Maliki Community Center Preschool",
+      "passage": "MCC Preschool provides children with a quality education and care in a safe environment. We accept children from 8 months of age to preschool age. We have been licensed by the state of Hawaii for the past 30 years and have been trying our best to promote children's development and education. MCC is trying to meet the needs of in-state working parents by taking good care of their children while they are at work.\n\nWe are also open to out-of-state families who want to continue their children's education while they are still on vacation. MCC allows families to enjoy their vacation in Hawaii while their children engage in cultural and educational opportunities. For more information about us, please call us at (808) 223-2223.",
+      "subQuestions": [
+        {
+          "id": 149,
+          "question": "What is this information mainly about?",
+          "options": {
+            "A": "Educational opportunities for children",
+            "B": "Vacation programs for parents",
+            "C": "Volunteer programs for seniors",
+            "D": "Cultural experiences in Hawaii"
+          },
+          "correctAnswer": "A",
+          "explanation": "Nội dung chính: MCC Preschool cung cấp giáo dục chất lượng cho trẻ em → **A**.\n\n📌 Câu hỏi 'What is this mainly about?' → tìm ý chính, thường nằm ở câu đầu."
+        },
+        {
+          "id": 150,
+          "question": "What can be inferred about out-of-state families?",
+          "options": {
+            "A": "They are mainly interested in cultural activities.",
+            "B": "They don't want to be educated in Hawaii.",
+            "C": "They are trying to move to Hawaii.",
+            "D": "They usually visit Hawaii for vacation."
+          },
+          "correctAnswer": "D",
+          "explanation": "'Out-of-state families who want to continue their children's education while they are still **on vacation**' → họ đến Hawaii để nghỉ mát → **D**.\n\n📌 Câu hỏi 'infer' = suy luận từ thông tin trong bài."
+        }
+      ]
+    }
+  ]
+}

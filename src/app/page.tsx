@@ -4,16 +4,49 @@ import Link from 'next/link';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { questionBanks } from '@/lib/questionBank';
-import { wrongQuestionsStorage } from '@/lib/storage';
+import { wrongQuestionsStorage, quizSessionStorage, SavedQuizSession } from '@/lib/storage';
 import { useState, useEffect } from 'react';
 
 export default function Home() {
   const [wrongQuestionsCount, setWrongQuestionsCount] = useState(0);
+  const [savedSessions, setSavedSessions] = useState<Record<string, SavedQuizSession>>({});
   const questionCounts = [10, 20, 50];
 
   useEffect(() => {
     setWrongQuestionsCount(wrongQuestionsStorage.getCount());
+    setSavedSessions(quizSessionStorage.getAllSessions());
   }, []);
+
+  const handleAbandonQuiz = (bankId: string) => {
+    if (confirm('Bạn có chắc muốn bỏ bài thi đang làm dở? Tiến độ sẽ bị xóa.')) {
+      quizSessionStorage.removeSession(bankId);
+      setSavedSessions(quizSessionStorage.getAllSessions());
+    }
+  };
+
+  const getAnsweredCount = (session: SavedQuizSession) => {
+    let count = 0;
+    session.answers.forEach((a) => {
+      if (a.subAnswers) {
+        count += Object.values(a.subAnswers).filter(v => v !== null).length;
+      } else if (a.selectedAnswer !== null) {
+        count++;
+      }
+    });
+    return count;
+  };
+
+  const formatTimeAgo = (timestamp: number) => {
+    const diff = Date.now() - timestamp;
+    const minutes = Math.floor(diff / 60000);
+    const hours = Math.floor(diff / 3600000);
+    const days = Math.floor(diff / 86400000);
+    
+    if (days > 0) return `${days} ngày trước`;
+    if (hours > 0) return `${hours} giờ trước`;
+    if (minutes > 0) return `${minutes} phút trước`;
+    return 'Vừa xong';
+  };
 
   return (
     <div className="min-h-screen bg-linear-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800">
@@ -27,6 +60,52 @@ export default function Home() {
             Chọn môn học và bắt đầu làm bài kiểm tra
           </p>
         </div>
+
+        {/* In-Progress Sessions */}
+        {Object.keys(savedSessions).length > 0 && (
+          <Card className="mb-8 border-blue-200 bg-blue-50 dark:bg-blue-900/20">
+            <CardHeader>
+              <CardTitle className="text-blue-700 dark:text-blue-300">
+                📝 Bài thi đang làm dở
+              </CardTitle>
+              <CardDescription>
+                Bạn có {Object.keys(savedSessions).length} bài thi chưa hoàn thành
+              </CardDescription>
+            </CardHeader>
+            <CardContent>
+              <div className="space-y-4">
+                {Object.values(savedSessions).map((session) => (
+                  <div 
+                    key={session.bankId}
+                    className="flex flex-col sm:flex-row sm:items-center justify-between p-4 bg-white dark:bg-gray-800 rounded-lg border gap-4"
+                  >
+                    <div>
+                      <h3 className="font-semibold">{session.bankName}</h3>
+                      <p className="text-sm text-muted-foreground">
+                        Đã trả lời: {getAnsweredCount(session)}/{session.questions.length} câu • 
+                        Cập nhật: {formatTimeAgo(session.lastUpdated)}
+                      </p>
+                    </div>
+                    <div className="flex gap-2">
+                      <Link href={`/quiz/${session.bankId}?continue=true`}>
+                        <Button className="bg-blue-600 hover:bg-blue-700">
+                          Tiếp tục làm
+                        </Button>
+                      </Link>
+                      <Button 
+                        variant="outline" 
+                        className="border-red-300 text-red-600 hover:bg-red-50"
+                        onClick={() => handleAbandonQuiz(session.bankId)}
+                      >
+                        Bỏ bài
+                      </Button>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </CardContent>
+          </Card>
+        )}
 
         {/* Wrong Questions Section */}
         {wrongQuestionsCount > 0 && (
@@ -69,6 +148,29 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <div className="space-y-2">
+                  {/* Show continue option if there's a saved session */}
+                  {savedSessions[bank.id] && (
+                    <div className="mb-4 p-3 bg-blue-50 dark:bg-blue-900/20 rounded-lg border border-blue-200">
+                      <p className="text-sm text-blue-700 dark:text-blue-300 mb-2">
+                        📝 Có bài đang làm dở ({getAnsweredCount(savedSessions[bank.id])}/{savedSessions[bank.id].questions.length} câu)
+                      </p>
+                      <div className="flex gap-2">
+                        <Link href={`/quiz/${bank.id}?continue=true`}>
+                          <Button size="sm" className="bg-blue-600 hover:bg-blue-700">
+                            Tiếp tục
+                          </Button>
+                        </Link>
+                        <Button 
+                          size="sm" 
+                          variant="outline"
+                          onClick={() => handleAbandonQuiz(bank.id)}
+                        >
+                          Làm mới
+                        </Button>
+                      </div>
+                    </div>
+                  )}
+                  
                   <p className="text-sm font-medium mb-3">Chọn số câu hỏi:</p>
                   <div className="flex gap-2 flex-wrap">
                     {questionCounts.map((count) => (

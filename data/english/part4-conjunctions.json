@@ -1,0 +1,182 @@
+{
+  "partId": "conjunctions",
+  "partName": "Liên từ (because/although/while/during/despite)",
+  "questions": [
+    {
+      "id": 22,
+      "type": "single",
+      "question": "______ all his efforts, he failed to win the championship by 5 seconds.",
+      "options": { "A": "Despite", "B": "Although", "C": "Because", "D": "While" },
+      "correctAnswer": "A",
+      "explanation": "'Despite' + noun phrase (all his efforts). 'Although' cần theo sau bởi S + V."
+    },
+    {
+      "id": 23,
+      "type": "single",
+      "question": "______ he made an effort, he failed to win the championship by 5 seconds.",
+      "options": { "A": "Although", "B": "While", "C": "Despite", "D": "Because" },
+      "correctAnswer": "A",
+      "explanation": "'Although' + S + V (he made an effort). 'Despite' cần noun phrase."
+    },
+    {
+      "id": 24,
+      "type": "single",
+      "question": "Make sure you read the questions carefully ______ you are taking the test.",
+      "options": { "A": "during", "B": "while", "C": "for", "D": "by" },
+      "correctAnswer": "B",
+      "explanation": "'While' + S + V: trong khi bạn đang làm bài. 'During' cần noun phrase."
+    },
+    {
+      "id": 25,
+      "type": "single",
+      "question": "Make sure you read the questions carefully ______ the test.",
+      "options": { "A": "during", "B": "while", "C": "for", "D": "when" },
+      "correctAnswer": "A",
+      "explanation": "'During' + noun phrase (the test): trong suốt bài kiểm tra."
+    },
+    {
+      "id": 26,
+      "type": "single",
+      "question": "The outdoor event might be postponed ______ the weather is awful.",
+      "options": { "A": "because of", "B": "because", "C": "due to", "D": "owing to" },
+      "correctAnswer": "B",
+      "explanation": "'Because' + S + V (the weather is awful). 'Because of/due to/owing to' cần noun phrase."
+    },
+    {
+      "id": 27,
+      "type": "single",
+      "question": "The outdoor event might be postponed ______ the awful weather.",
+      "options": { "A": "because", "B": "because of", "C": "although", "D": "while" },
+      "correctAnswer": "B",
+      "explanation": "'Because of' + noun phrase (the awful weather): vì thời tiết xấu."
+    },
+    {
+      "id": 28,
+      "type": "single",
+      "question": "______ his debts, he stopped spending money on luxury goods.",
+      "options": { "A": "Because", "B": "Because of", "C": "Since", "D": "Until" },
+      "correctAnswer": "B",
+      "explanation": "'Because of' + noun phrase (his debts). 'Because/Since' cần S + V."
+    },
+    {
+      "id": 29,
+      "type": "single",
+      "question": "______ she was in poor health, she continued to do her job.",
+      "options": { "A": "Despite", "B": "As", "C": "While", "D": "Although" },
+      "correctAnswer": "D",
+      "explanation": "'Although' + S + V: mặc dù cô ấy sức khỏe kém. 'Despite' cần noun phrase."
+    },
+    {
+      "id": 36,
+      "type": "single",
+      "question": "______ construction delays on Lake Street, it takes 15 more minutes to get to work.",
+      "options": { "A": "Because of", "B": "Since", "C": "As", "D": "In spite of" },
+      "correctAnswer": "A",
+      "explanation": "'Because of' + noun phrase (construction delays). 'Since/As' cần S + V."
+    },
+    {
+      "id": 56,
+      "type": "single",
+      "question": "___ the heavy rain, the event was canceled.",
+      "options": { "A": "Because", "B": "Because of", "C": "Although", "D": "While" },
+      "correctAnswer": "B",
+      "explanation": "Because of theo sau là danh từ hoặc cụm danh từ."
+    },
+    {
+      "id": 57,
+      "type": "single",
+      "question": "___ it was raining, the event continued as planned.",
+      "options": { "A": "Despite", "B": "Because of", "C": "Although", "D": "During" },
+      "correctAnswer": "C",
+      "explanation": "Although theo sau là mệnh đề S + V."
+    },
+    {
+      "id": 58,
+      "type": "single",
+      "question": "Please read the instructions carefully ___ the test.",
+      "options": { "A": "while", "B": "during", "C": "since", "D": "because" },
+      "correctAnswer": "B",
+      "explanation": "During dùng trước danh từ."
+    },
+    {
+      "id": 65,
+      "type": "single",
+      "question": "___ her experience, she was selected for the position.",
+      "options": { "A": "Because", "B": "Because of", "C": "Although", "D": "While" },
+      "correctAnswer": "B",
+      "explanation": "Because of theo sau là danh từ."
+    },
+    {
+      "id": 80,
+      "type": "single",
+      "question": "The company decided to delay the launch ___ technical issues.",
+      "options": { "A": "because", "B": "because of", "C": "although", "D": "while" },
+      "correctAnswer": "B",
+      "explanation": "Sau chỗ trống là **noun phrase**: technical issues ⇒ dùng **because of**."
+    },
+    {
+      "id": 81,
+      "type": "single",
+      "question": "___ the weather was bad, the flight departed on time.",
+      "options": { "A": "Despite", "B": "Because of", "C": "Although", "D": "Due to" },
+      "correctAnswer": "C",
+      "explanation": "Sau chỗ trống là **S + V** (the weather was bad) ⇒ cần **liên từ although**."
+    },
+    {
+      "id": 82,
+      "type": "single",
+      "question": "___ the bad weather, the flight departed on time.",
+      "options": { "A": "Although", "B": "Because", "C": "Despite", "D": "While" },
+      "correctAnswer": "C",
+      "explanation": "Sau chỗ trống là **noun phrase**: the bad weather ⇒ dùng **despite**."
+    },
+    {
+      "id": 72,
+      "type": "single",
+      "question": "______ the economy improved, unemployment remained high.",
+      "options": { "A": "Despite", "B": "Although", "C": "Because", "D": "Due to" },
+      "correctAnswer": "B",
+      "explanation": "**Although** + S + V để diễn tả sự tương phản: Mặc dù kinh tế cải thiện, thất nghiệp vẫn cao.\n\n⚠️ Bẫy: 'Despite' cần danh từ/cụm danh từ, không dùng với mệnh đề."
+    },
+    {
+      "id": 73,
+      "type": "single",
+      "question": "The conference was postponed ______ the severe weather conditions.",
+      "options": { "A": "because", "B": "although", "C": "due to", "D": "while" },
+      "correctAnswer": "C",
+      "explanation": "**Due to** + noun phrase để chỉ nguyên nhân.\n\n📌 Due to = Because of = Owing to (+ danh từ/cụm danh từ)."
+    },
+    {
+      "id": 74,
+      "type": "single",
+      "question": "______ working overtime, the team completed the project ahead of schedule.",
+      "options": { "A": "Because", "B": "Although", "C": "By", "D": "Despite" },
+      "correctAnswer": "C",
+      "explanation": "**By + V-ing** = bằng cách làm gì đó. Bằng cách làm thêm giờ, nhóm hoàn thành dự án trước thời hạn.\n\n📌 By + V-ing diễn tả phương tiện/cách thức."
+    },
+    {
+      "id": 75,
+      "type": "single",
+      "question": "The sales figures increased ______ the marketing campaign was unsuccessful.",
+      "options": { "A": "because", "B": "even though", "C": "due to", "D": "while" },
+      "correctAnswer": "B",
+      "explanation": "**Even though** + S + V để diễn tả sự tương phản mạnh: Doanh số tăng mặc dù chiến dịch marketing không thành công.\n\n📌 Even though = Although (nhưng mạnh hơn)."
+    },
+    {
+      "id": 83,
+      "type": "single",
+      "question": "Please remain seated ___ the aircraft is taxiing.",
+      "options": { "A": "during", "B": "while", "C": "for", "D": "until" },
+      "correctAnswer": "B",
+      "explanation": "Sau chỗ trống là **S + V** (the aircraft is taxiing) ⇒ dùng **while**."
+    },
+    {
+      "id": 84,
+      "type": "single",
+      "question": "Please remain seated ___ the taxiing process.",
+      "options": { "A": "while", "B": "for", "C": "during", "D": "until" },
+      "correctAnswer": "C",
+      "explanation": "Sau chỗ trống là **noun phrase** (the taxiing process) ⇒ dùng **during**."
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "partId": "prepositions-place",
+  "partName": "Giới từ nơi chốn (at/in/on/into/throughout/along)",
+  "questions": [
+    {
+      "id": 8,
+      "type": "single",
+      "question": "There are a few spacious conference rooms ______ the hotel.",
+      "options": { "A": "on", "B": "in", "C": "at", "D": "by" },
+      "correctAnswer": "B",
+      "explanation": "'In' dùng khi ở bên trong không gian. Conference rooms nằm bên trong khách sạn → in the hotel."
+    },
+    {
+      "id": 9,
+      "type": "single",
+      "question": "The disease spread fast ______ the country.",
+      "options": { "A": "throughout", "B": "at", "C": "in", "D": "on" },
+      "correctAnswer": "A",
+      "explanation": "'Throughout' = khắp nơi, lan rộng."
+    },
+    {
+      "id": 10,
+      "type": "single",
+      "question": "To register for the program, please complete an application form ______ the BC Learning Center.",
+      "options": { "A": "at", "B": "on", "C": "in", "D": "by" },
+      "correctAnswer": "A",
+      "explanation": "'At' dùng với địa điểm cụ thể như trung tâm, văn phòng."
+    },
+    {
+      "id": 11,
+      "type": "single",
+      "question": "Mr. Morris is busy preparing for the quarterly seminar ______ Seattle.",
+      "options": { "A": "in", "B": "at", "C": "on", "D": "to" },
+      "correctAnswer": "A",
+      "explanation": "'In' dùng với thành phố: in Seattle, in New York."
+    },
+    {
+      "id": 12,
+      "type": "single",
+      "question": "You can find the safe ______ the printer.",
+      "options": { "A": "next to", "B": "out of", "C": "into", "D": "from" },
+      "correctAnswer": "A",
+      "explanation": "'Next to' = bên cạnh."
+    },
+    {
+      "id": 13,
+      "type": "single",
+      "question": "The new branch office is located ______ Maple Street across from the library.",
+      "options": { "A": "in", "B": "on", "C": "at", "D": "for" },
+      "correctAnswer": "B",
+      "explanation": "'On' dùng với đường phố: on + street/road là quy tắc cứng trong TOEIC."
+    },
+    {
+      "id": 14,
+      "type": "single",
+      "question": "Mr. King got out of the taxi and walked ______ the main building.",
+      "options": { "A": "into", "B": "between", "C": "as", "D": "at" },
+      "correctAnswer": "A",
+      "explanation": "'Into' diễn tả chuyển động đi vào trong."
+    },
+    {
+      "id": 34,
+      "type": "single",
+      "question": "Toby's Surfing is located ______ Great Beach Road next to the police station.",
+      "options": { "A": "in", "B": "on", "C": "at", "D": "by" },
+      "correctAnswer": "B",
+      "explanation": "'On' + street/road: on Great Beach Road."
+    },
+    {
+      "id": 35,
+      "type": "single",
+      "question": "The UNESE is a large organization with a lot of offices ______ the world.",
+      "options": { "A": "on", "B": "at", "C": "along", "D": "throughout" },
+      "correctAnswer": "D",
+      "explanation": "'Throughout' = khắp nơi, toàn bộ."
+    },
+    {
+      "id": 37,
+      "type": "single",
+      "question": "Walk ______ the street to Apple Street and turn left.",
+      "options": { "A": "along", "B": "by", "C": "as", "D": "about" },
+      "correctAnswer": "A",
+      "explanation": "'Walk along' = đi dọc theo."
+    },
+    {
+      "id": 49,
+      "type": "single",
+      "question": "The office is located ___ Maple Street.",
+      "options": { "A": "in", "B": "at", "C": "on", "D": "by" },
+      "correctAnswer": "C",
+      "explanation": "On dùng với tên đường."
+    },
+    {
+      "id": 50,
+      "type": "single",
+      "question": "There are branches of the company ___ the world.",
+      "options": { "A": "on", "B": "at", "C": "along", "D": "throughout" },
+      "correctAnswer": "D",
+      "explanation": "Throughout nghĩa là khắp nơi."
+    },
+    {
+      "id": 60,
+      "type": "single",
+      "question": "Walk ___ the street and turn right at the corner.",
+      "options": { "A": "along", "B": "by", "C": "about", "D": "at" },
+      "correctAnswer": "A",
+      "explanation": "Walk along nghĩa là đi dọc theo."
+    },
+    {
+      "id": 61,
+      "type": "single",
+      "question": "The conference room is ___ the second floor.",
+      "options": { "A": "in", "B": "at", "C": "on", "D": "by" },
+      "correctAnswer": "C",
+      "explanation": "On dùng với tầng."
+    },
+    {
+      "id": 78,
+      "type": "single",
+      "question": "The conference will be held ___ the main hall at 8:00 a.m.",
+      "options": { "A": "in", "B": "on", "C": "at", "D": "by" },
+      "correctAnswer": "A",
+      "explanation": "**In** dùng khi nhấn mạnh **bên trong một không gian khép kín** (hall, room, building)."
+    },
+    {
+      "id": 79,
+      "type": "single",
+      "question": "The CEO arrived ___ the airport early this morning.",
+      "options": { "A": "in", "B": "on", "C": "at", "D": "to" },
+      "correctAnswer": "C",
+      "explanation": "**At + địa điểm cụ thể / điểm đến** như airport, station. Cụm chuẩn: **arrive at the airport**."
+    },
+    {
+      "id": 85,
+      "type": "single",
+      "question": "The customer walked ___ the store to ask for assistance.",
+      "options": { "A": "in", "B": "into", "C": "at", "D": "on" },
+      "correctAnswer": "B",
+      "explanation": "**Into** dùng khi có **chuyển động từ ngoài vào trong**. TOEIC rất hay bẫy in vs into."
+    },
+    {
+      "id": 106,
+      "type": "single",
+      "question": "The restaurant is conveniently located ___ the train station.",
+      "options": { "A": "next to", "B": "into", "C": "throughout", "D": "along" },
+      "correctAnswer": "A",
+      "explanation": "'Next to' = bên cạnh. Nhà hàng nằm ngay cạnh ga tàu."
+    },
+    {
+      "id": 107,
+      "type": "single",
+      "question": "Please put the documents ___ the folder on my desk.",
+      "options": { "A": "at", "B": "on", "C": "in", "D": "by" },
+      "correctAnswer": "C",
+      "explanation": "'In' dùng khi đặt vào bên trong một vật chứa (folder, box, bag)."
+    },
+    {
+      "id": 108,
+      "type": "single",
+      "question": "The new parking garage is located ___ the main office building.",
+      "options": { "A": "behind", "B": "into", "C": "throughout", "D": "along" },
+      "correctAnswer": "A",
+      "explanation": "'Behind' = phía sau. Bãi đậu xe nằm phía sau tòa nhà văn phòng chính."
+    },
+    {
+      "id": 68,
+      "type": "single",
+      "question": "The new parking garage is located ______ the main office building.",
+      "options": { "A": "behind", "B": "into", "C": "throughout", "D": "along" },
+      "correctAnswer": "A",
+      "explanation": "**Behind** = phía sau. Nhà để xe nằm phía sau tòa nhà văn phòng chính.\n\n📌 Các giới từ vị trí: behind (sau), in front of (trước), beside (bên cạnh)."
+    },
+    {
+      "id": 69,
+      "type": "single",
+      "question": "Please do not leave personal belongings ______ the conference room.",
+      "options": { "A": "into", "B": "on", "C": "in", "D": "at" },
+      "correctAnswer": "C",
+      "explanation": "**In** dùng khi ở bên trong không gian kín: in the room, in the office.\n\n⚠️ Bẫy: 'at' dùng cho địa điểm cụ thể, không phải không gian bên trong."
+    },
+    {
+      "id": 109,
+      "type": "single",
+      "question": "Visitors must sign ___ the reception desk before entering the building.",
+      "options": { "A": "in at", "B": "on to", "C": "in on", "D": "at on" },
+      "correctAnswer": "A",
+      "explanation": "'Sign in at' = đăng ký/ký tên tại. Đây là cụm cố định thường gặp trong TOEIC."
+    },
+    {
+      "id": 110,
+      "type": "single",
+      "question": "The hiking trail runs ___ the river for about five kilometers.",
+      "options": { "A": "into", "B": "along", "C": "at", "D": "on" },
+      "correctAnswer": "B",
+      "explanation": "'Along' = dọc theo. Con đường mòn chạy dọc theo sông."
+    }
+  ]
+}
