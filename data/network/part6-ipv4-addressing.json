@@ -1,0 +1,606 @@
+{
+  "partId": "ipv4-addressing",
+  "partName": "Địa chỉ IPv4 và Subnetting",
+  "questions": [
+    {
+      "id": 501,
+      "question": "Địa chỉ IPv4 có kích thước bao nhiêu bit và được chia thành mấy phần octet?",
+      "options": {
+        "A": "48 bit, chia thành 6 octet",
+        "B": "32 bit, chia thành 4 octet",
+        "C": "128 bit, chia thành 8 octet",
+        "D": "64 bit, chia thành 4 octet"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nĐịa chỉ IP là địa chỉ có cấu trúc với một con số có kích thước **32 bit**, chia thành **4 phần** mỗi phần **8 bit** gọi là **octet** hoặc **byte**."
+    },
+    {
+      "id": 502,
+      "question": "Hệ đếm thập lục phân (Hệ 16) sử dụng các ký tự nào để biểu diễn?",
+      "options": {
+        "A": "Các số từ 0 đến 9",
+        "B": "Các số từ 0 đến 9 và các chữ cái A, B, C, D, E, F",
+        "C": "Chỉ gồm 0 và 1",
+        "D": "Các số từ 0 đến 7"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**Hệ 16 (thập lục phân)** gồm các ký số **0, 1, ..., 9** và các **chữ cái A, B, C, D, E, F**."
+    },
+    {
+      "id": 503,
+      "question": "Trong các lớp địa chỉ IP, byte đầu tiên của Lớp A (Class A) bắt đầu bằng bit nào?",
+      "options": {
+        "A": "10",
+        "B": "110",
+        "C": "0",
+        "D": "1110"
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nĐối với **Lớp A**, bit đầu tiên của byte đầu tiên phải là **bit 0** (dạng nhị phân là **0xxxxxxx**)."
+    },
+    {
+      "id": 504,
+      "question": "Địa chỉ nào sau đây là địa chỉ Broadcast của một mạng?",
+      "options": {
+        "A": "Địa chỉ có phần host_id chứa toàn bit 0",
+        "B": "Địa chỉ có phần network_id chứa toàn bit 1",
+        "C": "Địa chỉ có phần host_id chứa toàn bit 1",
+        "D": "Địa chỉ bắt đầu bằng 127"
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\n**Địa chỉ Broadcast** là địa chỉ IP dùng để đại diện cho tất cả các host trong mạng, có phần **host_id chỉ chứa các bit 1**."
+    },
+    {
+      "id": 505,
+      "question": "Dải địa chỉ nào sau đây được quy định là địa chỉ dùng riêng (Private address) cho lớp B theo RFC 1918?",
+      "options": {
+        "A": "10.0.0.0 đến 10.255.255.255",
+        "B": "192.168.0.0 đến 192.168.255.255",
+        "C": "172.16.0.0 đến 172.31.255.255",
+        "D": "127.0.0.0 đến 127.255.255.255"
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nTheo bảng **RFC 1918 internal address range**, lớp B có dải địa chỉ từ **172.16.0.0 đến 172.31.255.255**."
+    },
+    {
+      "id": 506,
+      "question": "Địa chỉ mạng (Network Address) được xác định như thế nào?",
+      "options": {
+        "A": "Phần host_id chứa tất cả các bit 1",
+        "B": "Phần network_id chứa tất cả các bit 0",
+        "C": "Phần host_id chứa tất cả các bit 0",
+        "D": "Phần network_id chứa tất cả các bit 1"
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\n**Địa chỉ mạng** là địa chỉ IP dùng để đặt cho các mạng, trong đó phần **host_id** của địa chỉ chỉ chứa các **bit 0**."
+    },
+    {
+      "id": 507,
+      "question": "Lớp C dành bao nhiêu byte cho phần network_id và bao nhiêu byte cho phần host_id?",
+      "options": {
+        "A": "1 byte Network, 3 byte Host",
+        "B": "2 byte Network, 2 byte Host",
+        "C": "3 byte Network, 1 byte Host",
+        "D": "4 byte Network, 0 byte Host"
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\n**Lớp C** dành **3 byte** cho phần **network_id** và **1 byte** cho phần **host_id**."
+    },
+    {
+      "id": 508,
+      "question": "Địa chỉ loopback dùng để kiểm tra chồng giao thức TCP/IP trên chính máy cục bộ nằm trong dải mạng nào?",
+      "options": {
+        "A": "10.0.0.0",
+        "B": "127.0.0.0",
+        "C": "192.168.0.0",
+        "D": "169.254.0.0"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nMạng **127.0.0.0** được định nghĩa là **Loopback network** để kiểm tra chồng giao thức TCP/IP trên chính máy cục bộ."
+    },
+    {
+      "id": 509,
+      "question": "Khi thực hiện chia mạng con (subnetting), nếu mượn n bit cho phần subnet_id thì số lượng mạng con tạo ra được tính theo công thức nào?",
+      "options": {
+        "A": "2^n - 2",
+        "B": "2^n",
+        "C": "2^n + 1",
+        "D": "n^2"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nSố bit trong phần subnet_id xác định số lượng mạng con. Với số bit là **n** thì **2^n** là số lượng mạng con có được."
+    },
+    {
+      "id": 510,
+      "question": "Phép toán logic nào được sử dụng giữa địa chỉ IP và Subnet Mask để xác định Network ID (địa chỉ mạng)?",
+      "options": {
+        "A": "Phép OR",
+        "B": "Phép XOR",
+        "C": "Phép NOT",
+        "D": "Phép AND"
+      },
+      "correctAnswer": "D",
+      "explanation": "📌 **Phân tích:**\n\nĐể tìm địa chỉ mạng, ta thực hiện **phép AND** địa chỉ IP với Subnet mask (ví dụ: 11000000... AND 11111111... ra kết quả Net ID)."
+    },
+    {
+      "id": 511,
+      "question": "Ký hiệu \"/24\" trong địa chỉ IP (ví dụ: 172.29.8.230/24) có ý nghĩa gì?",
+      "options": {
+        "A": "Dành 24 bit cho phần Host ID",
+        "B": "Dành 24 bit cho phần Network ID (bao gồm cả subnet)",
+        "C": "Mạng này có thể chứa 24 host",
+        "D": "Địa chỉ này thuộc lớp A"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nSố sau dấu gạch chéo **(CIDR notation)** cho biết số lượng bit được dùng làm **Network ID** (bao gồm cả phần subnet đã mượn). Ví dụ: dùng **24 bit đầu tiên cho NetworkID**."
+    },
+    {
+      "id": 512,
+      "question": "Để chia một mạng lớp C thành các mạng con, số lượng bit tối đa có thể mượn từ phần Host ID là bao nhiêu?",
+      "options": {
+        "A": "2 bit",
+        "B": "4 bit",
+        "C": "6 bit",
+        "D": "8 bit"
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nTheo công thức quy định, số bit tối đa có thể mượn của **Lớp C** là **8 - 2 = 6 bit**. Điều này để đảm bảo vẫn còn ít nhất **2 bit** cho phần host (để tạo ra tối thiểu 2 host hữu dụng)."
+    },
+    {
+      "id": 513,
+      "question": "Nếu bạn cần chia một mạng thành 5 mạng con (subnet), bạn cần mượn tối thiểu bao nhiêu bit?",
+      "options": {
+        "A": "2 bit",
+        "B": "3 bit",
+        "C": "4 bit",
+        "D": "5 bit"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nSố bit mượn là **n** thì số mạng con tạo ra là **2^n**. Nếu mượn 2 bit chỉ được 4 mạng (2^2 = 4). Nếu mượn **3 bit** được **8 mạng** (2^3 = 8), đủ để đáp ứng nhu cầu 5 mạng con."
+    },
+    {
+      "id": 514,
+      "question": "Công thức tính \"Số gia địa chỉ mạng con\" (bước nhảy) khi mượn n bit trong một octet là gì?",
+      "options": {
+        "A": "256 + n",
+        "B": "2^n",
+        "C": "256 / 2^n",
+        "D": "256 - n"
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nTheo phương pháp tính nhanh vùng địa chỉ IP, số gia địa chỉ mạng con được tính bằng công thức **256 / 2^n** (với **n** là số bit làm subnet trong octet đó)."
+    },
+    {
+      "id": 515,
+      "question": "Cho địa chỉ IP 192.168.5.9/28. Địa chỉ mạng (Network ID) của IP này là gì?",
+      "options": {
+        "A": "192.168.5.0",
+        "B": "192.168.5.8",
+        "C": "192.168.5.9",
+        "D": "192.168.5.16"
+      },
+      "correctAnswer": "A",
+      "explanation": "📌 **Phân tích:**\n\nVới subnet mask **/28**, ta thực hiện phép AND giữa IP (192.168.5.9) và Subnet Mask (255.255.255.240).\n\n- Xét octet cuối: **9 (00001001) AND 240 (11110000) = 0 (00000000)**.\n- Vậy Net ID là **192.168.5.0**."
+    },
+    {
+      "id": 516,
+      "question": "Một mạng lớp B có địa chỉ 139.12.0.0/16 muốn chia thành các mạng con sao cho Subnet Mask mới là /19. Số lượng mạng con tạo ra là bao nhiêu?",
+      "options": {
+        "A": "4 mạng con",
+        "B": "6 mạng con",
+        "C": "8 mạng con",
+        "D": "16 mạng con"
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nSubnet mask cũ là **/16**, mới là **/19**. Số bit mượn thêm là **19 - 16 = 3 bit**. Số lượng mạng con tạo ra là **2^3 = 8 mạng con**."
+    },
+    {
+      "id": 517,
+      "question": "Địa chỉ Broadcast của một mạng con được xác định như thế nào trong dải địa chỉ?",
+      "options": {
+        "A": "Là địa chỉ đầu tiên của mạng con đó",
+        "B": "Là địa chỉ cuối cùng của mạng con đó (trước khi sang mạng con kế tiếp)",
+        "C": "Là địa chỉ có byte cuối cùng bằng 255",
+        "D": "Là địa chỉ Network ID cộng thêm 1"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**Địa chỉ broadcast** là địa chỉ cuối cùng trong dải của một mạng con. Theo công thức tính nhanh: Byte cuối của IP broadcast = **(địa chỉ mạng subnet tiếp theo) - 1** (tức là ngay sát trước địa chỉ mạng của subnet tiếp theo)."
+    },
+    {
+      "id": 518,
+      "question": "Cho mạng 172.16.0.0/16 được chia subnet với mask mới là /19 (mượn 3 bit). Địa chỉ mạng con thứ 2 (Subnet 2) là gì?",
+      "options": {
+        "A": "172.16.16.0",
+        "B": "172.16.32.0",
+        "C": "172.16.64.0",
+        "D": "172.16.128.0"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nVới **/19**, bước nhảy ở octet thứ 3. Mượn 3 bit => bước nhảy **256 / 2^3 = 32**.\n\n- Subnet 1: **172.16.0.0**\n- Subnet 2: **172.16.32.0**"
+    },
+    {
+      "id": 519,
+      "question": "Xét địa chỉ 102.16.10.107/12. Địa chỉ mạng (Network Address) của IP này là bao nhiêu?",
+      "options": {
+        "A": "102.0.0.0",
+        "B": "102.16.0.0",
+        "C": "102.16.10.0",
+        "D": "102.32.0.0"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**/12** tức là subnet mask là **255.240.0.0**.\n\n- Octet 1: **102** giữ nguyên.\n- Octet 2: **16 (00010000)**. Mask là **240 (11110000)**.\n- Phép AND: **16 AND 240 = 16**. Các octet sau là 0.\n- Kết quả: **102.16.0.0**."
+    },
+    {
+      "id": 520,
+      "question": "Trong kỹ thuật chia mạng con, điều gì xảy ra với phần host_id?",
+      "options": {
+        "A": "Phần host_id giữ nguyên kích thước",
+        "B": "Phần host_id bị mượn một số bit để làm subnet_id, do đó kích thước giảm đi",
+        "C": "Phần host_id tăng kích thước để chứa nhiều máy hơn",
+        "D": "Phần host_id chuyển toàn bộ thành bit 1"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nKhi chia mạng con, ta **\"Mượn một số bit trong phần host_id ban đầu để đặt cho các mạng con\"**. Cấu trúc lúc này gồm 3 phần: **network_id, subnet_id và host_id** (host_id ngắn lại)."
+    },
+    {
+      "id": 521,
+      "question": "Mục đích chính của kỹ thuật NAT (Network Address Translation) là gì?",
+      "options": {
+        "A": "Tăng tốc độ đường truyền mạng",
+        "B": "Tiết kiệm địa chỉ IP và cho phép mạng nội bộ sử dụng địa chỉ IP dành riêng (Private IP)",
+        "C": "Thay đổi địa chỉ MAC của thiết bị",
+        "D": "Mã hóa dữ liệu truyền trên mạng"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**NAT** được thiết kế để **tiết kiệm địa chỉ IP** và cho phép mạng nội bộ sử dụng **địa chỉ IP dành riêng**, sau đó chuyển đổi sang địa chỉ dùng chung định tuyến được khi ra Internet."
+    },
+    {
+      "id": 522,
+      "question": "Thiết bị thực hiện NAT thường được đặt ở đâu trong hệ thống mạng?",
+      "options": {
+        "A": "Tại các switch trong mạng LAN",
+        "B": "Tại máy chủ DHCP",
+        "C": "Thường sử dụng trên router biên của mạng một cửa",
+        "D": "Trên từng máy tính cá nhân"
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\n**NAT** thường được sử dụng trên **router biên của mạng**, nơi kết nối giữa mạng riêng (nội bộ) và mạng công cộng (Internet)."
+    },
+    {
+      "id": 523,
+      "question": "Dựa trên Bài tập 4 trong slide, với địa chỉ IP 102.16.10.107/12, địa chỉ mạng con (Network Address) được xác định là gì?",
+      "options": {
+        "A": "102.0.0.0",
+        "B": "102.16.0.0",
+        "C": "102.16.10.0",
+        "D": "102.32.0.0"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nVới **/12** (Subnet mask **255.240.0.0**), byte đầu tiên (102) giữ nguyên. Byte thứ hai **(16 = 00010000) AND với mask (240 = 11110000)** ra kết quả **16 (00010000)**. Vậy Network ID là **102.16.0.0**."
+    },
+    {
+      "id": 524,
+      "question": "Cũng với địa chỉ 102.16.10.107/12 (Bài tập 4), địa chỉ Broadcast của mạng này là bao nhiêu?",
+      "options": {
+        "A": "102.16.255.255",
+        "B": "102.31.255.255",
+        "C": "102.15.255.255",
+        "D": "102.47.255.255"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nDải host từ **102.16.0.1 đến 102.31.255.254**. Địa chỉ **Broadcast** là địa chỉ cuối cùng: **102.31.255.255**."
+    },
+    {
+      "id": 525,
+      "question": "Trong Bài tập 5 (Cho IP 172.19.160.0/21), để chia thành 4 mạng con, ta cần mượn bao nhiêu bit và địa chỉ Broadcast của mạng con thứ nhất là gì?",
+      "options": {
+        "A": "Mượn 2 bit; Broadcast: 172.19.161.255",
+        "B": "Mượn 3 bit; Broadcast: 172.19.160.255",
+        "C": "Mượn 2 bit; Broadcast: 172.19.163.255",
+        "D": "Mượn 4 bit; Broadcast: 172.19.167.255"
+      },
+      "correctAnswer": "A",
+      "explanation": "📌 **Phân tích:**\n\nMuốn chia **4 mạng con** cần mượn **2 bit** (2^2 = 4). Theo bảng kết quả Bài tập 5, mạng con 1 (172.19.160.0) có dải host đến **172.19.161.254**, vậy Broadcast là **172.19.161.255**."
+    },
+    {
+      "id": 526,
+      "question": "Xét Bài tập 6 (Cho IP 172.16.192.0/18 chia làm 4 mạng con). Địa chỉ mạng (Network Address) của mạng con thứ 2 là gì?",
+      "options": {
+        "A": "172.16.192.0",
+        "B": "172.16.208.0",
+        "C": "172.16.224.0",
+        "D": "172.16.240.0"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nMạng gốc **/18**. Chia 4 mạng con cần mượn 2 bit. Bước nhảy (số gia) được tính toán ra các mạng con lần lượt là: **172.16.192.0** (thứ 1), **172.16.208.0** (thứ 2), **172.16.224.0** (thứ 3)..."
+    },
+    {
+      "id": 527,
+      "question": "Theo công thức \"Tính nhanh vùng địa chỉ IP\" trong slide, nếu S là số gia địa chỉ mạng con và i là số thứ tự mạng con, thì byte cuối của IP Broadcast (ví dụ lớp C) được tính như thế nào?",
+      "options": {
+        "A": "S × i",
+        "B": "S × (i + 1)",
+        "C": "S × (i + 1) - 1",
+        "D": "S × i - 1"
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nTheo slide tổng hợp công thức, byte cuối của IP Broadcast = **S × (i + 1) - 1**."
+    },
+    {
+      "id": 528,
+      "question": "Trong Bài tập 1 (IP 172.16.0.0/16 chia 8 mạng con), Subnet Mask mới dạng thập phân là gì?",
+      "options": {
+        "A": "255.255.192.0",
+        "B": "255.255.224.0",
+        "C": "255.255.240.0",
+        "D": "255.255.248.0"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nĐể chia **8 mạng con** cần mượn **3 bit** (2^3 = 8). Mask cũ **/16**, mask mới là **/19**. Đổi sang thập phân: **8 bit (255) . 8 bit (255) . 3 bit (224) . 0 bit (0)** -> **255.255.224.0**."
+    },
+    {
+      "id": 529,
+      "question": "Địa chỉ nào sau đây thuộc dải Private Address Lớp A theo RFC 1918?",
+      "options": {
+        "A": "192.168.1.1",
+        "B": "172.16.0.1",
+        "C": "10.0.0.1",
+        "D": "11.0.0.1"
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nDải địa chỉ dành riêng (**Private address**) cho **lớp A** là từ **10.0.0.0 đến 10.255.255.255**."
+    },
+    {
+      "id": 530,
+      "question": "Khi chia mạng 172.19.160.0/21 thành 4 mạng con (Bài tập 5), dải địa chỉ Host hợp lệ của mạng con thứ 3 là bao nhiêu?",
+      "options": {
+        "A": "172.19.164.1 đến 172.19.165.254",
+        "B": "172.19.162.1 đến 172.19.163.254",
+        "C": "172.19.160.1 đến 172.19.161.254",
+        "D": "172.19.166.1 đến 172.19.167.254"
+      },
+      "correctAnswer": "A",
+      "explanation": "📌 **Phân tích:**\n\nMạng con thứ 3 có địa chỉ mạng là **172.19.164.0**. Dải host bắt đầu từ **172.19.164.1** và kết thúc tại **172.19.165.254** (Broadcast là 172.19.165.255)."
+    },
+    {
+      "id": 531,
+      "question": "Khi chuyển đổi số thập phân 201 sang hệ nhị phân, kết quả nào sau đây là đúng?",
+      "options": {
+        "A": "11001001",
+        "B": "11001011",
+        "C": "10001001",
+        "D": "11101001"
+      },
+      "correctAnswer": "A",
+      "explanation": "📌 **Phân tích:**\n\nTheo ví dụ chuyển đổi: chia 201 cho 2 dư 1, tiếp tục chia cho đến hết... Kết quả ghi ngược lại là **11001001**."
+    },
+    {
+      "id": 532,
+      "question": "Trong Bài tập 3, mạng 139.12.0.0/16 cần chia thành 5 mạng con. Subnet Mask mới (dạng CIDR) sẽ là bao nhiêu?",
+      "options": {
+        "A": "/18",
+        "B": "/19",
+        "C": "/20",
+        "D": "/21"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nĐể có 5 mạng con, ta cần **2^n ≥ 5**, suy ra **n = 3 bit**. Subnet mask mới = **16 (cũ) + 3 (mượn) = 19 bit (/19)**."
+    },
+    {
+      "id": 533,
+      "question": "Dựa trên Bài tập 2, hai địa chỉ IP 192.168.5.9/28 và 192.168.5.39/28 có đặc điểm gì?",
+      "options": {
+        "A": "Cùng thuộc một mạng con (Network ID: 192.168.5.0)",
+        "B": "Khác mạng con (Network ID lần lượt là 192.168.5.0 và 192.168.5.32)",
+        "C": "Cùng thuộc mạng con 192.168.5.32",
+        "D": "Cả hai đều là địa chỉ Broadcast"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nKhi thực hiện phép AND với subnet mask **/28 (255.255.255.240)**:\n\n- **192.168.5.9** thuộc mạng **192.168.5.0**.\n- **192.168.5.39** thuộc mạng **192.168.5.32**.\n- Kết luận: **Hai địa chỉ trên không cùng mạng**."
+    },
+    {
+      "id": 534,
+      "question": "Trong Bài tập 6 (IP 172.16.192.0/18 chia 4 mạng con), địa chỉ mạng của mạng con thứ 4 (Subnet 4) là gì?",
+      "options": {
+        "A": "172.16.224.0",
+        "B": "172.16.240.0",
+        "C": "172.16.208.0",
+        "D": "172.16.255.0"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nVới **/18** chia **4 mạng** (mượn 2 bit), ta xét byte thứ 3. Các mạng con lần lượt là: **.192.0, .208.0, .224.0** và mạng thứ 4 là **172.16.240.0**."
+    },
+    {
+      "id": 535,
+      "question": "Số lượng bit tối đa có thể mượn để chia mạng con đối với địa chỉ Lớp A là bao nhiêu?",
+      "options": {
+        "A": "8 bit",
+        "B": "16 bit",
+        "C": "22 bit",
+        "D": "24 bit"
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\n**Lớp A** có **24 bit** cho phần Host. Số bit tối đa có thể mượn là **24 - 2 = 22 bit** (để lại ít nhất 2 bit cho host)."
+    },
+    {
+      "id": 536,
+      "question": "Trong Bài tập 1 (172.16.0.0/16 chia 8 mạng con), số lượng host tối đa trên mỗi mạng con (subnet) là bao nhiêu?",
+      "options": {
+        "A": "2^13 - 2 = 8,190",
+        "B": "2^14 - 2 = 16,382",
+        "C": "2^12 - 2 = 4,094",
+        "D": "2^11 - 2 = 2,046"
+      },
+      "correctAnswer": "A",
+      "explanation": "📌 **Phân tích:**\n\nMạng gốc lớp B (**/16**), mượn 3 bit để chia 8 mạng. Số bit host còn lại là **16 - 3 = 13 bit**. Số host khả dụng là **2^13 - 2 = 8,190**."
+    },
+    {
+      "id": 537,
+      "question": "Một địa chỉ IP lớp B có byte đầu tiên nằm trong khoảng giá trị nào (hệ thập phân)?",
+      "options": {
+        "A": "1 đến 126",
+        "B": "128 đến 191",
+        "C": "192 đến 223",
+        "D": "224 đến 239"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nĐịa chỉ **Lớp B** có byte đầu tiên bắt đầu bằng bit **10**, tương ứng với khoảng từ **128 đến 191**."
+    },
+    {
+      "id": 538,
+      "question": "Theo quy tắc \"Tính nhanh vùng địa chỉ IP\" trong slide, công thức tính byte cuối của IP host cuối cùng (Last Host) là gì?",
+      "options": {
+        "A": "S × (i + 1)",
+        "B": "S × i + 1",
+        "C": "S × (i + 1) - 2",
+        "D": "S × i - 1"
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nByte cuối của IP broadcast là **S × (i + 1) - 1**, do đó byte cuối của **IP host cuối cùng** (nằm ngay trước broadcast) là **S × (i + 1) - 2**."
+    },
+    {
+      "id": 539,
+      "question": "Trong Bài tập 5 (172.19.160.0/21 chia 4 mạng con), địa chỉ Broadcast của mạng con thứ 2 là bao nhiêu?",
+      "options": {
+        "A": "172.19.161.255",
+        "B": "172.19.163.255",
+        "C": "172.19.165.255",
+        "D": "172.19.167.255"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nMạng con thứ 2 có dải địa chỉ từ **172.19.162.0 đến 172.19.163.255** (vì mạng con tiếp theo bắt đầu từ 164.0). Vậy Broadcast là **172.19.163.255**."
+    },
+    {
+      "id": 540,
+      "question": "Mặt nạ mạng con (Subnet Mask) được định nghĩa cấu trúc bit như thế nào?",
+      "options": {
+        "A": "Tất cả các bit phần Network là 0, phần Host là 1",
+        "B": "Tất cả các bit phần Host là 0, các phần còn lại (Network + Subnet) là 1",
+        "C": "Các bit 0 và 1 xen kẽ nhau",
+        "D": "Tất cả các bit đều bằng 1"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**Subnet mask** được định nghĩa: **\"tất cả các bit trong phần host_id là 0, các phần còn lại là 1\"**."
+    },
+    {
+      "id": 541,
+      "question": "Lớp địa chỉ nào sau đây được dành riêng cho các nhóm Multicast?",
+      "options": {
+        "A": "Lớp A",
+        "B": "Lớp B",
+        "C": "Lớp D",
+        "D": "Lớp E"
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nKhông gian địa chỉ IP chia thành 5 lớp, trong đó **lớp D** dùng cho các nhóm **multicast**."
+    },
+    {
+      "id": 542,
+      "question": "Dải giá trị byte đầu tiên (hệ thập phân) của địa chỉ Lớp E là bao nhiêu?",
+      "options": {
+        "A": "224 - 239",
+        "B": "240 - 255",
+        "C": "192 - 223",
+        "D": "200 - 254"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nTheo bảng phân loại lớp địa chỉ, **Lớp E** có byte đầu tiên từ **240 đến 255** và được dùng cho mục đích nghiên cứu."
+    },
+    {
+      "id": 543,
+      "question": "Khi chuyển đổi từ hệ nhị phân sang hệ thập lục phân (Hex), ta gom nhóm bao nhiêu bit tính từ phải sang trái?",
+      "options": {
+        "A": "2 bit",
+        "B": "3 bit",
+        "C": "4 bit",
+        "D": "8 bit"
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nĐể chuyển sang hệ thập lục phân, ta gom nhóm số nhị phân thành từng nhóm **4 chữ số** tính từ phải sang trái (ví dụ: **1101 = D**)."
+    },
+    {
+      "id": 544,
+      "question": "Trong ví dụ minh họa của slide, địa chỉ IP 172.16.30.56 được biểu diễn dưới dạng Hex là gì?",
+      "options": {
+        "A": "AC 10 1E 38",
+        "B": "AB 10 1F 38",
+        "C": "AC 16 1E 36",
+        "D": "C0 A8 01 01"
+      },
+      "correctAnswer": "A",
+      "explanation": "📌 **Phân tích:**\n\nSlide đưa ra ví dụ chuyển đổi: **172 (AC) . 16 (10) . 30 (1E) . 56 (38)**."
+    },
+    {
+      "id": 545,
+      "question": "Trong Bài tập 3 (IP 139.12.0.0/19 chia 5 mạng con), địa chỉ mạng (Network ID) của Subnet thứ 3 là bao nhiêu?",
+      "options": {
+        "A": "139.12.32.0",
+        "B": "139.12.48.0",
+        "C": "139.12.64.0",
+        "D": "139.12.96.0"
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nTheo bảng kết quả Bài tập 3: Subnet 1 (**139.12.0.0**), Subnet 2 (**139.12.32.0**), Subnet 3 là **139.12.64.0**."
+    },
+    {
+      "id": 546,
+      "question": "Số lượng mạng con tối đa có thể tạo ra khi chia subnet đối với địa chỉ Lớp B là bao nhiêu?",
+      "options": {
+        "A": "256 mạng",
+        "B": "16,384 mạng",
+        "C": "65,536 mạng",
+        "D": "2,097,152 mạng"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nĐối với **Lớp B**, số bit tối đa có thể mượn là **16 - 2 = 14 bit**. Số lượng mạng con tối đa là **2^14 = 16,384**."
+    },
+    {
+      "id": 547,
+      "question": "Tại sao khi cấp phát địa chỉ host, không được phép để tất cả các bit trong phần host_id đều bằng 1?",
+      "options": {
+        "A": "Vì đó là địa chỉ Loopback",
+        "B": "Vì đó là địa chỉ Broadcast của mạng",
+        "C": "Vì đó là địa chỉ Network ID",
+        "D": "Vì đó là địa chỉ dành riêng cho Router"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nĐịa chỉ có phần **host_id chứa toàn bit 1** là **địa chỉ Broadcast** dùng để đại diện cho tất cả các host trong mạng, không dùng đặt cho một máy cụ thể."
+    },
+    {
+      "id": 548,
+      "question": "Trong Bài tập 5 (172.19.160.0/21 chia 4 mạng con), địa chỉ Broadcast của mạng con cuối cùng (Subnet 4) là gì?",
+      "options": {
+        "A": "172.19.167.255",
+        "B": "172.19.166.255",
+        "C": "172.19.165.255",
+        "D": "172.19.164.255"
+      },
+      "correctAnswer": "A",
+      "explanation": "📌 **Phân tích:**\n\nMạng con 4 bắt đầu từ **172.19.166.0**. Dải host đến **172.19.167.254**. Địa chỉ **Broadcast** là **172.19.167.255**."
+    },
+    {
+      "id": 549,
+      "question": "Kỹ thuật nào cho phép giấu kín địa chỉ IP nội bộ của mạng riêng khi truy cập Internet?",
+      "options": {
+        "A": "DNS (Domain Name System)",
+        "B": "DHCP (Dynamic Host Configuration Protocol)",
+        "C": "NAT (Network Address Translation)",
+        "D": "ARP (Address Resolution Protocol)"
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\n**NAT** cho phép mạng riêng được tách biệt và **giấu kín IP nội bộ** khi kết nối ra ngoài."
+    },
+    {
+      "id": 550,
+      "question": "Theo Bài tập 6 (172.16.192.0/18), dải địa chỉ host khả dụng (Valid Host Range) của mạng con đầu tiên là từ đâu đến đâu?",
+      "options": {
+        "A": "172.16.192.0 đến 172.16.207.255",
+        "B": "172.16.192.1 đến 172.16.207.254",
+        "C": "172.16.192.1 đến 172.16.208.254",
+        "D": "172.16.192.0 đến 172.16.207.254"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nMạng con 1 là **172.16.192.0**. Host đầu tiên là cộng 1 (**192.1**). Broadcast là **207.255**. Host cuối cùng là trừ 1 từ Broadcast (**207.254**). Vậy dải là **172.16.192.1 đến 172.16.207.254**."
+    }
+  ]
+}

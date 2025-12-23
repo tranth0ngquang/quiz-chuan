@@ -1,0 +1,171 @@
+Bộ câu hỏi trắc nghiệm IPv4 (Phần 1: Khái niệm cơ bản & Các lớp địa chỉ)
+Câu 1: Địa chỉ IPv4 có kích thước bao nhiêu bit và được chia thành mấy phần octet? A. 48 bit, chia thành 6 octet B. 32 bit, chia thành 4 octet C. 128 bit, chia thành 8 octet D. 64 bit, chia thành 4 octet
+• Đáp án: B
+• Giải thích: Địa chỉ IP là địa chỉ có cấu trúc với một con số có kích thước 32 bit, chia thành 4 phần mỗi phần 8 bit gọi là octet hoặc byte.
+Câu 2: Hệ đếm thập lục phân (Hệ 16) sử dụng các ký tự nào để biểu diễn? A. Các số từ 0 đến 9 B. Các số từ 0 đến 9 và các chữ cái A, B, C, D, E, F C. Chỉ gồm 0 và 1 D. Các số từ 0 đến 7
+• Đáp án: B
+• Giải thích: Hệ 16 (thập lục phân) gồm các ký số 0, 1, ..., 9 và các chữ cái A, B, C, D, E, F.
+Câu 3: Trong các lớp địa chỉ IP, byte đầu tiên của Lớp A (Class A) bắt đầu bằng bit nào? A. 10 B. 110 C. 0 D. 1110
+• Đáp án: C
+• Giải thích: Đối với Lớp A, bit đầu tiên của byte đầu tiên phải là bit 0 (dạng nhị phân là 0xxxxxxx).
+Câu 4: Địa chỉ nào sau đây là địa chỉ Broadcast của một mạng? A. Địa chỉ có phần host_id chứa toàn bit 0 B. Địa chỉ có phần network_id chứa toàn bit 1 C. Địa chỉ có phần host_id chứa toàn bit 1 D. Địa chỉ bắt đầu bằng 127
+• Đáp án: C
+• Giải thích: Địa chỉ Broadcast là địa chỉ IP dùng để đại diện cho tất cả các host trong mạng, có phần host_id chỉ chứa các bit 1.
+Câu 5: Dải địa chỉ nào sau đây được quy định là địa chỉ dùng riêng (Private address) cho lớp B theo RFC 1918? A. 10.0.0.0 đến 10.255.255.255 B. 192.168.0.0 đến 192.168.255.255 C. 172.16.0.0 đến 172.31.255.255 D. 127.0.0.0 đến 127.255.255.255
+• Đáp án: C
+• Giải thích: Theo bảng RFC 1918 internal address range, lớp B có dải địa chỉ từ 172.16.0.0 đến 172.31.255.255.
+Câu 6: Địa chỉ mạng (Network Address) được xác định như thế nào? A. Phần host_id chứa tất cả các bit 1 B. Phần network_id chứa tất cả các bit 0 C. Phần host_id chứa tất cả các bit 0 D. Phần network_id chứa tất cả các bit 1
+• Đáp án: C
+• Giải thích: Địa chỉ mạng là địa chỉ IP dùng để đặt cho các mạng, trong đó phần host_id của địa chỉ chỉ chứa các bit 0.
+Câu 7: Lớp C dành bao nhiêu byte cho phần network_id và bao nhiêu byte cho phần host_id? A. 1 byte Network, 3 byte Host B. 2 byte Network, 2 byte Host C. 3 byte Network, 1 byte Host D. 4 byte Network, 0 byte Host
+• Đáp án: C
+• Giải thích: Lớp C dành 3 byte cho phần network_id và 1 byte cho phần host_id.
+Câu 8: Địa chỉ loopback dùng để kiểm tra chồng giao thức TCP/IP trên chính máy cục bộ nằm trong dải mạng nào? A. 10.0.0.0 B. 127.0.0.0 C. 192.168.0.0 D. 169.254.0.0
+• Đáp án: B
+• Giải thích: Mạng 127.0.0.0 được định nghĩa là Loopback network.
+Câu 9: Khi thực hiện chia mạng con (subnetting), nếu mượn bit cho phần subnet_id thì số lượng mạng con tạo ra được tính theo công thức nào? A. B. C. D. 
+• Đáp án: B
+• Giải thích: Số bit trong phần subnet_id xác định số lượng mạng con. Với số bit là thì là số lượng mạng con có được.
+Câu 10: Phép toán logic nào được sử dụng giữa địa chỉ IP và Subnet Mask để xác định Network ID (địa chỉ mạng)? A. Phép OR B. Phép XOR C. Phép NOT D. Phép AND
+• Đáp án: D
+• Giải thích: Để tìm địa chỉ mạng, ta thực hiện phép AND địa chỉ IP với Subnet mask (ví dụ trong bài tập 2: 11000000... AND 11111111... ra kết quả Net ID),.
+-------------------------------------------------------------------------------- 
+Bộ câu hỏi trắc nghiệm IPv4 (Phần 2: Subnetting & Tính toán mạng)
+Câu 11: Ký hiệu "/24" trong địa chỉ IP (ví dụ: 172.29.8.230/24) có ý nghĩa gì? A. Dành 24 bit cho phần Host ID B. Dành 24 bit cho phần Network ID (bao gồm cả subnet) C. Mạng này có thể chứa 24 host D. Địa chỉ này thuộc lớp A
+• Đáp án: B
+• Giải thích: Số sau dấu gạch chéo (CIDR notation) cho biết số lượng bit được dùng làm Network ID (bao gồm cả phần subnet đã mượn). Ví dụ tài liệu ghi: "dùng 24 bit đầu tiên cho NetworkID".
+Câu 12: Để chia một mạng lớp C thành các mạng con, số lượng bit tối đa có thể mượn từ phần Host ID là bao nhiêu? A. 2 bit B. 4 bit C. 6 bit D. 8 bit
+• Đáp án: C
+• Giải thích: Theo công thức quy định, số bit tối đa có thể mượn của Lớp C là bit. Điều này để đảm bảo vẫn còn ít nhất 2 bit cho phần host (để tạo ra tối thiểu 2 host hữu dụng).
+Câu 13: Nếu bạn cần chia một mạng thành 5 mạng con (subnet), bạn cần mượn tối thiểu bao nhiêu bit? A. 2 bit B. 3 bit C. 4 bit D. 5 bit
+• Đáp án: B
+• Giải thích: Số bit mượn là thì số mạng con tạo ra là . Nếu mượn 2 bit chỉ được 4 mạng (). Nếu mượn 3 bit được 8 mạng (), đủ để đáp ứng nhu cầu 5 mạng con,.
+Câu 14: Công thức tính "Số gia địa chỉ mạng con" (bước nhảy ) khi mượn bit trong một octet là gì? A. B. C. D. 
+• Đáp án: C
+• Giải thích: Theo phương pháp tính nhanh vùng địa chỉ IP trong tài liệu, số gia địa chỉ mạng con được tính bằng công thức (với là số bit làm subnet trong octet đó).
+Câu 15: Cho địa chỉ IP 192.168.5.9/28. Địa chỉ mạng (Network ID) của IP này là gì? A. 192.168.5.0 B. 192.168.5.8 C. 192.168.5.9 D. 192.168.5.16
+• Đáp án: A
+• Giải thích: Với subnet mask /28, ta thực hiện phép AND giữa IP (192.168.5.9) và Subnet Mask (255.255.255.240).
+    ◦ Xét octet cuối: 9 (00001001) AND 240 (11110000) = 0 (00000000).
+    ◦ Vậy Net ID là 192.168.5.0.
+Câu 16: Một mạng lớp B có địa chỉ 139.12.0.0/16 muốn chia thành các mạng con sao cho Subnet Mask mới là /19. Số lượng mạng con tạo ra là bao nhiêu? A. 4 mạng con B. 6 mạng con C. 8 mạng con D. 16 mạng con
+• Đáp án: C
+• Giải thích: Subnet mask cũ là /16, mới là /19. Số bit mượn thêm là bit. Số lượng mạng con tạo ra là mạng con.
+Câu 17: Địa chỉ Broadcast của một mạng con được xác định như thế nào trong dải địa chỉ? A. Là địa chỉ đầu tiên của mạng con đó B. Là địa chỉ cuối cùng của mạng con đó (trước khi sang mạng con kế tiếp) C. Là địa chỉ có byte cuối cùng bằng 255 D. Là địa chỉ Network ID cộng thêm 1
+• Đáp án: B
+• Giải thích: Địa chỉ broadcast là địa chỉ cuối cùng trong dải của một mạng con. Theo công thức tính nhanh: Byte cuối của IP broadcast = (tức là ngay sát trước địa chỉ mạng của subnet tiếp theo).
+Câu 18: Cho mạng 172.16.0.0/16 được chia subnet với mask mới là /19 (mượn 3 bit). Địa chỉ mạng con thứ 2 (Subnet 2) là gì? A. 172.16.16.0 B. 172.16.32.0 C. 172.16.64.0 D. 172.16.128.0
+• Đáp án: B
+• Giải thích: Với /19, bước nhảy ở octet thứ 3. Mượn 3 bit => bước nhảy .
+    ◦ Subnet 1: 172.16.0.0
+    ◦ Subnet 2: 172.16.32.0.
+Câu 19: Xét địa chỉ 102.16.10.107/12. Địa chỉ mạng (Network Address) của IP này là bao nhiêu? A. 102.0.0.0 B. 102.16.0.0 C. 102.16.10.0 D. 102.32.0.0
+• Đáp án: B
+• Giải thích: /12 tức là subnet mask là 255.240.0.0.
+    ◦ Octet 1: 102 giữ nguyên.
+    ◦ Octet 2: 16 (00010000). Mask là 240 (11110000).
+    ◦ Phép AND: 16 AND 240 = 16. Các octet sau là 0.
+    ◦ Kết quả: 102.16.0.0.
+Câu 20: Trong kỹ thuật chia mạng con, điều gì xảy ra với phần host_id? A. Phần host_id giữ nguyên kích thước B. Phần host_id bị mượn một số bit để làm subnet_id, do đó kích thước giảm đi C. Phần host_id tăng kích thước để chứa nhiều máy hơn D. Phần host_id chuyển toàn bộ thành bit 1
+• Đáp án: B
+• Giải thích: Khi chia mạng con, ta "Mượn một số bit trong phần host_id ban đầu để đặt cho các mạng con". Cấu trúc lúc này gồm 3 phần: network_id, subnet_id và host_id (host_id ngắn lại).
+-------------------------------------------------------------------------------- 
+Bộ câu hỏi trắc nghiệm IPv4 (Phần 3: NAT & Bài tập thực hành)
+Câu 21: Mục đích chính của kỹ thuật NAT (Network Address Translation) là gì? A. Tăng tốc độ đường truyền mạng B. Tiết kiệm địa chỉ IP và cho phép mạng nội bộ sử dụng địa chỉ IP dành riêng (Private IP) C. Thay đổi địa chỉ MAC của thiết bị D. Mã hóa dữ liệu truyền trên mạng
+• Đáp án: B
+• Giải thích: NAT được thiết kế để tiết kiệm địa chỉ IP và cho phép mạng nội bộ sử dụng địa chỉ IP dành riêng, sau đó chuyển đổi sang địa chỉ dùng chung định tuyến được khi ra Internet.
+Câu 22: Thiết bị thực hiện NAT thường được đặt ở đâu trong hệ thống mạng? A. Tại các switch trong mạng LAN B. Tại máy chủ DHCP C. Thường sử dụng trên router biên của mạng một cửa D. Trên từng máy tính cá nhân
+• Đáp án: C
+• Giải thích: NAT thường được sử dụng trên router biên của mạng, nơi kết nối giữa mạng riêng (nội bộ) và mạng công cộng (Internet).
+Câu 23: Dựa trên Bài tập 4 trong slide, với địa chỉ IP 102.16.10.107/12, địa chỉ mạng con (Network Address) được xác định là gì? A. 102.0.0.0 B. 102.16.0.0 C. 102.16.10.0 D. 102.32.0.0
+• Đáp án: B
+• Giải thích: Với /12 (Subnet mask 255.240.0.0), byte đầu tiên (102) giữ nguyên. Byte thứ hai (16 = 00010000) AND với mask (240 = 11110000) ra kết quả 16 (00010000). Vậy Network ID là 102.16.0.0.
+Câu 24: Cũng với địa chỉ 102.16.10.107/12 (Bài tập 4), địa chỉ Broadcast của mạng này là bao nhiêu? A. 102.16.255.255 B. 102.31.255.255 C. 102.15.255.255 D. 102.47.255.255
+• Đáp án: B
+• Giải thích: Dải host từ 102.16.0.1 đến 102.31.255.254. Địa chỉ Broadcast là địa chỉ cuối cùng: 102.31.255.255.
+Câu 25: Trong Bài tập 5 (Cho IP 172.19.160.0/21), để chia thành 4 mạng con, ta cần mượn bao nhiêu bit và địa chỉ Broadcast của mạng con thứ nhất là gì? A. Mượn 2 bit; Broadcast: 172.19.161.255 B. Mượn 3 bit; Broadcast: 172.19.160.255 C. Mượn 2 bit; Broadcast: 172.19.163.255 D. Mượn 4 bit; Broadcast: 172.19.167.255
+• Đáp án: A
+• Giải thích: Muốn chia 4 mạng con cần mượn 2 bit (). Theo bảng kết quả Bài tập 5, mạng con 1 (172.19.160.0) có dải host đến 172.19.161.254, vậy Broadcast là 172.19.161.255,.
+Câu 26: Xét Bài tập 6 (Cho IP 172.16.192.0/18 chia làm 4 mạng con). Địa chỉ mạng (Network Address) của mạng con thứ 2 là gì? A. 172.16.192.0 B. 172.16.208.0 C. 172.16.224.0 D. 172.16.240.0
+• Đáp án: B
+• Giải thích: Mạng gốc /18. Chia 4 mạng con cần mượn 2 bit. Bước nhảy (số gia) được tính toán ra các mạng con lần lượt là: 172.16.192.0 (thứ 1), 172.16.208.0 (thứ 2), 172.16.224.0 (thứ 3)....
+Câu 27: Theo công thức "Tính nhanh vùng địa chỉ IP" trong slide, nếu là số gia địa chỉ mạng con và là số thứ tự mạng con, thì byte cuối của IP Broadcast (ví dụ lớp C) được tính như thế nào? A. B. C. D. 
+• Đáp án: C
+• Giải thích: Theo slide tổng hợp công thức, byte cuối của IP Broadcast = .
+Câu 28: Trong Bài tập 1 (IP 172.16.0.0/16 chia 8 mạng con), Subnet Mask mới dạng thập phân là gì? A. 255.255.192.0 B. 255.255.224.0 C. 255.255.240.0 D. 255.255.248.0
+• Đáp án: B
+• Giải thích: Để chia 8 mạng con cần mượn 3 bit (). Mask cũ /16, mask mới là /19. Đổi sang thập phân: 8 bit (255) . 8 bit (255) . 3 bit (224) . 0 bit (0) -> 255.255.224.0.
+Câu 29: Địa chỉ nào sau đây thuộc dải Private Address Lớp A theo RFC 1918? A. 192.168.1.1 B. 172.16.0.1 C. 10.0.0.1 D. 11.0.0.1
+• Đáp án: C
+• Giải thích: Dải địa chỉ dành riêng (Private address) cho lớp A là từ 10.0.0.0 đến 10.255.255.255.
+Câu 30: Khi chia mạng 172.19.160.0/21 thành 4 mạng con (Bài tập 5), dải địa chỉ Host hợp lệ của mạng con thứ 3 là bao nhiêu? A. 172.19.164.1 đến 172.19.165.254 B. 172.19.162.1 đến 172.19.163.254 C. 172.19.160.1 đến 172.19.161.254 D. 172.19.166.1 đến 172.19.167.254
+• Đáp án: A
+• Giải thích: Mạng con thứ 3 có địa chỉ mạng là 172.19.164.0. Dải host bắt đầu từ 172.19.164.1 và kết thúc tại 172.19.165.254 (Broadcast là 172.19.165.255).
+-------------------------------------------------------------------------------- 
+Bộ câu hỏi trắc nghiệm IPv4 (Phần 4: Tính toán nâng cao & Chuyển đổi hệ số)
+Câu 31: Khi chuyển đổi số thập phân 201 sang hệ nhị phân, kết quả nào sau đây là đúng? A. 11001001 B. 11001011 C. 10001001 D. 11101001
+• Đáp án: A
+• Giải thích: Theo ví dụ chuyển đổi trong tài liệu: dư 1, tiếp tục chia cho đến hết... Kết quả ghi ngược lại là ,.
+Câu 32: Trong Bài tập 3, mạng 139.12.0.0/16 cần chia thành 5 mạng con. Subnet Mask mới (dạng CIDR) sẽ là bao nhiêu? A. /18 B. /19 C. /20 D. /21
+• Đáp án: B
+• Giải thích: Để có 5 mạng con, ta cần , suy ra bit. Subnet mask mới = 16 (cũ) + 3 (mượn) = 19 bit (/19).
+Câu 33: Dựa trên Bài tập 2, hai địa chỉ IP 192.168.5.9/28 và 192.168.5.39/28 có đặc điểm gì? A. Cùng thuộc một mạng con (Network ID: 192.168.5.0) B. Khác mạng con (Network ID lần lượt là 192.168.5.0 và 192.168.5.32) C. Cùng thuộc mạng con 192.168.5.32 D. Cả hai đều là địa chỉ Broadcast
+• Đáp án: B
+• Giải thích: Khi thực hiện phép AND với subnet mask /28 (255.255.255.240):
+    ◦ 192.168.5.9 thuộc mạng 192.168.5.0.
+    ◦ 192.168.5.39 thuộc mạng 192.168.5.32.
+    ◦ Kết luận: Hai địa chỉ trên không cùng mạng.
+Câu 34: Trong Bài tập 6 (IP 172.16.192.0/18 chia 4 mạng con), địa chỉ mạng của mạng con thứ 4 (Subnet 4) là gì? A. 172.16.224.0 B. 172.16.240.0 C. 172.16.208.0 D. 172.16.255.0
+• Đáp án: B
+• Giải thích: Với /18 chia 4 mạng (mượn 2 bit), ta xét byte thứ 3. Các mạng con lần lượt là: .192.0, .208.0, .224.0 và mạng thứ 4 là 172.16.240.0.
+Câu 35: Số lượng bit tối đa có thể mượn để chia mạng con đối với địa chỉ Lớp A là bao nhiêu? A. 8 bit B. 16 bit C. 22 bit D. 24 bit
+• Đáp án: C
+• Giải thích: Lớp A có 24 bit cho phần Host. Số bit tối đa có thể mượn là bit (để lại ít nhất 2 bit cho host).
+Câu 36: Trong Bài tập 1 (172.16.0.0/16 chia 8 mạng con), số lượng host tối đa trên mỗi mạng con (subnet) là bao nhiêu? A. B. C. D. 
+• Đáp án: A
+• Giải thích: Mạng gốc lớp B (/16), mượn 3 bit để chia 8 mạng. Số bit host còn lại là bit. Số host khả dụng là .
+Câu 37: Một địa chỉ IP lớp B có byte đầu tiên nằm trong khoảng giá trị nào (hệ thập phân)? A. 1 đến 126 B. 128 đến 191 C. 192 đến 223 D. 224 đến 239
+• Đáp án: B
+• Giải thích: Địa chỉ Lớp B có byte đầu tiên bắt đầu bằng bit 10, tương ứng với khoảng từ 128 đến 191,.
+Câu 38: Theo quy tắc "Tính nhanh vùng địa chỉ IP" trong slide, công thức tính byte cuối của IP host cuối cùng (Last Host) là gì? A. B. C. D. 
+• Đáp án: C
+• Giải thích: Byte cuối của IP broadcast là , do đó byte cuối của IP host cuối cùng (nằm ngay trước broadcast) là .
+Câu 39: Trong Bài tập 5 (172.19.160.0/21 chia 4 mạng con), địa chỉ Broadcast của mạng con thứ 2 là bao nhiêu? A. 172.19.161.255 B. 172.19.163.255 C. 172.19.165.255 D. 172.19.167.255
+• Đáp án: B
+• Giải thích: Mạng con thứ 2 có dải địa chỉ từ 172.19.162.0 đến 172.19.163.255 (vì mạng con tiếp theo bắt đầu từ 164.0). Vậy Broadcast là 172.19.163.255.
+Câu 40: Mặt nạ mạng con (Subnet Mask) được định nghĩa cấu trúc bit như thế nào? A. Tất cả các bit phần Network là 0, phần Host là 1 B. Tất cả các bit phần Host là 0, các phần còn lại (Network + Subnet) là 1 C. Các bit 0 và 1 xen kẽ nhau D. Tất cả các bit đều bằng 1
+• Đáp án: B
+• Giải thích: Tài liệu định nghĩa Subnet mask: "tất cả các bit trong phần host_id là 0, các phần còn lại là 1".
+-------------------------------------------------------------------------------- 
+Bộ câu hỏi trắc nghiệm IPv4 (Phần 5: Tổng hợp & Các trường hợp đặc biệt)
+Câu 41: Lớp địa chỉ nào sau đây được dành riêng cho các nhóm Multicast? A. Lớp A B. Lớp B C. Lớp D D. Lớp E
+• Đáp án: C
+• Giải thích: Không gian địa chỉ IP chia thành 5 lớp, trong đó lớp D dùng cho các nhóm multicast,.
+Câu 42: Dải giá trị byte đầu tiên (hệ thập phân) của địa chỉ Lớp E là bao nhiêu? A. 224 - 239 B. 240 - 255 C. 192 - 223 D. 200 - 254
+• Đáp án: B
+• Giải thích: Theo bảng phân loại lớp địa chỉ, Lớp E có byte đầu tiên từ 240 đến 255 và được dùng cho mục đích nghiên cứu.
+Câu 43: Khi chuyển đổi từ hệ nhị phân sang hệ thập lục phân (Hex), ta gom nhóm bao nhiêu bit tính từ phải sang trái? A. 2 bit B. 3 bit C. 4 bit D. 8 bit
+• Đáp án: C
+• Giải thích: Để chuyển sang hệ thập lục phân, ta gom nhóm số nhị phân thành từng nhóm 4 chữ số tính từ phải sang trái (ví dụ: 1101 = D).
+Câu 44: Trong ví dụ minh họa của slide, địa chỉ IP 172.16.30.56 được biểu diễn dưới dạng Hex là gì? A. AC 10 1E 38 B. AB 10 1F 38 C. AC 16 1E 36 D. C0 A8 01 01
+• Đáp án: A
+• Giải thích: Slide đưa ra ví dụ chuyển đổi: 172 (AC) . 16 (10) . 30 (1E) . 56 (38).
+Câu 45: Trong Bài tập 3 (IP 139.12.0.0/19 chia 5 mạng con), địa chỉ mạng (Network ID) của Subnet thứ 3 là bao nhiêu? A. 139.12.32.0 B. 139.12.48.0 C. 139.12.64.0 D. 139.12.96.0
+• Đáp án: C
+• Giải thích: Theo bảng kết quả Bài tập 3: Subnet 1 (139.12.0.0), Subnet 2 (139.12.32.0), Subnet 3 là 139.12.64.0.
+Câu 46: Số lượng mạng con tối đa có thể tạo ra khi chia subnet đối với địa chỉ Lớp B là bao nhiêu? A. 256 mạng B. 16,384 mạng C. 65,536 mạng D. 2,097,152 mạng
+• Đáp án: B
+• Giải thích: Đối với Lớp B, số bit tối đa có thể mượn là bit. Số lượng mạng con tối đa là .
+Câu 47: Tại sao khi cấp phát địa chỉ host, không được phép để tất cả các bit trong phần host_id đều bằng 1? A. Vì đó là địa chỉ Loopback B. Vì đó là địa chỉ Broadcast của mạng C. Vì đó là địa chỉ Network ID D. Vì đó là địa chỉ dành riêng cho Router
+• Đáp án: B
+• Giải thích: Địa chỉ có phần host_id chứa toàn bit 1 là địa chỉ Broadcast dùng để đại diện cho tất cả các host trong mạng, không dùng đặt cho một máy cụ thể.
+Câu 48: Trong Bài tập 5 (172.19.160.0/21 chia 4 mạng con), địa chỉ Broadcast của mạng con cuối cùng (Subnet 4) là gì? A. 172.19.167.255 B. 172.19.166.255 C. 172.19.165.255 D. 172.19.164.255
+• Đáp án: A
+• Giải thích: Mạng con 4 bắt đầu từ 172.19.166.0. Dải host đến 172.19.167.254. Địa chỉ Broadcast là 172.19.167.255.
+Câu 49: Kỹ thuật nào cho phép giấu kín địa chỉ IP nội bộ của mạng riêng khi truy cập Internet? A. DNS (Domain Name System) B. DHCP (Dynamic Host Configuration Protocol) C. NAT (Network Address Translation) D. ARP (Address Resolution Protocol)
+• Đáp án: C
+• Giải thích: NAT cho phép mạng riêng được tách biệt và giấu kín IP nội bộ khi kết nối ra ngoài.
+Câu 50: Theo Bài tập 6 (172.16.192.0/18), dải địa chỉ host khả dụng (Valid Host Range) của mạng con đầu tiên là từ đâu đến đâu? A. 172.16.192.0 đến 172.16.207.255 B. 172.16.192.1 đến 172.16.207.254 C. 172.16.192.1 đến 172.16.208.254 D. 172.16.192.0 đến 172.16.207.254
+• Đáp án: B
+• Giải thích: Mạng con 1 là 172.16.192.0. Host đầu tiên là cộng 1 (192.1). Broadcast là 207.255. Host cuối cùng là trừ 1 từ Broadcast (207.254). Vậy dải là 172.16.192.1 đến 172.16.207.254.
+-------------------------------------------------------------------------------- 

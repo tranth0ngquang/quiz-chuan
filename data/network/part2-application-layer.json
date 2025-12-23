@@ -1,0 +1,1206 @@
+{
+  "partId": "application-layer",
+  "partName": "Lớp ứng dụng (Application Layer)",
+  "questions": [
+    {
+      "id": 101,
+      "question": "Hai kiến trúc ứng dụng mạng chủ yếu được đề cập trong tài liệu là gì?",
+      "options": {
+        "A": "Hybrid và Cloud Computing",
+        "B": "Client-Server (Khách-chủ) và Peer-to-Peer (Ngang hàng)",
+        "C": "Bus và Star",
+        "D": "Centralized và Distributed"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nHai kiến trúc phù hợp của các ứng dụng mạng là **Khách-chủ (client-server)** và **Mạng ngang hàng (peer-to-peer - P2P)**."
+    },
+    {
+      "id": 102,
+      "question": "Đâu là đặc điểm của \"máy chủ\" (server) trong kiến trúc Client-Server?",
+      "options": {
+        "A": "Có thể kết nối không liên tục.",
+        "B": "Thường xuyên thay đổi địa chỉ IP.",
+        "C": "Luôn luôn hoạt động và có địa chỉ IP cố định.",
+        "D": "Giao tiếp trực tiếp với các máy chủ khác để phục vụ máy khách."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nMáy chủ là máy **luôn luôn hoạt động** và có **địa chỉ IP cố định**. Ngược lại, máy khách kết nối không liên tục và có thể thay đổi địa chỉ IP."
+    },
+    {
+      "id": 103,
+      "question": "Đặc điểm nổi bật của kiến trúc P2P (Peer-to-Peer) là gì?",
+      "options": {
+        "A": "Dựa hoàn toàn vào các trung tâm dữ liệu lớn.",
+        "B": "Các hệ thống đầu cuối (peer) giao tiếp trực tiếp với nhau và có khả năng tự mở rộng.",
+        "C": "Máy chủ luôn phải hoạt động để điều phối mọi giao tiếp.",
+        "D": "Các peer luôn có địa chỉ IP cố định."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nTrong P2P, không có máy chủ cố định, các hệ thống đầu cuối (peer) **truyền thông trực tiếp** với nhau. Hệ thống có khả năng **tự mở rộng** vì các peer mới vừa mang đến nhu cầu vừa đóng góp năng lực phục vụ."
+    },
+    {
+      "id": 104,
+      "question": "Giao diện giữa tiến trình ứng dụng (process) và mạng máy tính được gọi là gì?",
+      "options": {
+        "A": "Port (Cổng)",
+        "B": "IP Address (Địa chỉ IP)",
+        "C": "Protocol (Giao thức)",
+        "D": "Socket"
+      },
+      "correctAnswer": "D",
+      "explanation": "📌 **Phân tích:**\n\nTiến trình gửi/nhận thông điệp thông qua **socket** của nó. Socket được ví như \"cánh cửa\" ra vào giữa tiến trình và hạ tầng mạng."
+    },
+    {
+      "id": 105,
+      "question": "Để định danh một tiến trình cụ thể đang chạy trên một máy trạm (host), chúng ta cần những thông tin gì?",
+      "options": {
+        "A": "Chỉ cần địa chỉ IP.",
+        "B": "Chỉ cần số cổng (Port number).",
+        "C": "Địa chỉ MAC và địa chỉ IP.",
+        "D": "Địa chỉ IP và số cổng (Port number)."
+      },
+      "correctAnswer": "D",
+      "explanation": "📌 **Phân tích:**\n\nĐịnh danh bao gồm cả **địa chỉ IP** (để xác định máy) và **số cổng** (để xác định tiến trình trên máy đó)."
+    },
+    {
+      "id": 106,
+      "question": "Số hiệu cổng (port number) mặc định cho dịch vụ Web server (HTTP) là bao nhiêu?",
+      "options": {
+        "A": "21",
+        "B": "25",
+        "C": "80",
+        "D": "110"
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nMáy chủ Web dùng cổng **80**, máy chủ thư điện tử dùng cổng 25."
+    },
+    {
+      "id": 107,
+      "question": "Ứng dụng nào sau đây yêu cầu độ tin cậy dữ liệu 100% (không chấp nhận mất mát dữ liệu)?",
+      "options": {
+        "A": "Truyền hình trực tuyến (Streaming stored video)",
+        "B": "Đàm thoại qua mạng IP (VoIP)",
+        "C": "Truyền tập tin (File transfer) và Web",
+        "D": "Hội thảo video thời gian thực"
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nMột số ứng dụng như **truyền tập tin, web** yêu cầu độ tin cậy **100%** khi truyền dữ liệu. Các ứng dụng đa phương tiện (audio/video) có thể chịu được một số mất mát."
+    },
+    {
+      "id": 108,
+      "question": "Giao thức TCP cung cấp các dịch vụ nào sau đây cho ứng dụng?",
+      "options": {
+        "A": "Truyền tải tin cậy, điều khiển luồng, điều khiển tắc nghẽn.",
+        "B": "Truyền tải tin cậy, bảo mật mặc định, định thì (timing).",
+        "C": "Truyền tải nhanh nhất (không tin cậy), đảm bảo thông lượng tối thiểu.",
+        "D": "Kết nối không hướng đích, truyền dữ liệu thời gian thực."
+      },
+      "correctAnswer": "A",
+      "explanation": "📌 **Phân tích:**\n\nDịch vụ TCP bao gồm: **Truyền tải có đảm bảo (reliable)**, **điều khiển luồng (flow control)**, **điều khiển tắc nghẽn (congestion control)**, và hướng kết nối. TCP không hỗ trợ định thì hay bảo đảm thông lượng tối thiểu."
+    },
+    {
+      "id": 109,
+      "question": "Giao thức UDP phù hợp với loại ứng dụng nào?",
+      "options": {
+        "A": "Cần truyền file không lỗi.",
+        "B": "Cần gửi email quan trọng.",
+        "C": "Ứng dụng đa phương tiện thời gian thực (như thoại Internet) chấp nhận mất dữ liệu nhưng cần tốc độ.",
+        "D": "Ứng dụng giao dịch ngân hàng."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nUDP là dịch vụ truyền dữ liệu **không đảm bảo**, không kiểm soát luồng hay tắc nghẽn, thường được dùng cho các ứng dụng **đa phương tiện trực tuyến** hoặc thoại Internet (những ứng dụng có thể chịu lỗi)."
+    },
+    {
+      "id": 110,
+      "question": "SSL (Secure Sockets Layer) hoạt động ở đâu trong mô hình mạng để hỗ trợ bảo mật cho TCP?",
+      "options": {
+        "A": "Nằm hoàn toàn trong lớp Vật lý (Physical layer).",
+        "B": "Là một giao thức lớp Ứng dụng, sử dụng thư viện SSL để giao tiếp với TCP.",
+        "C": "Nằm trong phần cứng của Router.",
+        "D": "Thay thế hoàn toàn giao thức TCP."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nSSL là giao thức ở **lớp ứng dụng**. Các ứng dụng dùng thư viện SSL, thông qua đó để \"nói chuyện\" với TCP nhằm cung cấp **mã hóa, toàn vẹn dữ liệu và chứng thực**."
+    },
+    {
+      "id": 111,
+      "question": "Một trang web (Web page) thông thường bao gồm những gì?",
+      "options": {
+        "A": "Chỉ một tập tin HTML duy nhất chứa tất cả dữ liệu.",
+        "B": "Một tập tin HTML cơ sở và các đối tượng được tham chiếu (như hình ảnh, applet, audio...).",
+        "C": "Chỉ các đối tượng hình ảnh và video, không cần tập tin văn bản.",
+        "D": "Một kết nối TCP duy nhất chứa toàn bộ nội dung web dưới dạng binary."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nTrang web bao gồm một **tập tin HTML chứa các tham chiếu** đến các đối tượng khác (như hình ảnh JPEG, Java applet, tập tin audio...). Mỗi đối tượng được xác định bởi một URL."
+    },
+    {
+      "id": 112,
+      "question": "HTTP (HyperText Transfer Protocol) sử dụng giao thức vận chuyển nào và cổng mặc định là bao nhiêu?",
+      "options": {
+        "A": "UDP, cổng 80",
+        "B": "TCP, cổng 25",
+        "C": "TCP, cổng 80",
+        "D": "UDP, cổng 53"
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nHTTP sử dụng **TCP** làm giao thức vận chuyển nền tảng. Máy khách khởi tạo kết nối TCP đến **cổng 80** của máy chủ."
+    },
+    {
+      "id": 113,
+      "question": "Tại sao nói HTTP là một giao thức \"không lưu trạng thái\" (stateless)?",
+      "options": {
+        "A": "Vì nó không sử dụng địa chỉ IP cố định.",
+        "B": "Vì máy chủ không duy trì thông tin về các yêu cầu trước đó của máy khách.",
+        "C": "Vì nó không hỗ trợ bảo mật dữ liệu.",
+        "D": "Vì nó không yêu cầu thiết lập kết nối TCP."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nHTTP là \"không lưu trạng thái\" vì máy chủ **không lưu giữ bất kỳ thông tin nào** về các yêu cầu mà máy khách đã gửi trước đó."
+    },
+    {
+      "id": 114,
+      "question": "Sự khác biệt chính giữa HTTP không bền vững (non-persistent) và HTTP bền vững (persistent) là gì?",
+      "options": {
+        "A": "HTTP bền vững dùng UDP, còn không bền vững dùng TCP.",
+        "B": "HTTP không bền vững chỉ cho phép gửi tối đa một đối tượng qua một kết nối TCP, sau đó đóng kết nối. HTTP bền vững cho phép gửi nhiều đối tượng qua một kết nối.",
+        "C": "HTTP bền vững không bao giờ đóng kết nối, còn không bền vững đóng sau 1 giờ.",
+        "D": "HTTP không bền vững nhanh hơn HTTP bền vững."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nVới HTTP **không bền vững**, chỉ tối đa **một đối tượng** được gửi qua kết nối TCP rồi đóng lại. Với HTTP **bền vững**, **nhiều đối tượng** có thể được gửi qua một kết nối TCP duy nhất giữa máy khách và máy chủ."
+    },
+    {
+      "id": 115,
+      "question": "Thời gian đáp ứng của HTTP không bền vững được tính như thế nào (bỏ qua thời gian xử lý tại các nút)?",
+      "options": {
+        "A": "1 RTT + thời gian truyền tập tin.",
+        "B": "2 RTT + thời gian truyền tập tin.",
+        "C": "3 RTT + thời gian truyền tập tin.",
+        "D": "Chỉ bằng thời gian truyền tập tin."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nCần **một RTT** để khởi tạo kết nối TCP và **một RTT** để gửi yêu cầu HTTP và nhận vài byte đầu tiên của phản hồi. Do đó tổng thời gian là **2 RTT + thời gian truyền tập tin**."
+    },
+    {
+      "id": 116,
+      "question": "Phương thức nào của HTTP được sử dụng khi người dùng điền thông tin vào biểu mẫu (form) và dữ liệu nhập được tải lên trong phần thân (body) của thông điệp?",
+      "options": {
+        "A": "GET",
+        "B": "HEAD",
+        "C": "POST",
+        "D": "DELETE"
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nPhương thức **POST** được dùng khi có dữ liệu nhập từ biểu mẫu, và dữ liệu này được tải lên máy chủ trong phần **thân của thực thể thông điệp**. Nếu dùng GET, dữ liệu sẽ nằm trong URL."
+    },
+    {
+      "id": 117,
+      "question": "Mã trạng thái (status code) \"404 Not Found\" trong thông điệp phản hồi HTTP có ý nghĩa gì?",
+      "options": {
+        "A": "Yêu cầu thành công.",
+        "B": "Đối tượng đã bị di chuyển vĩnh viễn.",
+        "C": "Máy chủ không hiểu thông điệp yêu cầu.",
+        "D": "Thông tin được yêu cầu không tìm thấy trên máy chủ này."
+      },
+      "correctAnswer": "D",
+      "explanation": "📌 **Phân tích:**\n\nMã trạng thái **404 Not Found** nghĩa là **thông tin được yêu cầu không tìm thấy trên máy chủ** này. Các mã khác: 200 OK (thành công), 301 Moved Permanently (đã di chuyển), 400 Bad Request (lỗi yêu cầu)."
+    },
+    {
+      "id": 118,
+      "question": "Cookies được sử dụng để giải quyết vấn đề gì của HTTP?",
+      "options": {
+        "A": "Tăng tốc độ tải trang web.",
+        "B": "Mã hóa dữ liệu truyền đi.",
+        "C": "Giúp duy trì trạng thái giữa người dùng và máy chủ (ví dụ: giỏ hàng, xác thực).",
+        "D": "Giảm tải cho máy chủ DNS."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nVì HTTP là stateless, **Cookies** được dùng để **duy trì trạng thái**, hỗ trợ các chức năng như: cấp phép, giỏ mua hàng, gợi ý đề xuất, và trạng thái phiên làm việc của user."
+    },
+    {
+      "id": 119,
+      "question": "Web Cache (hay Proxy Server) hoạt động như thế nào?",
+      "options": {
+        "A": "Nó chỉ đóng vai trò là máy chủ đối với người dùng.",
+        "B": "Nó hoạt động như cả máy khách và máy chủ: là máy chủ đối với trình duyệt gửi yêu cầu, và là máy khách đối với máy chủ gốc.",
+        "C": "Nó thay thế hoàn toàn máy chủ gốc và chứa toàn bộ nội dung của Internet.",
+        "D": "Nó chỉ dùng để chặn các trang web độc hại."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nWeb cache (Proxy server) **vừa là máy chủ** (khi nhận yêu cầu từ browser) **vừa là máy khách** (khi gửi yêu cầu đến máy chủ gốc để lấy dữ liệu nếu chưa có trong cache)."
+    },
+    {
+      "id": 120,
+      "question": "Mục đích của phương thức \"GET có điều kiện\" (Conditional GET) và trường header If-modified-since là gì?",
+      "options": {
+        "A": "Để tải lại trang web ngay cả khi nó chưa thay đổi.",
+        "B": "Để yêu cầu máy chủ xóa đối tượng.",
+        "C": "Để không gửi lại đối tượng nếu bản sao trong cache chưa bị thay đổi (tiết kiệm băng thông).",
+        "D": "Để kiểm tra mật khẩu người dùng."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nMục tiêu của **GET có điều kiện** là **không gửi đối tượng nếu cache đã có bản cập nhật mới nhất**. Nếu đối tượng chưa thay đổi, máy chủ sẽ phản hồi mã **304 Not Modified** và không kèm theo dữ liệu, giúp tiết kiệm băng thông và giảm độ trễ."
+    },
+    {
+      "id": 121,
+      "question": "Giao thức FTP (File Transfer Protocol) sử dụng phương thức truyền tải nào để gửi thông tin điều khiển (control) và dữ liệu (data)?",
+      "options": {
+        "A": "Gửi chung trên một kết nối UDP duy nhất.",
+        "B": "Gửi chung trên một kết nối TCP duy nhất (in-band).",
+        "C": "Sử dụng hai kết nối TCP song song: một cho điều khiển, một cho dữ liệu (out-of-band).",
+        "D": "Sử dụng kết nối P2P trực tiếp."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nFTP **tách biệt kết nối điều khiển và kết nối dữ liệu**. Máy khách liên hệ với máy chủ tại **cổng 21** (điều khiển) và máy chủ mở kết nối TCP thứ 2 tại **cổng 20** để truyền dữ liệu. Đây được gọi là truyền **\"out of band\"** (ngoại tuyến)."
+    },
+    {
+      "id": 122,
+      "question": "Trong giao thức FTP, máy chủ có duy trì trạng thái (state) của người dùng không?",
+      "options": {
+        "A": "Không, FTP là giao thức không lưu trạng thái giống như HTTP.",
+        "B": "Có, FTP máy chủ duy trì trạng thái như thư mục hiện tại và xác thực người dùng.",
+        "C": "Chỉ duy trì trạng thái khi truyền file lớn.",
+        "D": "Chỉ duy trì trạng thái nếu người dùng sử dụng Cookies."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nFTP máy chủ **duy trì \"trạng thái\"**: thư mục hiện tại, xác thực trước đó. Điều này khác với HTTP là giao thức không lưu trạng thái."
+    },
+    {
+      "id": 123,
+      "question": "Ba thành phần chính của hệ thống thư điện tử (Email) là gì?",
+      "options": {
+        "A": "Trình duyệt Web, Máy chủ Web, Giao thức HTTP.",
+        "B": "User Agents (Đại lý người dùng), Mail Servers (Máy chủ thư), Giao thức SMTP.",
+        "C": "User Agents, DNS Server, FTP Server.",
+        "D": "Mail Reader, Mail Sender, Router."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nBa thành phần chính: **User agents**, **Máy chủ thư điện tử (mail server)**, và **Simple mail transfer protocol (SMTP)**."
+    },
+    {
+      "id": 124,
+      "question": "User Agent (UA) trong hệ thống email có chức năng gì?",
+      "options": {
+        "A": "Chỉ dùng để định tuyến thư trong mạng lõi.",
+        "B": "Là nơi lưu trữ vĩnh viễn tất cả thư của người dùng trên máy chủ.",
+        "C": "Cho phép người dùng soạn thảo, sửa đổi, đọc thông điệp; ví dụ như Outlook, Thunderbird.",
+        "D": "Chuyển đổi tên miền thành địa chỉ IP cho email."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\n**User Agent** (còn gọi là mail reader) dùng để **soạn thảo, sửa đổi, đọc thông điệp**. Ví dụ: Outlook, Thunderbird, iPhone mail client."
+    },
+    {
+      "id": 125,
+      "question": "Giao thức SMTP dùng để làm gì trong hệ thống thư điện tử?",
+      "options": {
+        "A": "Để người nhận tải thư từ máy chủ về máy cá nhân.",
+        "B": "Để gửi thông điệp giữa các máy chủ thư điện tử và từ người gửi đến máy chủ của họ.",
+        "C": "Để định dạng nội dung thư (font chữ, màu sắc).",
+        "D": "Để bảo mật thư điện tử."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nSMTP được dùng để **gửi các thông điệp thư điện tử giữa các mail server**. Client là máy chủ gửi, Server là máy chủ nhận."
+    },
+    {
+      "id": 126,
+      "question": "Sự khác biệt cơ bản về phương thức hoạt động giữa HTTP và SMTP là gì?",
+      "options": {
+        "A": "HTTP là giao thức \"đẩy\" (push), SMTP là giao thức \"kéo\" (pull).",
+        "B": "HTTP là giao thức \"kéo\" (pull), SMTP là giao thức \"đẩy\" (push).",
+        "C": "Cả hai đều là giao thức \"kéo\".",
+        "D": "Cả hai đều là giao thức \"đẩy\"."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nHTTP chủ yếu là giao thức **\"kéo\"** (người dùng kéo nội dung từ web server về), trong khi SMTP là giao thức **\"đẩy\"** (người gửi đẩy thư đến máy chủ thư)."
+    },
+    {
+      "id": 127,
+      "question": "Hạn chế về định dạng dữ liệu của giao thức SMTP nguyên bản là gì?",
+      "options": {
+        "A": "Không hỗ trợ hình ảnh.",
+        "B": "Thông điệp (header & body) phải ở dạng mã ASCII 7-bit.",
+        "C": "Chỉ gửi được tập tin dưới 1MB.",
+        "D": "Phải sử dụng mã hóa SSL."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nSMTP yêu cầu thông điệp (header & body) phải ở dạng **mã ASCII 7-bit**."
+    },
+    {
+      "id": 128,
+      "question": "Tại sao cần có các giao thức truy cập thư (Mail Access Protocols) như POP3 và IMAP?",
+      "options": {
+        "A": "Vì SMTP chỉ dùng để gửi/đẩy thư đến máy chủ người nhận, không dùng để người nhận lấy thư về.",
+        "B": "Vì SMTP quá chậm.",
+        "C": "Vì POP3 và IMAP bảo mật hơn SMTP.",
+        "D": "Để thay thế hoàn toàn SMTP."
+      },
+      "correctAnswer": "A",
+      "explanation": "📌 **Phân tích:**\n\nSMTP dùng để **truyền dẫn/lưu trữ thư vào máy chủ người nhận**. Để **trích xuất (lấy) thư từ máy chủ về** User Agent của người nhận, cần các giao thức truy cập thư như **POP hoặc IMAP**."
+    },
+    {
+      "id": 129,
+      "question": "Đặc điểm của chế độ \"tải xuống và xóa\" (download and delete) trong POP3 là gì?",
+      "options": {
+        "A": "Người dùng có thể đọc lại thư trên máy khách khác.",
+        "B": "Thư được giữ lại trên máy chủ sau khi đọc.",
+        "C": "Người dùng không thể đọc lại thư điện tử nếu thay đổi máy khách (client/máy tính).",
+        "D": "Cho phép tạo thư mục lưu trữ trên máy chủ."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nVới chế độ **\"tải xuống và xóa\"**, sau khi User Agent tải thư về, **thư sẽ bị xóa khỏi máy chủ**. Do đó, nếu người dùng đổi máy khách, họ sẽ không thấy thư đó nữa."
+    },
+    {
+      "id": 130,
+      "question": "IMAP (Internet Mail Access Protocol) có ưu điểm gì so với POP3?",
+      "options": {
+        "A": "Đơn giản và nhẹ hơn POP3.",
+        "B": "Giữ tất cả thông điệp ở máy chủ, cho phép tổ chức thư mục và duy trì trạng thái phiên làm việc của người dùng.",
+        "C": "Không yêu cầu kết nối Internet liên tục.",
+        "D": "Chuyển thư nhanh hơn SMTP."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nIMAP **giữ tất cả thông điệp tại máy chủ**, cho phép người dùng **tổ chức thư mục** và giữ trạng thái của người dùng (như ánh xạ thư mục, ID thông điệp) xuyên suốt các phiên làm việc."
+    },
+    {
+      "id": 131,
+      "question": "Chức năng chính của hệ thống tên miền (DNS) là gì?",
+      "options": {
+        "A": "Chuyển đổi địa chỉ MAC thành địa chỉ IP.",
+        "B": "Dịch tên miền (hostname) sang địa chỉ IP để các hệ thống đầu cuối và bộ định tuyến có thể hiểu được.",
+        "C": "Mã hóa dữ liệu truyền trên web.",
+        "D": "Định tuyến gói tin trong mạng lõi."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nCon người sử dụng **tên** (ví dụ: www.yahoo.com), còn hệ thống đầu cuối và bộ định tuyến dùng **địa chỉ IP**. DNS là cơ sở dữ liệu phân tán giúp **ánh xạ (dịch) giữa tên miền và địa chỉ IP**."
+    },
+    {
+      "id": 132,
+      "question": "Tại sao cơ sở dữ liệu DNS không được thiết kế theo mô hình tập trung (centralized)?",
+      "options": {
+        "A": "Vì chi phí phần cứng quá cao.",
+        "B": "Để tránh vấn đề \"một điểm chịu lỗi\" (single point of failure), giảm tải lưu lượng tập trung và vấn đề bảo trì.",
+        "C": "Vì không có máy chủ nào đủ mạnh để chứa hết dữ liệu Internet.",
+        "D": "Vì giao thức DNS không hỗ trợ mô hình tập trung."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nLý do không tập trung hóa DNS: **một điểm chịu lỗi duy nhất**, **lưu lượng quá tải** tại một điểm, cơ sở dữ liệu ở xa người dùng gây trễ, và **khó bảo trì**."
+    },
+    {
+      "id": 133,
+      "question": "Thứ tự truy vấn tiêu chuẩn trong hệ thống DNS phân cấp để phân giải một tên miền là gì?",
+      "options": {
+        "A": "Máy chủ gốc (Root) -> Máy chủ cục bộ -> Máy chủ TLD.",
+        "B": "Máy chủ TLD -> Máy chủ gốc -> Máy chủ có thẩm quyền.",
+        "C": "Máy chủ gốc (Root) -> Máy chủ tên miền cấp cao nhất (TLD) -> Máy chủ tên miền có thẩm quyền (Authoritative).",
+        "D": "Máy chủ có thẩm quyền -> Máy chủ TLD -> Máy chủ gốc."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nTheo cấu trúc phân cấp: Client hỏi **Root server** để tìm **TLD server** (như .com, .edu), sau đó TLD server chỉ đến **Authoritative server** (máy chủ quản lý tên miền cụ thể) để lấy địa chỉ IP."
+    },
+    {
+      "id": 134,
+      "question": "Vai trò của \"Máy chủ tên miền cục bộ\" (Local DNS name server) là gì?",
+      "options": {
+        "A": "Nó chứa toàn bộ cơ sở dữ liệu của Internet.",
+        "B": "Nó hoạt động như một proxy, chuyển truy vấn của máy khách vào hệ thống phân cấp DNS và có khả năng lưu đệm (cache).",
+        "C": "Nó là máy chủ gốc (Root server) của mỗi quốc gia.",
+        "D": "Nó chịu trách nhiệm cấp phát tên miền mới."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nKhi máy khách tạo truy vấn DNS, nó gửi đến **máy chủ cục bộ** (thường do ISP cung cấp). Máy chủ này **hoạt động như một proxy** chuyển tiếp truy vấn và **lưu cache** các kết quả gần đây."
+    },
+    {
+      "id": 135,
+      "question": "Sự khác biệt giữa \"Truy vấn tuần tự\" (Iterative query) và \"Truy vấn đệ quy\" (Recursive query) trong DNS là gì?",
+      "options": {
+        "A": "Trong truy vấn tuần tự, máy chủ được hỏi sẽ trả lời địa chỉ của máy chủ tiếp theo để người hỏi tự liên hệ; trong truy vấn đệ quy, máy chủ được hỏi sẽ chịu trách nhiệm tìm ra câu trả lời cuối cùng.",
+        "B": "Truy vấn tuần tự nhanh hơn truy vấn đệ quy.",
+        "C": "Truy vấn tuần tự chỉ dùng cho tên miền .com, đệ quy dùng cho .edu.",
+        "D": "Không có sự khác biệt nào."
+      },
+      "correctAnswer": "A",
+      "explanation": "📌 **Phân tích:**\n\nTrong **truy vấn tuần tự**: \"Tôi không biết, nhưng hãy hỏi máy chủ này\". Trong **truy vấn đệ quy**: Đẩy trách nhiệm phân giải tên cho máy chủ được hỏi (\"Tôi sẽ tìm giúp bạn\")."
+    },
+    {
+      "id": 136,
+      "question": "Bản ghi DNS (Resource Record) loại Type=A chứa thông tin gì?",
+      "options": {
+        "A": "Tên miền và tên của máy chủ thư điện tử (Mail server).",
+        "B": "Tên miền và tên của máy chủ tên miền có thẩm quyền (NS).",
+        "C": "Tên bí danh và tên gốc (Canonical name).",
+        "D": "Tên miền (hostname) và địa chỉ IP tương ứng."
+      },
+      "correctAnswer": "D",
+      "explanation": "📌 **Phân tích:**\n\n**Type=A** ánh xạ **tên host (name)** sang **địa chỉ IP (value)**. Type=NS là máy chủ tên miền, Type=CNAME là bí danh, Type=MX là máy chủ mail."
+    },
+    {
+      "id": 137,
+      "question": "Một đặc điểm quan trọng của kiến trúc P2P (Peer-to-Peer) thuần túy là gì?",
+      "options": {
+        "A": "Luôn cần một máy chủ trung tâm để lưu trữ dữ liệu file.",
+        "B": "Các hệ thống đầu cuối (peer) giao tiếp trực tiếp với nhau, không có máy chủ hoạt động liên tục.",
+        "C": "Các peer luôn có địa chỉ IP cố định.",
+        "D": "Khả năng mở rộng kém hơn mô hình Client-Server."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nP2P thuần túy **không có máy chủ hoạt động liên tục**, các peer **giao tiếp trực tiếp**. Các peer có thể kết nối không liên tục và thay đổi địa chỉ IP."
+    },
+    {
+      "id": 138,
+      "question": "Khả năng \"tự mở rộng\" (self-scalability) trong phân phối tập tin P2P nghĩa là gì?",
+      "options": {
+        "A": "Hệ thống tự động mua thêm máy chủ khi quá tải.",
+        "B": "Các peer mới tham gia vừa mang đến nhu cầu tải file, vừa đóng góp năng lực phục vụ (băng thông upload) cho hệ thống.",
+        "C": "Dung lượng file tự động giảm xuống khi có nhiều người tải.",
+        "D": "Tốc độ mạng tăng lên theo cấp số nhân."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nP2P có khả năng **tự mở rộng** vì các peer mới mang lại nhu cầu mới nhưng cũng **cung cấp thêm dịch vụ (upload)** cho các bên khác, không tạo gánh nặng duy nhất lên máy chủ nguồn như mô hình Client-Server."
+    },
+    {
+      "id": 139,
+      "question": "Trong giao thức BitTorrent, \"Tracker\" có nhiệm vụ gì?",
+      "options": {
+        "A": "Chia nhỏ tập tin thành các khối (chunks).",
+        "B": "Lưu trữ toàn bộ nội dung file để người dùng tải về.",
+        "C": "Theo dõi các peer đang tham gia trong torrent và cung cấp danh sách peer cho người mới tham gia.",
+        "D": "Kiểm tra virus cho các tập tin."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\n**Tracker** là thành phần **theo dõi các bên (peers) đang tham gia** trong một torrent. Khi một peer mới tham gia, nó đăng ký với tracker để lấy **danh sách các peer khác** để kết nối."
+    },
+    {
+      "id": 140,
+      "question": "Chiến thuật \"tit-for-tat\" (có qua có lại) trong BitTorrent hoạt động như thế nào?",
+      "options": {
+        "A": "Peer A gửi dữ liệu cho tất cả các peer khác bất kể tốc độ.",
+        "B": "Peer A gửi các khối dữ liệu cho top 4 peer đang gửi dữ liệu cho A với tốc độ cao nhất (upload cho người đã download cho mình nhanh nhất).",
+        "C": "Peer A chỉ gửi dữ liệu cho các peer mới tham gia.",
+        "D": "Peer A chỉ nhận dữ liệu mà không gửi lại cho ai."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nTrong cơ chế **tit-for-tat**, Alice sẽ gửi các khối (un-choke) cho **4 peer nào hiện đang gửi dữ liệu cho cô ấy với tốc độ cao nhất**. Điều này khuyến khích các peer upload để được download nhanh hơn."
+    },
+    {
+      "id": 141,
+      "question": "Trong BitTorrent, mục đích của việc chọn ngẫu nhiên một peer thứ ba để gửi dữ liệu (optimistic unchoking) mỗi 30 giây là gì?",
+      "options": {
+        "A": "Để tránh nghẽn mạng cục bộ.",
+        "B": "Để kiểm tra xem peer đó có còn hoạt động không.",
+        "C": "Để tìm kiếm đối tác tốt hơn (có thể tải lên nhanh hơn cho mình) và cho phép peer mới tham gia vào top download.",
+        "D": "Để xóa bớt dữ liệu thừa."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nAlice chọn ngẫu nhiên một peer để gửi dữ liệu nhằm **thăm dò**. Nếu peer này gửi lại dữ liệu cho Alice với tốc độ cao, nó có thể được đưa vào **top 4 đối tác tốt nhất** (tit-for-tat). Điều này giúp hệ thống tìm được kết nối tốt hơn và peer mới có cơ hội tham gia trao đổi."
+    },
+    {
+      "id": 142,
+      "question": "Cơ sở dữ liệu phân tán DHT (Distributed Hash Table) lưu trữ dữ liệu dưới dạng nào?",
+      "options": {
+        "A": "Các tập tin nhị phân lớn.",
+        "B": "Các cặp Khóa - Giá trị (Key - Value).",
+        "C": "Danh sách địa chỉ IP tĩnh.",
+        "D": "Các trang web HTML."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nDHT là một cơ sở dữ liệu phân tán đơn giản lưu trữ các cặp **(key, value)**. Bất kỳ peer nào cũng có thể truy vấn khóa để lấy giá trị tương ứng."
+    },
+    {
+      "id": 143,
+      "question": "Trong DHT, quy tắc phổ biến để gán một cặp khóa-giá trị (key-value) cho một peer lưu trữ là gì?",
+      "options": {
+        "A": "Gán cho peer có băng thông cao nhất.",
+        "B": "Gán ngẫu nhiên cho bất kỳ peer nào còn trống bộ nhớ.",
+        "C": "Gán cho peer có ID gần nhất (closest) với khóa đó, thường là người kế nhiệm tức thời.",
+        "D": "Gán cho máy chủ trung tâm."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nQuy tắc chỉ định là gán cặp key-value cho peer mà có **ID gần nhất** với key đó. Theo quy ước, \"gần nhất\" là **sự kế thừa ngay lập tức (immediate successor)** của khóa đó."
+    },
+    {
+      "id": 144,
+      "question": "Trong lớp phủ DHT vòng tròn (Circular DHT) tiêu chuẩn không có đường tắt, mỗi peer cần biết thông tin của ai?",
+      "options": {
+        "A": "Tất cả các peer khác trong mạng.",
+        "B": "Chỉ người tiền nhiệm (predecessor) và người kế nhiệm (successor).",
+        "C": "Chỉ máy chủ quản lý (Tracker).",
+        "D": "Top 4 peer có tốc độ cao nhất."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nTrong DHT vòng tròn cơ bản, mỗi bên chỉ nhận thức được **người lập tức kế nhiệm** và **người tiền nhiệm** của nó."
+    },
+    {
+      "id": 145,
+      "question": "Nếu bổ sung các \"đường tắt\" (shortcuts) vào DHT vòng tròn, số lượng thông điệp trung bình để giải quyết một truy vấn sẽ giảm xuống mức nào (với N là số peer)?",
+      "options": {
+        "A": "O(N)",
+        "B": "O(1)",
+        "C": "O(N^2)",
+        "D": "O(log N)"
+      },
+      "correctAnswer": "D",
+      "explanation": "📌 **Phân tích:**\n\nVới DHT vòng tròn đơn thuần, số thông điệp là **O(N)**. Nếu thiết kế thêm các đường tắt, số lượng thông điệp trung bình giảm xuống còn **O(log N)**."
+    },
+    {
+      "id": 146,
+      "question": "Thuật ngữ \"Peer churn\" trong mạng P2P ám chỉ điều gì?",
+      "options": {
+        "A": "Tốc độ truyền file giữa các peer.",
+        "B": "Việc các peer tham gia và rời khỏi mạng một cách liên tục/bất ngờ.",
+        "C": "Quá trình mã hóa dữ liệu hash.",
+        "D": "Sự cố nghẽn mạng do quá nhiều peer."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**Peer churn** đề cập đến hiện tượng các bên (peer) có thể **tham gia hoặc rời khỏi nhóm bất cứ lúc nào** (ví dụ peer 5 đột ngột rời khỏi), yêu cầu hệ thống phải có cơ chế xử lý để duy trì cấu trúc mạng."
+    },
+    {
+      "id": 147,
+      "question": "Trong lập trình mạng, \"Socket\" được ví như hình ảnh nào trong mối quan hệ giữa tiến trình ứng dụng và giao thức vận chuyển?",
+      "options": {
+        "A": "Một bưu điện.",
+        "B": "Một cánh cửa (door).",
+        "C": "Một đường hầm bí mật.",
+        "D": "Một bức tường lửa."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nSocket được mô tả tương tự như một **\"cánh cửa\" ra vào**. Tiến trình gửi đẩy thông điệp ra khỏi cửa và dựa vào hạ tầng vận chuyển bên kia cánh cửa để phân phối thông điệp."
+    },
+    {
+      "id": 148,
+      "question": "Đặc điểm nào sau đây ĐÚNG khi lập trình socket với giao thức UDP?",
+      "options": {
+        "A": "Có thiết lập kết nối (bắt tay) giữa máy khách và máy chủ.",
+        "B": "Đảm bảo dữ liệu truyền đi tin cậy và đúng thứ tự.",
+        "C": "Không có bắt tay trước khi gửi dữ liệu; máy gửi chỉ rõ địa chỉ IP và cổng đích cho mỗi gói tin.",
+        "D": "Sử dụng luồng (stream) để truyền dữ liệu."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nUDP **không có \"kết nối\"** (no connection) giữa máy khách và máy chủ, không bắt tay. Bên gửi phải chỉ rõ **địa chỉ IP và số cổng đích** cho mỗi gói tin (packet)."
+    },
+    {
+      "id": 149,
+      "question": "Khi lập trình ứng dụng sử dụng UDP (như ví dụ Python trong slide), máy chủ cần làm gì để gửi phản hồi lại cho máy khách?",
+      "options": {
+        "A": "Gửi vào kết nối đã thiết lập sẵn.",
+        "B": "Trích xuất địa chỉ IP và số cổng của máy khách từ gói tin nhận được, rồi gửi gói tin phản hồi đến địa chỉ đó.",
+        "C": "Gửi broadcast cho tất cả máy trong mạng.",
+        "D": "UDP không hỗ trợ gửi phản hồi."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nBên nhận (máy chủ) lấy **địa chỉ IP và số cổng của bên gửi** từ gói nhận được (clientAddress), sau đó dùng thông tin này để gửi gói tin phản hồi (serverSocket.sendto)."
+    },
+    {
+      "id": 150,
+      "question": "Trong Python, dòng lệnh nào sau đây tạo ra một socket dành cho giao thức UDP?",
+      "options": {
+        "A": "socket(AF_INET, SOCK_STREAM)",
+        "B": "socket(AF_INET, SOCK_DGRAM)",
+        "C": "socket(UDP_PROTO)",
+        "D": "create_udp_socket()"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nTrong Python, để tạo socket UDP, ta sử dụng tham số **SOCK_DGRAM** (Datagram). Ngược lại, SOCK_STREAM được dùng cho TCP."
+    },
+    {
+      "id": 151,
+      "question": "Sự khác biệt cơ bản về \"kết nối\" giữa lập trình socket TCP và UDP là gì?",
+      "options": {
+        "A": "Cả hai đều yêu cầu thiết lập kết nối trước khi gửi dữ liệu.",
+        "B": "UDP yêu cầu thiết lập kết nối (bắt tay), còn TCP thì không.",
+        "C": "TCP yêu cầu thiết lập kết nối (bắt tay) giữa máy khách và máy chủ, còn UDP thì không có kết nối.",
+        "D": "TCP chỉ kết nối khi truyền file lớn."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nUDP \"**không kết nối**\" và \"**không bắt tay**\". TCP yêu cầu máy khách liên lạc và **thiết lập kết nối** với máy chủ trước khi truyền dữ liệu."
+    },
+    {
+      "id": 152,
+      "question": "Trong lập trình socket TCP, điều gì xảy ra khi máy chủ chấp nhận (accept) một yêu cầu kết nối từ máy khách?",
+      "options": {
+        "A": "Máy chủ sử dụng lại socket đang lắng nghe để trao đổi dữ liệu.",
+        "B": "Máy chủ đóng kết nối ngay lập tức.",
+        "C": "Máy chủ tạo ra một socket mới dành riêng cho máy khách đó để trao đổi dữ liệu.",
+        "D": "Máy chủ chuyển yêu cầu sang giao thức UDP."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nKhi được máy khách liên lạc, máy chủ TCP tạo ra một **socket mới (connectionSocket)** riêng biệt cho tiến trình máy chủ để trao đổi với máy khách đó. Socket ban đầu vẫn dùng để mời/nghe các kết nối khác."
+    },
+    {
+      "id": 153,
+      "question": "Trong Python, dòng lệnh nào dùng để tạo một socket dành cho giao thức TCP?",
+      "options": {
+        "A": "socket(AF_INET, SOCK_DGRAM)",
+        "B": "socket(AF_INET, SOCK_STREAM)",
+        "C": "socket(AF_INET, TCP_PROTO)",
+        "D": "socket(AF_TCP)"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nĐể tạo TCP client: `clientSocket = socket(AF_INET, SOCK_STREAM)`. Tham số **SOCK_STREAM** ám chỉ luồng tin cậy (TCP)."
+    },
+    {
+      "id": 154,
+      "question": "Khi lập trình TCP Client, dòng lệnh clientSocket.connect((serverName, serverPort)) có tác dụng gì?",
+      "options": {
+        "A": "Gửi dữ liệu ngay lập tức.",
+        "B": "Khởi tạo bắt tay ba bước để thiết lập kết nối TCP với máy chủ.",
+        "C": "Tạo một socket UDP.",
+        "D": "Đóng kết nối."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nDòng lệnh **connect** được dùng để **khởi tạo kết nối TCP** giữa máy khách và máy chủ trước khi gửi bất kỳ dữ liệu nào."
+    },
+    {
+      "id": 155,
+      "question": "Hàm serverSocket.listen(1) trong mã nguồn TCP Server dùng để làm gì?",
+      "options": {
+        "A": "Gửi dữ liệu cho máy khách.",
+        "B": "Bắt đầu lắng nghe các yêu cầu kết nối TCP đến từ máy khách.",
+        "C": "Chấp nhận kết nối.",
+        "D": "Đóng cổng server."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nLệnh **listen(1)** là để \"Máy chủ **bắt đầu lắng nghe** các yêu cầu TCP đến\"."
+    },
+    {
+      "id": 156,
+      "question": "Sự khác biệt về \"luồng dữ liệu\" (stream) giữa TCP và UDP dưới góc độ ứng dụng là gì?",
+      "options": {
+        "A": "TCP chuyển gói tin (datagrams) không đảm bảo, UDP chuyển luồng tin (stream) có đảm bảo.",
+        "B": "TCP chuyển luồng tin có đảm bảo và đúng thứ tự, UDP chuyển các nhóm byte (datagrams) không tin cậy.",
+        "C": "Cả hai đều chuyển luồng tin có đảm bảo.",
+        "D": "TCP không hỗ trợ truyền byte."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nTCP là chuyển **luồng tin có đảm bảo (stream-oriented)** và đúng thứ tự, trong khi UDP chuyển các **nhóm bytes (datagrams) không tin cậy**."
+    },
+    {
+      "id": 157,
+      "question": "Trong các giao thức lớp ứng dụng đã học, giao thức nào sử dụng kết nối điều khiển \"out-of-band\" (ngoại tuyến)?",
+      "options": {
+        "A": "HTTP",
+        "B": "FTP",
+        "C": "SMTP",
+        "D": "DNS"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**FTP** sử dụng kết nối điều khiển riêng biệt với kết nối dữ liệu, gọi là **\"out of band\"**. Các giao thức như HTTP hay SMTP gửi thông tin điều khiển trong cùng kết nối dữ liệu (in-band)."
+    },
+    {
+      "id": 158,
+      "question": "Khái niệm \"Stateless\" (không lưu trạng thái) đúng với giao thức nào sau đây?",
+      "options": {
+        "A": "FTP",
+        "B": "HTTP (nguyên bản không có cookies)",
+        "C": "IMAP",
+        "D": "POP3 (chế độ tải xuống và xóa)"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**HTTP** được thiết kế là giao thức **không lưu trạng thái (stateless)**. FTP và IMAP là các giao thức duy trì trạng thái."
+    },
+    {
+      "id": 159,
+      "question": "Theo quan điểm thiết kế của Internet được trình bày trong chương, sự phức tạp của mạng nằm ở đâu?",
+      "options": {
+        "A": "Ở lõi của mạng (Network core).",
+        "B": "Ở biên của mạng (Network edge).",
+        "C": "Ở các bộ định tuyến (Routers).",
+        "D": "Ở tầng vật lý."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nTriết lý thiết kế: **\"Sự phức tạp ở biên của mạng\"** (complexity at network edge), nghĩa là các chức năng phức tạp được đẩy ra các hệ thống đầu cuối (end systems) thay vì nằm trong lõi mạng."
+    },
+    {
+      "id": 160,
+      "question": "Để phân phối một tập tin kích thước F cho N người dùng, phương pháp nào có khả năng mở rộng tốt hơn (thời gian phân phối tăng ít hơn khi N tăng)?",
+      "options": {
+        "A": "Mô hình Client-Server.",
+        "B": "Mô hình P2P (Peer-to-Peer).",
+        "C": "Cả hai như nhau.",
+        "D": "Không thể so sánh được."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**P2P** có khả năng **tự mở rộng**, thời gian phân phối thấp hơn đáng kể so với Client-Server khi số lượng máy khách (N) tăng lên, vì các peer đóng góp băng thông upload."
+    },
+    {
+      "id": 161,
+      "question": "Dòng đầu tiên của một thông điệp yêu cầu HTTP (HTTP request message) được gọi là gì và chứa những thông tin nào?",
+      "options": {
+        "A": "Dòng tiêu đề (Header line): chứa tên máy chủ và loại trình duyệt.",
+        "B": "Dòng trạng thái (Status line): chứa mã trạng thái và cụm từ thông báo.",
+        "C": "Dòng yêu cầu (Request line): chứa phương thức (GET, POST...), URL và phiên bản HTTP.",
+        "D": "Dòng kết nối (Connection line): chứa thông tin Keep-Alive."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nDòng đầu tiên là **\"Dòng yêu cầu\" (Request line)**, bao gồm: **phương thức (method)**, **đường dẫn (URL)**, và **phiên bản giao thức**."
+    },
+    {
+      "id": 162,
+      "question": "Trong thông điệp phản hồi HTTP, dòng header Last-Modified có tác dụng quan trọng gì?",
+      "options": {
+        "A": "Cho biết thời điểm máy chủ sẽ đóng kết nối.",
+        "B": "Xác định thời gian đối tượng được tạo ra hoặc sửa đổi lần cuối, dùng cho việc kiểm tra cache (GET có điều kiện).",
+        "C": "Cho biết thời gian hiện tại của máy khách.",
+        "D": "Là thời gian hết hạn của Cookie."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nTrường **Last-Modified** trong phản hồi được dùng để so sánh với trường **If-modified-since** trong các yêu cầu sau này nhằm thực hiện cơ chế **\"GET có điều kiện\" (Conditional GET)**, giúp kiểm tra xem bản sao trong cache có còn mới không."
+    },
+    {
+      "id": 163,
+      "question": "Có bao nhiêu máy chủ tên miền gốc (Root DNS servers) trên toàn cầu (được định danh từ a đến m)?",
+      "options": {
+        "A": "10",
+        "B": "13",
+        "C": "100",
+        "D": "1"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nCó **13 \"máy chủ\" DNS gốc** toàn cầu, được đánh thứ tự từ **A đến M** và do các tổ chức khác nhau quản lý."
+    },
+    {
+      "id": 164,
+      "question": "Để đăng ký một tên miền mới (ví dụ: networkutopia.com), bạn cần làm việc với đơn vị nào để thêm bản ghi vào máy chủ TLD?",
+      "options": {
+        "A": "Máy chủ gốc (Root Server).",
+        "B": "Máy chủ DNS cục bộ (Local DNS Server).",
+        "C": "Tổ chức nhận đăng ký tên miền (DNS Registrar).",
+        "D": "Chính phủ nước sở tại."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nĐể thêm các bản ghi vào hệ thống DNS, bạn cần đăng ký tên miền tại một **\"DNS registrar\" (tổ chức nhận đăng ký tên miền)**, tổ chức này sẽ xác minh tính duy nhất và đưa thông tin vào máy chủ TLD tương ứng."
+    },
+    {
+      "id": 165,
+      "question": "Trong mô hình Client-Server, thời gian để máy chủ phân phối một tập tin kích thước F cho N máy khách (với tốc độ tải lên của máy chủ là us) sẽ tăng như thế nào khi N tăng?",
+      "options": {
+        "A": "Không tăng (hằng số).",
+        "B": "Tăng theo hàm logarit.",
+        "C": "Tăng tuyến tính theo N (NF/us).",
+        "D": "Giảm dần."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nTrong mô hình Client-Server, máy chủ phải gửi tập tin F tuần tự cho N máy khách, nên tổng dung lượng phải gửi là **NF**. Thời gian gửi sẽ là **NF/us**, tức là **tăng tuyến tính** khi số lượng máy khách N tăng lên."
+    },
+    {
+      "id": 166,
+      "question": "Yếu tố nào giúp mô hình P2P có thời gian phân phối tập tin nhanh hơn Client-Server khi số lượng người dùng (N) rất lớn?",
+      "options": {
+        "A": "Máy chủ P2P có tốc độ lớn gấp đôi.",
+        "B": "Dung lượng tập tin F tự động nhỏ lại.",
+        "C": "Tổng băng thông tải lên của hệ thống tăng lên nhờ sự đóng góp băng thông (ui) từ các máy khách (peer) tham gia.",
+        "D": "Giao thức UDP nhanh hơn TCP."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nTrong P2P, **tổng khả năng tải lên (upload capacity)** của hệ thống bằng khả năng của máy chủ cộng với tổng khả năng tải lên của các peer **(us + Σui)**. Do đó, khi N tăng, khả năng phục vụ của hệ thống cũng tăng theo."
+    },
+    {
+      "id": 167,
+      "question": "Trong lập trình socket với Python, phương thức nào được sử dụng để gắn kết (bind) một socket với một số hiệu cổng cụ thể (thường dùng ở phía Server)?",
+      "options": {
+        "A": "socket.connect()",
+        "B": "socket.listen()",
+        "C": "socket.accept()",
+        "D": "socket.bind((IP, Port))"
+      },
+      "correctAnswer": "D",
+      "explanation": "📌 **Phân tích:**\n\nPhương thức **serverSocket.bind(('', serverPort))** được dùng để **gắn kết socket với cổng cụ thể**."
+    },
+    {
+      "id": 168,
+      "question": "Khi nhận dữ liệu trong lập trình socket, hàm recvfrom(buffer_size) của UDP khác hàm recv(buffer_size) của TCP ở điểm nào?",
+      "options": {
+        "A": "recvfrom trả về cả dữ liệu và địa chỉ của bên gửi, còn recv chỉ trả về dữ liệu.",
+        "B": "recvfrom chỉ trả về địa chỉ, recv trả về dữ liệu.",
+        "C": "recvfrom dùng cho kết nối tin cậy, recv dùng cho không tin cậy.",
+        "D": "Hai hàm này hoàn toàn giống nhau."
+      },
+      "correctAnswer": "A",
+      "explanation": "📌 **Phân tích:**\n\nVới UDP (không kết nối), khi nhận gói tin, server cần biết ai gửi để phản hồi, nên **recvfrom trả về (message, clientAddress)**. Với TCP (đã có kết nối), **recv chỉ cần trả về dữ liệu message** vì kênh truyền đã được xác định."
+    },
+    {
+      "id": 169,
+      "question": "Máy chủ SMTP sử dụng ký tự đặc biệt nào để xác định sự kết thúc của phần nội dung thông điệp (message body)?",
+      "options": {
+        "A": "Một dòng trống.",
+        "B": "Ký tự CTRL+C.",
+        "C": "Một dấu chấm (.) nằm riêng biệt trên một dòng (CRLF.CRLF).",
+        "D": "Từ khóa \"END\"."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nSMTP máy chủ dùng ký tự **CRLF.CRLF** (một **dấu chấm trên một dòng riêng biệt**) để xác định kết thúc thông điệp."
+    },
+    {
+      "id": 170,
+      "question": "Lợi ích chính của việc sử dụng Web Cache (Proxy Server) trong mạng của một tổ chức là gì?",
+      "options": {
+        "A": "Để thay thế hoàn toàn đường truyền Internet.",
+        "B": "Giảm thời gian đáp ứng cho máy khách và giảm lưu lượng trên đường liên kết truy cập ra Internet.",
+        "C": "Tăng độ phức tạp của mạng lõi.",
+        "D": "Để cấp phát địa chỉ IP cho máy khách."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nWeb Cache giúp thỏa mãn yêu cầu của máy khách mà không cần liên quan đến máy chủ gốc (nếu có trong cache), từ đó **giảm thời gian phản hồi** và **giảm tải (traffic)** trên đường liên kết truy cập của tổ chức."
+    },
+    {
+      "id": 171,
+      "question": "Theo chuẩn RFC 822 về định dạng thông điệp thư điện tử, các dòng header như To:, From:, Subject: nằm ở đâu?",
+      "options": {
+        "A": "Nằm trong các lệnh SMTP (MAIL FROM, RCPT TO).",
+        "B": "Nằm trong phần dữ liệu (body) của gói tin IP.",
+        "C": "Nằm trong phần nội dung thư (message data), tách biệt với các lệnh SMTP.",
+        "D": "Nằm trong header của giao thức TCP."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nCác dòng header **To:, From:** trong nội dung thư (theo RFC 822) **khác với các lệnh SMTP** MAIL FROM, RCPT TO được dùng để chuyển thư."
+    },
+    {
+      "id": 172,
+      "question": "Tổ chức nào chịu trách nhiệm quản lý máy chủ tên miền cấp cao nhất (TLD) cho tên miền .edu?",
+      "options": {
+        "A": "Network Solutions",
+        "B": "Educause",
+        "C": "Verisign",
+        "D": "NASA"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nCông ty **Network Solutions** quản lý vùng .com, trong khi tổ chức **Educause** quản lý TLD .edu."
+    },
+    {
+      "id": 173,
+      "question": "Một cuộc tấn công DNS theo dạng \"Man-in-the-middle\" (Người đứng giữa) nhằm mục đích gì?",
+      "options": {
+        "A": "Làm quá tải máy chủ gốc bằng DDoS.",
+        "B": "Ngăn chặn các truy vấn hoặc gửi các trả lời giả tạo để chuyển hướng người dùng.",
+        "C": "Xóa sạch cache của máy chủ DNS cục bộ.",
+        "D": "Tăng tốc độ phân giải tên miền."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nTấn công chuyển hướng (Redirect attacks) bao gồm **Man-in-the-middle** (ngăn chặn truy vấn) hoặc **DNS poisoning** (gửi trả lời giả tạo để đầu độc cache), nhằm điều hướng người dùng sai lệch."
+    },
+    {
+      "id": 174,
+      "question": "Trong mạng P2P BitTorrent, kích thước tiêu chuẩn của một khối dữ liệu (chunk) được chia nhỏ từ tập tin là bao nhiêu?",
+      "options": {
+        "A": "1 MB",
+        "B": "256 Kb",
+        "C": "1024 Kb",
+        "D": "512 bytes"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nTrong BitTorrent: \"Tập tin được chia thành các khối **256Kb (chunks)**\"."
+    },
+    {
+      "id": 175,
+      "question": "Với cấu trúc DHT vòng tròn (Circular DHT) có bổ sung \"đường tắt\" (shortcuts), độ phức tạp (số lượng thông điệp) để giải quyết một truy vấn là bao nhiêu?",
+      "options": {
+        "A": "O(N)",
+        "B": "O(N^2)",
+        "C": "O(log N)",
+        "D": "O(1)"
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nCó thể thiết kế các đường tắt để số lượng thông điệp trong truy vấn giảm xuống còn **O(log N)**."
+    },
+    {
+      "id": 176,
+      "question": "Khi một peer (ví dụ: peer 5) đột ngột rời khỏi mạng DHT vòng tròn (churn), peer tiền nhiệm (peer 4) cần làm gì để duy trì cấu trúc mạng?",
+      "options": {
+        "A": "Ngừng hoạt động ngay lập tức.",
+        "B": "Yêu cầu toàn bộ mạng khởi động lại.",
+        "C": "Liên hệ với người kế nhiệm tiếp theo của peer 5 (ví dụ: peer 8) để thiết lập nó làm người kế nhiệm tức thời mới.",
+        "D": "Tự mình lưu trữ dữ liệu của peer 5."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nKhi phát hiện peer 5 rời đi, peer 4 sẽ chọn **người kế nhiệm của peer 5** (là peer 8) làm **người kế nhiệm tức thời mới** của mình để vá lại vòng tròn."
+    },
+    {
+      "id": 177,
+      "question": "Trong mã nguồn Python cho UDP Server, dòng lệnh serverSocket.bind(('', serverPort)) có ý nghĩa gì?",
+      "options": {
+        "A": "Tạo một kết nối đến máy khách.",
+        "B": "Gắn kết socket với số hiệu cổng cụ thể của máy chủ để chờ nhận gói tin.",
+        "C": "Gửi dữ liệu đến cổng 12000.",
+        "D": "Đóng socket."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nPhương thức **bind** dùng để **gắn (bind) socket với một cổng cụ thể** (ví dụ 12000), cho phép hệ điều hành chuyển các gói tin đến cổng này vào socket của tiến trình."
+    },
+    {
+      "id": 178,
+      "question": "Điểm khác biệt trong hàm gửi dữ liệu giữa Python UDP Client và TCP Client là gì?",
+      "options": {
+        "A": "UDP dùng sendto(message, address), TCP dùng send(message).",
+        "B": "UDP dùng send(), TCP dùng sendto().",
+        "C": "Cả hai đều dùng sendto().",
+        "D": "Cả hai đều dùng write()."
+      },
+      "correctAnswer": "A",
+      "explanation": "📌 **Phân tích:**\n\nUDP client phải chỉ rõ đích đến trong mỗi gói tin nên dùng **clientSocket.sendto(message, (serverName, serverPort))**. TCP client đã thiết lập kết nối nên chỉ cần dùng **clientSocket.send(sentence)**."
+    },
+    {
+      "id": 179,
+      "question": "Lệnh connectionSocket.close() trong mã nguồn TCP Server có tác dụng gì?",
+      "options": {
+        "A": "Đóng toàn bộ máy chủ, không nhận thêm kết nối nào nữa.",
+        "B": "Đóng kết nối với máy khách hiện tại, nhưng socket chào đón (welcoming socket) vẫn tiếp tục lắng nghe các yêu cầu khác.",
+        "C": "Xóa phần mềm server khỏi bộ nhớ.",
+        "D": "Ngắt kết nối Internet của máy chủ."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nTrong vòng lặp của TCP server, sau khi phục vụ xong một máy khách, server **đóng connectionSocket dành riêng cho máy khách đó**, nhưng vòng lặp while 1 vẫn tiếp tục để lắng nghe yêu cầu mới trên socket chính."
+    },
+    {
+      "id": 180,
+      "question": "Khi tổng kết chương, thuật ngữ \"In-band\" (trong băng) được dùng để mô tả đặc điểm của giao thức nào?",
+      "options": {
+        "A": "FTP (gửi dữ liệu và lệnh trên 2 kết nối khác nhau).",
+        "B": "HTTP và SMTP (gửi thông tin điều khiển và dữ liệu trên cùng một kết nối).",
+        "C": "Skype (gửi thoại qua UDP).",
+        "D": "BitTorrent (gửi file qua các peer)."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nPhân biệt \"Điều khiển với các thông điệp dữ liệu\" gồm **in-band** (như HTTP, SMTP) và **out-of-band** (như FTP)."
+    },
+    {
+      "id": 181,
+      "question": "Trong mã nguồn TCP Server viết bằng Python, hàm serverSocket.accept() trả về hai giá trị nào?",
+      "options": {
+        "A": "Dữ liệu nhận được và địa chỉ máy khách.",
+        "B": "Một socket mới dành riêng cho kết nối đó (connectionSocket) và địa chỉ của máy khách (addr).",
+        "C": "Chỉ trả về True nếu kết nối thành công.",
+        "D": "Số hiệu cổng của máy khách."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nHàm **accept()** đợi yêu cầu kết nối và trả về một **socket mới chuyên dụng** để giao tiếp với máy khách đó cùng **địa chỉ của máy khách**: `connectionSocket, addr = serverSocket.accept()`."
+    },
+    {
+      "id": 182,
+      "question": "Trong các loại bản ghi DNS (Resource Records), nếu Type=NS thì phần Value chứa thông tin gì?",
+      "options": {
+        "A": "Địa chỉ IP của máy chủ.",
+        "B": "Tên miền gốc (Canonical name).",
+        "C": "Tên miền của máy chủ thư điện tử.",
+        "D": "Tên miền của máy chủ tên miền có thẩm quyền (Authoritative name server) quản lý tên miền đó."
+      },
+      "correctAnswer": "D",
+      "explanation": "📌 **Phân tích:**\n\nBản ghi **Type=NS**: Name là tên miền (ví dụ foo.com) và Value là **tên của máy chủ tên miền có thẩm quyền** quản lý tên miền này."
+    },
+    {
+      "id": 183,
+      "question": "Trong giao thức BitTorrent, việc chọn ngẫu nhiên một peer thứ ba để \"bỏ xiết\" (optimistic unchoking) diễn ra với chu kỳ bao lâu?",
+      "options": {
+        "A": "Mỗi 10 giây.",
+        "B": "Mỗi 30 giây.",
+        "C": "Mỗi 60 giây.",
+        "D": "Mỗi khi có peer mới gia nhập."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nThuật toán tit-for-tat: Đánh giá lại top 4 mỗi 10 giây, nhưng chọn ngẫu nhiên một peer khác (**optimistic unchoking**) mỗi **30 giây**."
+    },
+    {
+      "id": 184,
+      "question": "Khi một thông điệp HTTP nhận được mã trạng thái 301 Moved Permanently, thông tin về vị trí mới của đối tượng nằm ở đâu trong phản hồi?",
+      "options": {
+        "A": "Nằm trong phần thân (body) của thông điệp.",
+        "B": "Nằm trong dòng trạng thái (status line).",
+        "C": "Nằm trong trường header Location:.",
+        "D": "Không có thông tin vị trí mới, người dùng phải tự tìm."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nMã **301** nghĩa là đối tượng đã được di chuyển, và **vị trí mới** được xác định trong trường header **Location:** của thông điệp phản hồi."
+    },
+    {
+      "id": 185,
+      "question": "Một ứng dụng được gọi là \"mềm dẻo\" (elastic application) về mặt thông lượng (throughput) có đặc điểm gì?",
+      "options": {
+        "A": "Yêu cầu một mức băng thông tối thiểu để hoạt động (như video call).",
+        "B": "Có thể hoạt động với bất kỳ mức thông lượng nào mà mạng cung cấp (nhiều hoặc ít).",
+        "C": "Luôn chiếm dụng toàn bộ băng thông của mạng.",
+        "D": "Không sử dụng băng thông mạng."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nCác ứng dụng **\"mềm dẻo\"** (như thư điện tử, truyền file) là những ứng dụng có thể **dùng bất kỳ thông lượng nào** cũng được, khác với ứng dụng yêu cầu băng thông (bandwidth guarantee)."
+    },
+    {
+      "id": 186,
+      "question": "Sự khác biệt giữa MAIL FROM trong lệnh SMTP và dòng From: trong nội dung thư là gì?",
+      "options": {
+        "A": "Không có sự khác biệt, chúng là một.",
+        "B": "MAIL FROM là lệnh của giao thức SMTP để xác định người gửi trên đường truyền, còn From: là header hiển thị trong nội dung thư cho người đọc.",
+        "C": "MAIL FROM dùng cho POP3, From: dùng cho SMTP.",
+        "D": "MAIL FROM là địa chỉ IP, From: là địa chỉ email."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nCác dòng header như **To:, From:** trong phần body (theo RFC 822) **khác với các lệnh SMTP** MAIL FROM, RCPT TO dùng để điều khiển việc gửi thư."
+    },
+    {
+      "id": 187,
+      "question": "Khi máy chủ phản hồi mã 304 Not Modified cho một yêu cầu GET có điều kiện, phần thân thông điệp (entity body) sẽ như thế nào?",
+      "options": {
+        "A": "Chứa toàn bộ nội dung đối tượng.",
+        "B": "Chứa phần đối tượng đã thay đổi.",
+        "C": "Rỗng (không chứa dữ liệu đối tượng).",
+        "D": "Chứa thông báo lỗi."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nPhản hồi **304 Not Modified không đi kèm với <data>** (đối tượng), vì mục đích là báo cho cache biết hãy dùng bản sao hiện có để tiết kiệm băng thông."
+    },
+    {
+      "id": 188,
+      "question": "Thuật ngữ \"In-band\" (trong băng) được dùng để mô tả đặc điểm điều khiển của giao thức nào sau đây?",
+      "options": {
+        "A": "FTP",
+        "B": "DNS",
+        "C": "HTTP và SMTP",
+        "D": "Skype"
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nPhân biệt điều khiển **\"in-band\"** (như HTTP, SMTP - gửi lệnh và dữ liệu chung kênh) và **\"out-of-band\"** (như FTP - gửi lệnh và dữ liệu riêng kênh)."
+    },
+    {
+      "id": 189,
+      "question": "Trong công thức tính thời gian phân phối tập tin P2P, thành phần nào thể hiện tổng năng lực tải lên (upload capacity) của toàn bộ hệ thống?",
+      "options": {
+        "A": "us (tốc độ upload của server).",
+        "B": "dmin (tốc độ download chậm nhất).",
+        "C": "us + Σui (tốc độ server cộng với tổng tốc độ upload của tất cả các peer).",
+        "D": "NF (tổng dung lượng file)."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nTrong công thức P2P, khả năng phục vụ tối đa của hệ thống là **tổng hợp của server và tất cả các peer** tham gia: **us + Σui**."
+    },
+    {
+      "id": 190,
+      "question": "Triết lý thiết kế cốt lõi của Internet về vị trí của sự phức tạp (complexity) là gì?",
+      "options": {
+        "A": "Sự phức tạp nằm ở lõi mạng (routers).",
+        "B": "Sự phức tạp nằm ở biên của mạng (network edge/end systems).",
+        "C": "Sự phức tạp được chia đều.",
+        "D": "Internet không có sự phức tạp."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nNguyên lý: **\"Sự phức tạp ở biên của mạng\"** (complexity at network edge). Các chức năng phức tạp như DNS, HTTP, xử lý lỗi... được cài đặt ở các hệ thống đầu cuối, giữ cho lõi mạng đơn giản."
+    },
+    {
+      "id": 191,
+      "question": "Trong thông điệp HTTP, dấu hiệu nào phân tách giữa phần header (tiêu đề) và phần entity body (thân thông điệp)?",
+      "options": {
+        "A": "Một dòng chứa ký tự \"END\".",
+        "B": "Một dòng trống (chỉ chứa ký tự xuống dòng \\r\\n).",
+        "C": "Dấu chấm phẩy (;).",
+        "D": "Không có dấu hiệu phân tách, máy chủ tự đếm byte."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nCấu trúc thông điệp yêu cầu HTTP có một **dòng trống (\\r\\n)** nằm giữa các dòng header và phần thân (nếu có) để báo hiệu kết thúc phần tiêu đề."
+    },
+    {
+      "id": 192,
+      "question": "SSL (Secure Sockets Layer) tăng cường cho TCP bằng cách cung cấp các tính năng nào?",
+      "options": {
+        "A": "Tăng tốc độ truyền tin.",
+        "B": "Mã hóa, toàn vẹn dữ liệu và chứng thực đầu cuối.",
+        "C": "Chuyển đổi gói tin thành datagram UDP.",
+        "D": "Nén dữ liệu để giảm băng thông."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nSSL hỗ trợ kết nối TCP được **mã hóa**, đảm bảo **toàn vẹn dữ liệu** và **chứng thực đầu cuối**, trong khi TCP/UDP thông thường gửi dữ liệu ở dạng nguyên bản (cleartext)."
+    },
+    {
+      "id": 193,
+      "question": "Giá trị nào quyết định thời gian một bản ghi DNS được lưu trong bộ nhớ đệm (cache) trước khi bị xóa?",
+      "options": {
+        "A": "RTT (Round-trip time).",
+        "B": "TTL (Time To Live).",
+        "C": "Số lượng truy vấn.",
+        "D": "Dung lượng bộ nhớ RAM."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nCác mục trong DNS cache sẽ hết hạn và bị xóa sau một khoảng thời gian được quy định bởi **TTL (Time To Live)**."
+    },
+    {
+      "id": 194,
+      "question": "Trong kiến trúc BitTorrent, thành phần \"Tracker\" có lưu trữ nội dung tập tin không?",
+      "options": {
+        "A": "Có, nó lưu trữ toàn bộ file.",
+        "B": "Không, nó chỉ theo dõi các peer tham gia và cung cấp danh sách peer.",
+        "C": "Có, nhưng chỉ lưu trữ một nửa file.",
+        "D": "Có, nó lưu trữ các file nén."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**Tracker** có nhiệm vụ **theo dõi các bên (peers)** đang tham gia trong torrent. Các peer tải file từ các peer khác chứ không phải từ tracker."
+    },
+    {
+      "id": 195,
+      "question": "Trong lập trình socket TCP Server, tại sao cần sử dụng vòng lặp vô hạn (while 1:)?",
+      "options": {
+        "A": "Để gửi dữ liệu liên tục cho một máy khách duy nhất.",
+        "B": "Để giữ cho máy chủ luôn hoạt động và sẵn sàng chấp nhận các yêu cầu kết nối mới từ các máy khách khác nhau.",
+        "C": "Vì TCP không tin cậy nên phải lặp lại để gửi lại dữ liệu.",
+        "D": "Đây là lỗi lập trình."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nMáy chủ sử dụng **vòng lặp while 1** để liên tục quay lại trạng thái chờ **accept()** các yêu cầu kết nối mới sau khi đã phục vụ xong (hoặc đang phục vụ) một máy khách."
+    },
+    {
+      "id": 196,
+      "question": "Giao thức nào cho phép người dùng thao tác (tạo thư mục, di chuyển thư) trực tiếp trên máy chủ thư điện tử?",
+      "options": {
+        "A": "POP3",
+        "B": "SMTP",
+        "C": "IMAP",
+        "D": "FTP"
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\n**IMAP** cho phép người dùng **tổ chức, sắp xếp** các thông điệp trong các thư mục và giữ trạng thái của người dùng trên máy chủ, trong khi POP3 thường tải về và xóa hoặc ít tính năng quản lý hơn."
+    },
+    {
+      "id": 197,
+      "question": "Dịch vụ nào sau đây TCP không cung cấp?",
+      "options": {
+        "A": "Truyền tải tin cậy.",
+        "B": "Điều khiển luồng.",
+        "C": "Đảm bảo thông lượng tối thiểu và định thì (thời gian thực).",
+        "D": "Điều khiển tắc nghẽn."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nCác dịch vụ TCP **không hỗ trợ** bao gồm: **định thì (timing)**, **bảo đảm thông lượng tối thiểu**, và bảo mật (đối với TCP thuần túy không có SSL)."
+    },
+    {
+      "id": 198,
+      "question": "Hai tiến trình chạy trên hai máy tính khác nhau (hệ thống đầu cuối khác nhau) giao tiếp với nhau bằng cách nào?",
+      "options": {
+        "A": "Sử dụng cơ chế truyền thông liên tiến trình (IPC) của hệ điều hành.",
+        "B": "Trao đổi các thông điệp (messages) qua mạng.",
+        "C": "Chia sẻ chung một vùng nhớ RAM vật lý.",
+        "D": "Sử dụng cáp USB nối trực tiếp."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nCác tiến trình trong các hệ thống đầu cuối khác nhau truyền thông với nhau bằng cách **trao đổi các thông điệp**. (Cơ chế IPC chỉ dùng cho các tiến trình trên cùng một máy)."
+    },
+    {
+      "id": 199,
+      "question": "Các mã trạng thái của FTP (ví dụ: 331, 125, 425) có đặc điểm gì giống với HTTP?",
+      "options": {
+        "A": "Chúng đều là số nhị phân.",
+        "B": "Chúng đều có mã trạng thái (số) và cụm từ mô tả (text) đi kèm.",
+        "C": "Chúng hoàn toàn khác nhau, FTP dùng chữ cái.",
+        "D": "FTP không có mã trạng thái."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nCả FTP và HTTP đều có tương tác lệnh/phản hồi với các **mã trạng thái dạng ASCII** và **cụm từ mô tả**."
+    },
+    {
+      "id": 200,
+      "question": "Kết luận quan trọng nhất về triết lý thiết kế của Internet được nhắc lại nhiều lần trong chương là gì?",
+      "options": {
+        "A": "\"Sự phức tạp nằm ở lõi mạng\".",
+        "B": "\"Sự phức tạp nằm ở biên của mạng\" (Complexity at network edge).",
+        "C": "\"Tốc độ là quan trọng nhất\".",
+        "D": "\"Bảo mật là ưu tiên hàng đầu\"."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nNguyên lý **\"Sự phức tạp ở biên của mạng\"**. Các chức năng cao cấp được đẩy ra các thiết bị đầu cuối để giữ cho lõi mạng đơn giản và hiệu quả."
+    }
+  ]
+}

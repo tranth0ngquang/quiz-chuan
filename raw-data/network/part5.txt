@@ -1,0 +1,224 @@
+Phần 1: Giới thiệu, Dịch vụ và Phát hiện lỗi (Câu 1 - 10)
+Câu 1: Thuật ngữ nào sau đây được sử dụng để chỉ gói dữ liệu (packet) ở tầng Liên kết dữ liệu? A. Datagram B. Segment C. Frame D. Message
+Đáp án: C Giải thích: Tại tầng Liên kết dữ liệu, gói dữ liệu được gọi là frame (khung), nó đóng gói datagram từ tầng mạng,.
+Câu 2: Nhiệm vụ chính của tầng Liên kết dữ liệu là chuyển dữ liệu giữa các thực thể nào? A. Giữa hai tiến trình (process) trên hai host bất kỳ. B. Giữa hai host đầu cuối (end-to-end). C. Giữa các node lân cận vật lý (physically adjacent nodes) qua một liên kết. D. Giữa server và client.
+Đáp án: C Giải thích: Tầng data-link có nhiệm vụ truyền datagram từ 1 node đến node lân cận vật lý dọc theo đường truyền thông.
+Câu 3: Tầng Liên kết dữ liệu chủ yếu được triển khai ở đâu trong một host? A. Hoàn toàn trong phần mềm hệ điều hành. B. Trong bộ chuyển đổi mạng (Network Interface Card - NIC). C. Trong bộ nhớ CPU. D. Trong ứng dụng người dùng.
+Đáp án: B Giải thích: Tầng Liên kết dữ liệu được triển khai trong "adaptor" hay còn gọi là network interface card (NIC). Nó là sự kết hợp của phần cứng, phần mềm và firmware.
+Câu 4: Dịch vụ "Framing" (đóng gói tin) thực hiện chức năng gì? A. Mã hóa dữ liệu để bảo mật. B. Đóng gói datagram vào trong frame, thêm header và trailer. C. Định tuyến gói tin qua mạng Internet. D. Thiết lập kết nối giữa hai ứng dụng.
+Đáp án: B Giải thích: Dịch vụ Framing thực hiện việc đóng gói datagram vào trong frame, đồng thời thêm các header và trailer.
+Câu 5: Trong các loại liên kết sau, liên kết nào thường yêu cầu dịch vụ "Truyền tin cậy" (Reliable delivery) ở tầng liên kết dữ liệu nhất? A. Cáp quang (Fiber optic). B. Cáp xoắn đôi (Twisted pair) chất lượng cao. C. Kết nối không dây (Wireless links). D. Kết nối nội bộ trong CPU.
+Đáp án: C Giải thích: Truyền tin cậy ít khi được sử dụng trên đường kết nối có tỷ lệ lỗi thấp như cáp quang, nhưng rất cần thiết cho kết nối không dây vì có tỷ lệ lỗi cao.
+Câu 6: Chế độ truyền "half-duplex" có đặc điểm gì? A. Chỉ một bên có thể truyền, bên kia chỉ có thể nhận. B. Cả hai bên đều có thể truyền và nhận, nhưng không đồng thời. C. Cả hai bên có thể truyền và nhận cùng một lúc. D. Dữ liệu chỉ đi theo một chiều duy nhất mãi mãi.
+Đáp án: B Giải thích: Trong half-duplex, các node tại hai đầu đều có thể truyền và nhận, nhưng thao tác này không được thực hiện đồng thời.
+Câu 7: Kỹ thuật kiểm tra chẵn lẻ đơn (Single parity bit) có khả năng phát hiện loại lỗi nào? A. Phát hiện và sửa mọi lỗi. B. Chỉ phát hiện các lỗi bit đơn (single bit errors). C. Phát hiện và sửa lỗi bit đơn. D. Không phát hiện được lỗi nào.
+Đáp án: B Giải thích: Bit parity đơn chỉ có khả năng phát hiện các lỗi bit đơn, không thể sửa lỗi.
+Câu 8: Sự khác biệt chính giữa "Parity 2 chiều" (2D parity) so với "Parity đơn" là gì? A. Parity 2 chiều tốn ít overhead hơn. B. Parity 2 chiều có thể phát hiện và sửa được lỗi bit đơn. C. Parity 2 chiều chỉ dùng cho mạng không dây. D. Parity 2 chiều không thể phát hiện lỗi.
+Đáp án: B Giải thích: Bit parity 2 chiều cho phép phát hiện và sửa các lỗi bit đơn, trong khi parity đơn chỉ phát hiện được lỗi.
+Câu 9: Phương pháp Internet Checksum thực hiện việc kiểm tra lỗi bằng cách nào? A. Chia dữ liệu cho một đa thức sinh G. B. Tính tổng bù 1 (1s complement sum) của các số nguyên 16-bit trong segment. C. Đếm số lượng bit 1 chẵn hoặc lẻ. D. So sánh từng bit dữ liệu với bản sao lưu.
+Đáp án: B Giải thích: Internet checksum coi nội dung segment như một chuỗi các số nguyên 16-bit và tính tổng bù 1 của các nội dung đó.
+Câu 10: Trong kỹ thuật CRC (Cyclic Redundancy Check), bên gửi và bên nhận phải thống nhất trước điều gì? A. Một bảng mã ASCII. B. Một mẫu bit sinh (generator) G có độ dài r+1 bit. C. Một số nguyên tố lớn. D. Thời gian truyền gói tin.
+Đáp án: B Giải thích: Trong CRC, cả hai bên phải chọn/biết một mẫu chiều dài r+1 bit gọi là bộ khởi tạo (generator), ký hiệu là G.
+-------------------------------------------------------------------------------- 
+Phần 2: Các giao thức Đa truy cập (Câu 11 - 20)
+Câu 11: Hai loại liên kết (link) chính trong tầng Liên kết dữ liệu là gì? A. Điểm-điểm (Point-to-point) và Quảng bá (Broadcast). B. Có dây (Wired) và Không dây (Wireless). C. LAN và WAN. D. Half-duplex và Full-duplex.
+Đáp án: A Giải thích: Có 2 kiểu liên kết là Điểm-điểm (ví dụ: PPP, switch-host) và Broadcast (chia sẻ đường truyền dùng chung như Ethernet cũ, 802.11 wireless LAN),.
+Câu 12: Trong giao thức TDMA (Time Division Multiple Access), điều gì xảy ra nếu một trạm (station) không có dữ liệu để truyền trong slot của nó? A. Slot đó sẽ được nhường cho trạm kế tiếp. B. Slot đó sẽ bị để trống (nhàn rỗi). C. Trạm đó sẽ phát tín hiệu báo bận. D. Thời gian của vòng (round) sẽ ngắn lại.
+Đáp án: B Giải thích: Trong TDMA, mỗi trạm được gán một slot cố định trong mỗi vòng. Các slot không sử dụng sẽ nhàn rỗi (idle), dẫn đến lãng phí nếu trạm không có dữ liệu gửi.
+Câu 13: Đặc điểm vận hành chính của giao thức Slotted ALOHA là gì? A. Các node có thể truyền bất cứ lúc nào. B. Các node phải lắng nghe đường truyền trước khi gửi. C. Các node chỉ bắt đầu truyền ngay tại thời điểm bắt đầu của slot. D. Có một node trung tâm điều phối việc truyền tin.
+Đáp án: C Giải thích: Trong Slotted ALOHA, thời gian được chia thành các slot và các node chỉ được phép bắt đầu truyền ngay tại lúc bắt đầu slot.
+Câu 14: Hiệu suất cực đại (kênh hữu dụng) của giao thức Slotted ALOHA là bao nhiêu? A. 18% B. 37% C. 50% D. 100%
+Đáp án: B Giải thích: Hiệu suất cực đại của Slotted ALOHA là 1/e, tương đương khoảng 0.37 hay 37% thời gian kênh hữu dụng.
+Câu 15: Giao thức Pure (unslotted) ALOHA khác với Slotted ALOHA ở điểm nào? A. Cần đồng bộ hóa thời gian giữa các node. B. Đơn giản hơn, không cần đồng bộ, truyền ngay khi có frame. C. Có hiệu suất cao hơn Slotted ALOHA. D. Không bao giờ xảy ra đụng độ.
+Đáp án: B Giải thích: Pure ALOHA (unslotted) đơn giản hơn và không cần đồng bộ. Khi frame đến, node sẽ truyền lập tức mà không cần đợi đầu slot.
+Câu 16: Tại sao hiệu suất của Pure ALOHA (khoảng 18%) lại thấp hơn Slotted ALOHA (37%)? A. Vì kích thước gói tin lớn hơn. B. Vì khả năng đụng độ tăng cao hơn (dễ bị chồng lấn thời gian truyền). C. Vì nó sử dụng cơ chế token ring. D. Vì tốc độ truyền dữ liệu thấp hơn.
+Đáp án: B Giải thích: Trong Pure ALOHA, khả năng đụng độ tăng vì một frame truyền tại t0 có thể đụng độ với các frame truyền trong khoảng [t0-1, t0+1], dẫn đến hiệu suất tối đa chỉ là 1/(2e) = 0.18,.
+Câu 17: Nguyên tắc hoạt động "Listen before transmit" (Lắng nghe trước khi truyền) là của giao thức nào? A. ALOHA B. TDMA C. CSMA (Carrier Sense Multiple Access) D. FDMA
+Đáp án: C Giải thích: CSMA (Carrier Sense Multiple Access) hoạt động theo nguyên tắc cảm nhận sóng mang: lắng nghe trước khi truyền. Nếu kênh rỗi thì truyền, nếu bận thì trì hoãn.
+Câu 18: Trong CSMA, tại sao đụng độ (collision) vẫn có thể xảy ra ngay cả khi đã lắng nghe đường truyền? A. Do trễ lan truyền (propagation delay). B. Do lỗi phần cứng. C. Do các node không tuân thủ giao thức. D. Do kích thước frame quá nhỏ.
+Đáp án: A Giải thích: Đụng độ vẫn xảy ra do trễ lan truyền. Hai node có thể không nghe thấy nhau bắt đầu truyền tại cùng một thời điểm do tín hiệu chưa kịp lan truyền tới nơi.
+Câu 19: Sự cải tiến chính của CSMA/CD so với CSMA là gì? A. Ngăn chặn hoàn toàn đụng độ. B. Phát hiện đụng độ và hủy bỏ việc truyền để giảm lãng phí kênh. C. Tăng tốc độ truyền dữ liệu gấp đôi. D. Sử dụng token để cấp quyền truy cập.
+Đáp án: B Giải thích: CSMA/CD (Collision Detection) phát hiện đụng độ trong thời gian ngắn và hủy bỏ thông tin đang truyền (abort), giúp giảm sự lãng phí kênh so với việc truyền hết frame bị lỗi.
+Câu 20: Một nhược điểm lớn của giao thức "Polling" (Thăm dò) là gì? A. Gây ra quá nhiều đụng độ. B. Có một điểm chịu lỗi duy nhất (single point of failure) tại node chủ (master). C. Không đảm bảo công bằng giữa các node. D. Khó triển khai trên phần cứng.
+Đáp án: B Giải thích: Trong giao thức Polling, node chủ (master) điều phối các node con. Nhược điểm là chi phí điều phối (overhead), độ trễ, và đặc biệt là có một điểm chịu lỗi duy nhất (nếu master hỏng, toàn mạng ngưng).
+-------------------------------------------------------------------------------- 
+Phần 3: Giao thức truy cập ngẫu nhiên & Địa chỉ MAC (Câu 21 - 30)
+Câu 21: Hiệu suất cực đại của giao thức Pure ALOHA (unslotted) là bao nhiêu? A. 37% (1/e) B. 18% (1/2e) C. 50% D. 100%
+Đáp án: B Giải thích: Hiệu suất cực đại của Pure ALOHA chỉ đạt khoảng 18% (1/2e), thấp hơn so với Slotted ALOHA (37%) do khả năng đụng độ cao hơn khi không đồng bộ hóa thời gian.
+Câu 22: Giao thức CSMA (Carrier Sense Multiple Access) hoạt động dựa trên nguyên tắc nào? A. Truyền ngay lập tức khi có dữ liệu. B. Chia thời gian thành các slot cố định. C. Lắng nghe đường truyền trước khi gửi (Listen before transmit). D. Yêu cầu token từ node chủ trước khi gửi.
+Đáp án: C Giải thích: CSMA yêu cầu node phải lắng nghe (sense) đường truyền trước. Nếu kênh rỗi thì truyền, nếu bận thì trì hoãn.
+Câu 23: Trong CSMA, tại sao đụng độ (collision) vẫn có thể xảy ra ngay cả khi node đã lắng nghe thấy kênh rỗi? A. Do trễ lan truyền (propagation delay). B. Do node không tuân thủ quy tắc. C. Do suy hao tín hiệu. D. Do kích thước frame quá lớn.
+Đáp án: A Giải thích: Đụng độ vẫn xảy ra do trễ lan truyền; tín hiệu từ một node đang truyền có thể chưa kịp lan đến node kia tại thời điểm node kia bắt đầu nghe và quyết định truyền.
+Câu 24: Điểm khác biệt chính của CSMA/CD so với CSMA thường là gì? A. Không bao giờ xảy ra đụng độ. B. Khi phát hiện đụng độ, nó tiếp tục truyền cho đến hết frame. C. Khi phát hiện đụng độ, nó hủy bỏ việc truyền (abort) ngay lập tức. D. Nó sử dụng cơ chế Polling.
+Đáp án: C Giải thích: CSMA/CD (Collision Detection) phát hiện đụng độ trong thời gian ngắn và hủy bỏ thông tin đang truyền, giúp giảm lãng phí kênh truyền.
+Câu 25: Trong thuật toán Ethernet CSMA/CD, sau khi phát hiện đụng độ và hủy bỏ truyền, NIC sẽ làm gì tiếp theo? A. Truyền lại ngay lập tức. B. Chờ một khoảng thời gian cố định 1 giây. C. Thực hiện giải thuật Binary Exponential Backoff (Lùi nhị phân lũy thừa). D. Báo lỗi lên tầng ứng dụng và dừng hẳn.
+Đáp án: C Giải thích: Sau đụng độ, NIC thực hiện binary exponential backoff: chọn ngẫu nhiên số K trong khoảng và đợi thời gian truyền bit trước khi thử lại.
+Câu 26: Địa chỉ MAC (hay địa chỉ LAN/Physical) có độ dài bao nhiêu bit? A. 32 bit B. 48 bit C. 64 bit D. 128 bit
+Đáp án: B Giải thích: Địa chỉ MAC có độ dài 48 bit (6 byte), thường được biểu diễn dưới dạng số thập lục phân.
+Câu 27: Giao thức ARP (Address Resolution Protocol) có chức năng gì? A. Ánh xạ từ địa chỉ MAC sang địa chỉ IP. B. Ánh xạ từ tên miền (Domain Name) sang địa chỉ IP. C. Ánh xạ từ địa chỉ IP sang địa chỉ MAC. D. Định tuyến gói tin trên Internet.
+Đáp án: C Giải thích: ARP giải quyết vấn đề xác định địa chỉ MAC của một interface khi biết địa chỉ IP của nó.
+Câu 28: Gói tin ARP Query để hỏi địa chỉ MAC được gửi đi như thế nào trong mạng LAN? A. Gửi Unicast trực tiếp đến node đích. B. Gửi Broadcast đến tất cả các node trong mạng LAN. C. Gửi Multicast đến một nhóm node. D. Gửi về Default Gateway.
+Đáp án: B Giải thích: ARP query được gửi quảng bá (broadcast) với địa chỉ MAC đích là FF-FF-FF-FF-FF-FF để tất cả các node trong mạng LAN đều nhận được.
+Câu 29: Nếu host A muốn gửi dữ liệu cho host B nằm ở một mạng LAN khác (khác IP subnet), địa chỉ MAC đích trong frame Ethernet mà A gửi đi sẽ là của thiết bị nào? A. Địa chỉ MAC của host B. B. Địa chỉ MAC của router (gateway) kết nối với mạng của A. C. Địa chỉ MAC Broadcast. D. Không cần địa chỉ MAC.
+Đáp án: B Giải thích: Khi gửi ra ngoài mạng LAN, frame tầng liên kết dữ liệu sẽ có địa chỉ MAC đích là địa chỉ MAC của router (gateway) để router nhận và chuyển tiếp gói tin đi tiếp,.
+Câu 30: Một đặc điểm quan trọng phân biệt địa chỉ MAC so với địa chỉ IP là gì? A. Địa chỉ MAC có tính phân cấp (hierarchical). B. Địa chỉ MAC không phân cấp (flat) và có tính di chuyển (portable). C. Địa chỉ MAC thay đổi khi di chuyển sang mạng khác. D. Địa chỉ MAC do nhà cung cấp dịch vụ Internet (ISP) cấp.
+Đáp án: B Giải thích: Địa chỉ MAC không phân cấp và gắn liền với phần cứng (như số CMND), có thể di chuyển card mạng từ mạng này sang mạng khác mà vẫn giữ nguyên địa chỉ, trong khi IP phụ thuộc vào mạng đang kết nối.
+-------------------------------------------------------------------------------- 
+Phần 4: ARP & Ethernet (Câu 31 - 40)
+Câu 31: Trong bảng ARP, tham số TTL (Time To Live) có ý nghĩa gì? A. Thời gian tối đa gói tin được phép tồn tại trên mạng. B. Thời gian chờ để nhận phản hồi ARP Reply. C. Thời gian mà ánh xạ địa chỉ IP/MAC được lưu giữ trước khi bị xóa (lãng quên). D. Số lượng router tối đa mà gói tin được phép đi qua.
+Đáp án: C Giải thích: TTL trong bảng ARP chỉ định thời gian mà ánh xạ địa chỉ sẽ bị lãng quên (xóa bỏ) nếu không được làm mới, thông thường là 20 phút.
+Câu 32: Quá trình gửi nhận gói tin ARP diễn ra như thế nào? A. ARP Query gửi Unicast, ARP Reply gửi Broadcast. B. ARP Query gửi Broadcast, ARP Reply gửi Unicast. C. Cả ARP Query và ARP Reply đều gửi Broadcast. D. Cả ARP Query và ARP Reply đều gửi Unicast.
+Đáp án: B Giải thích: Gói tin ARP Query được gửi quảng bá (broadcast) để tất cả các node đều nhận được, còn ARP Reply được gửi trực tiếp (unicast) về cho node đã gửi câu hỏi.
+Câu 33: Tính chất "Plug-and-play" của giao thức ARP nghĩa là gì? A. Cần phải cài đặt driver đặc biệt mới chạy được. B. Các node tự tạo bảng ARP của nó mà không cần sự can thiệp cấu hình của quản trị mạng. C. Chỉ hoạt động khi cắm dây mạng vào đúng cổng. D. Tự động cấp phát địa chỉ IP cho các máy trạm.
+Đáp án: B Giải thích: ARP là giao thức "plug-and-play" vì các node tự tạo bảng ARP dựa trên các phản hồi nhận được mà không cần quản trị mạng phải cấu hình thủ công.
+Câu 34: Khi Host A gửi gói tin IP cho Host B nằm khác mạng (khác LAN), khung Ethernet (frame) mà A gửi đi sẽ chứa địa chỉ MAC đích là của thiết bị nào? A. Địa chỉ MAC của Host B. B. Địa chỉ MAC Broadcast (FF-FF-FF-FF-FF-FF). C. Địa chỉ MAC của Router (gateway) kết nối với mạng của A. D. Không cần địa chỉ MAC đích.
+Đáp án: C Giải thích: Để gửi ra ngoài mạng LAN, Host A phải gửi frame tới Router gateway. Do đó, frame Ethernet sẽ có địa chỉ MAC đích là địa chỉ MAC của Router (R).
+Câu 35: Khi Router chuyển tiếp (forward) gói tin từ Host A đến Host B (nằm ở mạng đích kết nối trực tiếp với Router), thông tin trong header của frame mới do Router tạo ra sẽ như thế nào? A. Giữ nguyên MAC nguồn của A và MAC đích của B. B. MAC nguồn là của Router, MAC đích là của Host B. C. MAC nguồn là của Router, MAC đích là Broadcast. D. Thay đổi địa chỉ IP nguồn thành IP của Router.
+Đáp án: B Giải thích: Khi Router chuyển tiếp frame tới B, nó tạo frame mới với địa chỉ MAC nguồn là của chính interface Router và MAC đích là của Host B. Địa chỉ IP nguồn (A) và đích (B) trong datagram vẫn giữ nguyên.
+Câu 36: Cấu trúc vật lý của mạng Ethernet hiện đại ngày nay chủ yếu sử dụng mô hình nào? A. Bus (dùng cáp đồng trục). B. Ring (vòng tròn). C. Star (hình sao) với Switch ở trung tâm. D. Mesh (lưới) kết nối tất cả với nhau.
+Đáp án: C Giải thích: Ethernet hiện đại chiếm ưu thế bởi cấu trúc hình sao (star topology) với thiết bị trung tâm là Switch, thay thế cho cấu trúc Bus cũ dùng cáp đồng trục.
+Câu 37: Chức năng của trường Preamble (7 byte) trong khung Ethernet là gì? A. Chứa thông tin định tuyến. B. Kiểm tra lỗi CRC. C. Đồng bộ hóa tốc độ đồng hồ giữa bên gửi và bên nhận. D. Xác định độ dài của gói tin.
+Đáp án: C Giải thích: Preamble gồm 7 byte (mỗi byte 10101010) được sử dụng để đồng bộ tốc độ đồng hồ của bên gửi và bên nhận trước khi truyền dữ liệu thực sự.
+Câu 38: Ethernet cung cấp dịch vụ "connectionless" (không kết nối) và "unreliable" (không tin cậy). Điều này có nghĩa là gì? A. Không có bắt tay (handshaking) và không gửi xác nhận (ACK/NAK). B. Luôn đảm bảo dữ liệu đến đích nhưng không cần thiết lập kết nối. C. Có thiết lập kết nối nhưng không kiểm tra lỗi. D. Dữ liệu sẽ tự động được truyền lại bởi tầng liên kết dữ liệu nếu bị lỗi.
+Đáp án: A Giải thích: Connectionless nghĩa là không có bắt tay giữa NIC gửi và nhận. Unreliable nghĩa là NIC nhận không gửi thông báo xác nhận (ACKs) hoặc báo lỗi (NACKs),.
+Câu 39: Trong khung Ethernet, nếu CRC kiểm tra phát hiện lỗi, bên nhận sẽ làm gì? A. Tự động sửa lỗi và chuyển lên tầng trên. B. Gửi yêu cầu truyền lại (NACK) cho bên gửi. C. Bỏ (drop) frame đó. D. Chuyển frame lỗi lên tầng trên để xử lý.
+Đáp án: C Giải thích: Nếu CRC phát hiện lỗi, adapter bên nhận sẽ hủy bỏ (drop) frame đó mà không gửi thông báo gì lại cho bên gửi (do tính chất unreliable),.
+Câu 40: Các chuẩn Ethernet khác nhau (10Mbps, 100Mbps, 1Gbps,...) có điểm chung là gì? A. Sử dụng cùng một loại cáp vật lý. B. Sử dụng cùng một giao thức MAC và định dạng frame. C. Có cùng chiều dài dây cáp tối đa. D. Luôn sử dụng mã hóa Manchester.
+Đáp án: B Giải thích: Các chuẩn Ethernet khác nhau về tốc độ và môi trường truyền dẫn (tầng Vật lý), nhưng đều sử dụng chung giao thức MAC và định dạng frame.
+-------------------------------------------------------------------------------- 
+Phần 5: Ethernet Switch & VLAN (Câu 41 - 50)
+Câu 41: Ethernet Switch là thiết bị hoạt động chủ yếu ở tầng nào trong mô hình mạng? A. Tầng Vật lý (Physical Layer). B. Tầng Liên kết dữ liệu (Data Link Layer). C. Tầng Mạng (Network Layer). D. Tầng Ứng dụng (Application Layer).
+Đáp án: B Giải thích: Switch là thiết bị thuộc tầng Liên kết dữ liệu (Link-layer device), nó kiểm tra header của tầng liên kết dữ liệu để chuyển tiếp frame,.
+Câu 42: Tính chất "transparent" (trong suốt) của Switch đối với các host có nghĩa là gì? A. Các host không nhận thức được sự hiện diện của Switch. B. Switch không có địa chỉ MAC. C. Switch không lưu trữ frame mà chuyển đi ngay lập tức. D. Vỏ thiết bị Switch được làm bằng vật liệu trong suốt.
+Đáp án: A Giải thích: Transparent nghĩa là các host gửi frame vào mạng mà không hề biết rằng có một thiết bị ở giữa (switch) đang nhận và chuyển tiếp frame đó.
+Câu 43: Switch thực hiện tính năng "tự học" (self-learning) để xây dựng bảng chuyển tiếp bằng cách nào? A. Tải bảng cấu hình từ server trung tâm. B. Gửi gói tin quảng bá hỏi tất cả các host. C. Dựa vào địa chỉ MAC nguồn của các frame đến để ghi nhận cổng (interface) tương ứng. D. Dựa vào địa chỉ IP đích của gói tin.
+Đáp án: C Giải thích: Khi Switch nhận được frame, nó "học" vị trí của bên gửi bằng cách ghi lại địa chỉ MAC nguồn và cổng vào (incoming LAN segment) tương ứng vào bảng switch.
+Câu 44: Khi Switch nhận được một frame có địa chỉ MAC đích không nằm trong bảng chuyển tiếp của nó, hành động nào sẽ xảy ra? A. Gửi frame trả lại cho nơi gửi báo lỗi. B. Hủy bỏ (drop) frame đó. C. Flood (chuyển tiếp) frame đó ra tất cả các cổng, trừ cổng nhận vào. D. Gửi frame lên router để xử lý.
+Đáp án: C Giải thích: Nếu không tìm thấy địa chỉ đích trong bảng, Switch sẽ thực hiện flood: chuyển tiếp frame ra tất cả các interface ngoại trừ interface đã nhận frame đó.
+Câu 45: Trong thuật toán lọc/chuyển tiếp của Switch, nếu địa chỉ đích của frame đã có trong bảng và cổng đi ra trùng với cổng nhận vào, Switch sẽ làm gì? A. Flood frame ra các cổng khác. B. Chuyển tiếp frame ra cổng đó. C. Bỏ (drop) frame đó. D. Gửi frame quay ngược lại nguồn.
+Đáp án: C Giải thích: Nếu đích đến nằm trên cùng phân đoạn mạng (cổng) mà frame được gửi đến, Switch sẽ bỏ (drop) frame đó vì host đích đã nhận được frame qua môi trường chung rồi (hoặc không cần chuyển tiếp qua cổng khác).
+Câu 46: Một lợi ích quan trọng của việc sử dụng Switch so với Hub hoặc Ethernet Bus cũ là gì? A. Giảm chi phí phần cứng. B. Không cần sử dụng địa chỉ MAC. C. Mỗi cổng là một miền đụng độ (collision domain) riêng biệt, cho phép truyền song song không đụng độ. D. Tăng khoảng cách truyền dẫn lên vô hạn.
+Đáp án: C Giải thích: Switch loại bỏ đụng độ bằng cách chia mỗi đường kết nối thành một miền đụng độ riêng. Các host (ví dụ A tới A' và B tới B') có thể truyền đồng thời mà không xảy ra đụng độ.
+Câu 47: Điểm khác biệt chính giữa Router và Switch về cách xây dựng bảng chuyển tiếp (forwarding table) là gì? A. Router dùng địa chỉ MAC, Switch dùng địa chỉ IP. B. Router tính toán bảng bằng thuật toán định tuyến, Switch học bảng qua cơ chế flooding/learning và địa chỉ MAC. C. Router học bảng tự động nhanh hơn Switch. D. Switch không có bảng chuyển tiếp.
+Đáp án: B Giải thích: Router là thiết bị tầng mạng, tính toán bảng định tuyến dựa trên địa chỉ IP và các thuật toán định tuyến. Switch là thiết bị tầng liên kết, học bảng forwarding dựa trên địa chỉ MAC và cơ chế self-learning.
+Câu 48: Động lực chính để sử dụng VLAN (Virtual Local Area Network) là gì? A. Tăng băng thông Internet. B. Chia nhỏ miền quảng bá (broadcast domain) để cải thiện hiệu suất và bảo mật/riêng tư. C. Để kết nối các thiết bị không dây. D. Thay thế hoàn toàn cho router trong mọi trường hợp.
+Đáp án: B Giải thích: VLAN giúp giải quyết các vấn đề như an ninh, riêng tư và hiệu suất bằng cách cô lập traffic broadcast trong một miền broadcast đơn nhỏ hơn thay vì toàn bộ mạng LAN.
+Câu 49: Trong kỹ thuật "Port-based VLAN", các nhóm cổng của switch được cấu hình để hoạt động như thế nào? A. Như các switch vật lý riêng biệt. B. Như một hub duy nhất. C. Như một router. D. Như một repeater.
+Đáp án: A Giải thích: Port-based VLAN nhóm các cổng lại để trở thành một "switch vật lý duy nhất" ảo, cô lập traffic giữa các nhóm cổng này.
+Câu 50: Để kết nối nhiều switch có hỗ trợ VLAN với nhau, người ta sử dụng loại cổng nào để mang frame của nhiều VLAN? A. Access port. B. Trunk port. C. Root port. D. Loopback port.
+Đáp án: B Giải thích: Trunk port mang các frame giữa các VLAN được định nghĩa trên nhiều switch vật lý. Các frame qua đây thường sử dụng giao thức 802.1Q để đánh dấu VLAN ID.
+-------------------------------------------------------------------------------- 
+Phần 6: VLAN Tagging & MPLS (Câu 51 - 55)
+Câu 51: Để các switch phân biệt được frame thuộc VLAN nào khi truyền qua đường kết nối trunk (trunk port), giao thức nào thường được sử dụng? A. IEEE 802.3 B. IEEE 802.11 C. IEEE 802.1Q D. ARP
+Đáp án: C Giải thích: Giao thức 802.1Q được sử dụng để thêm thông tin định danh VLAN (VLAN ID) vào frame khi truyền giữa các switch qua cổng trunk,.
+Câu 52: Khung (frame) Ethernet chuẩn 802.1Q khác khung Ethernet thông thường ở điểm nào? A. Nó có thêm 4 byte "Tag" nằm giữa địa chỉ nguồn và trường Type/Length. B. Nó sử dụng địa chỉ MAC 64 bit. C. Nó không có trường Preamble. D. Nó mã hóa toàn bộ dữ liệu payload.
+Đáp án: A Giải thích: Frame 802.1Q chèn thêm 4 byte bao gồm: Tag Protocol Identifier (2 byte) và Tag Control Information (chứa 12 bit VLAN ID).
+Câu 53: Công nghệ MPLS (Multiprotocol Label Switching) chuyển tiếp gói tin dựa trên yếu tố nào? A. Địa chỉ IP đích trong header của tầng mạng. B. Nhãn (label) có độ dài cố định. C. Số cổng (Port number) của giao thức vận chuyển. D. Địa chỉ MAC nguồn.
+Đáp án: B Giải thích: MPLS chuyển tiếp gói tin tốc độ cao dựa trên nhãn có độ dài cố định (fixed length label) thay vì tra cứu địa chỉ IP đích phức tạp,.
+Câu 54: Một ưu điểm về sự linh hoạt của MPLS so với định tuyến IP truyền thống là gì? A. MPLS không cần router. B. MPLS có thể định tuyến các luồng dữ liệu đến cùng một đích theo các đường khác nhau (Traffic Engineering). C. MPLS tự động sửa mọi lỗi bit. D. MPLS chỉ hoạt động trên mạng LAN.
+Đáp án: B Giải thích: Định tuyến IP thường chỉ xác định đường đi dựa trên đích đến, trong khi MPLS có thể sử dụng địa chỉ nguồn và đích để định tuyến các luồng dữ liệu khác nhau theo các đường khác nhau (kỹ thuật lưu lượng - Traffic Engineering).
+Câu 55: Trong bảng chuyển tiếp MPLS, router quyết định nhãn đầu ra (out label) dựa trên thông tin nào? A. Địa chỉ IP nguồn và đích. B. Nhãn đầu vào (in label) và cổng nhận (incoming interface). C. Toàn bộ nội dung gói tin. D. Checksum của gói tin.
+Đáp án: B Giải thích: Router MPLS tra cứu bảng dựa trên nhãn vào và cổng vào để xác định nhãn ra và cổng ra tương ứng.
+Phần 7: Mạng Trung tâm dữ liệu & Tổng hợp (Câu 56 - 60)
+Câu 56: Thách thức chính trong thiết kế Mạng trung tâm dữ liệu (Data Center Networks) là gì? A. Số lượng người dùng quá ít. B. Quản lý và cân bằng tải cho hàng chục đến hàng trăm ngàn host, tránh tắc nghẽn. C. Thiếu địa chỉ IP công cộng. D. Tốc độ đường truyền quá chậm.
+Đáp án: B Giải thích: Thách thức của mạng Data Center là phục vụ số lượng lớn ứng dụng và client, đòi hỏi quản lý/cân bằng tải và tránh tắc nghẽn trong xử lý dữ liệu và mạng,.
+Câu 57: Vai trò của thiết bị "Load Balancer" (Cân bằng tải) trong Data Center là gì? A. Lưu trữ dữ liệu web. B. Cấp phát địa chỉ IP cho server. C. Điều phối các yêu cầu (requests) từ bên ngoài đến các server bên trong và che giấu cấu trúc nội bộ. D. Chỉ làm nhiệm vụ tường lửa (Firewall).
+Đáp án: C Giải thích: Load Balancer nhận yêu cầu từ client, điều phối khối lượng công việc trong trung tâm dữ liệu và trả kết quả về, giúp che giấu cấu trúc bên trong với client.
+Câu 58: Trong kịch bản "Một truy vấn web thường ngày", khi laptop vừa kết nối vào mạng, giao thức nào được sử dụng đầu tiên để lấy địa chỉ IP? A. HTTP B. DNS C. DHCP D. TCP
+Đáp án: C Giải thích: Bước đầu tiên khi kết nối mạng là laptop cần có địa chỉ IP, gateway, DNS server... thông qua giao thức DHCP.
+Câu 59: Gói tin DHCP Request được gửi đi trong mạng LAN dưới dạng nào? A. Unicast (Gửi trực tiếp đến DHCP Server). B. Multicast. C. Broadcast (Quảng bá). D. Anycast.
+Đáp án: C Giải thích: Frame Ethernet chứa gói DHCP được gửi broadcast (địa chỉ đích FF-FF-FF-FF-FF-FF) để tìm kiếm DHCP server trên mạng LAN.
+Câu 60: Trước khi trình duyệt có thể gửi HTTP Request tới "www.google.com", nó cần thực hiện bước quan trọng nào? A. Gửi email xác nhận. B. Sử dụng DNS để phân giải tên miền "www.google.com" thành địa chỉ IP. C. Tải toàn bộ hình ảnh trang web. D. Thiết lập kết nối UDP với server.
+Đáp án: B Giải thích: Trước khi gửi HTTP request (thường qua TCP), client cần biết địa chỉ IP của máy chủ web, do đó phải thực hiện truy vấn DNS.
+-------------------------------------------------------------------------------- 
+Phần 8: Chi tiết MPLS & Mạng Trung tâm dữ liệu (Câu 61 - 63)
+Câu 61: Router MPLS (Label-switched router) ở đầu vào (entry router) sử dụng giao thức tín hiệu nào để thiết lập chuyển tiếp MPLS tại các router nhận? A. RIP B. RSVP-TE C. DHCP D. ARP
+Đáp án: B Giải thích: Entry router của MPLS sử dụng giao thức tín hiệu RSVP-TE để thiết lập chuyển tiếp MPLS tại các router phía sau.
+Câu 62: Trong kiến trúc mạng trung tâm dữ liệu, các switch kết nối trực tiếp với các rack chứa server được gọi là gì? A. Border routers B. Tier-1 switches C. TOR (Top of Rack) switches D. Access routers
+Đáp án: C Giải thích: Trong kiến trúc Data Center, các server được đặt trong rack và kết nối với TOR (Top of Rack) switches.
+Câu 63: Tại sao trong mạng trung tâm dữ liệu thường có rất nhiều kết nối dư thừa giữa các switch và các rack? A. Để tăng tiêu thụ điện năng. B. Để làm phức tạp việc quản lý. C. Để tăng thông lượng (throughput) và tăng độ tin cậy (reliability) nhờ khả năng dự phòng. D. Để giảm số lượng địa chỉ IP cần dùng.
+Đáp án: C Giải thích: Việc có nhiều kết nối giúp tăng thông lượng giữa các rack (nhiều đường định tuyến khả dụng) và tăng độ tin cậy cũng như khả năng dự phòng.
+Phần 9: Tổng hợp - Kịch bản truy vấn Web (Câu 64 - 70)
+Ngữ cảnh: Một sinh viên mang laptop kết nối vào mạng trường học và truy cập www.google.com.
+Câu 64: Khi laptop vừa kết nối vào mạng và chưa có địa chỉ IP, nó gửi yêu cầu DHCP. Gói tin DHCP này được đóng gói (encapsulated) theo trình tự nào từ trong ra ngoài? A. DHCP IP UDP Ethernet B. DHCP Ethernet IP UDP C. DHCP UDP IP Ethernet D. Ethernet IP UDP DHCP
+Đáp án: C Giải thích: Yêu cầu DHCP được đóng gói trong UDP, sau đó UDP được đóng gói trong IP, và cuối cùng IP được đóng gói trong khung Ethernet (DHCP UDP IP Ethernet).
+Câu 65: Tại sao frame Ethernet chứa gói tin DHCP Request lại có địa chỉ MAC đích là FF-FF-FF-FF-FF-FF? A. Vì laptop chưa biết địa chỉ MAC của DHCP server nên phải gửi Broadcast. B. Vì đó là địa chỉ riêng của Google. C. Vì giao thức UDP yêu cầu như vậy. D. Vì switch không hỗ trợ Unicast.
+Đáp án: A Giải thích: Laptop mới kết nối chưa biết ai là DHCP server và server đó ở đâu, nên nó gửi frame Ethernet broadcast (FF-FF-FF-FF-FF-FF) để router chạy dịch vụ DHCP trên mạng LAN có thể nhận được.
+Câu 66: Sau khi có địa chỉ IP, laptop muốn gửi truy vấn DNS để tìm IP của "www.google.com". Tuy nhiên, laptop cần gửi gói tin này tới Router cổng ra (Default Gateway). Để làm điều này, laptop cần sử dụng giao thức nào để tìm địa chỉ MAC của Router? A. DHCP B. ARP C. ICMP D. HTTP
+Đáp án: B Giải thích: Để gửi frame tới router, laptop cần biết địa chỉ MAC của interface router. Nó sử dụng giao thức ARP (gửi ARP query broadcast) để hỏi MAC của router.
+Câu 67: Khi gói tin DNS Query (đã được đóng gói trong IP datagram) đi từ mạng trường học ra mạng Internet (ví dụ mạng Comcast) để đến DNS Server, các router chuyển tiếp gói tin này dựa trên thông tin nào? A. Địa chỉ MAC nguồn. B. Bảng định tuyến (được tạo bởi RIP, OSPF, BGP) và địa chỉ IP đích. C. VLAN ID. D. Nhãn MPLS.
+Đáp án: B Giải thích: IP datagram chứa DNS query được định tuyến qua các mạng (từ campus sang Comcast) dựa trên các bảng định tuyến được tạo bởi các giao thức như RIP, OSPF, IS-IS và/hoặc BGP.
+Câu 68: Sau khi nhận được địa chỉ IP của www.google.com từ DNS server, bước tiếp theo laptop phải làm gì trước khi gửi HTTP Request? A. Gửi ngay HTTP Request qua giao thức UDP. B. Mở một TCP socket và thực hiện bắt tay 3 bước (gửi TCP SYN). C. Gửi lại DHCP Request để xác nhận. D. Yêu cầu ARP để tìm MAC của Google server.
+Đáp án: B Giải thích: Trước khi gửi HTTP request, client phải mở TCP socket tới web server và gửi TCP SYN segment (bước 1 trong 3 bước bắt tay).
+Câu 69: Web server của Google sau khi nhận được gói TCP SYN từ laptop sẽ phản hồi bằng gói tin nào? A. HTTP OK B. TCP ACK C. TCP SYNACK D. DHCP ACK
+Đáp án: C Giải thích: Web server sẽ đáp ứng yêu cầu kết nối bằng gói tin TCP SYNACK (bước 2 trong quá trình bắt tay 3 bước).
+Câu 70: Nội dung trang web (ví dụ: trang chủ Google) thực sự được gửi về laptop trong gói tin nào? A. TCP SYNACK B. DNS Reply C. HTTP Reply D. ARP Reply
+Đáp án: C Giải thích: Sau khi kết nối TCP thiết lập xong và Client gửi HTTP Request, Web server sẽ trả lời với HTTP Reply chứa nội dung trang web.
+-------------------------------------------------------------------------------- 
+Phần 10: Tiếp tục kịch bản Truy vấn Web & Tổng kết (Câu 71 - 80)
+Câu 71: Trong kịch bản truy vấn web, giao thức HTTP hoạt động ở tầng ứng dụng, nhưng để truyền dữ liệu tin cậy, nó cần sự hỗ trợ của giao thức nào ở tầng giao vận (Transport Layer)? A. UDP B. TCP C. ICMP D. ARP
+Đáp án: B Giải thích: Trước khi gửi HTTP request, client phải mở một TCP socket tới web server và thiết lập kết nối (bắt tay 3 bước).
+Câu 72: Các router nằm giữa mạng trường học (Campus network) và mạng của Google (ví dụ: mạng Comcast) sử dụng các giao thức nào để xây dựng bảng định tuyến giúp chuyển tiếp gói tin IP? A. Chỉ dùng ARP. B. DHCP và DNS. C. RIP, OSPF, IS-IS và/hoặc BGP. D. FTP và SMTP.
+Đáp án: C Giải thích: Các gói tin IP được định tuyến qua các miền mạng khác nhau dựa trên các bảng định tuyến được tạo bởi các giao thức định tuyến nội miền và liên miền như RIP, OSPF, IS-IS và BGP.
+Câu 73: Khi Web server gửi trả lời "HTTP Reply" chứa nội dung trang web về cho laptop, gói tin này đi qua các tầng theo thứ tự đóng gói nào (từ trong ra ngoài) khi rời khỏi server? A. HTTP TCP IP Ethernet B. Ethernet IP TCP HTTP C. IP TCP HTTP Ethernet D. HTTP IP TCP Ethernet
+Đáp án: A Giải thích: Tại server, dữ liệu HTTP được đóng vào TCP segment, sau đó vào IP datagram, và cuối cùng là vào Ethernet frame (hoặc frame liên kết dữ liệu tương ứng) để gửi đi.
+Câu 74: Tổng kết lại chương, dịch vụ "Phát hiện lỗi" (Error detection) ở tầng liên kết dữ liệu có đảm bảo độ tin cậy tuyệt đối 100% không? A. Có, tuyệt đối 100%. B. Không, giao thức có thể bỏ qua một số lỗi. C. Có, nhưng chỉ với cáp quang. D. Có, nếu dùng CRC 32 bit.
+Đáp án: B Giải thích: Việc phát hiện lỗi không bảo đảm 100%, giao thức vẫn có thể bỏ qua một số lỗi (dù xác suất thấp với các kỹ thuật như CRC).
+Câu 75: Sự khác biệt cơ bản nhất về phạm vi hoạt động giữa Switch và Router là gì? A. Switch hoạt động dựa trên địa chỉ IP (tầng 3), Router dựa trên địa chỉ MAC (tầng 2). B. Switch xử lý frame dựa trên địa chỉ MAC (tầng 2), Router xử lý datagram dựa trên địa chỉ IP (tầng 3). C. Switch luôn chậm hơn Router. D. Router không có bảng chuyển tiếp, Switch thì có.
+Đáp án: B Giải thích: Router là thiết bị tầng Mạng (kiểm tra header IP), trong khi Switch là thiết bị tầng Liên kết dữ liệu (kiểm tra header Ethernet/MAC).
+Câu 76: Tại sao trong mạng LAN hiện đại sử dụng Switch, các host có thể truyền dữ liệu đồng thời (ví dụ: A gửi cho B, C gửi cho D) mà không bị đụng độ? A. Vì Switch sử dụng token ring. B. Vì Switch chia mỗi cổng kết nối thành một miền đụng độ (collision domain) riêng biệt. C. Vì Switch không sử dụng dây dẫn. D. Vì Switch tắt chức năng kiểm tra lỗi.
+Đáp án: B Giải thích: Switch chia mỗi đường kết nối là một miền đụng độ riêng. Do đó, các cặp kết nối (A tới A', B tới B') có thể truyền đồng thời mà không xung đột.
+Câu 77: Một trong những lợi ích chính của việc sử dụng VLAN (Virtual LAN) là "Traffic isolation" (Cô lập lưu lượng). Điều này có nghĩa là gì? A. Ngăn chặn hoàn toàn truy cập Internet. B. Các frame broadcast trong một VLAN sẽ không lan truyền sang các VLAN khác. C. Tăng tốc độ CPU của switch. D. Biến switch thành hub.
+Đáp án: B Giải thích: Traffic isolation giúp cô lập traffic broadcast trong phạm vi VLAN đó, frame từ các port thuộc VLAN này (ví dụ 1-8) chỉ tới được các port cùng nhóm, cải thiện hiệu suất và bảo mật,.
+Câu 78: Kỹ thuật "Fast Reroute" (Định tuyến lại nhanh chóng) là một ưu điểm nổi bật của công nghệ nào so với định tuyến IP truyền thống? A. Ethernet Hub B. MPLS (Multiprotocol Label Switching) C. ARP D. Slotted ALOHA
+Đáp án: B Giải thích: MPLS hỗ trợ tính năng Fast Reroute, cho phép tính toán trước các đường đi dự phòng để chuyển đổi nhanh chóng khi đường liên kết chính bị hỏng.
+Câu 79: Trong kiến trúc Mạng trung tâm dữ liệu (Data Center Networks), các switch kết nối trực tiếp với server thường được gọi là TOR switches. TOR viết tắt của từ gì? A. Top Of Rack B. Type Of Router C. Total Optical Ring D. Transmission Over Radio
+Đáp án: A Giải thích: Các switch kết nối trực tiếp với các rack chứa server được gọi là TOR (Top of Rack) switches.
+Câu 80: Chương 5 (Tầng Liên kết dữ liệu) đã khép lại chuỗi kiến thức về chồng giao thức mạng từ trên xuống dưới, ngoại trừ tầng nào? A. Tầng Ứng dụng (Application) B. Tầng Giao vận (Transport) C. Tầng Mạng (Network) D. Tầng Vật lý (Physical)
+Đáp án: D Giải thích: Kết thúc chương 5, chúng ta đã tìm hiểu đầy đủ chồng giao thức từ trên xuống dưới, ngoại trừ tầng Vật lý (PHY).
+-------------------------------------------------------------------------------- 
+Phần 11: So sánh thiết bị & Chi tiết giao thức nâng cao (Câu 81 - 90)
+Câu 81: Điểm giống nhau cơ bản giữa Router và Switch là gì? A. Cả hai đều chạy thuật toán định tuyến RIP. B. Cả hai đều hoạt động ở tầng Mạng (Network Layer). C. Cả hai đều thực hiện chức năng lưu và chuyển tiếp (store-and-forward) và có bảng chuyển tiếp (forwarding table). D. Cả hai đều sử dụng địa chỉ IP để quyết định chuyển tiếp.
+Đáp án: C Giải thích: Cả Router và Switch đều là thiết bị "store-and-forward" và đều sở hữu bảng chuyển tiếp, dù cách xây dựng bảng và tầng hoạt động khác nhau.
+Câu 82: Header của MPLS nằm ở vị trí nào trong cấu trúc gói tin? A. Nằm trong phần dữ liệu (payload) của gói tin IP. B. Nằm giữa header của tầng Liên kết dữ liệu (ví dụ: Ethernet) và header của tầng IP. C. Nằm trước header của Ethernet. D. Nằm sau header của TCP.
+Đáp án: B Giải thích: Header MPLS chèn vào giữa header tầng liên kết (Ethernet/PPP) và header IP.
+Câu 83: Trong công nghệ VLAN 802.1Q, thông tin Tag Control Information bao gồm trường nào quan trọng nhất? A. Địa chỉ IP nguồn. B. VLAN ID 12-bit. C. Số thứ tự gói tin. D. Checksum của TCP.
+Đáp án: B Giải thích: Tag Control Information trong frame 802.1Q chứa trường VLAN ID 12 bit và trường ưu tiên 3 bit.
+Câu 84: Một trong những lý do chính khiến MPLS hữu dụng cho các ứng dụng như VoIP là gì? A. Nó không cần thiết lập kết nối. B. Nó sử dụng giao thức UDP thay vì TCP. C. Khả năng định tuyến lại nhanh chóng (Fast Reroute) khi đường liên kết hỏng nhờ các đường dự phòng tính trước. D. Nó mã hóa toàn bộ dữ liệu thoại.
+Đáp án: C Giải thích: MPLS hỗ trợ Fast Reroute, cho phép chuyển đổi sang đường dẫn dự phòng đã được tính toán trước rất nhanh chóng khi có sự cố, rất tốt cho các ứng dụng thời gian thực như VoIP.
+Câu 85: Trong kiến trúc mạng trung tâm dữ liệu, các switch ở tầng nào kết nối trực tiếp với các Load Balancer (Cân bằng tải)? A. TOR switches. B. Tier-1 switches. C. Tier-2 switches. D. Access routers.
+Đáp án: C Giải thích: Theo sơ đồ kiến trúc mạng trung tâm dữ liệu, các Load Balancer thường kết nối vào các Tier-2 switches (hoặc lớp switch kết nối ra biên) để điều phối lưu lượng trước khi vào sâu hơn.
+Câu 86: Trong kịch bản kết nối Internet thường ngày, khi DHCP Server gửi gói tin DHCP ACK về cho client, gói tin này được chuyển qua các switch trong mạng LAN dựa trên cơ chế nào? A. Định tuyến IP. B. MPLS Label Swapping. C. Switch tự học (Self-learning) và chuyển tiếp dựa trên địa chỉ MAC. D. Flooding toàn mạng.
+Đáp án: C Giải thích: Frame chứa DHCP ACK được chuyển tiếp qua mạng LAN bằng các switch sử dụng cơ chế tự học (self-learning) để đưa frame đến đúng cổng kết nối với client.
+Câu 87: Khi một host muốn gửi dữ liệu ra Internet (ví dụ: gửi DNS query tới Google DNS), tại sao nó lại cần dùng ARP để tìm địa chỉ MAC của Router (Default Gateway) thay vì địa chỉ MAC của Google DNS server? A. Vì Google DNS server không có địa chỉ MAC. B. Vì địa chỉ MAC chỉ có ý nghĩa trong mạng nội bộ (LAN); để ra ngoài, host phải gửi frame tới thiết bị trung gian là Router. C. Vì Router sẽ thay đổi địa chỉ IP đích của gói tin. D. Vì host không biết địa chỉ IP của Google DNS.
+Đáp án: B Giải thích: Host cần gửi frame tới Router cổng ra mặc định để Router chuyển tiếp gói tin sang mạng khác. Do đó, nó cần ARP để lấy địa chỉ MAC của interface Router.
+Câu 88: Công thức tính hiệu suất của Ethernet phụ thuộc chủ yếu vào hai tham số nào? A. Băng thông và số lượng người dùng. B. (trễ lan truyền) và (thời gian truyền frame). C. Chiều dài dây cáp và loại switch. D. Số lượng lỗi bit và kích thước header.
+Đáp án: B Giải thích: Hiệu suất Ethernet được tính bằng công thức , phụ thuộc vào trễ lan truyền và thời gian truyền frame.
+Câu 89: Nếu bảng chuyển tiếp (switch table) của một switch chứa dòng (MAC_A, Port_1) và switch nhận được một frame từ Port_1 có địa chỉ đích là MAC_A, switch sẽ làm gì? A. Chuyển tiếp frame ra Port_1. B. Chuyển tiếp frame ra tất cả các port trừ Port_1. C. Lọc (bỏ) frame đó (drop). D. Gửi frame lên router.
+Đáp án: C Giải thích: Nếu đích đến nằm trên cùng phân đoạn mạng (cổng) mà frame được gửi đến (đích là A, frame đến từ cổng nối với A), switch sẽ bỏ (drop) frame đó vì host đích đã nhận được rồi (trên môi trường shared) hoặc không cần chuyển tiếp qua switch.
+Câu 90: Kết thúc chương 5, chúng ta đã hoàn tất việc tìm hiểu chồng giao thức mạng (protocol stack) ngoại trừ tầng nào? A. Tầng Ứng dụng. B. Tầng Giao vận. C. Tầng Mạng. D. Tầng Vật lý (Physical).
+Đáp án: D Giải thích: Slide kết thúc chương ghi rõ: "Tìm hiểu đầy đủ chồng giao thức từ trên xuống dưới (ngoại trừ PHY)".
+-------------------------------------------------------------------------------- 
+Phần 12: Xử lý gói tin, Data Center & Tổng kết chương (Câu 91 - 100)
+Câu 91: Trong thuật toán lọc/chuyển tiếp của Switch, nếu địa chỉ MAC đích của frame được tìm thấy trong bảng chuyển tiếp (switch table) và interface đầu ra trùng với interface nhận frame vào, Switch sẽ thực hiện hành động gì? A. Chuyển tiếp frame ra interface đó. B. Flood frame ra tất cả các interface khác. C. Bỏ (drop) frame đó. D. Gửi frame lên Router.
+Đáp án: C Giải thích: Nếu đích đến nằm trên cùng phân đoạn mạng (segment) mà frame được gửi đến, Switch sẽ bỏ (drop) frame đó vì thiết bị đích đã nhận được frame trên môi trường chia sẻ đó rồi, không cần chuyển tiếp lại.
+Câu 92: Header của MPLS (Multiprotocol Label Switching) nằm ở vị trí nào trong cấu trúc gói tin khi di chuyển trên đường dây? A. Nằm trước header Ethernet. B. Nằm sau header IP. C. Nằm giữa header tầng Liên kết (ví dụ: Ethernet) và header tầng Mạng (IP). D. Nằm trong phần dữ liệu (payload) của TCP.
+Đáp án: C Giải thích: Header MPLS được chèn vào giữa header của tầng Liên kết dữ liệu (Layer 2) và header của tầng IP (Layer 3).
+Câu 93: Trong kiến trúc Mạng trung tâm dữ liệu (Data Center Networks), các switch kết nối trực tiếp với các rack chứa server được gọi là gì? A. Tier-1 switches. B. Tier-2 switches. C. TOR (Top of Rack) switches. D. Border routers.
+Đáp án: C Giải thích: Các switch nằm ở đỉnh của các rack server và kết nối trực tiếp với chúng được gọi là TOR (Top of Rack) switches.
+Câu 94: Một trong những lợi ích quan trọng của việc sử dụng VLAN (Virtual LAN) là "Traffic isolation". Điều này có ý nghĩa gì đối với hiệu suất và bảo mật? A. Nó ngăn chặn tất cả lưu lượng truy cập Internet. B. Các frame unicast và broadcast trong một VLAN sẽ không đi sang các VLAN khác, giúp bảo mật và giảm tắc nghẽn. C. Nó làm tăng băng thông vật lý của dây cáp lên gấp đôi. D. Nó cho phép switch hoạt động như một hub.
+Đáp án: B Giải thích: Traffic isolation giúp cô lập lưu lượng: các frame (đặc biệt là broadcast) từ các cổng thuộc VLAN này chỉ tới được các cổng cùng VLAN, cải thiện hiệu suất và bảo mật/riêng tư.
+Câu 95: Trong bảng ARP, thông tin ánh xạ giữa địa chỉ IP và địa chỉ MAC có một tham số là TTL (Time To Live). Giá trị thông thường của TTL là bao nhiêu trước khi thông tin bị xóa (lãng quên)? A. 1 phút. B. 20 phút. C. 24 giờ. D. Vĩnh viễn.
+Đáp án: B Giải thích: TTL (Time To Live) là thời gian sau đó địa chỉ ánh xạ sẽ bị lãng quên nếu không được làm mới, thông thường là 20 phút.
+Câu 96: Khi một node trong mạng Ethernet sử dụng giao thức CSMA/CD phát hiện đụng độ (collision) trong khi đang truyền, nó sẽ làm gì ngay lập tức? A. Tiếp tục truyền cho đến hết frame. B. Hủy bỏ việc truyền và phát tín hiệu tắc nghẽn (jam signal). C. Chuyển sang giao thức CSMA/CA. D. Gửi thông báo lỗi lên tầng ứng dụng.
+Đáp án: B Giải thích: Khi phát hiện đụng độ, NIC sẽ hủy bỏ việc truyền và phát tín hiệu tắc nghẽn để các node khác biết, sau đó thực hiện thuật toán backoff.
+Câu 97: Trong kịch bản "Một truy vấn web thường ngày", gói tin DHCP Request đầu tiên được gửi từ laptop client được đóng gói theo thứ tự nào (từ trong ra ngoài)? A. DHCP Ethernet IP UDP. B. Ethernet IP UDP DHCP. C. DHCP UDP IP Ethernet. D. UDP DHCP Ethernet IP.
+Đáp án: C Giải thích: Gói tin DHCP (tầng ứng dụng) được đóng gói trong UDP, sau đó UDP đóng trong IP, và IP đóng trong Ethernet frame (DHCP UDP IP Ethernet).
+Câu 98: Tại sao frame Ethernet chứa gói tin DHCP Request lại có địa chỉ MAC đích là FF-FF-FF-FF-FF-FF? A. Để gửi unicast tới router. B. Để gửi broadcast quảng bá cho tất cả các thiết bị trong LAN đều nhận được (vì chưa biết DHCP server ở đâu). C. Vì đây là địa chỉ MAC của Google. D. Vì giao thức IP yêu cầu như vậy.
+Đáp án: B Giải thích: DHCP Request được gửi broadcast (địa chỉ đích toàn 1: FF-FF-FF-FF-FF-FF) để tìm kiếm DHCP server trên mạng LAN vì client mới kết nối chưa biết địa chỉ của server.
+Câu 99: Theo tổng kết chương 5, khái niệm "Soft state" trong quản lý bảng ARP có nghĩa là gì? A. Bảng ARP được lưu trên phần mềm thay vì phần cứng. B. Thông tin trong bảng sẽ hết hạn (bỏ đi) trừ khi được làm mới liên tục. C. Bảng ARP không bao giờ thay đổi. D. Bảng ARP được quản lý bởi người quản trị mạng.
+Đáp án: B Giải thích: Soft state nghĩa là thông tin trong bảng (ánh xạ IP-MAC) sẽ hết hạn và bị xóa bỏ (time out) sau một khoảng thời gian (TTL) trừ khi nó được cập nhật/làm mới.
+Câu 100: Slide kết thúc chương 5 khẳng định rằng chúng ta đã tìm hiểu đầy đủ chồng giao thức từ trên xuống dưới, ngoại trừ tầng nào? A. Tầng Ứng dụng (Application). B. Tầng Giao vận (Transport). C. Tầng Mạng (Network). D. Tầng Vật lý (Physical/PHY).
+Đáp án: D Giải thích: Slide cuối cùng ghi rõ: "Tìm hiểu đầy đủ chồng giao thức từ trên xuống dưới (ngoại trừ PHY)".
+-------------------------------------------------------------------------------- 
+

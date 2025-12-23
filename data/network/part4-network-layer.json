@@ -1,0 +1,1206 @@
+{
+  "partId": "network-layer",
+  "partName": "Lớp mạng (Network Layer)",
+  "questions": [
+    {
+      "id": 301,
+      "question": "Hai chức năng chính của tầng Mạng (Network layer) là gì?",
+      "options": {
+        "A": "Error checking (Kiểm tra lỗi) và Flow control (Điều khiển luồng).",
+        "B": "Forwarding (Chuyển tiếp) và Routing (Định tuyến).",
+        "C": "Encryption (Mã hóa) và Decryption (Giải mã).",
+        "D": "Setup connection (Thiết lập kết nối) và Terminate connection (Ngắt kết nối)."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nHai chức năng chính của tầng Mạng là **Forwarding (chuyển các gói tin từ đầu vào đến đầu ra thích hợp)** và **Routing (xác định đường đi cho các gói từ nguồn đến đích)**."
+    },
+    {
+      "id": 302,
+      "question": "Trong ngữ cảnh tầng Mạng, quá trình chuyển packet từ đầu vào (input link) đến đầu ra (output link) thích hợp bên trong một router được gọi là gì?",
+      "options": {
+        "A": "Routing (Định tuyến).",
+        "B": "Forwarding (Chuyển tiếp).",
+        "C": "Switching (Chuyển mạch gói).",
+        "D": "Broadcasting (Quảng bá)."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**Forwarding** là quá trình chuyển các gói tin (packet) từ đầu vào đến đầu ra thích hợp của router. **Routing** là quá trình xác định đường đi từ nguồn đến đích."
+    },
+    {
+      "id": 303,
+      "question": "Bảng nào được dùng để xác định việc chuyển gói bên trong một router (local forwarding)?",
+      "options": {
+        "A": "Routing table (Bảng định tuyến).",
+        "B": "ARP table (Bảng ARP).",
+        "C": "Forwarding table (Bảng chuyển tiếp).",
+        "D": "Hash table (Bảng băm)."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\n**Bảng forwarding** xác định việc chuyển gói bên trong một router dựa trên giá trị trong header của packet đến."
+    },
+    {
+      "id": 304,
+      "question": "Mô hình dịch vụ của Internet (Internet Service Model) thuộc loại nào?",
+      "options": {
+        "A": "CBR (Constant Bit Rate - Tốc độ không đổi).",
+        "B": "Guaranteed delivery (Giao nhận bảo đảm).",
+        "C": "Best effort (Cố gắng tối đa).",
+        "D": "In-order delivery (Giao nhận theo thứ tự)."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nInternet có mô hình dịch vụ là **\"Cố gắng tối đa\" (Best effort)**, không bảo đảm băng thông, không bảo đảm thứ tự và không bảo đảm thời gian."
+    },
+    {
+      "id": 305,
+      "question": "Trong kiến trúc ATM, mô hình dịch vụ nào cung cấp tốc độ không đổi (constant rate)?",
+      "options": {
+        "A": "ABR.",
+        "B": "UBR.",
+        "C": "VBR.",
+        "D": "CBR."
+      },
+      "correctAnswer": "D",
+      "explanation": "📌 **Phân tích:**\n\nKiến trúc ATM với mô hình dịch vụ **CBR (Constant Bit Rate)** cung cấp **tốc độ không đổi**."
+    },
+    {
+      "id": 306,
+      "question": "Đặc điểm nào sau đây KHÔNG phải là của Mạng mạch ảo (Virtual circuit network)?",
+      "options": {
+        "A": "Thiết lập cuộc gọi trước khi truyền dữ liệu.",
+        "B": "Mỗi packet mang số nhận dạng kết nối ảo (VC identifier).",
+        "C": "Các router không giữ trạng thái về các kết nối.",
+        "D": "Tài nguyên router có thể được cấp phát cho từng kết nối."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nTrong mạng mạch ảo, **mỗi router trên đường đi duy trì trạng thái cho mỗi kết nối đi qua nó**. Đặc điểm \"không giữ trạng thái\" là của mạng chuyển gói (Datagram network)."
+    },
+    {
+      "id": 307,
+      "question": "Trong mạng Datagram (Mạng chuyển gói), các gói tin được vận chuyển dựa trên thông tin nào trong header?",
+      "options": {
+        "A": "Số nhận dạng kết nối ảo (VC ID).",
+        "B": "Địa chỉ máy đích (Destination host address).",
+        "C": "Địa chỉ MAC nguồn.",
+        "D": "Số thứ tự gói tin (Sequence number)."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nMạng chuyển gói vận chuyển các gói dùng **địa chỉ máy đích**, không dùng VC ID."
+    },
+    {
+      "id": 308,
+      "question": "Khi tìm kiếm cổng ra trong bảng forwarding cho địa chỉ đích IP, router sử dụng nguyên tắc nào?",
+      "options": {
+        "A": "Exact match (So trùng chính xác).",
+        "B": "Shortest prefix matching (So trùng phần đầu ngắn nhất).",
+        "C": "Longest prefix matching (So trùng phần đầu dài nhất).",
+        "D": "Random matching (So trùng ngẫu nhiên)."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nKhi tìm kiếm 1 cổng ra trong bảng forwarding cho địa chỉ đích, router **so phần đầu dài nhất trùng giữa địa chỉ trong bảng và địa chỉ đích (Longest prefix matching)**."
+    },
+    {
+      "id": 309,
+      "question": "Tại sao mạng Internet lại chọn mô hình Datagram thay vì Virtual Circuit?",
+      "options": {
+        "A": "Vì Internet phát triển từ hệ thống điện thoại cần độ tin cậy cao.",
+        "B": "Vì các hệ thống đầu cuối (máy tính) thông minh, có thể tự thích ứng và sửa lỗi, cho phép phần lõi mạng đơn giản.",
+        "C": "Vì Datagram đảm bảo băng thông tốt hơn cho các cuộc gọi thoại.",
+        "D": "Vì Datagram yêu cầu thiết lập kết nối chặt chẽ giúp bảo mật tốt hơn."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nInternet nối các **hệ thống đầu cuối thông minh (máy tính)**, cho phép **phần lõi mạng đơn giản và phần cạnh phức tạp**, thích hợp cho nhiều kiểu kết nối."
+    },
+    {
+      "id": 310,
+      "question": "Trong mạng mạch ảo (VC), nếu một gói tin đi qua một router, số nhận dạng kết nối ảo (VC ID) của gói tin đó sẽ như thế nào?",
+      "options": {
+        "A": "Giữ nguyên từ nguồn đến đích.",
+        "B": "Có thể thay đổi trên mỗi đoạn kết nối (link).",
+        "C": "Luôn luôn bằng 0.",
+        "D": "Bị xóa bỏ tại router."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**Số nhận dạng kết nối ảo (VC number) có thể thay đổi trên mỗi đoạn kết nối**. Số nhận dạng mới được cấp phát từ bảng forwarding."
+    },
+    {
+      "id": 311,
+      "question": "Hai chức năng chính của một router là gì?",
+      "options": {
+        "A": "Chạy các thuật toán định tuyến và Chuyển tiếp datagram.",
+        "B": "Mã hóa dữ liệu và Nén dữ liệu.",
+        "C": "Cấp phát địa chỉ IP và Phân giải tên miền.",
+        "D": "Kiểm soát lỗi và Điều khiển luồng."
+      },
+      "correctAnswer": "A",
+      "explanation": "📌 **Phân tích:**\n\n2 chức năng chính của router là: **Chạy các giao thức/thuật toán định tuyến** (như RIP, OSPF, BGP) và **Chuyển tiếp các datagram từ cổng vào tới cổng ra**."
+    },
+    {
+      "id": 312,
+      "question": "Ba kiểu kiến trúc mạch chuyển (switching fabrics) trong router là gì?",
+      "options": {
+        "A": "Memory, Bus, Crossbar.",
+        "B": "Star, Ring, Mesh.",
+        "C": "Ethernet, Token Ring, FDDI.",
+        "D": "Input, Output, Buffer."
+      },
+      "correctAnswer": "A",
+      "explanation": "📌 **Phân tích:**\n\n3 kiểu switching fabrics là: **memory (bộ nhớ)**, **bus (đường truyền chung)**, và **crossbar (ma trận chuyển mạch)**."
+    },
+    {
+      "id": 313,
+      "question": "Trong kiến trúc chuyển gói thông qua bộ nhớ (switching via memory), yếu tố nào giới hạn tốc độ chuyển gói?",
+      "options": {
+        "A": "Tốc độ quay của ổ cứng.",
+        "B": "Băng thông của bộ nhớ (memory bandwidth).",
+        "C": "Số lượng cổng kết nối.",
+        "D": "Chiều dài cáp mạng."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nTrong chuyển gói qua bộ nhớ, gói tin phải đi qua bus hệ thống 2 lần (vào bộ nhớ và ra khỏi bộ nhớ), do đó **tốc độ bị giới hạn bởi băng thông của bộ nhớ**."
+    },
+    {
+      "id": 314,
+      "question": "Hiện tượng Head-of-the-Line (HOL) blocking xảy ra tại đâu trong router?",
+      "options": {
+        "A": "Tại cổng ra (Output port).",
+        "B": "Tại cổng vào (Input port).",
+        "C": "Tại bộ vi xử lý định tuyến (Routing processor).",
+        "D": "Trên đường truyền vật lý."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**HOL blocking xảy ra tại hàng đợi cổng vào (input port)**, khi gói tin phía trước hàng đợi ngăn cản các gói khác phía sau di chuyển lên trước mặc dù cổng ra của các gói phía sau đang rảnh."
+    },
+    {
+      "id": 315,
+      "question": "Tại cổng ra (Output port) của router, việc mất gói tin (packet loss) xảy ra khi nào?",
+      "options": {
+        "A": "Khi gói tin bị lỗi checksum.",
+        "B": "Khi bộ nhớ đệm tại cổng ra bị tràn (buffer overflow).",
+        "C": "Khi không tìm thấy đường đi trong bảng định tuyến.",
+        "D": "Khi TTL của gói tin bằng 0."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nSắp hàng (gây trễ) và **mất gói xảy ra khi tốc độ gói tin đến qua switch vượt quá tốc độ dòng ra**, dẫn đến **bộ nhớ đệm tại cổng ra bị tràn**."
+    },
+    {
+      "id": 316,
+      "question": "Kích thước tiêu chuẩn của header IPv4 (khi không có tùy chọn - options) là bao nhiêu bytes?",
+      "options": {
+        "A": "10 bytes.",
+        "B": "20 bytes.",
+        "C": "32 bytes.",
+        "D": "40 bytes."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nPhần **header IP tiêu chuẩn chiếm 20 bytes**."
+    },
+    {
+      "id": 317,
+      "question": "Trường \"Time to Live\" (TTL) trong header IP có chức năng gì?",
+      "options": {
+        "A": "Xác định thời gian gói tin được tạo ra.",
+        "B": "Đảm bảo gói tin đến đích đúng giờ.",
+        "C": "Giới hạn số lượng hop mà gói tin có thể đi qua để tránh lặp vòng.",
+        "D": "Đo băng thông của đường truyền."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nTrường **Time to live** là **\"Số hop còn lại tối đa (giảm xuống tại mỗi router)\"**, giúp tránh gói tin lặp vòng vô tận."
+    },
+    {
+      "id": 318,
+      "question": "MTU (Maximum Transmission Unit) là gì?",
+      "options": {
+        "A": "Tốc độ truyền dữ liệu tối đa của router.",
+        "B": "Kích thước frame lớn nhất có thể truyền trên một đoạn kết nối mạng.",
+        "C": "Số lượng router tối đa trong một mạng.",
+        "D": "Thời gian trễ tối đa cho phép."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**MTU là kích thước frame lớn nhất** có thể truyền trên kết nối (max transfer size)."
+    },
+    {
+      "id": 319,
+      "question": "Việc phân mảnh (fragmentation) gói tin IP xảy ra ở đâu và việc tổng hợp (reassembly) xảy ra ở đâu?",
+      "options": {
+        "A": "Phân mảnh tại nguồn; Tổng hợp tại router.",
+        "B": "Phân mảnh bên trong mạng (tại router); Tổng hợp chỉ tại đích cuối cùng.",
+        "C": "Phân mảnh và tổng hợp đều xảy ra tại mỗi router.",
+        "D": "Phân mảnh tại router biên; Tổng hợp tại router biên tiếp theo."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nCác gói IP datagram lớn được **chia nhỏ (phân mảnh) bên trong mạng (tại router)**, nhưng việc **\"tổng hợp\" chỉ được thực hiện ở đích cuối cùng**."
+    },
+    {
+      "id": 320,
+      "question": "Thông tin nào trong IP header được sử dụng để xác định và xếp thứ tự các mảnh (fragments) của một gói tin?",
+      "options": {
+        "A": "Source IP address và Destination IP address.",
+        "B": "Checksum và TTL.",
+        "C": "Identification, Flags, và Fragment Offset.",
+        "D": "Version và Header Length."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nCác trường **\"Identification\", \"Flags\" (flags), và \"Fragment Offset\"** được sử dụng để xác định, xếp thứ tự các fragment."
+    },
+    {
+      "id": 321,
+      "question": "Một địa chỉ IPv4 bao gồm bao nhiêu bit?",
+      "options": {
+        "A": "16 bit.",
+        "B": "32 bit.",
+        "C": "48 bit.",
+        "D": "128 bit."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nĐịa chỉ IP là **32-bit nhận dạng** cho host, router interface."
+    },
+    {
+      "id": 322,
+      "question": "Trong ngữ cảnh định địa chỉ IP, \"Interface\" được định nghĩa là gì?",
+      "options": {
+        "A": "Phần mềm điều khiển card mạng.",
+        "B": "Một giao thức định tuyến nội bộ.",
+        "C": "Kết nối giữa host/router và đường kết nối vật lý.",
+        "D": "Một loại cáp mạng đặc biệt."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\n**Interface là kết nối giữa host/router và đường kết nối vật lý**. Router thường có nhiều interface, còn host thường có 1 hoặc 2."
+    },
+    {
+      "id": 323,
+      "question": "Đặc điểm nào sau đây xác định một Subnet (mạng con)?",
+      "options": {
+        "A": "Các thiết bị có phần host của địa chỉ IP giống nhau.",
+        "B": "Các thiết bị có phần subnet của địa chỉ IP giống nhau và có thể giao tiếp vật lý với nhau mà không cần router trung gian.",
+        "C": "Các thiết bị phải kết nối qua ít nhất một router.",
+        "D": "Các thiết bị sử dụng các giao thức định tuyến khác nhau."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**Subnet** là các interface có **phần subnet của địa chỉ IP giống nhau** và có thể **giao tiếp vật lý với nhau mà không cần router trung gian** can thiệp."
+    },
+    {
+      "id": 324,
+      "question": "Ký hiệu CIDR (Classless InterDomain Routing) có dạng a.b.c.d/x. Giá trị \"x\" đại diện cho điều gì?",
+      "options": {
+        "A": "Số bit của phần host.",
+        "B": "Số lượng router trong mạng.",
+        "C": "Số bit của phần subnet trong địa chỉ.",
+        "D": "Số lượng máy tính tối đa trong mạng."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nTrong CIDR, **x là số các bits trong phần subnet** của địa chỉ."
+    },
+    {
+      "id": 325,
+      "question": "Giao thức nào được sử dụng để host tự động lấy địa chỉ IP từ server khi tham gia vào mạng?",
+      "options": {
+        "A": "ARP (Address Resolution Protocol).",
+        "B": "DNS (Domain Name System).",
+        "C": "DHCP (Dynamic Host Configuration Protocol).",
+        "D": "ICMP (Internet Control Message Protocol)."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\n**DHCP (Dynamic Host Configuration Protocol)** cho phép host **tự động lấy địa chỉ IP từ server** (\"plug-and-play\")."
+    },
+    {
+      "id": 326,
+      "question": "Trình tự 4 bước trao đổi thông điệp giữa client và server trong DHCP là gì?",
+      "options": {
+        "A": "Discover, Request, Offer, Ack.",
+        "B": "Request, Offer, Discover, Ack.",
+        "C": "Discover, Offer, Request, Ack.",
+        "D": "Offer, Request, Ack, Discover."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nQuy trình DHCP:\n1. Host gửi **\"DHCP discover\"**.\n2. Server trả lời **\"DHCP offer\"**.\n3. Host gửi **\"DHCP request\"**.\n4. Server gửi **\"DHCP ack\"**."
+    },
+    {
+      "id": 327,
+      "question": "Thông điệp DHCP Discover được gửi đi như thế nào trong mạng LAN?",
+      "options": {
+        "A": "Gửi Unicast trực tiếp đến địa chỉ IP của server.",
+        "B": "Gửi Broadcast đến tất cả các máy trong mạng.",
+        "C": "Gửi Multicast đến một nhóm router.",
+        "D": "Gửi Anycast đến server gần nhất."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nHost gửi thông điệp **\"DHCP discover\" cho tất cả các máy trong mạng (gửi broadcast)** vì lúc này nó chưa biết địa chỉ của DHCP server."
+    },
+    {
+      "id": 328,
+      "question": "Ngoài địa chỉ IP cho host, DHCP server còn có thể cung cấp những thông tin nào khác?",
+      "options": {
+        "A": "Địa chỉ MAC của máy hàng xóm.",
+        "B": "Bảng định tuyến đầy đủ của Internet.",
+        "C": "Địa chỉ của router cửa ngõ (default gateway), DNS server và Network mask.",
+        "D": "Danh sách các mật khẩu wifi đã lưu."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nDHCP trả về **địa chỉ IP**, **địa chỉ của router cửa ngõ (default gateway)**, **tên và địa chỉ IP của DNS server**, và **Network mask**."
+    },
+    {
+      "id": 329,
+      "question": "DHCP request được đóng gói trong giao thức giao vận (Transport layer) nào?",
+      "options": {
+        "A": "TCP.",
+        "B": "UDP.",
+        "C": "IP.",
+        "D": "HTTP."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**DHCP request được đóng gói trong gói tin UDP**, rồi được đóng gói trong gói IP."
+    },
+    {
+      "id": 330,
+      "question": "Tổ chức nào chịu trách nhiệm quản lý không gian địa chỉ IP và tên miền trên Internet?",
+      "options": {
+        "A": "IEEE.",
+        "B": "ISO.",
+        "C": "ICANN.",
+        "D": "W3C."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\n**ICANN (Internet Corporation for Assigned Names and Numbers)** chịu trách nhiệm cấp phát địa chỉ, quản lý DNS và gán tên miền."
+    },
+    {
+      "id": 331,
+      "question": "Vị trí thực hiện kỹ thuật NAT (Network Address Translation) thường nằm ở đâu trong mạng?",
+      "options": {
+        "A": "Tại máy chủ DHCP.",
+        "B": "Tại các switch lớp 2.",
+        "C": "Tại router biên (gateway router) kết nối giữa mạng nội bộ và mạng công cộng.",
+        "D": "Tại máy tính của người dùng cuối."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nVị trí thực hiện NAT là **router biên kết nối giữa hai mạng** (mạng sử dụng địa chỉ cục bộ và mạng công cộng Internet)."
+    },
+    {
+      "id": 332,
+      "question": "Động lực chính cho việc sử dụng NAT là gì?",
+      "options": {
+        "A": "Tăng tốc độ truyền tải dữ liệu.",
+        "B": "Tiết kiệm địa chỉ IP công cộng và tăng cường bảo mật cho mạng nội bộ.",
+        "C": "Loại bỏ nhu cầu sử dụng router.",
+        "D": "Thay thế hoàn toàn giao thức DHCP."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nCác động lực sử dụng NAT: **chỉ cần 1 địa chỉ IP cho tất cả thiết bị (tiết kiệm)**, thay đổi ISP mà không cần đổi IP nội bộ, và **bên ngoài không thấy địa chỉ rõ ràng của thiết bị bên trong (bảo mật)**."
+    },
+    {
+      "id": 333,
+      "question": "Khi một gói tin đi từ mạng nội bộ (Inside) ra mạng bên ngoài (Outside) qua NAT router, thông tin nào trong header của gói tin bị thay đổi?",
+      "options": {
+        "A": "Địa chỉ IP đích và số hiệu cổng đích.",
+        "B": "Địa chỉ IP nguồn và số hiệu cổng nguồn.",
+        "C": "Chỉ địa chỉ MAC nguồn.",
+        "D": "Số thứ tự gói tin (Sequence number)."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nVới các datagram đi ra, **NAT router thay thế (địa chỉ IP nguồn, số hiệu cổng nguồn) bằng (địa chỉ IP NAT, số hiệu port mới)**."
+    },
+    {
+      "id": 334,
+      "question": "Kỹ thuật NAT Overloading hay còn gọi là PAT (Port Address Translation) cho phép điều gì?",
+      "options": {
+        "A": "Ánh xạ một địa chỉ IP nội bộ sang một địa chỉ IP công cộng duy nhất (1-1).",
+        "B": "Ánh xạ nhiều địa chỉ IP nội bộ sang một địa chỉ IP công cộng, phân biệt bằng số hiệu cổng (port).",
+        "C": "Chuyển đổi địa chỉ IPv4 sang IPv6.",
+        "D": "Tự động cấp phát địa chỉ IP cho các máy trong mạng."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**NAT Overloading (PAT)** là **ánh xạ nhiều địa chỉ IP cục bộ sang một địa chỉ IP công cộng**, mỗi địa chỉ cục bộ được phân biệt bằng số port."
+    },
+    {
+      "id": 335,
+      "question": "Giao thức ICMP (Internet Control Message Protocol) chủ yếu được sử dụng để làm gì?",
+      "options": {
+        "A": "Truyền dữ liệu người dùng (email, web).",
+        "B": "Cấp phát địa chỉ IP động.",
+        "C": "Thông báo lỗi và các thông tin trạng thái mạng giữa các host và router.",
+        "D": "Phân giải tên miền thành địa chỉ IP."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\n**ICMP** được sử dụng bởi các host và router để **truyền thông tin tầng Mạng**, chủ yếu là **thông báo lỗi** (như host/network không có thực) và các gói tin echo request/reply."
+    },
+    {
+      "id": 336,
+      "question": "Thông điệp ICMP được đóng gói như thế nào khi truyền đi?",
+      "options": {
+        "A": "Được gửi trực tiếp trên khung Ethernet mà không cần IP header.",
+        "B": "Được đóng gói bên trong các IP datagram.",
+        "C": "Được đóng gói bên trong TCP segment.",
+        "D": "Được đóng gói bên trong UDP segment."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**Các thông điệp ICMP được gửi trong các IP datagram**."
+    },
+    {
+      "id": 337,
+      "question": "Ứng dụng Traceroute sử dụng trường nào trong IP header và loại thông điệp ICMP nào để xác định các router trên đường đi?",
+      "options": {
+        "A": "Trường Checksum và ICMP Echo Reply.",
+        "B": "Trường Destination IP và ICMP Host Unreachable.",
+        "C": "Trường TTL (Time To Live) và ICMP TTL expired.",
+        "D": "Trường Fragment Offset và ICMP Parameter Problem."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\n**Traceroute gửi các gói tin với TTL tăng dần (1, 2, 3...)**. Khi router nhận gói tin có TTL hết hạn, nó gửi lại thông điệp **ICMP \"TTL expired\"** (loại 11, mã 0)."
+    },
+    {
+      "id": 338,
+      "question": "Địa chỉ IPv6 có kích thước bao nhiêu bit?",
+      "options": {
+        "A": "32 bit.",
+        "B": "64 bit.",
+        "C": "128 bit.",
+        "D": "256 bit."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nĐịa chỉ đích và nguồn trong IPv6 là **128 bit**."
+    },
+    {
+      "id": 339,
+      "question": "Điểm khác biệt chính trong tiêu đề (header) của IPv6 so với IPv4 là gì?",
+      "options": {
+        "A": "Header IPv6 có độ dài thay đổi.",
+        "B": "Header IPv6 có độ dài cố định 40 byte và không cho phép phân mảnh tại router.",
+        "C": "Header IPv6 có trường checksum để kiểm tra lỗi tốt hơn.",
+        "D": "Header IPv6 nhỏ hơn header IPv4."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nĐịnh dạng datagram IPv6 có **header độ dài cố định 40 byte** và **không cho phép phân mảnh**. Ngoài ra, **checksum bị bỏ toàn bộ**."
+    },
+    {
+      "id": 340,
+      "question": "Kỹ thuật \"Tunneling\" (đường hầm) được sử dụng để làm gì trong quá trình chuyển đổi từ IPv4 sang IPv6?",
+      "options": {
+        "A": "Nén dữ liệu IPv6 để truyền nhanh hơn.",
+        "B": "Mã hóa gói tin IPv6 để bảo mật.",
+        "C": "Đóng gói datagram IPv6 vào trong phần dữ liệu (payload) của datagram IPv4 để truyền qua mạng IPv4.",
+        "D": "Chuyển đổi trực tiếp header IPv6 thành header IPv4."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\n**Tunneling** là kỹ thuật trong đó **datagram IPv6 được đóng gói vào trong thân (payload) của datagram IPv4** và được chuyển đi giữa các router IPv4."
+    },
+    {
+      "id": 341,
+      "question": "Trong mô hình đồ thị của mạng (Graph model), các Router và các đường kết nối (Links) được biểu diễn như thế nào?",
+      "options": {
+        "A": "Router là cạnh (edges), Đường kết nối là nút (nodes).",
+        "B": "Router là nút (nodes), Đường kết nối là cạnh (edges).",
+        "C": "Cả Router và Đường kết nối đều là nút.",
+        "D": "Cả Router và Đường kết nối đều là cạnh."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nMô hình đồ thị **G = (N,E)** trong đó **N là tập hợp các router (nodes)** và **E là tập hợp các kết nối (edges)**."
+    },
+    {
+      "id": 342,
+      "question": "Đặc điểm nào sau đây mô tả thuật toán định tuyến toàn cục (Global routing algorithm), hay còn gọi là Link-State?",
+      "options": {
+        "A": "Các router chỉ biết thông tin về các router lân cận kết nối trực tiếp với nó.",
+        "B": "Tất cả các router đều có toàn bộ thông tin về chi phí kết nối và cấu trúc toàn mạng.",
+        "C": "Các đường đi được cập nhật chậm theo thời gian và không thay đổi thường xuyên.",
+        "D": "Router tính toán đường đi dựa trên việc trao đổi véc-tơ khoảng cách với hàng xóm."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nThuật toán toàn cục (Global) hay **Link-State** là thuật toán mà **tất cả các node (router) có toàn bộ thông tin về chi phí kết nối và cấu trúc toàn mạng**."
+    },
+    {
+      "id": 343,
+      "question": "Thuật toán Dijkstra được sử dụng trong loại giao thức định tuyến nào?",
+      "options": {
+        "A": "Distance Vector (Véc-tơ khoảng cách).",
+        "B": "Link-State (Trạng thái liên kết).",
+        "C": "Path Vector (Véc-tơ đường đi).",
+        "D": "Static Routing (Định tuyến tĩnh)."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nThuật toán **Dijkstra là thuật toán routing Link-State**, nơi tất cả các node biết chi phí kết nối và cấu trúc mạng."
+    },
+    {
+      "id": 344,
+      "question": "Độ phức tạp tính toán của thuật toán Dijkstra với n node là bao nhiêu (trong trường hợp đơn giản nhất chưa tối ưu)?",
+      "options": {
+        "A": "O(n).",
+        "B": "O(n log n).",
+        "C": "O(n^2).",
+        "D": "O(1)."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nĐộ phức tạp của thuật toán Dijkstra là **n(n+1)/2 phép so sánh tương đương với O(n²)**."
+    },
+    {
+      "id": 345,
+      "question": "Phương trình Bellman-Ford là nền tảng của thuật toán định tuyến nào?",
+      "options": {
+        "A": "Link-State.",
+        "B": "OSPF.",
+        "C": "Distance Vector.",
+        "D": "Dijkstra."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nCông thức **Bellman-Ford được dùng cho thuật toán Distance Vector** (quy hoạch động)."
+    },
+    {
+      "id": 346,
+      "question": "Trong thuật toán Distance Vector, mỗi router duy trì và trao đổi thông tin gì với các router lân cận (neighbor)?",
+      "options": {
+        "A": "Toàn bộ bản đồ mạng (Network Topology).",
+        "B": "Danh sách các router đã đi qua (Path History).",
+        "C": "Véc-tơ khoảng cách (Distance Vector) chứa ước lượng chi phí thấp nhất từ nó đến tất cả các đích.",
+        "D": "Trạng thái liên kết của tất cả các đường truyền (Link State Packet)."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nTrong thuật toán Distance Vector, mỗi node **lưu lại distance vector của chính nó và các neighbor**, đồng thời **định kỳ gửi ước lượng distance vector của nó cho các neighbor**."
+    },
+    {
+      "id": 347,
+      "question": "Vấn đề \"đếm đến vô tận\" (count-to-infinity) thường xảy ra trong thuật toán định tuyến nào khi chi phí kết nối tăng lên (tin xấu)?",
+      "options": {
+        "A": "Link-State.",
+        "B": "Distance Vector.",
+        "C": "Hierarchical Routing.",
+        "D": "Static Routing."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nVấn đề **\"tin xấu đi chậm\" dẫn đến vấn đề \"đếm đến vô tận\"** là một đặc điểm hạn chế của thuật toán **Distance Vector**."
+    },
+    {
+      "id": 348,
+      "question": "Kỹ thuật \"Đầu độc ngược\" (Poisoned reverse) được sử dụng để giải quyết vấn đề gì?",
+      "options": {
+        "A": "Vấn đề bảo mật trong OSPF.",
+        "B": "Vấn đề lặp vòng (routing loops) giữa 2 node trong Distance Vector.",
+        "C": "Vấn đề tràn bộ nhớ đệm trong router.",
+        "D": "Vấn đề dao động (oscillation) trong Link-State."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**Poisoned reverse**: Nếu Z đi qua Y để tới X, Z sẽ **nói với Y khoảng cách của nó đến X là vô cùng (không xác định)** để ngăn Y đi ngược lại qua Z tới X."
+    },
+    {
+      "id": 349,
+      "question": "So sánh về \"Sự linh hoạt\" (Robustness) khi một router gặp sự cố: Điều gì xảy ra với thuật toán Distance Vector (DV) so với Link-State (LS)?",
+      "options": {
+        "A": "DV tốt hơn vì lỗi chỉ ảnh hưởng cục bộ.",
+        "B": "LS tệ hơn vì lỗi lan truyền toàn mạng.",
+        "C": "LS tính toán bảng riêng nên lỗi ít lan truyền; DV có thể lan truyền đường đi sai (lỗi) qua toàn mạng.",
+        "D": "Cả hai đều chịu ảnh hưởng như nhau."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nVới **LS, mỗi node tính toán bảng riêng nên lỗi ít ảnh hưởng**. Với **DV, một node có thể quảng cáo sai đường đi và lỗi này bị lan truyền qua mạng**."
+    },
+    {
+      "id": 350,
+      "question": "Đặc điểm nào sau đây là của thuật toán Link-State (LS) về độ phức tạp thông điệp?",
+      "options": {
+        "A": "Chỉ trao đổi giữa các node lân cận.",
+        "B": "Cần gửi O(nE) thông điệp để quảng bá trạng thái liên kết tới toàn mạng.",
+        "C": "Không tốn băng thông mạng để trao đổi thông tin.",
+        "D": "Thông điệp có kích thước nhỏ và cố định."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nLS cần **O(nE) thông điệp được gửi đi** (do phải broadcast cho toàn mạng), trong khi DV chỉ trao đổi giữa các neighbor."
+    },
+    {
+      "id": 351,
+      "question": "Tại sao Internet cần sử dụng phương pháp định tuyến có cấu trúc (Hierarchical Routing) thay vì một bảng định tuyến phẳng toàn cầu?",
+      "options": {
+        "A": "Để tăng tốc độ đường truyền vật lý.",
+        "B": "Vì không thể lưu trữ tất cả các đích đến (600 triệu) trong bảng định tuyến và việc trao đổi thông tin sẽ làm tràn ngập các liên kết.",
+        "C": "Để loại bỏ nhu cầu sử dụng địa chỉ IP.",
+        "D": "Vì các router cũ không hỗ trợ thuật toán Dijkstra."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nVới **600 triệu đích đến, không thể lưu trữ tất cả trong bảng định tuyến** và việc trao đổi bảng định tuyến sẽ **làm tràn ngập các liên kết**."
+    },
+    {
+      "id": 352,
+      "question": "Trong định tuyến phân cấp, các router được nhóm vào các vùng quản trị gọi là gì?",
+      "options": {
+        "A": "Subnet (Mạng con).",
+        "B": "LAN (Local Area Network).",
+        "C": "AS (Autonomous Systems - Hệ thống tự trị).",
+        "D": "VLAN (Virtual LAN)."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\n**Các router được gom vào các vùng tự trị Autonomous Systems (AS)**."
+    },
+    {
+      "id": 353,
+      "question": "Điểm khác biệt chính giữa giao thức định tuyến Intra-AS và Inter-AS là gì?",
+      "options": {
+        "A": "Intra-AS định tuyến giữa các AS khác nhau; Inter-AS định tuyến trong cùng một AS.",
+        "B": "Intra-AS định tuyến trong cùng một AS; Inter-AS định tuyến giữa các AS.",
+        "C": "Intra-AS chỉ dùng cho mạng không dây; Inter-AS dùng cho mạng có dây.",
+        "D": "Intra-AS dùng địa chỉ MAC; Inter-AS dùng địa chỉ IP."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nCác router trong cùng AS chạy giao thức định tuyến **\"intra-AS\"**. Gateway router kết nối đến router trong AS khác cần giao thức định tuyến **\"inter-AS\"**."
+    },
+    {
+      "id": 354,
+      "question": "Chiến lược \"Hot potato routing\" (định tuyến củ khoai nóng) trong định tuyến Inter-AS có nghĩa là gì?",
+      "options": {
+        "A": "Gửi gói tin đi qua đường dài nhất để giảm tải cho mạng.",
+        "B": "Giữ gói tin lại cho đến khi nhiệt độ router giảm xuống.",
+        "C": "Gửi gói tin tới gateway router có chi phí thấp nhất (gần nhất) để đẩy gói tin ra khỏi AS của mình càng nhanh càng tốt.",
+        "D": "Luôn gửi gói tin qua AS có băng thông lớn nhất."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\n**\"Hot potato routing\"**: Chọn gateway nào có **chi phí thấp nhất (gần nhất) để chuyển packet đi**, không quan tâm đến chi phí bên ngoài AS đó."
+    },
+    {
+      "id": 355,
+      "question": "Giao thức RIP (Routing Information Protocol) sử dụng thuật toán nào và đơn vị đo (metric) là gì?",
+      "options": {
+        "A": "Link-State; Băng thông.",
+        "B": "Distance Vector; Số lượng hop (hop count).",
+        "C": "Link-State; Độ trễ.",
+        "D": "Path Vector; Chi phí tiền tệ."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**RIP là thuật toán Distance Vector** và đơn vị đo khoảng cách là **số lượng hop (max = 15 hops)**."
+    },
+    {
+      "id": 356,
+      "question": "Trong giao thức RIP, khoảng thời gian định kỳ để các router trao đổi bảng định tuyến với các router lân cận là bao lâu?",
+      "options": {
+        "A": "15 giây.",
+        "B": "30 giây.",
+        "C": "60 giây.",
+        "D": "90 giây."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nCác **DV được trao đổi giữa các neighbors mỗi 30 giây** trong thông điệp phản hồi."
+    },
+    {
+      "id": 357,
+      "question": "Giao thức RIP được cài đặt và vận hành ở tầng nào trong mô hình mạng?",
+      "options": {
+        "A": "Tầng Mạng (Network Layer) chạy trực tiếp trên IP.",
+        "B": "Tầng Liên kết dữ liệu (Data Link Layer).",
+        "C": "Tầng Ứng dụng (Application Layer), sử dụng UDP.",
+        "D": "Tầng Vật lý (Physical Layer)."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nCác bảng định tuyến RIP được quản lý bởi **tiến trình ở tầng Ứng dụng** gọi là **route-d**, và các quảng cáo được gửi trong các **packet UDP**."
+    },
+    {
+      "id": 358,
+      "question": "Giao thức OSPF (Open Shortest Path First) sử dụng thuật toán định tuyến nào?",
+      "options": {
+        "A": "Distance Vector.",
+        "B": "Link-State.",
+        "C": "Path Vector.",
+        "D": "Flooding."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**OSPF dùng thuật toán Link State**, quảng bá gói tin LS và tính toán đường đi dùng thuật toán Dijkstra."
+    },
+    {
+      "id": 359,
+      "question": "Một đặc tính bảo mật vượt trội của OSPF so với RIP là gì?",
+      "options": {
+        "A": "Mã hóa toàn bộ gói tin dữ liệu.",
+        "B": "Ẩn địa chỉ IP nguồn.",
+        "C": "Tất cả các thông điệp OSPF đều được chứng thực (authenticated).",
+        "D": "Chỉ cho phép router của Cisco tham gia."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\n**Bảo mật**: tất cả các **thông điệp OSPF đều được chứng thực** để chống lại sự xâm nhập có hại."
+    },
+    {
+      "id": 360,
+      "question": "Trong OSPF phân cấp, loại router nào chịu trách nhiệm kết nối các vùng (areas) với vùng xương sống (backbone)?",
+      "options": {
+        "A": "Internal routers (Router nội bộ).",
+        "B": "Boundary routers (Router biên giới AS).",
+        "C": "Area Border routers (Router biên vùng).",
+        "D": "Switch layer 2."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\n**\"Area Border routers\"** tóm tắt khoảng cách đến các mạng trong vùng của nó và quảng cáo đến các router biên của vùng khác (thông qua backbone)."
+    },
+    {
+      "id": 361,
+      "question": "Giao thức nào được coi là giao thức định tuyến liên miền (inter-domain routing protocol) thực tế của Internet, giúp \"gắn kết Internet lại với nhau\"?",
+      "options": {
+        "A": "OSPF.",
+        "B": "RIP.",
+        "C": "BGP (Border Gateway Protocol).",
+        "D": "ICMP."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\n**BGP là giao thức định tuyến liên miền** trên thực tế, có vai trò **gắn kết Internet lại với nhau**."
+    },
+    {
+      "id": 362,
+      "question": "Trong BGP, sự khác biệt giữa eBGP và iBGP là gì?",
+      "options": {
+        "A": "eBGP dùng cho mạng không dây, iBGP dùng cho mạng có dây.",
+        "B": "eBGP lấy thông tin từ các AS lân cận; iBGP lan truyền thông tin đó đến các router bên trong AS.",
+        "C": "eBGP chạy trên UDP; iBGP chạy trên TCP.",
+        "D": "eBGP dùng cho IPv4; iBGP dùng cho IPv6."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**eBGP lấy thông tin về các subnet từ các AS lân cận**, còn **iBGP lan truyền thông tin đó đến tất cả các router bên trong AS**."
+    },
+    {
+      "id": 363,
+      "question": "Một \"tuyến đường\" (route) trong BGP được định nghĩa là sự kết hợp của thông tin nào?",
+      "options": {
+        "A": "Địa chỉ IP nguồn và đích.",
+        "B": "Prefix và các thuộc tính (Attributes).",
+        "C": "MAC address và Port.",
+        "D": "Hop count và Bandwidth."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nPrefix được quảng cáo bao gồm các thuộc tính BGP, công thức là: **prefix + attributes = \"route\"**."
+    },
+    {
+      "id": 364,
+      "question": "Thuộc tính AS-PATH trong BGP chứa thông tin gì?",
+      "options": {
+        "A": "Danh sách các router đã đi qua.",
+        "B": "Danh sách các AS mà thông báo quảng cáo prefix đã đi qua.",
+        "C": "Thời gian gói tin tồn tại trong mạng.",
+        "D": "Băng thông của đường truyền."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nThuộc tính **AS-PATH chứa các AS đã chuyển các quảng cáo về prefix qua** (ví dụ: AS 67, AS 17)."
+    },
+    {
+      "id": 365,
+      "question": "Thuộc tính NEXT-HOP trong BGP chỉ ra điều gì?",
+      "options": {
+        "A": "Router đích cuối cùng.",
+        "B": "Router tiếp theo trong cùng một AS.",
+        "C": "Router cụ thể bên ngoài AS là điểm bắt đầu của AS-PATH (gateway router của AS kế tiếp).",
+        "D": "Số lượng hop còn lại."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\n**NEXT-HOP chỉ ra cụ thể router nào** (địa chỉ IP interface) **bắt đầu AS-PATH đó**."
+    },
+    {
+      "id": 366,
+      "question": "Chiến thuật \"Định tuyến củ khoai nóng\" (Hot potato routing) trong BGP lựa chọn đường đi như thế nào khi có nhiều gateway thoát ra khỏi AS?",
+      "options": {
+        "A": "Chọn gateway có đường truyền băng thông lớn nhất.",
+        "B": "Chọn gateway có chi phí nội bộ (intra-AS cost) thấp nhất (gần nhất).",
+        "C": "Chọn gateway có AS-PATH ngắn nhất.",
+        "D": "Chọn gateway ngẫu nhiên."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nHot potato routing là **chọn gateway nào có chi phí thấp nhất (gần nhất) để chuyển packet đi**, dùng OSPF để xác định cổng nào gần nhất."
+    },
+    {
+      "id": 367,
+      "question": "Loại thông điệp BGP nào được sử dụng để quảng cáo đường đi mới hoặc báo hủy đường đi cũ?",
+      "options": {
+        "A": "OPEN.",
+        "B": "KEEPALIVE.",
+        "C": "NOTIFICATION.",
+        "D": "UPDATE."
+      },
+      "correctAnswer": "D",
+      "explanation": "📌 **Phân tích:**\n\nThông điệp **UPDATE dùng để quảng cáo đường đi mới hoặc báo hủy đường đi cũ**."
+    },
+    {
+      "id": 368,
+      "question": "Vấn đề chính của kỹ thuật \"flooding\" (lũ lụt) không kiểm soát trong Broadcast routing là gì?",
+      "options": {
+        "A": "Gói tin bị mất.",
+        "B": "Lặp lại gói tin và bão broadcast (broadcast storm).",
+        "C": "Router không thể xử lý gói tin unicast.",
+        "D": "Tốc độ truyền quá chậm."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nVấn đề của flooding là **lặp lại (trùng lặp) và bão broadcast** nếu không có cơ chế kiểm soát."
+    },
+    {
+      "id": 369,
+      "question": "Kỹ thuật RPF (Reverse Path Forwarding) trong Broadcast routing hoạt động theo nguyên tắc nào?",
+      "options": {
+        "A": "Luôn chuyển tiếp gói tin ra tất cả các cổng.",
+        "B": "Chỉ chuyển tiếp gói tin nếu nó đến từ đường đi ngắn nhất giữa node hiện tại và nguồn.",
+        "C": "Chỉ chuyển tiếp gói tin nếu nó có TTL > 10.",
+        "D": "Gửi trả gói tin về nguồn để xác nhận."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**RPF**: chỉ chuyển các packet nếu nó đã đến node **trên đường đi ngắn nhất giữa node và nguồn**."
+    },
+    {
+      "id": 370,
+      "question": "Lợi ích chính của việc sử dụng cây bao trùm (Spanning Tree) trong Broadcast routing là gì?",
+      "options": {
+        "A": "Tăng băng thông mạng.",
+        "B": "Đảm bảo không có các gói tin trùng lặp (loops) được nhận bởi bất cứ node nào.",
+        "C": "Giảm độ trễ truyền tin xuống mức thấp nhất.",
+        "D": "Mã hóa dữ liệu broadcast."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nKhi dùng **Spanning tree, không có các packet trùng được bất cứ node nào nhận**."
+    },
+    {
+      "id": 371,
+      "question": "Mục tiêu chính của định tuyến Multicast là gì?",
+      "options": {
+        "A": "Tìm đường đi ngắn nhất từ một nguồn đến một đích duy nhất.",
+        "B": "Tìm một cây (hoặc các cây) kết nối các router có các thành viên trong nhóm multicast.",
+        "C": "Quảng bá gói tin đến tất cả các router trong mạng (Broadcast).",
+        "D": "Thiết lập kết nối bảo mật giữa hai điểm cuối."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nMục tiêu của Multicast routing là **tìm một cây (hoặc các cây) kết nối các router có các thành viên trong nhóm multicast**."
+    },
+    {
+      "id": 372,
+      "question": "Sự khác biệt giữa \"Cây chia sẻ\" (Shared-tree) và \"Cây dựa trên nguồn\" (Source-based tree) trong định tuyến Multicast là gì?",
+      "options": {
+        "A": "Cây chia sẻ dùng cho mạng có dây, cây dựa trên nguồn dùng cho mạng không dây.",
+        "B": "Cây chia sẻ có nhiều gốc, cây dựa trên nguồn chỉ có một gốc.",
+        "C": "Cây chia sẻ là một cây giống nhau được dùng chung bởi các thành viên trong nhóm; Cây dựa trên nguồn là các cây khác nhau tùy thuộc vào nguồn gửi.",
+        "D": "Cây chia sẻ dùng thuật toán Dijkstra, cây dựa trên nguồn dùng thuật toán Bellman-Ford."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\n**Cây chia sẻ** là cây giống nhau được sử dụng bởi các thành viên trong nhóm; **Cây dựa trên nguồn** là cây khác nhau từ nơi gửi tới nơi nhận."
+    },
+    {
+      "id": 373,
+      "question": "Kỹ thuật RPF (Reverse Path Forwarding) trong định tuyến Multicast hoạt động theo quy tắc nào để quyết định chuyển tiếp gói tin?",
+      "options": {
+        "A": "Luôn chuyển tiếp gói tin đến tất cả các router lân cận.",
+        "B": "Chỉ chuyển tiếp nếu gói tin multicast được nhận trên đường kết nối đến (incoming link) nằm trên đường đi ngắn nhất nối về phía nguồn.",
+        "C": "Chỉ chuyển tiếp nếu gói tin có TTL > 0.",
+        "D": "Chuyển tiếp gói tin dựa trên địa chỉ MAC đích."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nQuy tắc RPF: Nếu **datagram multicast được nhận trên đường kết nối đến nằm trên đường đi ngắn nhất nối về từ nguồn** thì gửi tới các kết nối ra, ngược lại thì bỏ qua."
+    },
+    {
+      "id": 374,
+      "question": "Trong kỹ thuật \"Flood and Prune\" (Lũ lụt và Xén), mục đích của thông điệp \"Prune\" (Xén) là gì?",
+      "options": {
+        "A": "Yêu cầu nguồn gửi dữ liệu nhanh hơn.",
+        "B": "Thông báo cho router phía trên biết rằng nhánh cây phía dưới không có thành viên nào của nhóm multicast, để ngừng chuyển tiếp dữ liệu xuống.",
+        "C": "Thiết lập lại kết nối bị lỗi.",
+        "D": "Thêm một nhánh mới vào cây multicast."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nCác thông điệp **\"xén\" được router không có thành viên nhóm gửi lên trên để không cần forward datagram xuống nữa**."
+    },
+    {
+      "id": 375,
+      "question": "Cây Steiner (Steiner Tree) trong lý thuyết định tuyến Multicast có đặc điểm gì?",
+      "options": {
+        "A": "Là cây có chi phí thấp nhất kết nối tất cả các router có thành viên nhóm, nhưng là vấn đề NP-complete (phức tạp tính toán).",
+        "B": "Là cây dễ triển khai nhất trong thực tế.",
+        "C": "Là cây chỉ sử dụng cho định tuyến Unicast.",
+        "D": "Không yêu cầu thông tin về toàn bộ mạng."
+      },
+      "correctAnswer": "A",
+      "explanation": "📌 **Phân tích:**\n\n**Cây Steiner** là cây có **chi phí thấp nhất** kết nối đến tất cả các router có thành viên nhóm, nhưng vấn đề là **NP-complete** và độ phức tạp tính toán cao, không dùng trong thực tế."
+    },
+    {
+      "id": 376,
+      "question": "Trong phương pháp \"Cây dựa vào trung tâm\" (Center-based trees), làm thế nào để một router mới gia nhập vào nhóm multicast?",
+      "options": {
+        "A": "Nó gửi thông điệp Broadcast đến toàn mạng.",
+        "B": "Nó gửi thông điệp gia nhập (unicast join-msg) đến router trung tâm (Center/Core router).",
+        "C": "Nó chờ router trung tâm gửi lời mời.",
+        "D": "Nó tự động tính toán đường đi ngắn nhất đến tất cả các thành viên."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nRouter biên **gửi thông điệp gia nhập (unicast join-msg) đến router trung tâm**. Đường đi của thông điệp gia nhập trở thành nhánh cây mới."
+    },
+    {
+      "id": 377,
+      "question": "Giao thức DVMRP (Distance Vector Multicast Routing Protocol) sử dụng chiến lược nào để xây dựng cây multicast?",
+      "options": {
+        "A": "Center-based tree (Cây dựa vào trung tâm).",
+        "B": "Flood and prune (Lũ lụt và xén) kết hợp với RPF (Reverse Path Forwarding).",
+        "C": "Link-state broadcast.",
+        "D": "Random walk."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**DVMRP sử dụng flood và prune**, chuyển gói theo đường đi ngược (RPF) và tạo cây dựa vào nguồn (source-based tree)."
+    },
+    {
+      "id": 378,
+      "question": "Kỹ thuật \"Tunneling\" (Đường hầm) trong định tuyến Multicast được sử dụng để giải quyết vấn đề gì?",
+      "options": {
+        "A": "Mã hóa dữ liệu multicast.",
+        "B": "Kết nối các \"đảo\" router multicast nằm phân tán trong một \"biển\" các router chỉ hỗ trợ unicast.",
+        "C": "Tăng tốc độ truyền dữ liệu multicast.",
+        "D": "Chuyển đổi địa chỉ IPv4 sang IPv6."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nTunneling dùng để **kết nối các \"đảo\" router multicast trong một \"biển\" các router unicast** bằng cách đóng gói datagram multicast trong datagram unicast."
+    },
+    {
+      "id": 379,
+      "question": "Điểm khác biệt chính giữa PIM Dense Mode (Chế độ dày đặc) và PIM Sparse Mode (Chế độ thưa thớt) là gì?",
+      "options": {
+        "A": "Dense Mode dùng cho mạng không dây, Sparse Mode dùng cho mạng có dây.",
+        "B": "Dense Mode giả định các router đều là thành viên (hướng dữ liệu - flood & prune); Sparse Mode giả định không có thành viên cho đến khi router yêu cầu gia nhập (hướng người nhận).",
+        "C": "Dense Mode dùng cây chia sẻ; Sparse Mode dùng cây dựa trên nguồn.",
+        "D": "Dense Mode tiết kiệm băng thông hơn Sparse Mode."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**Dense mode** giả định các router đều là thành viên (flood & prune, kiến trúc hướng dữ liệu). **Sparse mode** không có thành viên cho đến khi router thực sự gia nhập (kiến trúc hướng người nhận)."
+    },
+    {
+      "id": 380,
+      "question": "Trong PIM Sparse Mode, router gửi thông điệp gia nhập (Join message) đến thiết bị nào để tham gia vào cây multicast?",
+      "options": {
+        "A": "Đến nguồn phát dữ liệu (Source).",
+        "B": "Đến tất cả các router lân cận.",
+        "C": "Đến điểm tập hợp (Rendezvous Point - RP).",
+        "D": "Đến router biên (Edge Router)."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nPIM Sparse Mode tiếp cận hướng trung tâm, trong đó Router **gửi thông điệp gia nhập (join msg) đến điểm tập hợp (Rendezvous Point - RP)**."
+    },
+    {
+      "id": 381,
+      "question": "Trong giao thức PIM Sparse Mode, sau khi router đã gia nhập cây qua điểm tập hợp (RP), nó có thể thực hiện hành động gì để tối ưu hóa hiệu suất?",
+      "options": {
+        "A": "Chuyển sang chế độ Dense Mode.",
+        "B": "Chuyển sang cây với nguồn cụ thể (Source-specific tree) để có đường đi ngắn hơn.",
+        "C": "Ngắt kết nối với tất cả các router khác.",
+        "D": "Yêu cầu nguồn ngừng gửi dữ liệu."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**Sau khi gia nhập thông qua RP, router có thể chuyển sang cây với nguồn cụ thể (source-specific tree)**. Điều này giúp tăng hiệu suất vì **đường đi ngắn hơn và ít tập trung hơn**."
+    },
+    {
+      "id": 382,
+      "question": "Trong PIM Sparse Mode, khi nào điểm tập hợp (RP) gửi thông điệp dừng (Stop message) đến nguồn?",
+      "options": {
+        "A": "Khi băng thông quá tải.",
+        "B": "Khi có quá nhiều thành viên tham gia.",
+        "C": "Khi không có kết nối tới bên nhận nào (không có ai đang lắng nghe).",
+        "D": "Định kỳ mỗi 60 giây."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nRP có thể **gửi thông điệp dừng (stop msg) nếu không nối tới bên nhận nào** (\"không có ai đang lắng nghe\")."
+    },
+    {
+      "id": 383,
+      "question": "So sánh về mặt \"Quản trị\" (Policy), sự khác biệt chính giữa định tuyến Intra-AS (như OSPF) và Inter-AS (như BGP) là gì?",
+      "options": {
+        "A": "Intra-AS quan trọng chính sách hơn hiệu suất; Inter-AS quan trọng hiệu suất hơn.",
+        "B": "Inter-AS quan trọng chính sách (ai đi qua mạng của họ); Intra-AS tập trung vào hiệu suất.",
+        "C": "Cả hai đều không quan tâm đến chính sách.",
+        "D": "Intra-AS sử dụng chính sách phức tạp để kiểm soát lưu lượng giữa các quốc gia."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nVới **Inter-AS, người quản trị muốn điều hành hoạt động định tuyến (chính sách quan trọng hơn)**. Với **Intra-AS, chỉ có 1 người quản trị nên không cần chính sách phức tạp, có thể tập trung vào hiệu suất**."
+    },
+    {
+      "id": 384,
+      "question": "Phân biệt giữa \"Forwarding\" (Chuyển tiếp) và \"Routing\" (Định tuyến) nằm ở đâu?",
+      "options": {
+        "A": "Forwarding là phần cứng (data plane), Routing là phần mềm (control plane).",
+        "B": "Forwarding là toàn cục, Routing là cục bộ.",
+        "C": "Forwarding xử lý tại nguồn, Routing xử lý tại đích.",
+        "D": "Forwarding dùng cho IPv6, Routing dùng cho IPv4."
+      },
+      "correctAnswer": "A",
+      "explanation": "📌 **Phân tích:**\n\n**Forwarding thuộc về \"Data plane\" (phần cứng)**, trong khi **Routing thuộc về \"Control plane\" (phần mềm)**, chạy các thuật toán để tính toán bảng forwarding."
+    },
+    {
+      "id": 385,
+      "question": "Trong cấu trúc router, bộ nhớ đệm (buffer) cần thiết tại cổng vào (Input port) khi nào?",
+      "options": {
+        "A": "Khi tốc độ đường truyền đầu vào chậm hơn tốc độ xử lý của router.",
+        "B": "Khi mạch chuyển (switch fabric) xử lý chậm hơn tốc độ gói tin đi vào.",
+        "C": "Khi router bị mất điện.",
+        "D": "Khi gói tin là IPv6."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**Sắp hàng tại cổng vào xảy ra nếu mạch xử lý (switch fabric) chậm hơn tốc độ cổng vào**, có thể dẫn đến hiện tượng HOL blocking."
+    },
+    {
+      "id": 386,
+      "question": "Thuật toán định tuyến nào dễ gặp phải vấn đề định tuyến lặp (routing loops) và vấn đề \"đếm đến vô tận\"?",
+      "options": {
+        "A": "Link-State (như OSPF).",
+        "B": "Distance Vector (như RIP).",
+        "C": "Path Vector (như BGP).",
+        "D": "Dijkstra."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**Distance Vector có thể định tuyến lặp và gặp vấn đề đếm đến vô hạn (count-to-infinity)**, trong khi Link-State ít gặp vấn đề này hơn vì mỗi node tự tính toán bảng riêng."
+    },
+    {
+      "id": 387,
+      "question": "Trường nào trong IPv4 header được sử dụng để phát hiện vòng lặp vô hạn của gói tin (packet looping)?",
+      "options": {
+        "A": "Checksum.",
+        "B": "Fragment Offset.",
+        "C": "Time to Live (TTL).",
+        "D": "Type of Service (TOS)."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\n**TTL là \"Số hop còn lại tối đa (giảm xuống tại mỗi router)\"**. Nếu TTL giảm về 0, gói tin bị hủy, **ngăn chặn việc lặp vô hạn**."
+    },
+    {
+      "id": 388,
+      "question": "Giao thức DHCP hoạt động dựa trên giao thức giao vận nào và sử dụng mô hình gì?",
+      "options": {
+        "A": "TCP; Client-Server.",
+        "B": "UDP; Client-Server.",
+        "C": "TCP; Peer-to-Peer.",
+        "D": "ICMP; Broadcast."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**DHCP request được đóng gói trong gói tin UDP** và hoạt động theo **mô hình Client-Server** (DHCP client và DHCP server)."
+    },
+    {
+      "id": 389,
+      "question": "Đặc điểm nào sau đây KHÔNG phải là động lực của việc chuyển đổi sang IPv6?",
+      "options": {
+        "A": "Không gian địa chỉ 32-bit của IPv4 cạn kiệt.",
+        "B": "Cần header định dạng đơn giản hơn để tăng tốc xử lý.",
+        "C": "Cần hỗ trợ QoS tốt hơn.",
+        "D": "IPv6 tương thích ngược hoàn toàn với IPv4 mà không cần kỹ thuật hỗ trợ nào."
+      },
+      "correctAnswer": "D",
+      "explanation": "📌 **Phân tích:**\n\nCác động lực chuyển sang IPv6: cạn kiệt địa chỉ, tăng tốc xử lý, hỗ trợ QoS. Tuy nhiên, **IPv6 không tương thích trực tiếp mà cần kỹ thuật \"Tunneling\" để chạy trên hạ tầng IPv4**."
+    },
+    {
+      "id": 390,
+      "question": "Trong thuật toán Link-State, gói tin \"Link state broadcast\" chứa thông tin gì?",
+      "options": {
+        "A": "Bảng định tuyến đầy đủ của router gửi.",
+        "B": "Chi phí kết nối tới các router lân cận (neighbor) của router gửi.",
+        "C": "Danh sách tất cả các router trong mạng.",
+        "D": "Địa chỉ IP của đích đến cuối cùng."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**Link state broadcast gửi thông tin về chi phí kết nối và cấu trúc mạng** (tức là trạng thái các liên kết với neighbor) để tất cả các node có cùng thông tin topology."
+    },
+    {
+      "id": 391,
+      "question": "Tại sao trong BGP, router gateway lại sử dụng \"import policy\" (chính sách nhập)?",
+      "options": {
+        "A": "Để kiểm tra lỗi checksum của gói tin.",
+        "B": "Để quyết định chấp nhận hoặc từ chối một đường đi được quảng cáo (ví dụ: không muốn đi qua một AS nào đó).",
+        "C": "Để mã hóa dữ liệu đường đi.",
+        "D": "Để tăng tốc độ truyền tin."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nRouter gateway dùng **chính sách nhập để quyết định chấp nhận/từ chối quảng cáo đường đi** (ví dụ: không bao giờ đi qua AS x)."
+    },
+    {
+      "id": 392,
+      "question": "Giao thức ICMP thông báo lỗi \"TTL expired\" (loại 11, mã 0) được sử dụng trong công cụ nào để dò đường đi của gói tin?",
+      "options": {
+        "A": "Ping.",
+        "B": "Traceroute.",
+        "C": "DHCP.",
+        "D": "DNS."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nCơ chế của **Traceroute: gửi gói tin với TTL tăng dần và nhận lại thông điệp ICMP \"TTL expired\"** từ các router trên đường đi."
+    },
+    {
+      "id": 393,
+      "question": "Trong mạng Datagram, nếu một đường truyền (link) bị hỏng, điều gì sẽ xảy ra?",
+      "options": {
+        "A": "Toàn bộ mạng bị tê liệt cho đến khi sửa xong.",
+        "B": "Các gói tin sẽ tự động được định tuyến lại qua đường khác nếu có (do tính chất không hướng kết nối).",
+        "C": "Phải thiết lập lại kết nối từ đầu giống như mạng điện thoại.",
+        "D": "Router sẽ gửi thông báo lỗi và dừng hoạt động."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nInternet (Datagram) có thể **thích ứng, điều khiển và sửa lỗi**, phần lõi mạng đơn giản. Router không giữ trạng thái kết nối, nên **việc định tuyến lại linh hoạt hơn** so với Virtual Circuit."
+    },
+    {
+      "id": 394,
+      "question": "Nếu một gói tin IP có kích thước 4000 byte đi vào một liên kết có MTU là 1500 byte, nó sẽ được chia thành bao nhiêu mảnh (fragments)? (Giả sử header IP là 20 byte).",
+      "options": {
+        "A": "2 mảnh.",
+        "B": "3 mảnh.",
+        "C": "4 mảnh.",
+        "D": "Không chia được, gói tin bị hủy."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n- Dữ liệu (Payload) = 4000 - 20 (header) = **3980 bytes**\n- Mỗi mảnh chứa tối đa: 1500 - 20 = **1480 bytes** dữ liệu\n- Mảnh 1: 1480 bytes\n- Mảnh 2: 1480 bytes\n- Mảnh 3: 3980 - 1480 - 1480 = **1020 bytes**\n- **Tổng cộng là 3 mảnh**"
+    },
+    {
+      "id": 395,
+      "question": "Trong bảng chuyển đổi NAT (NAT Translation Table), thông tin nào được lưu trữ để ánh xạ?",
+      "options": {
+        "A": "Chỉ địa chỉ IP nguồn và đích.",
+        "B": "Cặp (Địa chỉ IP nguồn nội bộ, Port nguồn) và (Địa chỉ IP NAT, Port mới).",
+        "C": "Địa chỉ MAC và địa chỉ IP.",
+        "D": "Tên miền và địa chỉ IP."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nNAT router **ghi nhớ trong bảng chuyển đổi mọi cặp (địa chỉ IP nguồn, số hiệu port) sang (địa chỉ IP NAT, số hiệu port mới)**."
+    },
+    {
+      "id": 396,
+      "question": "\"HOL blocking\" (Head-of-the-Line blocking) là hiện tượng gì?",
+      "options": {
+        "A": "Gói tin bị chặn tại router biên giới.",
+        "B": "Gói tin đứng đầu hàng đợi tại cổng vào ngăn cản các gói phía sau di chuyển, dù cổng ra của các gói sau đang rảnh.",
+        "C": "Gói tin bị mất do bộ đệm tràn.",
+        "D": "Gói tin bị chặn do tường lửa."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**HOL blocking**: gói tin được **sắp hàng tại phía trước hàng đợi ngăn cản các gói khác trong hàng đợi di chuyển lên trước**."
+    },
+    {
+      "id": 397,
+      "question": "Trong định tuyến phân cấp OSPF, tất cả các router trong vùng \"Backbone\" phải làm gì?",
+      "options": {
+        "A": "Kết nối trực tiếp với người dùng cuối.",
+        "B": "Chạy thuật toán OSPF giới hạn trong vùng backbone và kết nối các vùng (Area) khác nhau.",
+        "C": "Chạy giao thức RIP.",
+        "D": "Chỉ thực hiện chuyển mạch lớp 2."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nCác **router trục (Backbone routers) chạy thuật toán định tuyến OSPF được giới hạn trong backbone**, có nhiệm vụ **kết nối các vùng**."
+    },
+    {
+      "id": 398,
+      "question": "Trong kỹ thuật \"Flooding có điều khiển\" (Controlled flooding) của Broadcast routing, node làm gì để tránh lặp lại gói tin?",
+      "options": {
+        "A": "Chỉ chuyển tiếp nếu gói tin đến từ đường ngắn nhất (RPF).",
+        "B": "Luôn luôn chuyển tiếp mọi gói tin.",
+        "C": "Chỉ chuyển tiếp gói tin vào ban đêm.",
+        "D": "Giảm TTL của gói tin xuống 0 ngay lập tức."
+      },
+      "correctAnswer": "A",
+      "explanation": "📌 **Phân tích:**\n\n**Reverse Path Forwarding (RPF)** như một cách flooding có điều khiển: **chỉ chuyển các packet nếu nó đã đến node trên đường đi ngắn nhất giữa node và nguồn**."
+    },
+    {
+      "id": 399,
+      "question": "Trong mô hình dịch vụ ATM, loại dịch vụ nào KHÔNG đảm bảo băng thông, không đảm bảo thứ tự và không đảm bảo thời gian (giống Internet)?",
+      "options": {
+        "A": "CBR (Constant Bit Rate).",
+        "B": "VBR (Variable Bit Rate).",
+        "C": "UBR (Unspecified Bit Rate).",
+        "D": "ABR (Available Bit Rate)."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\n**UBR (Unspecified Bit Rate)** có các đặc điểm: **không bảo đảm băng thông, không bảo đảm thứ tự, không định thời gian**, tương tự mô hình \"Best effort\" của Internet."
+    },
+    {
+      "id": 400,
+      "question": "Tổng kết chương, hai mặt phẳng chức năng chính (planes) của router được đề cập xuyên suốt là gì?",
+      "options": {
+        "A": "Input Plane và Output Plane.",
+        "B": "Data Plane (xử lý forwarding phần cứng) và Control Plane (xử lý routing phần mềm).",
+        "C": "Network Plane và Transport Plane.",
+        "D": "User Plane và Kernel Plane."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nKiến trúc router: **Data plane (phần cứng) thực hiện forwarding**, và **Control plane (phần mềm) thực hiện routing và quản lý**. Đây là kiến trúc nền tảng của thiết bị mạng."
+    }
+  ]
+}

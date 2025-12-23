@@ -1,0 +1,14 @@
+{
+  "$schema": "../schema.json",
+  "id": "network",
+  "name": "Mạng máy tính",
+  "description": "Câu hỏi trắc nghiệm về mạng máy tính và truyền thông Internet (550 câu hỏi)",
+  "parts": [
+    "part1-overview-and-edge.json",
+    "part2-application-layer.json",
+    "part3-transport-layer.json",
+    "part4-network-layer.json",
+    "part5-link-layer.json",
+    "part6-ipv4-addressing.json"
+  ]
+}

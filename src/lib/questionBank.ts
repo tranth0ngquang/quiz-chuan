@@ -1,10 +1,5 @@
 import { QuestionBank, Question } from '@/types/quiz';
 
-// Import regular question banks
-import networkBank from '@/../data/network.json';
-import dsaBank from '@/../data/dsa.json';
-import calculusBank from '@/../data/calculus.json';
-
 // Import modular English bank
 import englishIndex from '@/../data/english/index.json';
 import englishPart1 from '@/../data/english/part1-prepositions-time.json';
@@ -25,6 +20,17 @@ import englishPart15 from '@/../data/english/part15-mixed-grammar-exercises.json
 import englishPart16 from '@/../data/english/part16-prepositions-verbs.json';
 import englishPart17 from '@/../data/english/part17-relative-adverbs.json';
 import englishPart18 from '@/../data/english/part18-prepositions-practice.json';
+
+// Import modular Network bank
+import networkIndex from '@/../data/network/index.json';
+import networkPart1 from '@/../data/network/part1-overview-and-edge.json';
+import networkPart2 from '@/../data/network/part2-application-layer.json';
+import networkPart3 from '@/../data/network/part3-transport-layer.json';
+import networkPart4 from '@/../data/network/part4-network-layer.json';
+import networkPart5 from '@/../data/network/part5-link-layer.json';
+import networkPart6 from '@/../data/network/part6-ipv4-addressing.json';
+
+
 
 /**
  * Interface for modular question parts
@@ -95,10 +101,23 @@ const englishBank = mergeQuestionParts(
   ]
 );
 
+// Build the Network bank from parts
+const networkBank = mergeQuestionParts(
+  networkIndex.id,
+  networkIndex.name,
+  networkIndex.description,
+  [
+    networkPart1 as QuestionPart,
+    networkPart2 as QuestionPart,
+    networkPart3 as QuestionPart,
+    networkPart4 as QuestionPart,
+    networkPart5 as QuestionPart,
+    networkPart6 as QuestionPart,
+  ]
+);
+
 export const questionBanks: QuestionBank[] = [
-  networkBank as QuestionBank,
-  dsaBank as QuestionBank,
-  calculusBank as QuestionBank,
+  networkBank,
   englishBank,
 ];
 

@@ -1,0 +1,1206 @@
+{
+  "partId": "transport-layer",
+  "partName": "Lớp vận chuyển (Transport Layer)",
+  "questions": [
+    {
+      "id": 201,
+      "question": "Tầng Vận chuyển cung cấp dạng truyền thông logic nào?",
+      "options": {
+        "A": "Truyền thông logic giữa các host.",
+        "B": "Truyền thông logic giữa các tiến trình ứng dụng chạy trên các host khác nhau.",
+        "C": "Truyền thông vật lý giữa các router.",
+        "D": "Truyền thông logic giữa các tầng liên kết dữ liệu."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nTầng Vận chuyển cung cấp **truyền thông logic giữa các tiến trình ứng dụng** đang chạy trên các host khác nhau. Trong khi đó, tầng Mạng cung cấp truyền thông logic giữa các host."
+    },
+    {
+      "id": 202,
+      "question": "Trong mô hình hoạt động của Tầng Vận chuyển, phía gửi thực hiện hành động nào sau đây?",
+      "options": {
+        "A": "Tái kết hợp các segments thành thông điệp.",
+        "B": "Chia nhỏ các thông điệp ứng dụng thành các segments và chuyển cho tầng Mạng.",
+        "C": "Định tuyến các gói tin qua mạng lõi.",
+        "D": "Kiểm tra lỗi bit ở tầng vật lý."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nTại phía gửi, giao thức tầng Vận chuyển **chia nhỏ các thông điệp (message)** ứng dụng thành các **segments**, sau đó chuyển các segments này cho tầng Mạng."
+    },
+    {
+      "id": 203,
+      "question": "Quá trình chuyển segment vừa nhận từ tầng mạng đến đúng socket thích hợp tại host nhận được gọi là gì?",
+      "options": {
+        "A": "Multiplexing (Dồn kênh).",
+        "B": "Encapsulation (Đóng gói).",
+        "C": "Demultiplexing (Phân kênh).",
+        "D": "Routing (Định tuyến)."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\n**Demultiplexing** tại bên nhận là quá trình sử dụng thông tin trong header để chuyển segment vừa nhận vào đúng socket."
+    },
+    {
+      "id": 204,
+      "question": "Một socket UDP (phi kết nối) được xác định bởi bộ thông tin nào?",
+      "options": {
+        "A": "Địa chỉ IP nguồn và số port nguồn.",
+        "B": "Địa chỉ IP đích và số port đích.",
+        "C": "Địa chỉ IP nguồn, số port nguồn, địa chỉ IP đích và số port đích.",
+        "D": "Chỉ cần số port đích."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nKhi tạo gói dữ liệu (datagram) để gửi vào đến socket UDP, phải xác định **địa chỉ IP đích và số port đích**. Host nhận sẽ dùng địa chỉ IP và số port để gửi segment đến socket thích hợp."
+    },
+    {
+      "id": 205,
+      "question": "Khác với UDP, một socket TCP (hướng kết nối) được xác định bởi bộ 4 yếu tố nào?",
+      "options": {
+        "A": "IP nguồn, Port nguồn, IP đích, Port đích.",
+        "B": "MAC nguồn, MAC đích, IP nguồn, IP đích.",
+        "C": "IP đích, Port đích, Sequence number, Checksum.",
+        "D": "IP nguồn, Port nguồn, Sequence number, ACK number."
+      },
+      "correctAnswer": "A",
+      "explanation": "📌 **Phân tích:**\n\nSocket TCP được xác định bởi **4 yếu tố**: Địa chỉ IP nguồn, Số port nguồn, Địa chỉ IP đích, và Số port đích. Demultiplexing tại nơi nhận dùng tất cả 4 giá trị này để điều hướng segment đến socket thích hợp."
+    },
+    {
+      "id": 206,
+      "question": "Giao thức UDP được mô tả với đặc điểm nào sau đây?",
+      "options": {
+        "A": "Hướng kết nối và tin cậy.",
+        "B": "Có điều khiển tắc nghẽn và điều khiển luồng.",
+        "C": "Phi kết nối, \"nỗ lực tốt nhất\" (best effort), có thể mất mát hoặc không theo thứ tự.",
+        "D": "Đảm bảo băng thông và độ trễ."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nUDP là giao thức vận chuyển **phi kết nối**, cung cấp dịch vụ **\"best effort\"**. Các segment UDP có thể **bị mất mát hoặc vận chuyển không theo thứ tự** đến ứng dụng đích."
+    },
+    {
+      "id": 207,
+      "question": "Trường nào sau đây KHÔNG nằm trong header của segment UDP?",
+      "options": {
+        "A": "Số port nguồn (Source port).",
+        "B": "Số port đích (Dest port).",
+        "C": "Số thứ tự (Sequence number).",
+        "D": "Checksum."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nHeader của UDP bao gồm: **Số port nguồn**, **Số port đích**, **Độ dài (Length)**, và **Checksum**. Số thứ tự (Sequence number) là trường có trong TCP, không phải UDP."
+    },
+    {
+      "id": 208,
+      "question": "Tại sao một số ứng dụng lại chọn sử dụng UDP thay vì TCP?",
+      "options": {
+        "A": "Vì UDP đảm bảo truyền dữ liệu tin cậy 100%.",
+        "B": "Vì UDP có cơ chế điều khiển tắc nghẽn tốt hơn.",
+        "C": "Vì UDP không cần thiết lập kết nối (giảm độ trễ) và header nhỏ hơn.",
+        "D": "Vì UDP có thể đảm bảo băng thông cho ứng dụng."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nLý do chọn UDP bao gồm: **Không thiết lập kết nối** (có thể gây ra độ trễ), đơn giản (không trạng thái kết nối), **kích thước header nhỏ**, và không có điều khiển tắc nghẽn (có thể gửi nhanh như mong muốn)."
+    },
+    {
+      "id": 209,
+      "question": "Cơ chế Checksum trong UDP được sử dụng để làm gì?",
+      "options": {
+        "A": "Sửa lỗi bit sai trong gói tin.",
+        "B": "Phát hiện các lỗi (ví dụ bit bị đảo) trong segment đã được truyền.",
+        "C": "Xác định thứ tự gói tin.",
+        "D": "Điều khiển luồng dữ liệu."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nMục tiêu của Checksum là **dò tìm \"các lỗi\"** (các bit cờ được bật) trong các segment đã được truyền. Bên nhận tính toán checksum và so sánh với giá trị trong trường checksum để phát hiện lỗi."
+    },
+    {
+      "id": 210,
+      "question": "Nếu hai gói tin UDP có cùng địa chỉ IP đích và số port đích, nhưng khác địa chỉ IP nguồn và số port nguồn thì chúng sẽ được xử lý như thế nào tại host nhận?",
+      "options": {
+        "A": "Được chuyển đến hai socket khác nhau.",
+        "B": "Được chuyển đến cùng một socket tại máy đích.",
+        "C": "Gói tin đến sau sẽ bị hủy.",
+        "D": "Host nhận sẽ gửi thông báo lỗi."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nVới UDP (demultiplexing không kết nối), các gói dữ liệu IP với **cùng số port đích**, nhưng khác địa chỉ IP nguồn và/hoặc khác số port nguồn sẽ được chuyển đến **cùng socket** tại máy đích."
+    },
+    {
+      "id": 211,
+      "question": "Để phát hiện lỗi trong UDP, bên gửi thực hiện phép tính nào để tạo ra giá trị checksum?",
+      "options": {
+        "A": "Phép cộng bù 1 (1s complement sum) của các từ 16-bit trong segment.",
+        "B": "Phép XOR của tất cả các byte dữ liệu.",
+        "C": "Phép CRC (Cyclic Redundancy Check) 32-bit.",
+        "D": "Phép cộng thông thường của header và payload."
+      },
+      "correctAnswer": "A",
+      "explanation": "📌 **Phân tích:**\n\nChecksum là **tổng bù 1 của các chuỗi số 16 bit** trong nội dung segment (bao gồm cả header). Bên gửi đặt giá trị này vào trường checksum để bên nhận kiểm tra."
+    },
+    {
+      "id": 212,
+      "question": "Khi bên nhận UDP tính toán checksum và thấy kết quả khớp với giá trị trong trường checksum, điều này có nghĩa là gì?",
+      "options": {
+        "A": "Chắc chắn 100% không có lỗi xảy ra.",
+        "B": "Có lỗi xảy ra nhưng đã được sửa.",
+        "C": "Không phát hiện được lỗi, nhưng vẫn có thể còn lỗi chưa phát hiện được.",
+        "D": "Segment đã bị mất mát dữ liệu."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nNếu giá trị tính toán bằng với giá trị trong trường checksum, kết luận là **\"không có lỗi\" (phát hiện được)**. Tuy nhiên, checksum không đảm bảo tính toàn vẹn tuyệt đối mà chỉ phát hiện các bit lỗi cơ bản, **vẫn có thể còn lỗi khác**."
+    },
+    {
+      "id": 213,
+      "question": "Trong giao thức rdt1.0, giả định về kênh truyền cơ bản (underlying channel) là gì?",
+      "options": {
+        "A": "Kênh có thể làm mất gói nhưng không làm lỗi bit.",
+        "B": "Kênh hoàn toàn tin cậy, không có bit lỗi và không mất mát gói.",
+        "C": "Kênh có thể làm đảo bit nhưng không mất gói.",
+        "D": "Kênh có độ trễ lớn và băng thông thấp."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**rdt1.0** giả định truyền tin cậy trên một **kênh tin cậy hoàn toàn** (underlying channel perfectly reliable), nơi không có bit lỗi và không mất mát gói."
+    },
+    {
+      "id": 214,
+      "question": "Giao thức rdt2.0 được phát triển để xử lý vấn đề gì mà rdt1.0 chưa giải quyết?",
+      "options": {
+        "A": "Kênh truyền có thể làm mất gói tin.",
+        "B": "Kênh truyền có thể đảo các bit trong packet (bit errors).",
+        "C": "Bộ đệm của bên nhận bị tràn.",
+        "D": "Tắc nghẽn mạng."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**rdt2.0** giải quyết tình huống kênh cơ bản có thể **đảo các bit trong packet** (kênh với các lỗi). Nó sử dụng checksum để phát hiện lỗi và cơ chế phản hồi (ACK/NAK)."
+    },
+    {
+      "id": 215,
+      "question": "\"Lỗ hổng nghiêm trọng\" trong giao thức rdt2.0 là gì?",
+      "options": {
+        "A": "Không kiểm tra được lỗi checksum.",
+        "B": "Không xử lý được trường hợp ACK hoặc NAK bị hỏng (corrupted).",
+        "C": "Kích thước gói tin quá lớn.",
+        "D": "Bên gửi gửi dữ liệu quá nhanh."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nrdt2.0 có một **lỗ hổng nghiêm trọng**: Điều gì xảy ra nếu **ACK/NAK bị hỏng**? Khi đó, bên gửi sẽ không biết điều gì đã xảy ra ở bên nhận và không thể đơn phương truyền lại vì có thể gây trùng lặp."
+    },
+    {
+      "id": 216,
+      "question": "Để khắc phục vấn đề ACK/NAK bị hỏng trong rdt2.0, giao thức rdt2.1 đã thêm cơ chế nào?",
+      "options": {
+        "A": "Thêm số thứ tự (sequence number) vào trong mỗi packet.",
+        "B": "Tăng kích thước checksum.",
+        "C": "Sử dụng nhiều kênh truyền song song.",
+        "D": "Yêu cầu bên nhận gửi ACK hai lần."
+      },
+      "correctAnswer": "A",
+      "explanation": "📌 **Phân tích:**\n\nĐể xử lý trùng lặp do ACK/NAK bị hỏng, bên gửi **thêm số thứ tự vào trong mỗi packet**. Bên nhận sẽ dựa vào số thứ tự để xác định packet có bị trùng hay không."
+    },
+    {
+      "id": 217,
+      "question": "Giao thức rdt2.2 cải tiến so với rdt2.1 ở điểm nào?",
+      "options": {
+        "A": "Nó loại bỏ hoàn toàn việc sử dụng ACK.",
+        "B": "Nó là một giao thức không cần NAK, chỉ dùng ACK.",
+        "C": "Nó sử dụng bộ định thời (timer) để xử lý mất gói.",
+        "D": "Nó cho phép gửi nhiều gói tin cùng lúc (pipelining)."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**rdt2.2** có chức năng giống như rdt2.1 nhưng **không dùng NAK**. Thay vào đó, bên nhận gửi ACK cho gói cuối cùng được nhận thành công kèm theo số thứ tự của gói đó. ACK bị trùng báo hiệu giống như NAK."
+    },
+    {
+      "id": 218,
+      "question": "Giao thức rdt3.0 được thiết kế để hoạt động trên kênh truyền có đặc điểm gì?",
+      "options": {
+        "A": "Kênh truyền tin cậy hoàn toàn.",
+        "B": "Kênh truyền chỉ có lỗi bit (bit errors).",
+        "C": "Kênh truyền có thể xảy ra lỗi bit và mất mát gói (loss).",
+        "D": "Kênh truyền đảm bảo thứ tự nhưng không đảm bảo băng thông."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\n**rdt3.0** đưa ra giả định mới là kênh truyền cũng có thể **làm mất gói** (dữ liệu hoặc các ACK), bên cạnh việc làm lỗi bit."
+    },
+    {
+      "id": 219,
+      "question": "Trong rdt3.0, cơ chế nào được sử dụng để phát hiện và phục hồi việc mất gói?",
+      "options": {
+        "A": "Checksum mạnh hơn.",
+        "B": "Bên gửi sử dụng bộ định thì đếm lùi (countdown timer) và truyền lại khi hết thời gian (timeout).",
+        "C": "Bên nhận gửi NAK liên tục.",
+        "D": "Bên gửi hỏi trạng thái kết nối trước khi gửi."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nCách tiếp cận của rdt3.0 là bên gửi chờ ACK trong khoảng thời gian \"hợp lý\". Nếu không nhận được ACK trong khoảng thời gian này (**timeout**), bên gửi sẽ **truyền lại packet**. Điều này yêu cầu **bộ định thì đếm lùi**."
+    },
+    {
+      "id": 220,
+      "question": "Tại sao hiệu suất của rdt3.0 (hoạt động theo kiểu stop-and-wait) thường thấp trên các đường truyền tốc độ cao?",
+      "options": {
+        "A": "Vì nó chiếm dụng quá nhiều băng thông CPU.",
+        "B": "Vì kích thước gói tin quá nhỏ.",
+        "C": "Vì bên gửi phải đợi một khoảng thời gian RTT để nhận ACK cho mỗi gói tin gửi đi, làm giảm độ khả dụng (utilization).",
+        "D": "Vì nó gây ra quá nhiều lỗi bit."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nTrong mô hình **stop-and-wait** của rdt3.0, bên gửi gửi một packet rồi dừng chờ ACK. Khoảng thời gian gửi thực tế rất nhỏ so với thời gian chờ (RTT), dẫn đến **hệ số sử dụng (U sender) rất thấp**."
+    },
+    {
+      "id": 221,
+      "question": "Lợi ích chính của việc sử dụng kỹ thuật \"Pipelining\" so với giao thức \"Stop-and-Wait\" là gì?",
+      "options": {
+        "A": "Giảm kích thước header của gói tin.",
+        "B": "Tăng độ khả dụng (utilization) của bên gửi bằng cách cho phép gửi nhiều gói tin mà không cần chờ ACK ngay lập tức.",
+        "C": "Loại bỏ hoàn toàn sự cần thiết của số thứ tự (sequence numbers).",
+        "D": "Giảm độ trễ lan truyền trên đường truyền vật lý."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nPipelining cho phép bên gửi gửi nhiều gói đồng thời mà không cần chờ báo xác nhận (ACK), điều này làm **tăng hiệu suất sử dụng đường truyền (utilization)** lên gấp nhiều lần so với stop-and-wait."
+    },
+    {
+      "id": 222,
+      "question": "Trong giao thức Go-Back-N (GBN), khái niệm \"ACK tích lũy\" (cumulative ACK) có nghĩa là gì?",
+      "options": {
+        "A": "Bên nhận gửi ACK cho từng gói tin riêng lẻ.",
+        "B": "ACK(n) xác nhận rằng đã nhận được gói n, nhưng không đảm bảo các gói trước n.",
+        "C": "ACK(n) thông báo đã nhận tất cả các packet lên đến n (bao gồm cả n).",
+        "D": "Bên nhận chờ nhận đủ N gói tin rồi mới gửi một ACK duy nhất."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nTrong GBN, **ACK(n) là một xác nhận tích lũy**, thông báo rằng bên nhận đã nhận thành công tất cả các packet có số thứ tự lên đến n."
+    },
+    {
+      "id": 223,
+      "question": "Trong giao thức Go-Back-N, điều gì xảy ra khi bộ định thời (timer) của gói tin n bị hết hạn (timeout)?",
+      "options": {
+        "A": "Chỉ gói tin n được truyền lại.",
+        "B": "Bên gửi truyền lại gói tin n và tất cả các gói tin có số thứ tự cao hơn n đang nằm trong cửa sổ (window).",
+        "C": "Bên gửi chờ thêm một khoảng thời gian nữa trước khi truyền lại.",
+        "D": "Kết nối bị hủy bỏ."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nKhi timeout xảy ra cho gói n, GBN sẽ **truyền lại packet n và tất cả các packet có số thứ tự cao hơn** trong cửa sổ đã được gửi đi nhưng chưa được ACK (Go-Back-N: quay lại N)."
+    },
+    {
+      "id": 224,
+      "question": "Hành động của bên nhận trong giao thức Go-Back-N khi nhận được một gói tin không theo thứ tự (out-of-order packet) là gì?",
+      "options": {
+        "A": "Lưu gói tin vào bộ đệm và gửi ACK cho gói đó.",
+        "B": "Hủy (discard) gói tin và gửi lại ACK cho gói tin đúng thứ tự cao nhất đã nhận trước đó.",
+        "C": "Gửi NAK cho gói tin bị thiếu.",
+        "D": "Yêu cầu bên gửi giảm kích thước cửa sổ."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nTrong GBN, bên nhận **hủy (discard) các packet không theo thứ tự** và không giữ trong bộ đệm. Nó sẽ gửi ACK cho gói đã nhận chính xác với số thứ tự xếp hạng cao nhất."
+    },
+    {
+      "id": 225,
+      "question": "Điểm khác biệt chính của giao thức Lặp lại có lựa chọn (Selective Repeat - SR) so với Go-Back-N là gì?",
+      "options": {
+        "A": "SR không sử dụng bộ định thời.",
+        "B": "SR sử dụng ACK tích lũy thay vì ACK riêng biệt.",
+        "C": "Bên nhận SR gửi ACK riêng biệt cho từng gói và có bộ đệm để lưu các gói không đúng thứ tự.",
+        "D": "SR có kích thước cửa sổ vô hạn."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nSelective Repeat cho phép bên nhận **gửi ACK riêng biệt (individual ack) cho mỗi packet** và **đệm các packet nhận được** (dù không đúng thứ tự) để chờ các gói bị thiếu."
+    },
+    {
+      "id": 226,
+      "question": "Trong giao thức Selective Repeat, bên gửi sẽ xử lý như thế nào khi xảy ra timeout cho một gói tin?",
+      "options": {
+        "A": "Gửi lại tất cả các gói tin trong cửa sổ.",
+        "B": "Chỉ truyền lại gói tin mà bộ định thời của nó bị hết hạn.",
+        "C": "Gửi lại gói tin đó và gói tin kế tiếp.",
+        "D": "Reset lại kết nối."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nTrong SR, bên gửi duy trì **bộ định thời cho mỗi packet**. Khi bộ định thời của packet nào hết hạn, bên gửi **chỉ truyền lại packet không được ACK đó**."
+    },
+    {
+      "id": 227,
+      "question": "Vấn đề gì có thể xảy ra trong Selective Repeat nếu kích thước cửa sổ (window size) quá lớn so với không gian số thứ tự (sequence number space)?",
+      "options": {
+        "A": "Tắc nghẽn mạng ngay lập tức.",
+        "B": "Bên nhận không thể phân biệt được gói tin mới và bản truyền lại của gói tin cũ bị trùng lặp.",
+        "C": "Bộ đệm bên gửi bị tràn.",
+        "D": "Tốc độ truyền bị giảm về 0."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nNếu kích thước cửa sổ quá lớn, có thể xảy ra tình huống **bên nhận không phân biệt được dữ liệu mới hay dữ liệu cũ được truyền lại** (do trùng số thứ tự trong cửa sổ trượt)."
+    },
+    {
+      "id": 228,
+      "question": "Giao thức TCP được mô tả là \"connection-oriented\" (hướng kết nối). Điều này có nghĩa là gì?",
+      "options": {
+        "A": "Cần phải có một đường truyền vật lý dành riêng giữa hai bên.",
+        "B": "Phải thực hiện bắt tay (handshake) để khởi tạo trạng thái giữa bên gửi và bên nhận trước khi trao đổi dữ liệu.",
+        "C": "Đảm bảo kết nối không bao giờ bị ngắt.",
+        "D": "Chỉ sử dụng cho các kết nối trong mạng LAN."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nTCP là hướng kết nối vì nó yêu cầu **\"bắt tay\" (trao đổi các thông điệp điều khiển)** để khởi tạo trạng thái bên gửi và nhận trước khi trao đổi dữ liệu."
+    },
+    {
+      "id": 229,
+      "question": "Đơn vị dữ liệu (MSS - Maximum Segment Size) trong TCP đề cập đến điều gì?",
+      "options": {
+        "A": "Kích thước tối đa của toàn bộ gói tin IP.",
+        "B": "Kích thước tối đa của header TCP.",
+        "C": "Kích thước tối đa của phần dữ liệu (payload) trong segment, không bao gồm header.",
+        "D": "Kích thước cửa sổ trượt."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\n**MSS (Maximum Segment Size)** là kích thước tối đa của gói tin, cụ thể là **phần dữ liệu ứng dụng** có thể đặt trong một segment TCP, **không bao gồm header TCP**."
+    },
+    {
+      "id": 230,
+      "question": "Số thứ tự (Sequence number) trong header của TCP được tính dựa trên đơn vị nào?",
+      "options": {
+        "A": "Số lượng gói tin (packet count).",
+        "B": "Số lượng bit.",
+        "C": "Số lượng dòng dữ liệu (byte stream) của byte đầu tiên trong segment.",
+        "D": "Thời gian gửi gói tin."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\n**Số thứ tự trong TCP là số thứ tự của byte đầu tiên** trong dữ liệu của segment nằm trong dòng byte (byte stream), không phải đếm theo số lượng segment."
+    },
+    {
+      "id": 231,
+      "question": "Để ước lượng thời gian khứ hồi (RTT) trong TCP, công thức EstimatedRTT = (1-α)*EstimatedRTT + α*SampleRTT được sử dụng nhằm mục đích gì?",
+      "options": {
+        "A": "Tính toán chính xác thời gian truyền của gói tin hiện tại.",
+        "B": "Tạo ra một giá trị trung bình dịch chuyển hàm mũ (exponential weighted moving average) để làm \"mượt\" các biến động của RTT.",
+        "C": "Loại bỏ hoàn toàn các mẫu RTT bị nhiễu.",
+        "D": "Xác định băng thông của đường truyền."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nSampleRTT sẽ thay đổi liên tục, nên TCP muốn ước lượng RTT **\"mượt hơn\"** bằng cách đo lường **trung bình của các giá trị vừa xảy ra** (ảnh hưởng giảm dần theo hàm mũ) thay vì chỉ dùng SampleRTT hiện tại."
+    },
+    {
+      "id": 232,
+      "question": "Giá trị khoảng thời gian chờ (Timeout Interval) trong TCP thường được thiết lập như thế nào so với EstimatedRTT?",
+      "options": {
+        "A": "Bằng chính xác EstimatedRTT.",
+        "B": "Nhỏ hơn EstimatedRTT để phát hiện lỗi nhanh hơn.",
+        "C": "Bằng EstimatedRTT cộng với một \"biên an toàn\" (thường là 4 lần độ lệch DevRTT).",
+        "D": "Là một giá trị cố định không đổi (ví dụ: 500ms)."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nTimeoutInterval phải **lớn hơn RTT** để tránh timeout sớm, nhưng không quá dài. Công thức là **EstimatedRTT cộng với \"biên an toàn\" (4*DevRTT)** để bù cho sự thay đổi lớn trong mạng."
+    },
+    {
+      "id": 233,
+      "question": "Cơ chế \"Truyền lại nhanh\" (Fast Retransmit) trong TCP được kích hoạt khi nào?",
+      "options": {
+        "A": "Khi bộ định thời (timer) bị hết hạn (timeout).",
+        "B": "Khi bên gửi nhận được 3 ACK trùng lặp (duplicate ACKs) cho cùng một gói tin.",
+        "C": "Khi bộ đệm của bên nhận bị đầy.",
+        "D": "Khi kết nối bị ngắt đột ngột."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nNếu bên gửi nhận **3 ACK của cùng 1 dữ liệu** (\"3 ACK trùng\"), nó sẽ **gửi lại segment đó ngay lập tức** mà không đợi đến khi hết thời gian timeout, vì điều này chỉ ra rằng segment đó đã bị mất."
+    },
+    {
+      "id": 234,
+      "question": "Mục đích chính của dịch vụ \"Điều khiển luồng\" (Flow Control) trong TCP là gì?",
+      "options": {
+        "A": "Ngăn chặn tắc nghẽn mạng bằng cách giảm tốc độ gửi.",
+        "B": "Đảm bảo bên gửi không làm tràn bộ đệm (buffer) của bên nhận.",
+        "C": "Đảm bảo dữ liệu đến đúng thứ tự.",
+        "D": "Mã hóa dữ liệu để bảo mật."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nĐiều khiển luồng là cơ chế để **bên nhận kiểm soát bên gửi**, đảm bảo bên gửi sẽ **không làm tràn bộ nhớ đệm của bên nhận** bằng cách truyền quá nhiều và quá nhanh."
+    },
+    {
+      "id": 235,
+      "question": "Trong cơ chế điều khiển luồng, bên nhận thông báo cho bên gửi biết dung lượng bộ nhớ đệm còn trống thông qua giá trị nào trong header TCP?",
+      "options": {
+        "A": "Sequence Number.",
+        "B": "Acknowledgment Number.",
+        "C": "Checksum.",
+        "D": "rwnd (receive window)."
+      },
+      "correctAnswer": "D",
+      "explanation": "📌 **Phân tích:**\n\nBên nhận **\"thông báo\" không gian bộ nhớ đệm còn trống** bằng cách thêm giá trị **rwnd** trong TCP header của các segment gửi ngược lại cho bên gửi."
+    },
+    {
+      "id": 236,
+      "question": "Quá trình thiết lập kết nối TCP (3-way handshake) diễn ra theo trình tự các cờ (flag) nào?",
+      "options": {
+        "A": "SYN -> SYN -> ACK.",
+        "B": "SYN -> ACK -> SYN.",
+        "C": "SYN -> SYNACK -> ACK.",
+        "D": "FIN -> ACK -> FIN."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\n**Client gửi SYN**, **Server phản hồi bằng SYNACK** (SYN + ACK), và cuối cùng **Client gửi ACK** để xác nhận kết nối được thiết lập."
+    },
+    {
+      "id": 237,
+      "question": "Tại sao TCP sử dụng bắt tay 3 bước (3-way handshake) thay vì 2 bước?",
+      "options": {
+        "A": "Để tăng tốc độ kết nối.",
+        "B": "Để đối phó với độ trễ biến thiên, thông điệp bị mất hoặc bị sắp xếp lại, đảm bảo cả hai bên đều biết bên kia sẵn sàng.",
+        "C": "Để kiểm tra băng thông đường truyền.",
+        "D": "Để mã hóa dữ liệu ngay từ đầu."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nBắt tay 2 lần có thể thất bại do **độ trễ biến thiên, mất thông điệp hoặc sắp xếp lại gói tin** (ví dụ: yêu cầu kết nối cũ hiện về lại). **Bắt tay 3 bước giúp xác nhận trạng thái hiện tại của cả hai bên**."
+    },
+    {
+      "id": 238,
+      "question": "Để đóng một kết nối TCP, một bên (client hoặc server) sẽ gửi segment có bật cờ (flag) nào?",
+      "options": {
+        "A": "RST (Reset).",
+        "B": "SYN (Synchronize).",
+        "C": "FIN (Finish).",
+        "D": "PSH (Push)."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nMỗi bên client và server sẽ **đóng kết nối bên phía của nó** bằng cách gửi TCP segment với **bit FIN = 1**."
+    },
+    {
+      "id": 239,
+      "question": "Trong quản lý kết nối TCP, trạng thái TIME_WAIT tại client sau khi đóng kết nối có tác dụng gì?",
+      "options": {
+        "A": "Chờ server gửi lại dữ liệu bị mất.",
+        "B": "Đợi một khoảng thời gian (thường là 2 lần thời gian sống của segment) để đảm bảo ACK cuối cùng đã đến được server.",
+        "C": "Chờ người dùng nhập lệnh mới.",
+        "D": "Thiết lập lại kết nối ngay lập tức."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nTrạng thái **TIMED_WAIT (hay TIME_WAIT)** chờ tối đa bằng **2 lần thời gian sống của segment** để đảm bảo các gói tin cuối cùng (như ACK cho FIN của server) đã được truyền xong và kết nối đóng hoàn toàn."
+    },
+    {
+      "id": 240,
+      "question": "\"Tắc nghẽn\" (Congestion) trong mạng khác với \"Điều khiển luồng\" ở điểm nào?",
+      "options": {
+        "A": "Tắc nghẽn xảy ra ở bên nhận, điều khiển luồng xảy ra ở mạng lõi.",
+        "B": "Tắc nghẽn là do quá nhiều nguồn gửi dữ liệu quá nhanh vượt quá khả năng xử lý của mạng (router/link), còn điều khiển luồng là vấn đề giữa bên gửi và bên nhận cụ thể.",
+        "C": "Tắc nghẽn chỉ xảy ra với UDP, điều khiển luồng chỉ xảy ra với TCP.",
+        "D": "Hai khái niệm này là một."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**Tắc nghẽn** là tình trạng \"quá nhiều nguồn gửi quá nhiều dữ liệu với tốc độ quá nhanh vượt quá khả năng xử lý của mạng\" (gây mất gói tại router), khác với **điều khiển luồng** (tràn bộ đệm tại host nhận)."
+    },
+    {
+      "id": 241,
+      "question": "Hiện tượng \"Tắc nghẽn\" (Congestion) trong mạng máy tính được định nghĩa là gì?",
+      "options": {
+        "A": "Khi bộ đệm của máy nhận bị tràn do bên gửi gửi quá nhanh.",
+        "B": "Tình trạng quá nhiều nguồn gửi quá nhiều dữ liệu với tốc độ quá nhanh vượt quá khả năng xử lý của mạng (router/đường truyền).",
+        "C": "Khi tín hiệu vật lý bị suy hao trên đường truyền dài.",
+        "D": "Khi máy chủ (server) bị quá tải CPU."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**Tắc nghẽn** là tình trạng \"quá nhiều nguồn gửi quá nhiều dữ liệu với tốc độ quá nhanh vượt quá khả năng xử lý của mạng\". Nó khác với điều khiển luồng (xảy ra ở máy nhận)."
+    },
+    {
+      "id": 242,
+      "question": "Một trong những \"chi phí\" (cost) của tắc nghẽn mạng đối với hiệu năng là gì?",
+      "options": {
+        "A": "Giảm kích thước header của gói tin.",
+        "B": "Các gói tin bị loại bỏ (dropped) tại router, dẫn đến việc truyền lại gây lãng phí băng thông và năng lực xử lý \"ngược dòng\" (upstream) đã dùng cho gói đó.",
+        "C": "Tăng tốc độ truyền dữ liệu.",
+        "D": "Giảm độ trễ truyền dẫn."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nKhi gói bị loại bỏ do tắc nghẽn, **việc truyền lại là cần thiết**. Ngoài ra, bất kỳ **lưu lượng tải lên (upstream) nào đã dùng để chuyển gói đó đến điểm bị rớt đều bị lãng phí**."
+    },
+    {
+      "id": 243,
+      "question": "TCP sử dụng phương pháp tiếp cận nào để điều khiển tắc nghẽn?",
+      "options": {
+        "A": "Điều khiển tắc nghẽn có sự hỗ trợ của mạng (Network-assisted).",
+        "B": "Điều khiển tắc nghẽn end-to-end (End-to-end congestion control).",
+        "C": "Điều khiển tắc nghẽn tập trung (Centralized).",
+        "D": "Sử dụng RM cell như ATM."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nTCP sử dụng phương pháp **end-to-end**, trong đó **tắc nghẽn được suy ra từ việc quan sát tại hệ thống đầu cuối** (mất gói, trễ) chứ không nhận phản hồi rõ ràng từ các router trong mạng."
+    },
+    {
+      "id": 244,
+      "question": "Thuật toán AIMD (Additive Increase Multiplicative Decrease) trong TCP hoạt động như thế nào?",
+      "options": {
+        "A": "Tăng cửa sổ lên gấp đôi mỗi RTT, giảm 1 MSS khi mất gói.",
+        "B": "Tăng cửa sổ lên 1 MSS mỗi RTT (cộng), giảm cửa sổ đi một nửa khi xảy ra mất gói (nhân/chia).",
+        "C": "Tăng cửa sổ lên 1 MSS mỗi RTT, giảm về 1 MSS khi mất gói.",
+        "D": "Giữ nguyên cửa sổ khi mạng ổn định."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nTCP **tăng kích thước cửa sổ (cwnd) thêm 1 MSS sau mỗi RTT** (tăng theo cấp số cộng) và **giảm một nửa cwnd khi mất gói** xảy ra (giảm theo cấp số nhân), tạo ra biểu đồ hình răng cưa."
+    },
+    {
+      "id": 245,
+      "question": "Mục đích của giai đoạn \"Slow Start\" (Khởi động chậm) trong TCP là gì?",
+      "options": {
+        "A": "Gửi dữ liệu thật chậm để tránh làm ngập mạng ngay lập tức.",
+        "B": "Tăng kích thước cửa sổ cwnd theo cấp số nhân (gấp đôi sau mỗi RTT) để nhanh chóng tìm ra băng thông khả dụng của mạng.",
+        "C": "Kiểm tra kết nối trước khi gửi dữ liệu.",
+        "D": "Đợi bên nhận gửi tín hiệu sẵn sàng."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nMặc dù tên là \"Slow Start\", nhưng cơ chế này **tăng tốc độ theo cấp số nhân (gấp đôi cwnd mỗi RTT)** để **nhanh chóng đạt đến ngưỡng băng thông khả dụng**."
+    },
+    {
+      "id": 246,
+      "question": "Điểm khác biệt chính giữa phiên bản TCP Tahoe và TCP Reno khi phản ứng với việc mất gói được phát hiện bởi \"3 ACK trùng\" là gì?",
+      "options": {
+        "A": "TCP Tahoe giảm cwnd về 1 MSS, trong khi TCP Reno giảm cwnd đi một nửa.",
+        "B": "TCP Tahoe giảm cwnd đi một nửa, TCP Reno giảm về 1 MSS.",
+        "C": "TCP Tahoe không thay đổi cwnd, TCP Reno tăng cwnd.",
+        "D": "Cả hai đều giảm cwnd về 1 MSS."
+      },
+      "correctAnswer": "A",
+      "explanation": "📌 **Phân tích:**\n\nKhi phát hiện mất gói qua 3 ACK trùng: **TCP Reno thực hiện \"Fast Recovery\"** (cắt cwnd một nửa rồi tăng tuyến tính); **TCP Tahoe luôn thiết lập cwnd về 1 MSS** và bắt đầu lại Slow Start."
+    },
+    {
+      "id": 247,
+      "question": "Biến ssthresh (slow start threshold) trong TCP dùng để xác định điều gì?",
+      "options": {
+        "A": "Kích thước tối đa của cửa sổ nhận.",
+        "B": "Điểm chuyển đổi từ giai đoạn tăng theo cấp số nhân (Slow Start) sang giai đoạn tăng tuyến tính (Congestion Avoidance).",
+        "C": "Thời gian timeout tối đa.",
+        "D": "Số lượng kết nối tối đa được phép."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**ssthresh là ngưỡng** để TCP chuyển từ Slow Start sang Congestion Avoidance. Khi **cwnd >= ssthresh**, TCP **tăng cửa sổ theo tuyến tính** thay vì cấp số nhân."
+    },
+    {
+      "id": 248,
+      "question": "Khi xảy ra sự kiện mất gói (timeout hoặc 3 ACK trùng), giá trị ssthresh được cập nhật như thế nào?",
+      "options": {
+        "A": "ssthresh = cwnd hiện tại.",
+        "B": "ssthresh được đặt về giá trị mặc định ban đầu.",
+        "C": "ssthresh = 1/2 giá trị của cwnd tại thời điểm xảy ra mất gói.",
+        "D": "ssthresh = 0."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nKhi mất gói xảy ra, **ssthresh được thiết lập về chỉ 1/2 của cwnd** trước khi mất gói, sau đó cwnd mới được điều chỉnh tùy theo thuật toán (Reno hay Tahoe)."
+    },
+    {
+      "id": 249,
+      "question": "Công thức ước lượng thông lượng (throughput) trung bình của TCP (bỏ qua giai đoạn slow start) là gì?",
+      "options": {
+        "A": "W/RTT bytes/sec.",
+        "B": "3/4 * W/RTT bytes/sec.",
+        "C": "W/(2*RTT) bytes/sec.",
+        "D": "1/2 * W/RTT bytes/sec."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nKích thước cửa sổ dao động từ **W/2 đến W**. Trung bình cửa sổ là **3/4 W**. Do đó **thông lượng trung bình xấp xỉ 3/4 * W/RTT bytes/sec**."
+    },
+    {
+      "id": 250,
+      "question": "Tính \"Công bằng\" (Fairness) trong TCP có nghĩa là gì khi có K kết nối TCP chia sẻ một đường truyền cổ chai có băng thông R?",
+      "options": {
+        "A": "Mỗi kết nối nhận được băng thông ngẫu nhiên.",
+        "B": "Kết nối nào bắt đầu trước sẽ chiếm hết băng thông.",
+        "C": "Mỗi kết nối trung bình sẽ nhận được tốc độ truyền là R/K.",
+        "D": "Các kết nối UDP sẽ được ưu tiên hơn TCP."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nMục tiêu công bằng của TCP là nếu có **K phiên TCP chia sẻ cùng đường link bị nghẽn cổ chai băng thông R**, thì **mỗi phiên nên có tốc độ trung bình là R/K**. Cơ chế AIMD giúp các kết nối hội tụ về điểm cân bằng này."
+    },
+    {
+      "id": 251,
+      "question": "Số thứ tự (Sequence Number) trong TCP header thực chất đại diện cho điều gì?",
+      "options": {
+        "A": "Số thứ tự của segment (gói tin) vừa gửi.",
+        "B": "Số thứ tự của byte đầu tiên trong khối dữ liệu của segment đó.",
+        "C": "Số thứ tự của byte cuối cùng trong khối dữ liệu.",
+        "D": "Tổng số byte đã gửi tính từ đầu kết nối."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nTrong TCP, **số thứ tự (Sequence number) là số thứ tự của byte đầu tiên** trong dữ liệu của segment nằm trong dòng byte (byte stream)."
+    },
+    {
+      "id": 252,
+      "question": "Giá trị trong trường ACK (Acknowledgment Number) mà Host A gửi cho Host B có ý nghĩa gì?",
+      "options": {
+        "A": "Số thứ tự của gói tin mà Host A vừa nhận được từ Host B.",
+        "B": "Số thứ tự của byte dữ liệu cuối cùng mà Host A đã nhận thành công.",
+        "C": "Số thứ tự của byte kế tiếp mà Host A mong đợi nhận được từ Host B.",
+        "D": "Số lượng byte dữ liệu mà Host A đã gửi đi."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\n**Số ACK là số thứ tự của byte kế tiếp được mong đợi từ phía bên kia**. Đây là cơ chế **\"ACK tích lũy\" (cumulative ACK)**."
+    },
+    {
+      "id": 253,
+      "question": "Nếu Host A gửi một segment có số thứ tự (Seq) = 42 và chứa 8 byte dữ liệu, thì số thứ tự (Seq) của segment tiếp theo mà Host A gửi sẽ là bao nhiêu?",
+      "options": {
+        "A": "43",
+        "B": "50",
+        "C": "42",
+        "D": "51"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**Số thứ tự tiếp theo = Số thứ tự hiện tại + độ dài dữ liệu**. Seq mới = 42 + 8 = **50**."
+    },
+    {
+      "id": 254,
+      "question": "Công thức tính khoảng thời gian Timeout (Timeout Interval) trong TCP được khuyến nghị là gì?",
+      "options": {
+        "A": "TimeoutInterval = EstimatedRTT",
+        "B": "TimeoutInterval = EstimatedRTT + SampleRTT",
+        "C": "TimeoutInterval = EstimatedRTT + 4 * DevRTT",
+        "D": "TimeoutInterval = 2 * EstimatedRTT"
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nTimeoutInterval phải lớn hơn EstimatedRTT một chút để đảm bảo an toàn. Công thức là **EstimatedRTT cộng với một \"biên an toàn\" là 4 * DevRTT** (độ lệch của RTT)."
+    },
+    {
+      "id": 255,
+      "question": "Trong cơ chế \"truyền lại nhanh\" (Fast Retransmit), bên gửi sẽ gửi lại gói tin khi nào?",
+      "options": {
+        "A": "Khi nhận được 1 ACK trùng lặp.",
+        "B": "Khi nhận được 2 ACK trùng lặp.",
+        "C": "Khi nhận được 3 ACK trùng lặp (tổng cộng 4 ACK giống nhau cho cùng một gói).",
+        "D": "Ngay khi hết thời gian Timeout."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nNếu bên gửi nhận **3 ACK trùng của cùng 1 dữ liệu** (\"3 duplicate ACKs\"), nó sẽ **gửi lại segment đó ngay lập tức** vì điều này chỉ ra rằng segment đó đã bị mất."
+    },
+    {
+      "id": 256,
+      "question": "Khi thiết lập kết nối TCP, tại sao cần phải chọn số thứ tự ban đầu (Initial Sequence Number) một cách ngẫu nhiên thay vì luôn bắt đầu từ 0 hoặc 1?",
+      "options": {
+        "A": "Để tăng tính bảo mật.",
+        "B": "Để tránh nhầm lẫn với các segment còn tồn tại trên mạng từ một kết nối trước đó đã bị đóng.",
+        "C": "Để tiết kiệm băng thông.",
+        "D": "TCP bắt buộc luôn bắt đầu từ 0."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nViệc **chọn số thứ tự ban đầu ngẫu nhiên** giúp **tránh trùng lặp với các gói tin cũ còn tồn tại trên mạng** (do độ trễ biến thiên) thuộc về một kết nối đã đóng trước đó giữa cùng cặp IP/Port."
+    },
+    {
+      "id": 257,
+      "question": "Trong quá trình đóng kết nối TCP (Teardown), trạng thái TIME_WAIT tại phía chủ động đóng kết nối (thường là client) kéo dài bao lâu?",
+      "options": {
+        "A": "30 giây.",
+        "B": "1 phút.",
+        "C": "Bằng đúng 1 khoảng RTT.",
+        "D": "Tối đa bằng 2 lần thời gian sống của segment (Maximum Segment Lifetime - MSL)."
+      },
+      "correctAnswer": "D",
+      "explanation": "📌 **Phân tích:**\n\nTrạng thái **TIMED_WAIT chờ tối đa bằng 2 lần thời gian sống của segment** để đảm bảo ACK cuối cùng được gửi đi thành công hoặc xử lý các gói tin bị trễ."
+    },
+    {
+      "id": 258,
+      "question": "Sự khác biệt chính trong phản ứng với tắc nghẽn giữa TCP Tahoe và TCP Reno là gì khi phát hiện mất gói qua \"3 ACK trùng\"?",
+      "options": {
+        "A": "Tahoe giảm cửa sổ cwnd về 1 MSS, trong khi Reno giảm cwnd đi một nửa.",
+        "B": "Tahoe giảm cwnd đi một nửa, Reno giảm về 1 MSS.",
+        "C": "Tahoe giữ nguyên cwnd, Reno tăng cwnd.",
+        "D": "Cả hai đều cư xử giống hệt nhau."
+      },
+      "correctAnswer": "A",
+      "explanation": "📌 **Phân tích:**\n\n**TCP Tahoe luôn thiết lập cwnd về 1 MSS** (bắt đầu lại Slow Start) khi mất gói (dù do timeout hay 3 ACK trùng). **TCP Reno thực hiện \"Fast Recovery\"** bằng cách chia đôi cwnd khi nhận 3 ACK trùng."
+    },
+    {
+      "id": 259,
+      "question": "Trong giai đoạn \"Tránh tắc nghẽn\" (Congestion Avoidance), kích thước cửa sổ tắc nghẽn cwnd tăng như thế nào?",
+      "options": {
+        "A": "Tăng gấp đôi sau mỗi RTT (tăng theo hàm mũ).",
+        "B": "Tăng thêm 1 MSS sau mỗi RTT (tăng tuyến tính).",
+        "C": "Tăng thêm 1 MSS sau mỗi ACK nhận được.",
+        "D": "Giữ nguyên không đổi."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nTrong giai đoạn Congestion Avoidance (khi cwnd > ssthresh), TCP **tăng kích thước cửa sổ một cách thận trọng hơn: tăng 1 MSS sau mỗi RTT** (Additive Increase)."
+    },
+    {
+      "id": 260,
+      "question": "Nếu một ứng dụng mở nhiều kết nối TCP song song (như trình duyệt Web tải trang), điều này ảnh hưởng thế nào đến tính \"công bằng\" (Fairness) của TCP?",
+      "options": {
+        "A": "Không ảnh hưởng, mạng vẫn chia đều băng thông cho mỗi ứng dụng.",
+        "B": "Ứng dụng đó sẽ chiếm được nhiều băng thông hơn so với các ứng dụng chỉ dùng 1 kết nối.",
+        "C": "Ứng dụng đó sẽ bị router chặn.",
+        "D": "Tốc độ của ứng dụng đó sẽ bị giảm đi."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nNếu một liên kết có tốc độ R và có 9 kết nối đang chạy. Nếu một ứng dụng mới mở **11 kết nối song song**, nó sẽ chiếm được **11/20 băng thông (hơn 50%)**, trong khi nếu chỉ mở 1 kết nối thì chỉ được 1/10 băng thông. Do đó, **mở nhiều kết nối song song là một cách \"gian lận\" sự công bằng**."
+    },
+    {
+      "id": 261,
+      "question": "TCP sử dụng phương pháp tiếp cận điều khiển tắc nghẽn nào?",
+      "options": {
+        "A": "Điều khiển tắc nghẽn có sự hỗ trợ của mạng (Network-assisted).",
+        "B": "Điều khiển tắc nghẽn End-to-end (không có phản hồi rõ ràng từ mạng).",
+        "C": "Điều khiển tắc nghẽn dựa trên ATM.",
+        "D": "Điều khiển tắc nghẽn tập trung tại router biên."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nTCP sử dụng phương pháp **điều khiển tắc nghẽn end-to-end**, trong đó **tắc nghẽn được suy ra từ việc quan sát tại hệ thống đầu cuối** (như mất gói, trễ) chứ không nhận phản hồi trực tiếp từ các router."
+    },
+    {
+      "id": 262,
+      "question": "Trong mạng ATM ABR (Available Bit Rate), bit CI trong gói tin RM (Resource Management) được sử dụng để làm gì?",
+      "options": {
+        "A": "Chỉ ra rằng không được tăng tốc độ (No Increase).",
+        "B": "Chỉ ra tắc nghẽn rõ rệt (Congestion Indication).",
+        "C": "Chỉ ra kết nối đã bị ngắt.",
+        "D": "Chỉ ra tốc độ truyền tối thiểu."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nTrong ATM ABR, **bit CI (Congestion Indication)** trong các RM cell được thiết lập bởi các switch để **chỉ ra tình trạng tắc nghẽn rõ rệt**."
+    },
+    {
+      "id": 263,
+      "question": "Sự kiện nào sau đây sẽ kích hoạt cơ chế \"Truyền lại nhanh\" (Fast Retransmit) của TCP trước khi bộ định thời (timer) hết hạn?",
+      "options": {
+        "A": "Nhận được 1 ACK trùng lặp.",
+        "B": "Nhận được 2 ACK trùng lặp.",
+        "C": "Nhận được 3 ACK trùng lặp (tổng cộng 4 ACK giống nhau).",
+        "D": "Bộ đệm bên nhận bị đầy."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nNếu bên gửi nhận **3 ACK trùng của cùng 1 dữ liệu** (\"3 duplicate ACKs\"), nó sẽ **gửi lại segment đó ngay lập tức** vì điều này chỉ ra rằng segment đó đã bị mất."
+    },
+    {
+      "id": 264,
+      "question": "Theo tài liệu, kích thước mặc định thông thường của bộ đệm nhận (RcvBuffer) trong TCP socket options là bao nhiêu?",
+      "options": {
+        "A": "1024 byte.",
+        "B": "2048 byte.",
+        "C": "4096 byte.",
+        "D": "8192 byte."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nTài liệu đề cập rằng kích thước của **RcvBuffer được thiết đặt thông qua các tùy chọn của socket** và thông thường **mặc định là 4096 byte**."
+    },
+    {
+      "id": 265,
+      "question": "Trong quá trình bắt tay 3 bước, nếu Client gửi gói SYN với số thứ tự (Seq) = x, thì Server sẽ phản hồi bằng gói SYNACK với số xác nhận (ACKnum) là bao nhiêu?",
+      "options": {
+        "A": "x",
+        "B": "x + 1",
+        "C": "x + 2",
+        "D": "y (một số ngẫu nhiên khác)"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nTrong bước 2 của bắt tay 3 lần, Server gửi SYNACK xác nhận cho SYN của Client bằng cách đặt **ACKnum = x + 1**."
+    },
+    {
+      "id": 266,
+      "question": "Công thức tính thông lượng (throughput) trung bình của TCP (bỏ qua giai đoạn slow start) được xấp xỉ là bao nhiêu, với W là kích thước cửa sổ và RTT là thời gian khứ hồi?",
+      "options": {
+        "A": "W/RTT bytes/sec.",
+        "B": "3/4 * W/RTT bytes/sec.",
+        "C": "W/(2*RTT) bytes/sec.",
+        "D": "1/2 * W/RTT bytes/sec."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nKích thước cửa sổ dao động từ **W/2 đến W**. Trung bình cửa sổ là **3/4 W**. Do đó **thông lượng trung bình xấp xỉ 3/4 * W/RTT bytes/sec**."
+    },
+    {
+      "id": 267,
+      "question": "Tại sao các ứng dụng đa phương tiện (như streaming video/audio) thường thích sử dụng UDP hơn TCP?",
+      "options": {
+        "A": "Vì UDP tin cậy hơn TCP.",
+        "B": "Vì UDP có cơ chế sửa lỗi tốt hơn.",
+        "C": "Vì UDP không bị điều tiết tốc độ bởi cơ chế điều khiển tắc nghẽn, giúp duy trì tốc độ ổn định hơn.",
+        "D": "Vì UDP luôn đảm bảo băng thông."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nNhiều ứng dụng không dùng TCP vì **không muốn tốc độ bị điều tiết do điều khiển tắc nghẽn**. **UDP có thể gửi với tốc độ ổn định** và chịu được mất gói."
+    },
+    {
+      "id": 268,
+      "question": "Trong công thức tính độ lệch thời gian khứ hồi DevRTT = (1-β)*DevRTT + β*|SampleRTT - EstimatedRTT|, giá trị tiêu biểu của β là bao nhiêu?",
+      "options": {
+        "A": "0.125",
+        "B": "0.25",
+        "C": "0.5",
+        "D": "0.75"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nGiá trị tiêu biểu (typical value) cho **β** trong công thức tính DevRTT là **0.25**."
+    },
+    {
+      "id": 269,
+      "question": "Khi xảy ra hiện tượng mất gói (do timeout hoặc 3 ACK trùng), giá trị ngưỡng ssthresh (slow start threshold) sẽ được cập nhật như thế nào?",
+      "options": {
+        "A": "ssthresh = cwnd hiện tại.",
+        "B": "ssthresh = cwnd / 2.",
+        "C": "ssthresh = 1 MSS.",
+        "D": "ssthresh không đổi."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nKhi mất gói xảy ra, **ssthresh được thiết lập về chỉ 1/2 của cwnd** tại thời điểm trước khi mất gói."
+    },
+    {
+      "id": 270,
+      "question": "Trong giao thức Lặp lại có lựa chọn (Selective Repeat), vấn đề gì sẽ xảy ra nếu kích thước cửa sổ quá lớn (ví dụ: cửa sổ = 3, số thứ tự 0,1,2,3)?",
+      "options": {
+        "A": "Tắc nghẽn mạng ngay lập tức.",
+        "B": "Bên nhận không thể phân biệt được gói tin mới (của lượt sau) và bản truyền lại của gói tin cũ (của lượt trước) do trùng số thứ tự.",
+        "C": "Bộ đệm bên gửi bị tràn.",
+        "D": "Giao thức hoạt động bình thường, không có vấn đề gì."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nNếu dải số thứ tự quá nhỏ so với kích thước cửa sổ, **bên nhận không thể phân biệt được gói tin là dữ liệu mới hay là bản truyền lại của dữ liệu cũ**."
+    },
+    {
+      "id": 271,
+      "question": "Mục tiêu \"Công bằng\" (Fairness) của TCP là gì khi có K kết nối TCP cùng chia sẻ một đường truyền bị nghẽn (bottleneck) có băng thông R?",
+      "options": {
+        "A": "Mỗi kết nối nhận được băng thông tối đa có thể, bất chấp các kết nối khác.",
+        "B": "Mỗi kết nối nhận được tốc độ trung bình là R/K.",
+        "C": "Các kết nối lâu đời hơn được ưu tiên băng thông cao hơn.",
+        "D": "Các kết nối mới được ưu tiên để bắt đầu nhanh hơn."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nMục tiêu công bằng là nếu có **K phiên TCP chia sẻ cùng đường link bị nghẽn cổ chai băng thông R**, thì **mỗi phiên nên có tốc độ trung bình là R/K**."
+    },
+    {
+      "id": 272,
+      "question": "Theo ví dụ trong tài liệu, nếu một đường truyền có tốc độ R đang có 9 kết nối, và một ứng dụng mới mở thêm 11 kết nối TCP song song, thì ứng dụng mới đó sẽ chiếm được bao nhiêu băng thông?",
+      "options": {
+        "A": "R/10",
+        "B": "R/20",
+        "C": "R/2",
+        "D": "R/11"
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nTổng cộng sẽ có **20 kết nối (9 cũ + 11 mới)**. Ứng dụng mới sở hữu 11/20 kết nối, do đó nó sẽ chiếm **hơn 50% băng thông (xấp xỉ R/2)**, trong khi nếu chỉ mở 1 kết nối thì chỉ được R/10."
+    },
+    {
+      "id": 273,
+      "question": "Một trong những \"chi phí\" (cost) của tắc nghẽn mạng liên quan đến năng lực xử lý là gì khi một gói tin bị loại bỏ (drop) tại router đích?",
+      "options": {
+        "A": "Router phải gửi thông báo ICMP về nguồn.",
+        "B": "Bất kỳ năng lực truyền tải \"ngược dòng\" (upstream) nào đã được sử dụng để chuyển gói đó đến điểm bị rớt đều bị lãng phí.",
+        "C": "TCP phải giảm kích thước cửa sổ về 0.",
+        "D": "Kết nối TCP bị ngắt ngay lập tức."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nKhi một gói tin bị loại bỏ do tắc nghẽn, **bất kỳ \"lưu lượng tải lên\" (upstream transmission capacity) nào đã dùng để chuyển gói đó đến router đó đều bị coi là lãng phí**."
+    },
+    {
+      "id": 274,
+      "question": "Trong điều khiển tắc nghẽn có sự hỗ trợ của mạng (Network-assisted congestion control), các router đóng vai trò gì?",
+      "options": {
+        "A": "Router không làm gì cả, chỉ chuyển gói tin.",
+        "B": "Router tự động đóng kết nối TCP của người dùng gây tắc nghẽn.",
+        "C": "Router cung cấp phản hồi trực tiếp đến các hệ thống đầu cuối (ví dụ: thiết lập một bit đơn chỉ ra tắc nghẽn).",
+        "D": "Router tăng băng thông đường truyền."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nTrong phương pháp này, **các router cung cấp phản hồi đến các hệ thống đầu cuối**, ví dụ như **thiết lập một bit đơn chỉ ra tắc nghẽn** (như trong ATM hoặc TCP/IP ECN)."
+    },
+    {
+      "id": 275,
+      "question": "Trong mạng ATM ABR, bit CI trong gói tin RM (Resource Management) có ý nghĩa gì?",
+      "options": {
+        "A": "No Increase (Không tăng tốc độ).",
+        "B": "Congestion Indication (Chỉ báo tắc nghẽn rõ rệt).",
+        "C": "Connection Initialized (Kết nối đã khởi tạo).",
+        "D": "Cell Invalid (Gói tin không hợp lệ)."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**Bit CI (Congestion Indication)** trong các RM cell được thiết lập bởi các switch để **chỉ ra tình trạng tắc nghẽn rõ rệt**."
+    },
+    {
+      "id": 276,
+      "question": "Cũng trong mạng ATM ABR, bit NI trong gói tin RM được sử dụng để làm gì?",
+      "options": {
+        "A": "Thông báo mạng bị ngắt.",
+        "B": "Yêu cầu bên gửi không được tăng tốc độ gửi (No Increase).",
+        "C": "Yêu cầu bên gửi giảm tốc độ về 0.",
+        "D": "Chỉ báo không có thông tin (No Information)."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**Bit NI (No Increase)** được sử dụng để báo hiệu cho bên gửi biết **không được tăng tốc độ gửi** (thường dùng trong trường hợp tắc nghẽn nhẹ)."
+    },
+    {
+      "id": 277,
+      "question": "Với một kết nối TCP có cửa sổ tắc nghẽn là W và thời gian khứ hồi là RTT, thông lượng trung bình (average throughput) của kết nối này được ước lượng là bao nhiêu (bỏ qua giai đoạn slow start)?",
+      "options": {
+        "A": "W/RTT bytes/sec.",
+        "B": "W/(2*RTT) bytes/sec.",
+        "C": "3/4 * W/RTT bytes/sec.",
+        "D": "1/4 * W/RTT bytes/sec."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nDo cửa sổ dao động từ **W/2 đến W**, kích thước trung bình là **3/4 W**. Do đó **thông lượng trung bình là 3/4 * W/RTT bytes/sec**."
+    },
+    {
+      "id": 278,
+      "question": "Để đạt được thông lượng 10 Gbps với TCP (sử dụng gói tin 1500 byte và RTT 100ms), tỷ lệ mất gói (loss rate) yêu cầu phải ở mức nào?",
+      "options": {
+        "A": "Khoảng 10^-2 (1%).",
+        "B": "Khoảng 10^-5.",
+        "C": "Rất nhỏ, khoảng 2 × 10^-10.",
+        "D": "TCP không thể đạt được tốc độ này."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nTheo công thức xấp xỉ vĩ mô, để đạt **10 Gbps**, tỉ lệ mất gói L phải **cực nhỏ, khoảng 2 × 10^-10**."
+    },
+    {
+      "id": 279,
+      "question": "Cờ (flag) nào trong TCP header được sử dụng để yêu cầu bên nhận đẩy dữ liệu lên tầng ứng dụng ngay lập tức (push data now)?",
+      "options": {
+        "A": "URG",
+        "B": "RST",
+        "C": "PSH",
+        "D": "FIN"
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\n**Cờ PSH (Push)** được dùng để yêu cầu bên nhận **đẩy dữ liệu ngay lập tức lên cho ứng dụng** (thường không được sử dụng phổ biến trong thực tế lập trình socket thông thường nhưng có trong chuẩn)."
+    },
+    {
+      "id": 280,
+      "question": "Trong biểu đồ hoạt động của TCP Reno (AIMD), khi xảy ra sự kiện \"3 ACK trùng\" (3 duplicate ACKs), kích thước cửa sổ cwnd sẽ thay đổi như thế nào?",
+      "options": {
+        "A": "Giảm về 1 MSS.",
+        "B": "Giảm đi một nửa (cwnd/2) rồi sau đó tăng tuyến tính.",
+        "C": "Giữ nguyên không đổi.",
+        "D": "Tăng gấp đôi."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**TCP Reno thực hiện \"Fast Recovery\"** khi nhận 3 ACK trùng: **cwnd bị cắt một nửa**, sau đó **tăng theo tuyến tính (AIMD)** thay vì quay về 1 như TCP Tahoe."
+    },
+    {
+      "id": 281,
+      "question": "Trong header của TCP, cờ (flag) RST được sử dụng trong trường hợp nào?",
+      "options": {
+        "A": "Để bắt đầu thiết lập kết nối.",
+        "B": "Để kết thúc kết nối một cách duyên dáng (gracefully).",
+        "C": "Để reset lại kết nối (thường khi gặp lỗi hoặc từ chối kết nối).",
+        "D": "Để đẩy dữ liệu lên tầng ứng dụng ngay lập tức."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nCác cờ RST, SYN, FIN được sử dụng để thiết lập và quản lý kết nối (setup, teardown commands). Trong đó, **RST dùng để reset kết nối** khi có sự cố hoặc khi một cổng không mở."
+    },
+    {
+      "id": 282,
+      "question": "Trong thuật toán TCP Reno, khi chuyển sang giai đoạn \"Fast Recovery\" (Phục hồi nhanh) sau khi nhận 3 ACK trùng, giá trị cwnd ban đầu được thiết lập là bao nhiêu?",
+      "options": {
+        "A": "1 MSS.",
+        "B": "ssthresh + 3 MSS.",
+        "C": "ssthresh.",
+        "D": "Giữ nguyên giá trị cũ."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nTrong TCP Reno, khi phát hiện mất gói qua 3 ACK trùng, nó thực hiện Fast Recovery. Giá trị cwnd được đặt thành **ssthresh + 3** (đại diện cho 3 gói tin đã rời khỏi mạng kích hoạt 3 ACK trùng đó)."
+    },
+    {
+      "id": 283,
+      "question": "Trường ER (Explicit Rate) trong gói tin RM của mạng ATM ABR phục vụ mục đích gì?",
+      "options": {
+        "A": "Để bên gửi thông báo tốc độ gửi hiện tại.",
+        "B": "Để switch bị tắc nghẽn có thể giảm giá trị này, qua đó báo cho bên gửi biết tốc độ tối đa mạng có thể hỗ trợ.",
+        "C": "Để đo thời gian RTT.",
+        "D": "Để kiểm tra lỗi bit."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**Trường ER (tốc độ tường minh)** trong cell RM cho phép các **switch bị tắc nghẽn giảm giá trị ER**, từ đó tốc độ gửi của bên gửi sẽ được điều tiết cho phù hợp với tốc độ tối đa mà đường truyền hỗ trợ."
+    },
+    {
+      "id": 284,
+      "question": "Trong công thức tính TimeoutInterval = EstimatedRTT + 4*DevRTT, thành phần 4*DevRTT được gọi là gì?",
+      "options": {
+        "A": "Độ trễ lan truyền.",
+        "B": "Biên an toàn (Safety Margin).",
+        "C": "Thời gian xử lý tại router.",
+        "D": "Kích thước cửa sổ tắc nghẽn."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**4*DevRTT được coi là \"biên an toàn\"** để cộng vào EstimatedRTT nhằm tính ra thời gian Timeout hợp lý, bù đắp cho sự biến động của mạng."
+    },
+    {
+      "id": 285,
+      "question": "Một trong những chi phí (cost) của tắc nghẽn mạng liên quan đến việc truyền lại gói tin là gì?",
+      "options": {
+        "A": "Tăng kích thước bộ đệm router.",
+        "B": "Đường truyền phải mang nhiều bản sao của gói tin, làm giảm \"goodput\" (lượng dữ liệu hữu ích thực tế).",
+        "C": "Giảm độ trễ truyền dẫn.",
+        "D": "Tăng tốc độ xử lý của CPU."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nKhi xảy ra tắc nghẽn dẫn đến mất gói hoặc timeout sớm, **việc truyền lại không cần thiết khiến đường truyền phải mang nhiều bản sao của gói, làm giảm goodput**."
+    },
+    {
+      "id": 286,
+      "question": "Trong cơ chế TCP Flow Control, điều gì sẽ xảy ra nếu ứng dụng bên nhận đọc dữ liệu từ bộ đệm (buffer) chậm hơn tốc độ TCP bên nhận nhận dữ liệu từ mạng?",
+      "options": {
+        "A": "Bộ đệm bên nhận sẽ bị tràn và dữ liệu bị mất.",
+        "B": "TCP bên nhận sẽ gửi tín hiệu để tăng kích thước bộ đệm.",
+        "C": "TCP bên nhận sẽ giảm giá trị rwnd (receive window) gửi về bên gửi, làm bên gửi giảm tốc độ gửi.",
+        "D": "Kết nối sẽ bị ngắt ngay lập tức."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nNếu ứng dụng loại bỏ dữ liệu chậm hơn tốc độ TCP nhận, bộ đệm sẽ đầy dần. **TCP bên nhận thông báo dung lượng trống (rwnd) ít đi** trong header gửi về, buộc bên gửi phải giảm lượng dữ liệu gửi để không làm tràn bộ đệm."
+    },
+    {
+      "id": 287,
+      "question": "Theo công thức xấp xỉ vĩ mô về thông lượng TCP (cho các kết nối tốc độ cao), thông lượng tỉ lệ nghịch với căn bậc hai của yếu tố nào?",
+      "options": {
+        "A": "RTT (Thời gian khứ hồi).",
+        "B": "L (Tỷ lệ mất gói).",
+        "C": "MSS (Kích thước segment tối đa).",
+        "D": "Cả A và B."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nCông thức thông lượng TCP xấp xỉ là **Throughput ≈ (1.22 × MSS) / (RTT × √L)**. Do đó, **thông lượng tỉ lệ nghịch với √L** (căn bậc hai của tỷ lệ mất gói)."
+    },
+    {
+      "id": 288,
+      "question": "Hành động nào sau đây xảy ra trong giai đoạn \"Slow Start\" của TCP?",
+      "options": {
+        "A": "cwnd tăng thêm 1 MSS sau mỗi ACK nhận được (tăng theo cấp số nhân).",
+        "B": "cwnd tăng thêm 1 MSS sau mỗi RTT (tăng tuyến tính).",
+        "C": "cwnd được giữ cố định.",
+        "D": "cwnd giảm đi một nửa."
+      },
+      "correctAnswer": "A",
+      "explanation": "📌 **Phân tích:**\n\nTrong Slow Start, **cwnd tăng 1 MSS cho mỗi ACK nhận được**. Điều này dẫn đến việc **kích thước cửa sổ tăng gấp đôi sau mỗi RTT** (tăng theo cấp số nhân)."
+    },
+    {
+      "id": 289,
+      "question": "Nếu Client gửi một gói SYN với Seq = 100 để bắt đầu kết nối, Server sẽ phản hồi gói SYNACK với ACKnum bằng bao nhiêu?",
+      "options": {
+        "A": "100",
+        "B": "101",
+        "C": "0",
+        "D": "Một số ngẫu nhiên."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nTrong quá trình bắt tay 3 bước, Server xác nhận gói SYN của Client bằng cách đặt **ACKnum = Seq_client + 1**. Nếu Seq = 100 thì **ACKnum = 101**."
+    },
+    {
+      "id": 290,
+      "question": "Trong sơ đồ trạng thái TCP, trạng thái nào bên phía Server tương ứng với việc đã nhận được gói SYN từ Client và đã gửi gói SYNACK lại cho Client?",
+      "options": {
+        "A": "LISTEN",
+        "B": "SYN_SENT",
+        "C": "SYN_RCVD",
+        "D": "ESTABLISHED"
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nSau khi nhận SYN từ Client và gửi SYNACK phản hồi, Server chuyển từ trạng thái LISTEN sang trạng thái **SYN_RCVD (SYN Received)**."
+    },
+    {
+      "id": 291,
+      "question": "Tại sao sự tồn tại của các luồng dữ liệu UDP lại là một thách thức đối với tính \"Công bằng\" (Fairness) trong mạng?",
+      "options": {
+        "A": "Vì UDP sử dụng ít băng thông hơn TCP.",
+        "B": "Vì các ứng dụng UDP không bị điều tiết tốc độ (không giảm tốc khi tắc nghẽn), nên chúng có thể chèn ép các luồng TCP.",
+        "C": "Vì UDP luôn được ưu tiên xử lý tại router.",
+        "D": "Vì UDP có header lớn hơn TCP."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nNhiều ứng dụng UDP (như đa phương tiện) **không muốn bị điều tiết tốc độ**. Khi tắc nghẽn, TCP giảm tốc độ (nhường băng thông), trong khi **UDP vẫn tiếp tục gửi với tốc độ ổn định, dẫn đến việc UDP chiếm dụng băng thông của TCP**."
+    },
+    {
+      "id": 292,
+      "question": "Các trình duyệt Web thường sử dụng kỹ thuật gì để tải trang nhanh hơn, dù điều này có thể gây mất công bằng cho các ứng dụng khác trong mạng?",
+      "options": {
+        "A": "Sử dụng giao thức UDP thay vì TCP.",
+        "B": "Mở nhiều kết nối TCP song song (parallel TCP connections) đến cùng một server.",
+        "C": "Tắt tính năng điều khiển luồng.",
+        "D": "Giả mạo địa chỉ IP."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nỨng dụng có thể **mở nhiều kết nối song song**. Ví dụ, nếu link có tốc độ R và có 9 kết nối đang chạy, một ứng dụng mở mới 11 kết nối song song sẽ **chiếm được hơn 50% băng thông (R/2)** thay vì chia đều (R/10)."
+    },
+    {
+      "id": 293,
+      "question": "Biểu đồ thể hiện thông lượng (throughput) của một kết nối TCP theo thời gian thường có hình dạng gì do đặc tính của thuật toán AIMD?",
+      "options": {
+        "A": "Đường thẳng nằm ngang (hằng số).",
+        "B": "Hình răng cưa (Saw tooth).",
+        "C": "Hình sin.",
+        "D": "Hình parabol."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nTCP **tăng kích thước cửa sổ từ từ (tuyến tính)** cho đến khi mất gói thì **giảm đột ngột (một nửa)**, tạo ra **hành vi hình răng cưa (saw tooth behavior)** để thăm dò băng thông."
+    },
+    {
+      "id": 294,
+      "question": "Để đạt được thông lượng cực lớn (ví dụ 10 Gbps) trên các đường truyền hiện đại, yêu cầu về tỷ lệ mất gói (loss rate - L) là gì theo công thức Throughput ≈ (1.22 × MSS) / (RTT × √L)?",
+      "options": {
+        "A": "Tỷ lệ mất gói có thể cao (khoảng 1%).",
+        "B": "Tỷ lệ mất gói không quan trọng.",
+        "C": "Tỷ lệ mất gói phải cực kỳ nhỏ (khoảng 2 × 10^-10).",
+        "D": "Tỷ lệ mất gói phải bằng 0 tuyệt đối."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nTài liệu đưa ra ví dụ để đạt **10 Gbps với gói 1500 byte và RTT 100ms**, tỷ lệ mất gói L phải **rất nhỏ, khoảng 2 × 10^-10**."
+    },
+    {
+      "id": 295,
+      "question": "Trong sơ đồ trạng thái đóng kết nối TCP, trạng thái CLOSE_WAIT xuất hiện ở phía nào?",
+      "options": {
+        "A": "Phía chủ động đóng kết nối (thường là Client).",
+        "B": "Phía thụ động nhận yêu cầu đóng kết nối (thường là Server).",
+        "C": "Cả hai phía cùng lúc.",
+        "D": "Không có trạng thái này trong TCP."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nKhi Server nhận được gói FIN từ Client, nó gửi ACK và chuyển sang **trạng thái CLOSE_WAIT**. Tại trạng thái này, Server có thể vẫn gửi nốt dữ liệu còn lại trước khi gửi FIN của chính mình."
+    },
+    {
+      "id": 296,
+      "question": "Gói tin SYN và gói tin FIN trong quá trình quản lý kết nối TCP chiếm bao nhiêu đơn vị trong không gian số thứ tự (sequence number space)?",
+      "options": {
+        "A": "0 (không chiếm số thứ tự).",
+        "B": "1.",
+        "C": "Tương đương kích thước header.",
+        "D": "Ngẫu nhiên."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\nKhi gửi SYN (hoặc FIN), **số thứ tự ACK phản hồi là x+1 (hoặc y+1)**, chứng tỏ **SYN và FIN được tính như 1 byte dữ liệu** trong dòng sequence number."
+    },
+    {
+      "id": 297,
+      "question": "Sự khác biệt cơ bản về \"đối tượng bảo vệ\" giữa Điều khiển luồng (Flow Control) và Điều khiển tắc nghẽn (Congestion Control) là gì?",
+      "options": {
+        "A": "Flow Control bảo vệ router, Congestion Control bảo vệ host nhận.",
+        "B": "Flow Control bảo vệ host nhận (tránh tràn bộ đệm), Congestion Control bảo vệ mạng lõi (tránh quá tải router).",
+        "C": "Cả hai đều bảo vệ đường truyền vật lý.",
+        "D": "Flow Control dùng cho UDP, Congestion Control dùng cho TCP."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**Flow control đảm bảo bên gửi không làm tràn bộ đệm của bên nhận**. **Tắc nghẽn là vấn đề quá tải tại mạng (router/link)**. Tài liệu nhấn mạnh tắc nghẽn khác với điều khiển luồng."
+    },
+    {
+      "id": 298,
+      "question": "Trong giao thức TCP, thuật toán \"Fast Recovery\" (Phục hồi nhanh) thường đi kèm với phiên bản nào sau đây?",
+      "options": {
+        "A": "TCP Tahoe.",
+        "B": "TCP Reno.",
+        "C": "TCP Amazon.",
+        "D": "TCP Basic."
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n**TCP Reno thực hiện Fast Recovery** (giảm cửa sổ đi một nửa rồi tăng tuyến tính) khi nhận 3 ACK trùng. **TCP Tahoe không có Fast Recovery** (luôn giảm về 1 MSS)."
+    },
+    {
+      "id": 299,
+      "question": "Theo tổng kết chương, Tầng Vận chuyển hoạt động chủ yếu ở đâu trong mô hình mạng Internet?",
+      "options": {
+        "A": "Tại các Router trong mạng lõi.",
+        "B": "Tại các Switch.",
+        "C": "Tại các hệ thống đầu cuối (End systems) ở mạng \"biên\" (edge).",
+        "D": "Tại tầng vật lý."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nTài liệu tổng kết nhắc lại việc đã tìm hiểu xong các vấn đề mạng \"biên\" (các tầng Ứng dụng, Vận chuyển) và chuẩn bị vào phần mạng \"lõi\". **Các giao thức vận chuyển chạy trên các hệ thống đầu cuối**."
+    },
+    {
+      "id": 300,
+      "question": "Nguyên lý \"Additive Increase, Multiplicative Decrease\" (AIMD) giúp TCP đạt được tính chất quan trọng nào khi nhiều kết nối cùng chia sẻ đường truyền?",
+      "options": {
+        "A": "Tính bảo mật (Security).",
+        "B": "Tính toàn vẹn (Integrity).",
+        "C": "Tính công bằng (Fairness).",
+        "D": "Tính thời gian thực (Real-time)."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\n**AIMD giúp các kết nối TCP hội tụ về điểm cân bằng**, nơi mỗi kết nối chia sẻ băng thông bằng nhau (R/K), **đảm bảo tính công bằng**."
+    }
+  ]
+}
