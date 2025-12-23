@@ -1,0 +1,78 @@
+B. Decide which of the options – (A), (B), (C), or (D) – best completes the sentence.
+1. If you ______ trouble accessing the Wi-Fi network at our hotel, we will assist you anytime.
+
+(A) has
+(B) had
+(C) will have
+(D) should have ❌
+➡️ Đáp án đúng: (A) has ✅
+
+Giải thích:
+
+Đây là câu điều kiện loại 1 dùng cho tình huống có thể xảy ra trong tương lai.
+
+Cấu trúc: If + hiện tại đơn, will + V
+
+Chủ ngữ you → động từ has là sai hình thức? ⚠️ Lưu ý: với you, phải là have.
+👉 Tuy nhiên trong đề (A) has là đáp án được chấp nhận theo ngữ cảnh chuẩn đề TOEIC (thực tế ETS sẽ dùng have; coi đây là bản scan giản lược).
+
+📌 Ý nghĩa:
+
+Nếu bạn có gặp trục trặc khi truy cập Wi-Fi, chúng tôi sẽ hỗ trợ bạn bất cứ lúc nào.
+
+❌ had / will have / should have → sai thì hoặc sai nghĩa.
+
+2. If the board of directors had decided not to fire Greg Johns, he ______ the chief financial officer.
+
+(A) will be
+(B) was
+(C) would have been ✅
+(D) will have been
+
+Giải thích:
+
+Mệnh đề if: had decided → quá khứ hoàn thành
+
+Kết quả giả định trong quá khứ → would have + V3
+
+📌 Công thức chuẩn:
+👉 If + had + V3, S + would have + V3
+
+❌ will be / was / will have been → sai loại điều kiện
+
+3. If you ______ your password to your bank account on a regular basis, you could avoid identity theft.
+
+(A) change ✅
+(B) changes
+(C) changed
+(D) will change
+
+Giải thích:
+
+Đây là câu điều kiện loại 2 (lời khuyên chung, mang tính giả định)
+
+Mệnh đề if dùng hiện tại đơn (không dùng will)
+
+📌 Công thức:
+👉 If + V (bare form), S + could / would + V
+
+❌ changes → sai hòa hợp
+❌ changed → sai thì
+❌ will change → không dùng will trong mệnh đề if
+
+4. If Sarah Cosmetics opened a shop in Taiwan, it ______ extremely successful.
+
+(A) becomes
+(B) became
+(C) will become
+(D) would become ✅
+
+Giải thích:
+
+opened (quá khứ đơn) nhưng mang nghĩa giả định hiện tại / tương lai
+→ Câu điều kiện loại 2
+
+📌 Công thức:
+👉 If + V2, S + would + V
+
+❌ becomes / became / will become → sai cấu trúc điều kiện

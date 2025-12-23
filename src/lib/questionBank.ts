@@ -20,6 +20,11 @@ import englishPart10 from '@/../data/english/part10-subjunctive-mood-passages.js
 import englishPart11 from '@/../data/english/part11-subject-verb-agreement.json';
 import englishPart12 from '@/../data/english/part12-subject-verb-agreement-extended.json';
 import englishPart13 from '@/../data/english/part13-subject-verb-agreement-passages.json';
+import englishPart14 from '@/../data/english/part14-bonus-exercises.json';
+import englishPart15 from '@/../data/english/part15-mixed-grammar-exercises.json';
+import englishPart16 from '@/../data/english/part16-prepositions-verbs.json';
+import englishPart17 from '@/../data/english/part17-relative-adverbs.json';
+import englishPart18 from '@/../data/english/part18-prepositions-practice.json';
 
 /**
  * Interface for modular question parts
@@ -82,6 +87,11 @@ const englishBank = mergeQuestionParts(
     englishPart11 as QuestionPart,
     englishPart12 as QuestionPart,
     englishPart13 as QuestionPart,
+    englishPart14 as QuestionPart,
+    englishPart15 as QuestionPart,
+    englishPart16 as QuestionPart,
+    englishPart17 as QuestionPart,
+    englishPart18 as QuestionPart,
   ]
 );
 

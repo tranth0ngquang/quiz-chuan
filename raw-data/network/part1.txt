@@ -1,0 +1,311 @@
+Phần 1: Tổng quan Internet & Mạng biên (Câu 1 - 10)
+Câu 1: Trong ngữ cảnh của Internet, "Hosts" (hay hệ thống đầu cuối) bao gồm những thiết bị nào? A. Chỉ bao gồm các máy chủ (servers) chứa dữ liệu. B. Chỉ bao gồm máy tính cá nhân (PC) và máy tính xách tay. C. Bao gồm hàng triệu thiết bị máy tính được kết nối mạng như PC, máy chủ, điện thoại di động, và các thiết bị thông minh khác. D. Là các thiết bị chuyển mạch (switches) và định tuyến (routers).
+Đáp án: C Giải thích: Hosts (hệ thống đầu cuối) là hàng triệu các thiết bị máy tính được kết nối mạng, bao gồm PC, Server, điện thoại di động và các thiết bị chạy ứng dụng mạng.
+-------------------------------------------------------------------------------- 
+Câu 2: Giao thức (Protocol) trong mạng máy tính được định nghĩa là gì? A. Phần cứng vật lý dùng để kết nối các máy tính. B. Tập hợp các quy tắc định nghĩa định dạng, thứ tự các thông điệp gửi/nhận và các hành động thực hiện khi truyền/nhận thông điệp. C. Một phần mềm diệt virus bảo vệ mạng. D. Tốc độ truyền tải dữ liệu trên đường truyền.
+Đáp án: B Giải thích: Giao thức định nghĩa định dạng, thứ tự các thông điệp được gửi và nhận giữa các thực thể mạng, và các hành động được thực hiện trên việc truyền và nhận thông điệp.
+-------------------------------------------------------------------------------- 
+Câu 3: Các chuẩn Internet (Internet standards) được phát triển và công bố bởi tổ chức nào dưới dạng tài liệu RFC? A. ISO (International Organization for Standardization). B. IETF (Internet Engineering Task Force). C. IEEE (Institute of Electrical and Electronics Engineers). D. W3C (World Wide Web Consortium).
+Đáp án: B Giải thích: Các chuẩn Internet được phát triển bởi IETF (Internet Engineering Task Force) và được công bố dưới dạng RFC (Request for comments).
+-------------------------------------------------------------------------------- 
+Câu 4: Đặc điểm nào sau đây là ĐÚNG về mạng truy nhập DSL (Digital Subscriber Line)? A. Sử dụng đường cáp quang đến tận nhà. B. Là đường truyền chia sẻ (shared), tốc độ phụ thuộc vào số người dùng. C. Sử dụng đường dây điện thoại hiện có và là đường dành riêng (dedicated) đến văn phòng trung tâm. D. Tốc độ tải lên (upload) luôn cao hơn tốc độ tải xuống (download).
+Đáp án: C Giải thích: DSL dùng đường dây điện thoại hiện có để kết nối đến DSLAM tại văn phòng trung tâm và là đường truyền dành riêng (không chia sẻ như mạng cáp),.
+-------------------------------------------------------------------------------- 
+Câu 5: Mạng cáp (HFC - Hybrid Fiber Coax) khác với mạng DSL ở điểm cơ bản nào về mô hình kết nối? A. Mạng cáp là mạng dành riêng (dedicated), DSL là mạng chia sẻ. B. Mạng cáp là mạng chia sẻ (shared), các hộ gia đình chia sẻ đường truyền đến đầu cuối cáp. C. Mạng cáp có tốc độ thấp hơn DSL. D. Mạng cáp không hỗ trợ truyền hình, chỉ truyền dữ liệu.
+Đáp án: B Giải thích: Trong mạng HFC, các hộ gia đình chia sẻ mạng truy nhập đến đầu cuối cáp, không giống như DSL là đường dành riêng.
+-------------------------------------------------------------------------------- 
+Câu 6: Phương tiện truyền dẫn nào sau đây thuộc loại "phương tiện truyền thông được hướng dẫn" (guided media)? A. Sóng vô tuyến (Radio). B. Vi sóng mặt đất. C. Vệ tinh. D. Cáp đồng trục, cáp quang, cáp xoắn đôi.
+Đáp án: D Giải thích: Phương tiện truyền thông được hướng dẫn là các tín hiệu lan truyền trên phương tiện rắn như cáp đồng, cáp quang, cáp đồng trục.
+-------------------------------------------------------------------------------- 
+Câu 7: Ưu điểm chính của cáp quang (Fiber optics) so với cáp đồng là gì? A. Giá thành rẻ hơn và dễ lắp đặt hơn. B. Tốc độ truyền thấp nhưng độ bền cao. C. Tốc độ truyền cao, tỷ lệ lỗi thấp và không bị nhiễu điện từ. D. Sử dụng tín hiệu điện để truyền dữ liệu.
+Đáp án: C Giải thích: Cáp quang hoạt động ở tốc độ cao (10-100 Gbps), có tỷ lệ lỗi thấp, mức độ suy giảm tín hiệu thấp và không bị nhiễu điện từ.
+-------------------------------------------------------------------------------- 
+Câu 8: Công thức tính độ trễ truyền gói tin (transmission delay) để đẩy toàn bộ gói tin L (bits) ra đường truyền có băng thông R (bits/sec) là gì? A. B. C. D. 
+Đáp án: C Giải thích: Thời gian cần để truyền L-bit các gói đến đường liên kết là .
+-------------------------------------------------------------------------------- 
+Câu 9: Mạng truy cập Ethernet doanh nghiệp thường có đặc điểm gì? A. Sử dụng đường dây điện thoại để kết nối. B. Các hệ thống đầu cuối thường kết nối đến thiết bị chuyển mạch Ethernet (Switch). C. Chỉ sử dụng kết nối không dây. D. Tốc độ tối đa chỉ đạt 1 Mbps.
+Đáp án: B Giải thích: Trong mạng Ethernet doanh nghiệp, các hệ thống đầu cuối thường kết nối đến thiết bị chuyển mạch Ethernet (Ethernet switch) với tốc độ 100Mbps, 1Gbps, 10Gbps.
+-------------------------------------------------------------------------------- 
+Câu 10: Tốc độ lan truyền tín hiệu (propagation speed) trong môi trường cáp đồng hoặc cáp quang xấp xỉ bao nhiêu? A. Tốc độ âm thanh. B. m/s. C. km/h. D. Tùy thuộc vào kích thước gói tin.
+Đáp án: B Giải thích: Tốc độ lan truyền trong môi trường (thiết bị, dây dẫn) xấp xỉ m/s (nhỏ hơn hoặc bằng tốc độ ánh sáng).
+-------------------------------------------------------------------------------- 
+Phần 2: Mạng lõi & Chuyển mạch (Câu 11 - 20)
+Câu 11: Chức năng chính của "Mạng lõi" (Network Core) trong kiến trúc Internet là gì? A. Chạy các ứng dụng người dùng như Web và Email. B. Kết nối các thiết bị đầu cuối thông qua môi trường truyền dẫn không dây. C. Là tập hợp các bộ định tuyến (routers) được kết nối với nhau để chuyển tiếp gói tin từ nguồn đến đích. D. Cung cấp giao diện lập trình cho các ứng dụng.
+Đáp án: C Giải thích: Mạng lõi bao gồm các thiết bị định tuyến (routers) được liên kết với nhau, tạo thành mạng của các mạng với nhiệm vụ chuyển tiếp các gói tin.
+-------------------------------------------------------------------------------- 
+Câu 12: Nguyên lý "Lưu và chuyển tiếp" (Store-and-forward) trong chuyển mạch gói nghĩa là gì? A. Router bắt đầu truyền bit đầu tiên của gói tin ngay khi nhận được nó. B. Router phải nhận toàn bộ gói tin trước khi có thể bắt đầu truyền nó sang đường liên kết tiếp theo. C. Gói tin được lưu trữ mãi mãi tại router để phục vụ việc truy xuất sau này. D. Dữ liệu được truyền liên tục mà không cần chia thành các gói nhỏ.
+Đáp án: B Giải thích: Trong cơ chế lưu và chuyển tiếp, toàn bộ các gói phải đến bộ định tuyến trước khi nó có thể được truyền tải trên đường liên kết tiếp theo.
+-------------------------------------------------------------------------------- 
+Câu 13: Trong chuyển mạch gói, hiện tượng "mất gói" (packet loss) xảy ra khi nào? A. Khi kích thước gói tin quá nhỏ. B. Khi bộ đệm (hàng đợi) của router đã đầy và gói tin mới đến không còn chỗ chứa. C. Khi tốc độ truyền của đường liên kết quá nhanh. D. Khi gói tin đi qua cáp quang thay vì cáp đồng.
+Đáp án: B Giải thích: Các gói tin đến sẽ bị bỏ (mất mát) nếu không còn chỗ trống trong bộ đệm (bộ nhớ) do tốc độ đến vượt quá khả năng xử lý/truyền tải trong một khoảng thời gian,.
+-------------------------------------------------------------------------------- 
+Câu 14: Sự khác biệt chính giữa chức năng "Định tuyến" (Routing) và "Chuyển tiếp" (Forwarding) là gì? A. Định tuyến xác định đường đi từ nguồn đến đích, còn chuyển tiếp chuyển gói từ đầu vào sang đầu ra thích hợp của router. B. Định tuyến dùng cho mạng gia đình, chuyển tiếp dùng cho ISP. C. Định tuyến xử lý gói tin nhanh hơn chuyển tiếp. D. Hai thuật ngữ này là đồng nghĩa và có thể dùng thay thế cho nhau.
+Đáp án: A Giải thích: Định tuyến (routing) xác định đường đi từ nguồn đến đích (dùng thuật toán), còn chuyển tiếp (forwarding) chuyển các gói từ đầu vào của bộ định tuyến đến đầu ra thích hợp.
+-------------------------------------------------------------------------------- 
+Câu 15: Đặc điểm nào sau đây là đặc trưng của "Chuyển mạch kênh" (Circuit Switching) so với Chuyển mạch gói? A. Tài nguyên được chia sẻ theo nhu cầu (on-demand). B. Tài nguyên (như băng thông) được dành riêng cho cuộc gọi và không được chia sẻ. C. Hiệu quả cao hơn cho các dữ liệu truyền không liên tục (bursty data). D. Không cần thiết lập cuộc gọi trước khi truyền dữ liệu.
+Đáp án: B Giải thích: Trong chuyển mạch kênh, tài nguyên giữa 2 điểm cuối được phân bổ dành riêng cho cuộc gọi và không chia sẻ; mảnh kênh sẽ rảnh rỗi (lãng phí) nếu không được sử dụng,.
+-------------------------------------------------------------------------------- 
+Câu 16: Trong kỹ thuật FDM (Frequency Division Multiplexing) của chuyển mạch kênh, tài nguyên đường truyền được chia nhỏ như thế nào? A. Theo các khe thời gian (time slots). B. Theo các gói tin (packets). C. Theo các dải tần số (frequency bands) khác nhau. D. Theo mã (code).
+Đáp án: C Giải thích: FDM (Frequency Division Multiplexing) chia các kênh truyền khác nhau vào các dải tần số khác nhau.
+-------------------------------------------------------------------------------- 
+Câu 17: Theo ví dụ trong tài liệu, với đường liên kết 1 Mb/s, nếu mỗi người dùng cần 100 kb/s và chỉ hoạt động 10% thời gian. Chuyển mạch gói có ưu điểm gì so với chuyển mạch kênh? A. Chuyển mạch gói hỗ trợ ít người dùng hơn (dưới 10 người). B. Chuyển mạch gói cho phép hỗ trợ tới 35 người dùng với xác suất nghẽn thấp, trong khi chuyển mạch kênh chỉ hỗ trợ tối đa 10 người. C. Chuyển mạch gói đảm bảo tốc độ không đổi cho mọi người dùng. D. Chuyển mạch gói loại bỏ hoàn toàn độ trễ.
+Đáp án: B Giải thích: Chuyển mạch kênh chỉ hỗ trợ 10 người (1Mb/100kb), nhưng chuyển mạch gói cho phép hơn 35 người dùng vì xác suất tất cả cùng truyền một lúc là rất thấp (0.0004).
+-------------------------------------------------------------------------------- 
+Câu 18: "ISP cấp 1" (Tier-1 ISP) có đặc điểm gì trong cấu trúc Internet? A. Là các mạng truy cập nhỏ kết nối trực tiếp đến hộ gia đình. B. Chỉ hoạt động trong phạm vi một thành phố. C. Là các nhà cung cấp dịch vụ Internet quốc tế lớn (như Sprint, AT&T), kết nối trực tiếp với nhau và phủ sóng toàn cầu. D. Phải trả phí cho các ISP vùng để được kết nối.
+Đáp án: C Giải thích: ISP cấp 1 là các mạng lớn bao trùm quốc gia và toàn thế giới, được kết nối với nhau tại trung tâm của Internet.
+-------------------------------------------------------------------------------- 
+Câu 19: IXP (Internet Exchange Point) đóng vai trò gì trong mạng Internet? A. Là điểm kết nối vật lý nơi các ISP có thể kết nối và trao đổi lưu lượng với nhau. B. Là thiết bị modem tại nhà người dùng. C. Là một giao thức bảo mật mạng. D. Là điểm phát sóng Wifi công cộng.
+Đáp án: A Giải thích: IXP (Internet Exchange Point) là điểm trao đổi Internet giúp các ISP kết nối (peering) với nhau.
+-------------------------------------------------------------------------------- 
+Câu 20: Tại sao chuyển mạch gói (Packet Switching) được coi là phù hợp hơn cho dữ liệu có tính chất "bursty" (lúc truyền nhiều, lúc nghỉ) so với chuyển mạch kênh? A. Vì nó dành riêng tài nguyên để đảm bảo chất lượng. B. Vì nó cho phép chia sẻ tài nguyên thống kê, tận dụng băng thông khi người khác đang nghỉ. C. Vì nó đơn giản hơn và yêu cầu thiết lập cuộc gọi. D. Vì nó không bao giờ gây ra tắc nghẽn.
+Đáp án: B Giải thích: Chuyển mạch gói tốt cho dữ liệu "bursty" vì nó cho phép chia sẻ tài nguyên hiệu quả hơn thay vì dành riêng lãng phí như chuyển mạch kênh.
+-------------------------------------------------------------------------------- 
+Phần 3: Hiệu suất - Độ trễ, Mất mát & Thông lượng (Câu 21 - 30)
+Câu 21: Trong công thức tính tổng độ trễ tại một nút (), thành phần (xử lý tại nút) bao gồm công việc gì? A. Thời gian đợi trong hàng đợi để được truyền. B. Thời gian để đẩy các bit của gói tin ra đường truyền. C. Kiểm tra các bit lỗi và xác định đường ra (output link). D. Thời gian tín hiệu lan truyền trên dây dẫn vật lý.
+Đáp án: C Giải thích: (nút xử lý) bao gồm việc kiểm tra bit lỗi và xác định đường ra thích hợp, thường nhỏ hơn mili giây.
+-------------------------------------------------------------------------------- 
+Câu 22: Công thức nào sau đây dùng để tính độ trễ lan truyền ()? (Với là khoảng cách, là tốc độ lan truyền, là kích thước gói, là băng thông). A. B. C. D. 
+Đáp án: B Giải thích: Độ trễ lan truyền () là thời gian cần thiết để tín hiệu đi hết chiều dài đường truyền vật lý, tính bằng .
+-------------------------------------------------------------------------------- 
+Câu 23: Sự khác biệt cơ bản giữa độ trễ truyền () và độ trễ lan truyền () là gì? A. phụ thuộc vào khoảng cách vật lý, phụ thuộc vào kích thước gói. B. là thời gian để đẩy gói tin ra đường truyền, còn là thời gian tín hiệu đi trên đường dây. C. Hai loại độ trễ này là giống nhau. D. luôn lớn hơn .
+Đáp án: B Giải thích: là thời gian cần để "đẩy" gói tin ra liên kết (), trong khi là thời gian tín hiệu đi từ đầu này đến đầu kia của liên kết (). Slide so sánh cái này với đoàn xe đi qua trạm thu phí và chạy trên cao tốc,.
+-------------------------------------------------------------------------------- 
+Câu 24: Theo ví dụ "đoàn xe" trong tài liệu: Nếu trạm thu phí mất 12 giây để phục vụ một xe, thì thời gian để "đẩy" toàn bộ đoàn xe 10 chiếc qua trạm thu phí (tương ứng với độ trễ truyền ) là bao nhiêu? A. 12 giây. B. 120 giây. C. 62 phút. D. 100 giây.
+Đáp án: B Giải thích: Thời gian để "đẩy" toàn bộ đoàn xe qua trạm thu phí = 12 giây/xe 10 xe = 120 giây.
+-------------------------------------------------------------------------------- 
+Câu 25: Cường độ lưu thông (Traffic intensity) được tính bằng công thức . Điều gì sẽ xảy ra với độ trễ xếp hàng trung bình khi tiệm cận tới 1? A. Độ trễ xếp hàng tiệm cận về 0. B. Độ trễ xếp hàng không đổi. C. Độ trễ xếp hàng trở nên rất lớn (tiến tới vô cùng). D. Gói tin sẽ được xử lý nhanh hơn.
+Đáp án: C Giải thích: Khi cường độ lưu thông tiến tới 1, độ trễ trung bình sẽ tăng vọt (lớn). Nếu > 1, trễ trung bình là vô hạn.
+-------------------------------------------------------------------------------- 
+Câu 26: Chương trình nào sau đây được sử dụng để đo lường độ trễ từ nguồn tới các bộ định tuyến dọc theo đường đi tới đích? A. Wireshark. B. Traceroute. C. FTP. D. HTTP.
+Đáp án: B Giải thích: Chương trình traceroute gởi các gói tin nhỏ đến đích và đo lường độ trễ tới từng bộ định tuyến trên đường đi,.
+-------------------------------------------------------------------------------- 
+Câu 27: Nguyên nhân chính gây ra hiện tượng "mất gói" (packet loss) tại bộ định tuyến là gì? A. Tín hiệu bị suy hao trên đường truyền. B. Bộ đệm (hàng đợi) của router có dung lượng hữu hạn và đã bị đầy khi gói tin mới đến. C. Bit lỗi trong quá trình truyền. D. Do kích thước gói tin quá lớn.
+Đáp án: B Giải thích: Hàng đợi (bộ đệm) có khả năng hữu hạn. Khi gói tin đến mà hàng đợi đã đầy, gói tin sẽ bị bỏ (mất mát),.
+-------------------------------------------------------------------------------- 
+Câu 28: Khái niệm "Thông lượng nút cổ chai" (Bottleneck throughput) trong một đường truyền nối tiếp từ nguồn đến đích được xác định như thế nào? A. Là tổng tốc độ của tất cả các liên kết (). B. Là tốc độ của liên kết có dung lượng lớn nhất. C. Là tốc độ của liên kết có dung lượng nhỏ nhất (). D. Là trung bình cộng của các tốc độ liên kết.
+Đáp án: C Giải thích: Đường liên kết có tốc độ thấp nhất trên con đường từ nguồn đến đích sẽ giới hạn thông lượng toàn trình, gọi là nút cổ chai.
+-------------------------------------------------------------------------------- 
+Câu 29: Giả sử bạn đang tải một file từ server về máy. Đường truyền từ server đến router là Mbps, đường truyền từ router về máy bạn là Mbps. Thông lượng tối đa bạn có thể đạt được là bao nhiêu? A. 2 Mbps. B. 3 Mbps. C. 1.5 Mbps. D. 1 Mbps.
+Đáp án: D Giải thích: Thông lượng bị giới hạn bởi liên kết nút cổ chai: Mbps.
+-------------------------------------------------------------------------------- 
+Câu 30: Trong mô hình phân lớp, tại sao các hệ thống phức tạp lại cần được "phân lớp" (layering)? A. Để tăng tốc độ truyền dữ liệu. B. Để làm cho hệ thống phức tạp hơn nhằm bảo mật tốt hơn. C. Để mô-đun hóa, giúp dễ dàng bảo trì và cập nhật hệ thống (thay đổi một lớp không ảnh hưởng lớp khác). D. Để giảm số lượng phần cứng cần thiết.
+Đáp án: C Giải thích: Việc phân lớp giúp mô-đun hóa, làm dễ dàng việc bảo trì và cập nhật hệ thống; thay đổi việc thực hiện dịch vụ của các lớp là trong suốt với phần còn lại.
+-------------------------------------------------------------------------------- 
+Phần 4: Các lớp giao thức & Bảo mật mạng (Câu 31 - 40)
+Câu 31: Theo mô hình chồng giao thức Internet (Internet protocol stack), thứ tự 5 lớp từ trên xuống dưới là gì? A. Ứng dụng, Mạng, Vận chuyển, Liên kết, Vật lý. B. Ứng dụng, Vận chuyển, Mạng, Liên kết, Vật lý. C. Ứng dụng, Phiên, Vận chuyển, Mạng, Vật lý. D. Vật lý, Liên kết, Mạng, Vận chuyển, Ứng dụng.
+Đáp án: B Giải thích: Chồng giao thức Internet gồm 5 lớp theo thứ tự từ trên xuống: Ứng dụng (Application), Vận chuyển (Transport), Mạng (Network), Liên kết (Link), Vật lý (Physical).
+-------------------------------------------------------------------------------- 
+Câu 32: Hai lớp nào có trong mô hình tham chiếu OSI (7 lớp) nhưng bị thiếu (hoặc gộp vào lớp ứng dụng) trong chồng giao thức Internet (5 lớp)? A. Mạng và Liên kết. B. Trình diễn (Presentation) và Phiên (Session). C. Vận chuyển và Vật lý. D. Trình diễn và Mạng.
+Đáp án: B Giải thích: Chồng giao thức Internet thiếu lớp Trình diễn (Presentation) và lớp Phiên (Session) so với mô hình OSI; các dịch vụ này nếu cần sẽ được thực hiện trong lớp ứng dụng.
+-------------------------------------------------------------------------------- 
+Câu 33: Trong quá trình đóng gói dữ liệu (encapsulation), gói tin tại lớp Vận chuyển (Transport layer) được gọi là gì? A. Message (Thông điệp). B. Segment (Đoạn). C. Datagram (Gói dữ liệu). D. Frame (Khung).
+Đáp án: B Giải thích: Tại lớp Vận chuyển, gói tin được gọi là Segment. (Lớp Ứng dụng là Message, lớp Mạng là Datagram, lớp Liên kết là Frame).
+-------------------------------------------------------------------------------- 
+Câu 34: Chức năng chính của lớp Mạng (Network layer) trong chồng giao thức Internet là gì? A. Chuyển các bit trên đường dây vật lý. B. Hỗ trợ các ứng dụng mạng như FTP, HTTP. C. Định tuyến những gói dữ liệu (datagrams) từ nguồn tới đích. D. Chuyển dữ liệu giữa các thành phần mạng lân cận.
+Đáp án: C Giải thích: Lớp Mạng chịu trách nhiệm định tuyến những gói dữ liệu từ nguồn tới đích (sử dụng IP và các giao thức định tuyến).
+-------------------------------------------------------------------------------- 
+Câu 35: Sự khác biệt chính giữa "Virus" và "Worm" (Sâu máy tính) theo định nghĩa trong tài liệu là gì? A. Virus tự sao chép thụ động, Worm cần người dùng kích hoạt. B. Virus lây nhiễm bằng việc nhận hoặc thực thi đối tượng (cần người dùng tác động), còn Worm tự sao chép thụ động mà không cần người dùng thực thi. C. Virus chỉ tấn công phần cứng, Worm tấn công phần mềm. D. Worm không gây hại cho hệ thống.
+Đáp án: B Giải thích: Virus lây nhiễm thông qua việc thực thi đối tượng (như mở file đính kèm), trong khi Worm lây nhiễm thụ động và tự sao chép mà không cần người dùng thực hiện hành động.
+-------------------------------------------------------------------------------- 
+Câu 36: Tấn công "Từ chối dịch vụ" (DoS - Denial of Service) thực hiện việc gì? A. Đánh cắp mật khẩu người dùng. B. Làm cho tài nguyên (máy chủ, băng thông) không sẵn sàng cho lưu lượng hợp pháp bằng cách làm ngập (flooding) tài nguyên bởi lưu lượng giả. C. Giả mạo địa chỉ IP của người gửi. D. Nghe lén các gói tin trên đường truyền.
+Đáp án: B Giải thích: Tấn công DoS làm cho tài nguyên mạng không khả dụng cho người dùng hợp pháp bằng cách làm ngập mục tiêu với các lưu lượng giả.
+-------------------------------------------------------------------------------- 
+Câu 37: Botnet là gì? A. Một phần mềm diệt virus. B. Mạng lưới các hệ thống đầu cuối bị nhiễm mã độc được kẻ xấu điều khiển để thực hiện tấn công (như spam, DDoS). C. Một giao thức mạng mới. D. Một thiết bị định tuyến thông minh.
+Đáp án: B Giải thích: Hệ thống đầu cuối bị nhiễm có thể được dùng trong mạng botnet, sử dụng cho thư rác hoặc tấn công DDoS.
+-------------------------------------------------------------------------------- 
+Câu 38: Hành động "Packet sniffing" (Đánh hơi gói tin) thường xảy ra ở môi trường nào dễ dàng nhất? A. Mạng cáp quang điểm-nối-điểm. B. Phương tiện truyền quảng bá (broadcast media) như Ethernet chia sẻ hoặc Wifi. C. Trong ổ cứng máy tính. D. Mạng riêng ảo (VPN).
+Đáp án: B Giải thích: Packet sniffing dễ xảy ra trên phương tiện truyền quảng bá (mạng chia sẻ ethernet, mạng không dây) nơi giao diện mạng có thể đọc tất cả các gói tin đi qua.
+-------------------------------------------------------------------------------- 
+Câu 39: Kỹ thuật "IP Spoofing" (Giả mạo IP) là gì? A. Gửi gói tin với địa chỉ IP nguồn giả mạo. B. Gửi gói tin với nội dung bị mã hóa. C. Ăn cắp địa chỉ IP của router. D. Tạo ra nhiều địa chỉ IP cho một máy tính.
+Đáp án: A Giải thích: IP spoofing là việc gửi gói tin với địa chỉ nguồn (source address) giả.
+-------------------------------------------------------------------------------- 
+Câu 40: Trong quá trình đóng gói (encapsulation) từ nguồn đến đích, khi gói tin đi qua một bộ chuyển mạch (Switch) ở lớp liên kết, điều gì xảy ra? A. Switch sẽ bóc tách gói tin đến tận lớp Ứng dụng. B. Switch chỉ xử lý đến lớp Liên kết (Link layer) và không thay đổi địa chỉ IP trong gói tin. C. Switch sẽ thay đổi địa chỉ IP nguồn. D. Switch thêm một lớp bảo mật vào gói tin.
+Đáp án: B Giải thích: Dựa trên hình ảnh minh họa về đóng gói, Switch (Bộ chuyển mạch) nằm ở lớp dưới (Lớp liên kết/Vật lý) và không can thiệp vào Header của lớp Mạng hay Vận chuyển.
+-------------------------------------------------------------------------------- 
+Phần 5: Lịch sử Internet (Câu 41 - 50)
+Câu 41: Vào năm 1961, ai là người đã công bố lý thuyết hàng đợi (queuing theory) cho thấy hiệu quả của chuyển mạch gói? A. Vint Cerf. B. Leonard Kleinrock. C. Tim Berners-Lee. D. Paul Baran.
+Đáp án: B Giải thích: Năm 1961, Kleinrock đưa ra lý thuyết hàng đợi cho thấy hiệu quả của chuyển mạch gói.
+-------------------------------------------------------------------------------- 
+Câu 42: Mạng ARPAnet, tiền thân của Internet, có nút đầu tiên hoạt động vào năm nào? A. 1967. B. 1969. C. 1972. D. 1983.
+Đáp án: B Giải thích: Năm 1969, nút ARPAnet đầu tiên bắt đầu hoạt động.
+-------------------------------------------------------------------------------- 
+Câu 43: Ứng dụng "sát thủ" (killer app) đầu tiên của Internet là gì, xuất hiện vào khoảng năm 1972? A. World Wide Web. B. Chia sẻ file P2P. C. Email. D. Chat trực tuyến.
+Đáp án: C Giải thích: Năm 1972, chương trình email đầu tiên xuất hiện cùng với giao thức host-host đầu tiên là NCP.
+-------------------------------------------------------------------------------- 
+Câu 44: Nguyên lý kết nối liên mạng (internetworking) do Cerf và Kahn đề xuất năm 1974 bao gồm đặc điểm nào sau đây? A. Các bộ định tuyến (router) phải lưu trạng thái của kết nối. B. Cung cấp dịch vụ với nỗ lực cao nhất (best effort). C. Điều khiển tập trung tại một nút duy nhất. D. Yêu cầu thay đổi nội mạng khi kết nối với mạng khác.
+Đáp án: B Giải thích: Nguyên lý của Cerf và Kahn bao gồm: mô hình dịch vụ nỗ lực cao nhất (best effort), các bộ định tuyến không lưu trạng thái (stateless), và điều khiển phi tập trung.
+-------------------------------------------------------------------------------- 
+Câu 45: Giao thức TCP/IP chính thức được triển khai để thay thế NCP vào năm nào? A. 1972. B. 1983. C. 1990. D. 1995.
+Đáp án: B Giải thích: Năm 1983 đánh dấu việc triển khai chính thức TCP/IP.
+-------------------------------------------------------------------------------- 
+Câu 46: Hệ thống tên miền (DNS) dùng để chuyển đổi từ tên miền sang địa chỉ IP được định nghĩa vào năm nào? A. 1980. B. 1983. C. 1988. D. 1991.
+Đáp án: B Giải thích: DNS được định nghĩa vào năm 1983.
+-------------------------------------------------------------------------------- 
+Câu 47: Ai là người phát minh ra World Wide Web (HTML, HTTP) vào đầu những năm 1990? A. Marc Andreessen. B. Tim Berners-Lee. C. Bill Gates. D. Jim Kurose.
+Đáp án: B Giải thích: Đầu những năm 1990, Web ra đời với HTML, HTTP do Tim Berners-Lee phát triển.
+-------------------------------------------------------------------------------- 
+Câu 48: Trình duyệt Web đồ họa phổ biến đầu tiên ra mắt năm 1994 tên là gì? A. Internet Explorer. B. Chrome. C. Mosaic (sau đó là Netscape). D. Firefox.
+Đáp án: C Giải thích: Năm 1994 xuất hiện trình duyệt Mosaic, sau đó trở thành Netscape.
+-------------------------------------------------------------------------------- 
+Câu 49: Xu hướng nổi bật của Internet trong giai đoạn cuối những năm 1990 - 2000 là gì? A. Sự xuất hiện của các mạng xã hội như Facebook. B. Sự bùng nổ của ứng dụng chia sẻ file P2P và vấn đề an ninh mạng được đưa lên hàng đầu. C. Sự thay thế hoàn toàn của IPv6. D. Sự ra đời của Email.
+Đáp án: B Giải thích: Cuối những năm 1990-2000 chứng kiến nhiều ứng dụng mới như chia sẻ file P2P, nhắn tin tức thời và vấn đề an ninh mạng lên hàng đầu.
+-------------------------------------------------------------------------------- 
+Câu 50: Đặc điểm nào KHÔNG phải là xu hướng của Internet từ năm 2005 đến hiện tại (theo tài liệu)? A. Sự xuất hiện của mạng xã hội trực tuyến (Facebook). B. Điện thoại thông minh (smartphones) và máy tính bảng trở nên phổ biến (~750 triệu host). C. Các nhà cung cấp dịch vụ (Google, Microsoft) chạy dịch vụ trên nền tảng đám mây (Cloud). D. Mạng ARPAnet bắt đầu ngừng hoạt động.
+Đáp án: D Giải thích: Mạng ARPAnet đã ngừng hoạt động từ đầu những năm 1990, không phải giai đoạn 2005-nay. Giai đoạn này nổi bật với mạng xã hội, smartphone và điện toán đám mây.
+-------------------------------------------------------------------------------- 
+Phần 6: Tính toán nâng cao & Tình huống (Câu 51 - 60)
+Câu 51: Giả sử có một kết nối từ Server đến Client đi qua một bộ định tuyến trung gian. Đường truyền từ Server đến Router có tốc độ , và từ Router đến Client có tốc độ . Nếu , thì thông lượng (throughput) từ đầu cuối đến đầu cuối sẽ xấp xỉ bằng bao nhiêu? A. B. C. D. 
+Đáp án: C Giải thích: Thông lượng bị giới hạn bởi liên kết có tốc độ thấp nhất trên đường đi (nút cổ chai). Vì , nút cổ chai là .
+-------------------------------------------------------------------------------- 
+Câu 52: Trong mô hình "Lưu và chuyển tiếp" (Store-and-forward), giả sử gói tin có kích thước (bits) và tốc độ truyền của mỗi đường liên kết là (bps). Nếu gói tin đi từ Nguồn -> Router -> Đích (tức là qua 2 đường liên kết), tổng độ trễ truyền (transmission delay) là bao nhiêu (bỏ qua các loại trễ khác)? A. B. C. D. 
+Đáp án: B Giải thích: Gói tin phải được nhận trọn vẹn tại Router (mất thời gian ) rồi mới được truyền tiếp sang Đích (mất thêm ). Tổng cộng là .
+-------------------------------------------------------------------------------- 
+Câu 53: Điều nào sau đây là ĐÚNG khi so sánh giữa cáp quang và vệ tinh địa tĩnh về độ trễ? A. Cáp quang có độ trễ lan truyền cao hơn vệ tinh. B. Vệ tinh có độ trễ lan truyền rất lớn (khoảng 270 ms) do khoảng cách xa so với mặt đất. C. Cả hai đều có độ trễ lan truyền bằng 0. D. Vệ tinh có băng thông cao nên không có độ trễ.
+Đáp án: B Giải thích: Vệ tinh địa tĩnh giữ khoảng cách xa với mặt đất nên có độ trễ lan truyền tín hiệu lớn, khoảng 270 ms giữa hai thiết bị đầu cuối.
+-------------------------------------------------------------------------------- 
+Câu 54: Nếu bạn tăng băng thông đường truyền () lên rất cao (tiến tới vô cùng), thành phần nào trong tổng độ trễ tại nút () sẽ tiến về 0? A. Độ trễ lan truyền (). B. Độ trễ xử lý (). C. Độ trễ truyền (). D. Độ trễ xếp hàng ().
+Đáp án: C Giải thích: Công thức . Khi tăng lên rất lớn thì sẽ tiến về 0. Độ trễ lan truyền phụ thuộc vào khoảng cách vật lý nên không đổi,.
+-------------------------------------------------------------------------------- 
+Câu 55: Trong biểu đồ độ trễ xếp hàng, khi cường độ lưu thông () > 1, điều gì xảy ra về mặt lý thuyết? A. Độ trễ xếp hàng đạt mức tối đa cố định. B. Các gói tin sẽ được xử lý song song. C. Độ trễ xếp hàng tiến tới vô hạn (hệ thống bị quá tải hoàn toàn). D. Hệ thống tự động tăng băng thông .
+Đáp án: C Giải thích: Khi cường độ lưu thông lớn hơn 1 (việc đến nhiều hơn khả năng phục vụ), hàng đợi sẽ tăng mãi mãi và độ trễ trung bình tiến tới vô hạn.
+-------------------------------------------------------------------------------- 
+Câu 56: Một tập tin có kích thước bits được gửi từ Host A đến Host B. Nếu thông lượng trung bình của kết nối là (bps), thời gian để chuyển toàn bộ tập tin là bao nhiêu? A. B. C. D. 
+Đáp án: C Giải thích: Dựa trên định nghĩa thông lượng là tốc độ truyền bit trên một đơn vị thời gian, thời gian truyền = Kích thước tập tin / Thông lượng ().
+-------------------------------------------------------------------------------- 
+Câu 57: Thành phần nào trong tổng độ trễ tại nút () là "biến thiên" và khó dự đoán nhất, phụ thuộc vào mức độ tắc nghẽn mạng? A. (Xử lý). B. (Xếp hàng). C. (Truyền). D. (Lan truyền).
+Đáp án: B Giải thích: là thời gian đợi tại bộ đệm, phụ thuộc vào số lượng gói tin đang chờ phía trước (tắc nghẽn), nên nó thay đổi ngẫu nhiên.
+-------------------------------------------------------------------------------- 
+Câu 58: Thời gian xử lý tại nút (), bao gồm kiểm tra lỗi bit và xác định đường ra, thường có độ lớn khoảng bao nhiêu? A. Vài phút. B. Vài giây. C. Nhỏ hơn mili giây (< msec). D. Bằng 0.
+Đáp án: C Giải thích: là thời gian xử lý tại nút (kiểm tra lỗi, định tuyến), thông thường nhỏ hơn mili giây (msec).
+-------------------------------------------------------------------------------- 
+Câu 59: Nếu khoảng cách vật lý giữa hai trạm là 100 km và tốc độ lan truyền tín hiệu là km/h (theo ví dụ đoàn xe), thì độ trễ lan truyền () là bao lâu? A. 1 giờ. B. 12 giây. C. 60 giây. D. 100 giờ.
+Đáp án: A Giải thích: Theo ví dụ đoàn xe: Thời gian lan truyền = Khoảng cách / Tốc độ = 100 km / 100 km/h = 1 giờ.
+-------------------------------------------------------------------------------- 
+Câu 60: Trong chuyển mạch gói, tại sao nói nó "hiệu quả hơn" chuyển mạch kênh về mặt kinh tế đối với dữ liệu người dùng? A. Vì nó luôn đảm bảo tốc độ cao nhất. B. Vì nó cho phép chia sẻ đường truyền, hỗ trợ số lượng người dùng lớn hơn gấp nhiều lần (ví dụ: 35 người dùng so với 10 người dùng) trên cùng một băng thông. C. Vì thiết bị chuyển mạch gói rẻ hơn nhiều. D. Vì nó không bao giờ bị mất gói tin.
+Đáp án: B Giải thích: Chuyển mạch gói cho phép chia sẻ tài nguyên theo thống kê. Ví dụ trong tài liệu cho thấy cùng băng thông 1Mbps, chuyển mạch kênh chỉ chứa được 10 người, còn chuyển mạch gói chứa được 35 người với xác suất nghẽn rất thấp.
+-------------------------------------------------------------------------------- 
+Phần 7: Cấu trúc Internet & Mạng truy nhập (Câu 61 - 70)
+Câu 61: Trong mạng truy nhập DSL, làm thế nào để dữ liệu và thoại có thể truyền đồng thời trên cùng một đường dây điện thoại? A. Chúng được truyền lần lượt (Time Division Multiplexing). B. Sử dụng hai đường dây vật lý riêng biệt. C. Sử dụng kỹ thuật ghép kênh theo tần số (FDM), dữ liệu và thoại được truyền ở các dải tần số khác nhau. D. Dữ liệu được mã hóa vào trong tín hiệu thoại.
+Đáp án: C Giải thích: Trong DSL, thoại và dữ liệu được truyền ở các tần số khác nhau trên cùng đường dây dành riêng. Tần số cao cho dữ liệu, tần số thấp cho thoại.
+-------------------------------------------------------------------------------- 
+Câu 62: Thiết bị nào tại "Văn phòng trung tâm" (Central Office) của nhà cung cấp dịch vụ đóng vai trò kết nối nhiều đường dây DSL từ người dùng vào mạng Internet? A. CMTS (Cable Modem Termination System). B. DSLAM (Digital Subscriber Line Access Multiplexer). C. Router Wifi. D. Switch Ethernet.
+Đáp án: B Giải thích: DSLAM (Bộ ghép kênh truy nhập đường dây thuê bao số) là thiết bị tại văn phòng trung tâm kết nối các đường dây điện thoại DSL từ khách hàng,.
+-------------------------------------------------------------------------------- 
+Câu 63: Một đặc điểm quan trọng phân biệt mạng cáp HFC (Hybrid Fiber Coax) so với DSL là gì về mặt chia sẻ băng thông? A. HFC là đường truyền dành riêng (dedicated), không ai chia sẻ với ai. B. HFC là môi trường truyền dẫn chia sẻ (shared); các hộ gia đình dùng chung đường truyền đến đầu cuối cáp. C. HFC có tốc độ thấp hơn DSL. D. HFC không hỗ trợ truyền hình.
+Đáp án: B Giải thích: Không giống như DSL là đường dành riêng, trong mạng HFC, các hộ gia đình chia sẻ mạng truy nhập đến đầu cuối cáp.
+-------------------------------------------------------------------------------- 
+Câu 64: Trong mạng cáp (Cable Network), thiết bị nào tại phía nhà cung cấp dịch vụ tương đương với chức năng của DSLAM trong mạng DSL? A. Splitter. B. Cable Modem. C. CMTS (Cable Modem Termination System). D. Headend.
+Đáp án: C Giải thích: CMTS (Hệ thống kết cuối modem cáp) thực hiện chức năng tương tự DSLAM nhưng dành cho mạng cáp, chuyển đổi tín hiệu từ các modem cáp vào mạng ISP.
+-------------------------------------------------------------------------------- 
+Câu 65: Tại sao mô hình kết nối trực tiếp từng ISP truy cập với tất cả các ISP truy cập khác (Mesh) lại không khả thi để xây dựng Internet toàn cầu? A. Vì thiếu dây cáp. B. Vì chi phí quá rẻ. C. Vì số lượng kết nối sẽ tăng theo hàm mũ , không thể mở rộng (not scalable) khi số lượng ISP tăng lên hàng triệu. D. Vì các ISP không thích nói chuyện với nhau.
+Đáp án: C Giải thích: Slide minh họa rằng việc kết nối trực tiếp từng ISP truy cập đến từng ISP truy cập khác sẽ không phát triển được do số kết nối là .
+-------------------------------------------------------------------------------- 
+Câu 66: "ISP cấp 1" (Tier-1 ISP) như Sprint, AT&T khác biệt gì so với các ISP vùng (Regional ISP)? A. Chúng có phạm vi phủ sóng nhỏ hơn. B. Chúng phải trả tiền cho ISP vùng để kết nối. C. Chúng bao trùm quốc gia và toàn thế giới, kết nối trực tiếp với nhau và thường không phải trả phí thanh toán cho nhau (peering). D. Chúng chỉ cung cấp dịch vụ cho điện thoại di động.
+Đáp án: C Giải thích: ISP cấp 1 là các mạng lớn bao trùm quốc gia và toàn thế giới, nằm tại trung tâm của kiến trúc Internet.
+-------------------------------------------------------------------------------- 
+Câu 67: Mạng phân phối nội dung (Content Provider Network) như của Google hay Microsoft có đặc điểm gì trong cấu trúc Internet hiện đại? A. Chúng hoàn toàn dựa vào ISP cấp 1 để truyền dữ liệu. B. Chúng xây dựng mạng riêng kết nối các trung tâm dữ liệu và thường kết nối trực tiếp (peering) với các ISP cấp thấp hơn để bỏ qua ISP trung gian, mang nội dung đến gần người dùng hơn. C. Chúng chỉ hoạt động trong mạng LAN. D. Chúng là các mạng công cộng miễn phí.
+Đáp án: B Giải thích: Các nhà cung cấp nội dung (như Google) chạy mạng riêng của họ để mang dịch vụ và nội dung gần sát với người dùng cuối, thường bỏ qua các ISP vùng và cấp 1 nếu có thể.
+-------------------------------------------------------------------------------- 
+Câu 68: Sự khác biệt chính về phạm vi phủ sóng giữa Mạng cục bộ không dây (WLAN/WiFi) và Truy cập không dây mạng diện rộng (Wide-area wireless access/3G/4G) là gì? A. WLAN phủ sóng hàng chục km, 3G phủ sóng trong tòa nhà. B. WLAN hoạt động trong phạm vi tòa nhà (khoảng 100 ft), còn mạng diện rộng phủ sóng hàng chục km. C. Cả hai đều phủ sóng toàn cầu. D. WLAN chỉ dùng cho máy tính, 3G chỉ dùng cho điện thoại.
+Đáp án: B Giải thích: Mạng cục bộ không dây (WiFi) hoạt động trong tòa nhà (~100 ft), trong khi truy cập không dây diện rộng (3G, 4G) được cung cấp bởi công ty điện thoại với phạm vi hàng chục km.
+-------------------------------------------------------------------------------- 
+Câu 69: Thuật ngữ HFC trong mạng truy nhập cáp là viết tắt của từ gì? A. High Frequency Cable. B. Hybrid Fiber Coax (Lai giữa cáp quang và cáp đồng trục). C. Home Fiber Connection. D. Host For Communication.
+Đáp án: B Giải thích: HFC là viết tắt của Hybrid Fiber Coax (lai ghép giữa cáp quang và cáp đồng trục).
+-------------------------------------------------------------------------------- 
+Câu 70: Phương tiện truyền dẫn nào sau đây được gọi là "phương tiện truyền thông không được hướng dẫn" (unguided media)? A. Cáp quang. B. Cáp đồng trục. C. Cáp xoắn đôi. D. Sóng vô tuyến (Radio), vi sóng, vệ tinh.
+Đáp án: D Giải thích: Phương tiện truyền thông không được hướng dẫn là các tín hiệu lan truyền tự do (như sóng radio), không cần dây dẫn vật lý,.
+-------------------------------------------------------------------------------- 
+Phần 8: Kỹ thuật chi tiết & Bảo mật nâng cao (Câu 71 - 80)
+Câu 71: Để thực hiện tấn công "Đánh hơi gói tin" (Packet sniffing) trên mạng Ethernet chia sẻ hoặc Wifi, giao diện mạng (NIC) của kẻ tấn công phải hoạt động ở chế độ nào? A. Chế độ an toàn (Safe mode). B. Chế độ hỗn tạp (Promiscuous mode). C. Chế độ riêng tư (Private mode). D. Chế độ ngủ (Sleep mode).
+Đáp án: B Giải thích: Để đọc tất cả các gói tin đi qua (bao gồm cả các gói không gửi cho mình), giao diện mạng phải hoạt động ở chế độ hỗn tạp (promiscuous mode), cho phép đọc/ghi tất cả các gói tin.
+-------------------------------------------------------------------------------- 
+Câu 72: Chương trình traceroute hoạt động theo nguyên lý nào để đo độ trễ tới các router trên đường đi? A. Nó gửi một gói tin duy nhất có kích thước rất lớn để làm nghẽn mạng. B. Nó gửi 3 gói tin thăm dò (probes) tới từng bộ định tuyến (i) trên đường đi và đo khoảng thời gian từ lúc gửi đến lúc nhận phản hồi. C. Nó yêu cầu máy chủ đích gửi lại toàn bộ bản đồ mạng. D. Nó sử dụng tín hiệu vệ tinh để theo dõi vị trí vật lý.
+Đáp án: B Giải thích: Traceroute gửi 3 gói tin sẽ đến bộ định tuyến i trên đường tới đích; router i sẽ trả về các gói tin; chương trình đo khoảng thời gian giữa truyền và trả lời.
+-------------------------------------------------------------------------------- 
+Câu 73: Trong kịch bản 10 kết nối tải xuống cùng chia sẻ một đường trục (backbone) có băng thông (bps). Nếu băng thông của mỗi đường truy cập máy khách () và máy chủ () đều rất lớn, thì thông lượng trung bình đạt được cho mỗi kết nối sẽ là bao nhiêu? A. B. C. D. 
+Đáp án: B Giải thích: Khi đường trục là nút cổ chai và được chia sẻ công bằng cho 10 kết nối, mỗi kết nối sẽ nhận được một phần băng thông là .
+-------------------------------------------------------------------------------- 
+Câu 74: Một đặc điểm kỹ thuật quan trọng của mạng cáp HFC (Hybrid Fiber Coax) được mô tả trong tài liệu là tính "bất đồng bộ" (asymmetric). Điều này nghĩa là gì? A. Tốc độ tải xuống và tải lên bằng nhau. B. Tốc độ tải xuống (lên đến 30 Mbps) cao hơn nhiều so với tốc độ tải lên (khoảng 2 Mbps). C. Tốc độ tải lên cao hơn tốc độ tải xuống. D. Chỉ có thể tải xuống hoặc tải lên tại một thời điểm, không thể làm cả hai cùng lúc.
+Đáp án: B Giải thích: HFC là bất đồng bộ: tốc độ tải xuống lên đến 30 Mbps, trong khi tải lên chỉ khoảng 2 Mbps.
+-------------------------------------------------------------------------------- 
+Câu 75: Loại tấn công nào sau đây không xâm nhập vào hệ thống để đánh cắp dữ liệu, mà làm cho hệ thống không thể phục vụ người dùng hợp pháp bằng cách làm ngập tài nguyên? A. Packet Sniffing (Đánh hơi gói tin). B. IP Spoofing (Giả mạo IP). C. DoS (Denial of Service - Từ chối dịch vụ). D. Spyware (Phần mềm gián điệp).
+Đáp án: C Giải thích: Từ chối dịch vụ (DoS) là tấn công làm cho tài nguyên (máy chủ, băng thông) không sẵn sàng cho lưu lượng hợp pháp bằng cách triệt tiêu tài nguyên bởi các lưu lượng giả.
+-------------------------------------------------------------------------------- 
+Câu 76: Giao thức nào sau đây được sử dụng để chuyển đổi từ tên miền (như www.google.com) sang địa chỉ IP, và được định nghĩa vào năm 1983? A. HTTP. B. TCP. C. DNS. D. SMTP.
+Đáp án: C Giải thích: Năm 1983, DNS được định nghĩa cho chuyển đổi từ tên miền sang địa chỉ IP.
+-------------------------------------------------------------------------------- 
+Câu 77: Trong mô hình tham chiếu OSI, lớp nào chịu trách nhiệm cho việc "đồng bộ hóa, khả năng chịu lỗi, phục hồi sự trao đổi dữ liệu"? A. Lớp Ứng dụng (Application). B. Lớp Trình diễn (Presentation). C. Lớp Phiên (Session). D. Lớp Vận chuyển (Transport).
+Đáp án: C Giải thích: Lớp Phiên (Session) trong mô hình OSI chịu trách nhiệm cho sự đồng bộ hóa, khả năng chịu lỗi, phục hồi sự trao đổi dữ liệu. Lớp này bị "thiếu" trong mô hình Internet 5 lớp.
+-------------------------------------------------------------------------------- 
+Câu 78: Mạng Ethernet đầu tiên được phát triển tại Xerox PARC vào năm nào? A. 1969. B. 1976. C. 1983. D. 1991.
+Đáp án: B Giải thích: Ethernet được phát triển tại Xerox PARC vào năm 1976.
+-------------------------------------------------------------------------------- 
+Câu 79: Trong cấu trúc Internet, thuật ngữ "POP" (Point-of-Presence) trong mạng ISP nghĩa là gì? A. Giao thức bưu điện để nhận email. B. Điểm hiện diện, nơi mạng của khách hàng hoặc ISP khác có thể kết nối vật lý vào mạng của ISP đó. C. Một loại virus máy tính phổ biến. D. Tên của một thiết bị định tuyến tại nhà.
+Đáp án: B Giải thích: Dựa trên hình ảnh bản đồ mạng ISP cấp 1 (như Sprint), POP (Point-of-Presence) là các điểm kết nối trong mạng trục nơi khách hàng hoặc đối tác kết nối vào.
+-------------------------------------------------------------------------------- 
+Câu 80: Khi nói về bảo mật, phần mềm "Spyware" (Gián điệp) thường thực hiện hành vi nào sau đây trên máy nạn nhân? A. Tự động xóa sạch ổ cứng. B. Biến máy tính thành một phần của mạng Botnet để tấn công DDoS. C. Ghi lại các phím nhấn (keylogging), các trang web đã vào và tải thông tin đến trang tập hợp của kẻ xấu. D. Làm tê liệt card màn hình.
+Đáp án: C Giải thích: Phần mềm gián điệp có thể ghi lại các phím nhấn, các trang web đã vào, và tải thông tin đến trang tập hợp.
+-------------------------------------------------------------------------------- 
+Phần 9: Tổng hợp kiến thức & Nguyên lý thiết kế (Câu 81 - 90)
+Câu 81: Trong kỹ thuật "Chuyển mạch kênh" (Circuit Switching), điều gì xảy ra với mảnh kênh (tài nguyên) đã được cấp phát nếu người dùng không sử dụng nó (im lặng) trong suốt cuộc gọi? A. Nó được tự động chuyển sang cho người dùng khác đang cần. B. Nó bị lãng phí (rảnh rỗi) và không ai khác có thể sử dụng. C. Nó được dùng để tăng tốc độ cho chính người dùng đó. D. Nó được chuyển đổi thành gói tin.
+Đáp án: B Giải thích: Trong chuyển mạch kênh, tài nguyên được dành riêng (dedicated). Mảnh kênh sẽ rảnh rỗi (lãng phí) nếu không được sử dụng bởi cuộc gọi sở hữu nó.
+-------------------------------------------------------------------------------- 
+Câu 82: Một trong những nguyên tắc thiết kế quan trọng của kiến trúc kết nối liên mạng do Cerf và Kahn đề xuất năm 1974 là gì? A. Các bộ định tuyến (router) phải lưu trữ trạng thái của tất cả các kết nối. B. Mạng phải đảm bảo 100% độ tin cậy. C. Các bộ định tuyến không lưu trạng thái (stateless routers) và điều khiển phi tập trung. D. Chỉ sử dụng một giao thức duy nhất cho tất cả các tầng.
+Đáp án: C Giải thích: Nguyên lý của Cerf và Kahn bao gồm: tối giản hóa, tự trị, mô hình nỗ lực cao nhất (best effort), các bộ định tuyến không lưu trạng thái, và điều khiển phi tập trung.
+-------------------------------------------------------------------------------- 
+Câu 83: Giao thức nào sau đây hoạt động tại lớp Vận chuyển (Transport Layer) của mô hình Internet? A. IP. B. Ethernet. C. HTTP. D. TCP và UDP.
+Đáp án: D Giải thích: Lớp Vận chuyển chịu trách nhiệm chuyển dữ liệu giữa các tiến trình (process-process), sử dụng các giao thức như TCP và UDP.
+-------------------------------------------------------------------------------- 
+Câu 84: Trong công thức tính độ trễ, thành phần nào KHÔNG phụ thuộc vào kích thước của gói tin () mà chỉ phụ thuộc vào khoảng cách vật lý và môi trường truyền dẫn? A. Độ trễ truyền (). B. Độ trễ xếp hàng (). C. Độ trễ xử lý (). D. Độ trễ lan truyền ().
+Đáp án: D Giải thích: Độ trễ lan truyền () được tính bằng khoảng cách chia cho tốc độ lan truyền (), không phụ thuộc vào kích thước gói tin (trong khi ).
+-------------------------------------------------------------------------------- 
+Câu 85: Sự kiện quan trọng nào xảy ra vào năm 1991 đã mở đường cho thương mại hóa Web sau này? A. Microsoft phát hành Windows 95. B. NSF (National Science Foundation) gỡ bỏ các giới hạn về việc sử dụng thương mại của NSFnet. C. Google được thành lập. D. Email đầu tiên được gửi đi.
+Đáp án: B Giải thích: Năm 1991, NSF gỡ bỏ các giới hạn về việc sử dụng thương mại của NSFnet, cho phép Internet phát triển mạnh mẽ về mặt thương mại.
+-------------------------------------------------------------------------------- 
+Câu 86: Trong mô hình tham chiếu OSI, lớp nào chịu trách nhiệm cho việc "phiên dịch" dữ liệu, ví dụ như mã hóa (encryption) và nén (compression)? A. Lớp Ứng dụng (Application). B. Lớp Trình diễn (Presentation). C. Lớp Phiên (Session). D. Lớp Mạng (Network).
+Đáp án: B Giải thích: Lớp Trình diễn (Presentation) cho phép các ứng dụng giải thích ý nghĩa của dữ liệu, ví dụ như mã hóa, nén. Lớp này không có trong mô hình 5 lớp của Internet (được gộp vào lớp Ứng dụng nếu cần).
+-------------------------------------------------------------------------------- 
+Câu 87: Khái niệm "Băng thông" (Bandwidth) của một đường liên kết trong mạng máy tính thực chất là đo lường đại lượng nào? A. Tốc độ lan truyền tín hiệu (km/s). B. Dung lượng bộ nhớ của router. C. Tốc độ truyền bit (bits per second) hay công suất của đường liên kết. D. Tần số sóng vô tuyến.
+Đáp án: C Giải thích: Tốc độ truyền của đường liên kết, còn được gọi là khả năng/công suất, hay băng thông (bandwidth) của đường liên kết, đo bằng bits/sec.
+-------------------------------------------------------------------------------- 
+Câu 88: Loại mã độc nào có khả năng tự sao chép thụ động (passive) mà không cần người dùng thực thi một đối tượng (như mở file)? A. Virus. B. Trojan. C. Worm (Sâu). D. Spyware.
+Đáp án: C Giải thích: Worm là sự truyền nhiễm tự sao chép bằng việc thụ động tiếp nhận đối tượng mà tự nó được thực hiện (khác với Virus cần người dùng thực thi).
+-------------------------------------------------------------------------------- 
+Câu 89: Đâu là định nghĩa chính xác về "Mạng của các mạng" (Network of Networks) trong kiến trúc Internet? A. Tất cả các máy tính trên thế giới nối vào một router khổng lồ. B. Các ISP truy cập (Access ISPs) kết nối với các ISP toàn cầu (Global ISPs) và ISP vùng, tạo thành một cấu trúc phân cấp phức tạp. C. Chỉ bao gồm các mạng quân sự. D. Là mạng nội bộ của Google.
+Đáp án: B Giải thích: Internet là mạng của các mạng, nơi các hệ thống đầu cuối kết nối qua ISP truy cập, và các ISP này lại kết nối với nhau qua các ISP cấp cao hơn (Tier-1, Regional),.
+-------------------------------------------------------------------------------- 
+Câu 90: Nếu (Server-Router) > (Router-Client), thì tốc độ truyền file từ Server đến Client về mặt lý thuyết sẽ bị giới hạn bởi yếu tố nào? A. . B. . C. Tốc độ xử lý của router. D. Tổng .
+Đáp án: B Giải thích: Thông lượng bị giới hạn bởi liên kết có tốc độ thấp nhất (nút cổ chai). Vì , nên giới hạn là .
+-------------------------------------------------------------------------------- 
+Phần 10: Tổng hợp & Về đích (Câu 91 - 100)
+Câu 91: Trong ngữ cảnh tính toán thông lượng (throughput) trên Internet, nếu đường truyền từ máy chủ () lớn hơn đường truyền từ phía người dùng (), tức là , thì thông lượng trung bình từ đầu cuối đến đầu cuối sẽ xấp xỉ bằng bao nhiêu? A. . B. . C. . D. .
+Đáp án: B Giải thích: Đường liên kết có tốc độ thấp nhất trên con đường truyền dẫn sẽ hạn chế thông lượng toàn trình (nút cổ chai). Vì , thông lượng bị giới hạn bởi .
+-------------------------------------------------------------------------------- 
+Câu 92: Quá trình ngược lại với "Đóng gói" (Encapsulation) diễn ra tại phía người nhận, khi các lớp bóc tách phần header để lấy dữ liệu, được gọi là gì? A. Routing (Định tuyến). B. Switching (Chuyển mạch). C. Decapsulation (Mở gói/Bóc tách). D. Fragmentation (Phân mảnh).
+Đáp án: C Giải thích: Tại đích đến, quá trình diễn ra ngược lại với nguồn (như hình minh họa), các lớp header được gỡ bỏ lần lượt từ dưới lên trên để lấy thông điệp gốc.
+-------------------------------------------------------------------------------- 
+Câu 93: Một sự kiện lịch sử thú vị vào năm 1970 là sự ra đời của mạng vệ tinh nào tại Hawaii? A. ARPAnet. B. ALOHAnet. C. Ethernet. D. NSFnet.
+Đáp án: B Giải thích: Năm 1970, mạng vệ tinh ALOHAnet được hình thành tại Hawaii.
+-------------------------------------------------------------------------------- 
+Câu 94: Phương tiện truyền dẫn nào sau đây KHÔNG thuộc nhóm "Phương tiện truyền thông được hướng dẫn" (Guided media)? A. Cáp đồng trục. B. Cáp quang. C. Cáp xoắn đôi (Twisted pair). D. Sóng hồng ngoại và Wifi.
+Đáp án: D Giải thích: Phương tiện truyền thông được hướng dẫn là các tín hiệu lan truyền trên phương tiện rắn (cáp đồng, cáp quang). Sóng không dây thuộc nhóm không được hướng dẫn (unguided).
+-------------------------------------------------------------------------------- 
+Câu 95: Thuật ngữ "Bất đồng bộ" (Asymmetric) trong các dịch vụ truy cập như DSL và ADSL chủ yếu ám chỉ điều gì? A. Tốc độ truyền lúc nhanh lúc chậm. B. Tốc độ tải xuống (download) và tốc độ tải lên (upload) không bằng nhau (thường tải xuống nhanh hơn). C. Dữ liệu và thoại không thể truyền cùng lúc. D. Không cần đồng hồ để đồng bộ tín hiệu.
+Đáp án: B Giải thích: Trong tài liệu mô tả mạng cáp và DSL đều có đặc tính bất đồng bộ: tốc độ tải xuống cao hơn nhiều so với tốc độ tải lên (ví dụ cáp: 30Mbps xuống / 2Mbps lên),.
+-------------------------------------------------------------------------------- 
+Câu 96: Lớp nào trong mô hình chồng giao thức Internet chịu trách nhiệm "chuyển dữ liệu từ tiến trình này đến tiến trình kia" (process-process)? A. Lớp Mạng (Network). B. Lớp Liên kết (Link). C. Lớp Vận chuyển (Transport). D. Lớp Vật lý (Physical).
+Đáp án: C Giải thích: Lớp Vận chuyển (Transport) chịu trách nhiệm chuyển dữ liệu từ tiến trình này đến tiến trình kia (process-process), ví dụ như TCP, UDP.
+-------------------------------------------------------------------------------- 
+Câu 97: Trong mạng chuyển mạch gói, điều kiện tiên quyết để một router có thể bắt đầu truyền gói tin sang liên kết tiếp theo theo nguyên lý "Lưu và chuyển tiếp" (Store-and-forward) là gì? A. Phải nhận được ít nhất 50% gói tin. B. Phải nhận được header của gói tin. C. Phải nhận được toàn bộ gói tin hoàn chỉnh. D. Không cần điều kiện gì, nhận bit nào truyền ngay bit đó.
+Đáp án: C Giải thích: Nguyên lý lưu và chuyển tiếp yêu cầu toàn bộ các gói phải đến bộ định tuyến trước khi nó có thể được truyền tải trên đường liên kết tiếp theo.
+-------------------------------------------------------------------------------- 
+Câu 98: Hiện tượng "Mất gói" (Packet loss) xảy ra khi một gói tin đến một bộ định tuyến mà trạng thái của bộ đệm (hàng đợi) lúc đó như thế nào? A. Bộ đệm đang trống rỗng. B. Bộ đệm đã đầy (không còn chỗ chứa). C. Bộ đệm đang xử lý một gói tin khác nhưng chưa đầy. D. Bộ đệm đang ở chế độ nghỉ (sleep).
+Đáp án: B Giải thích: Các gói tin đến sẽ bị bỏ (mất mát) nếu không còn chỗ trống trong bộ đệm (bộ đệm bị đầy).
+-------------------------------------------------------------------------------- 
+Câu 99: Hành động gởi các gói tin với địa chỉ IP nguồn giả mạo (để che giấu danh tính hoặc giả danh người khác) được gọi là gì? A. Packet Sniffing. B. IP Spoofing. C. Phishing. D. Routing.
+Đáp án: B Giải thích: Giả mạo địa chỉ IP (IP spoofing) là hành động gởi gói tin với địa chỉ nguồn giả.
+-------------------------------------------------------------------------------- 
+Câu 100: Dưới góc nhìn về dịch vụ (Service view), Internet cung cấp cái gì cho các ứng dụng chạy trên các hệ thống đầu cuối? A. Một kho chứa dữ liệu khổng lồ. B. Giao diện lập trình (API/Hooks) cho phép các ứng dụng gửi và nhận dữ liệu, tương tự như dịch vụ bưu chính. C. Phần mềm diệt virus miễn phí. D. Quyền truy cập quản trị vào các router lõi.
+Đáp án: B Giải thích: Internet cung cấp giao diện lập trình cho các ứng dụng (các cái móc - hooks) cho phép gửi và nhận các chương trình ứng dụng để "kết nối" với Internet, tương tự dịch vụ bưu chính.
+-------------------------------------------------------------------------------- 
+

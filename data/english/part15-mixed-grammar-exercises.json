@@ -1,0 +1,246 @@
+{
+  "partId": "mixed-grammar-exercises",
+  "partName": "Mixed Grammar Exercises - Part 6 TOEIC Practice",
+  "questions": [
+    {
+      "id": 510,
+      "question": "The director is meeting with investors, as the company would like to ______ operations.",
+      "options": {
+        "A": "expend",
+        "B": "expand",
+        "C": "expanse",
+        "D": "expense"
+      },
+      "correctAnswer": "B",
+      "explanation": "**Cấu trúc**: would like to + V (bare infinitive).\n\n📌 Nghĩa câu: công ty muốn **mở rộng** hoạt động → dùng **expand**.\n\n⚠️ So sánh nhanh:\n• **expend** (v): tiêu dùng (tiền, năng lượng) ❌\n• **expand** (v): mở rộng ✅\n• **expanse** (n): vùng rộng lớn ❌\n• **expense** (n): chi phí ❌\n\n⚠️ Bẫy TOEIC: nhầm expand với expense."
+    },
+    {
+      "id": 511,
+      "question": "Ms. Brown is a gifted speaker, and everybody ______ listening to her talks.",
+      "options": {
+        "A": "are enjoying",
+        "B": "have enjoyed",
+        "C": "enjoys",
+        "D": "enjoy"
+      },
+      "correctAnswer": "C",
+      "explanation": "**Chủ ngữ chính**: everybody → số ít.\n\n📌 Thì hiện tại đơn → động từ chia **-s** → dùng **enjoys**.\n\n⚠️ Loại:\n• are enjoying → số nhiều ❌\n• have enjoyed → sai thì ❌\n• enjoy → thiếu -s ❌\n\n⚠️ Bẫy quen thuộc: **everybody** nhìn giống số nhiều nhưng luôn là số ít."
+    },
+    {
+      "id": 512,
+      "question": "The contractor will start the work as soon as we ______ the necessary forms.",
+      "options": {
+        "A": "will sign",
+        "B": "signing",
+        "C": "signed",
+        "D": "sign"
+      },
+      "correctAnswer": "D",
+      "explanation": "**Cấu trúc thời gian**: as soon as + S + V (hiện tại đơn) → nói về tương lai.\n\n📌 **Không dùng will** trong mệnh đề thời gian → dùng **sign**.\n\n⚠️ Loại:\n• will sign → sai ngữ pháp TOEIC ❌\n• signing → sai cấu trúc ❌\n• signed → sai thì ❌\n\n⚠️ Công thức thi nhớ nhanh: ⛔ will sau when / as soon as / after / before."
+    },
+    {
+      "id": 513,
+      "question": "______ more than the amount that is budgeted for this project.",
+      "options": {
+        "A": "Don't spend",
+        "B": "Not spend",
+        "C": "Doesn't spend",
+        "D": "Won't spend"
+      },
+      "correctAnswer": "A",
+      "explanation": "**Câu mệnh lệnh phủ định**.\n\n📌 Dạng chuẩn: **Don't** + V (bare infinitive).\n\n⚠️ Loại:\n• Not spend → thiếu chủ ngữ & trợ động từ ❌\n• Doesn't spend → cần chủ ngữ ❌\n• Won't spend → sai sắc thái (dự đoán, không phải mệnh lệnh) ❌\n\n⚠️ Ngầm hiểu chủ ngữ: **You**."
+    },
+    {
+      "id": 514,
+      "question": "It is ______ to see sales drop somewhat at this time of year.",
+      "options": {
+        "A": "type",
+        "B": "typify",
+        "C": "typical",
+        "D": "typically"
+      },
+      "correctAnswer": "C",
+      "explanation": "**Cấu trúc**: It is + adjective + to V.\n\n📌 Cần tính từ → dùng **typical**.\n\n⚠️ So sánh:\n• **type** (n) ❌\n• **typify** (v) ❌\n• **typical** (adj) ✅\n• **typically** (adv) ❌\n\n⚠️ Bẫy TOEIC: nhìn \"It is ___ to see...\" → nhớ ngay tính từ."
+    },
+    {
+      "id": 515,
+      "question": "We don't expect a large number of people to show ______ for the afternoon meeting.",
+      "options": {
+        "A": "up",
+        "B": "in",
+        "C": "out",
+        "D": "off"
+      },
+      "correctAnswer": "A",
+      "explanation": "**Cụm cố định**: show up = appear / attend.\n\n📌 Nghĩa: không mong nhiều người **đến tham dự** → dùng **up**.\n\n⚠️ Loại:\n• show in / out / off → không đúng nghĩa ❌\n\n⚠️ Collocation rất hay ra TOEIC."
+    },
+    {
+      "id": 516,
+      "question": "It is very important to sign the application form ______ you submit it to the Human Resources Office.",
+      "options": {
+        "A": "after",
+        "B": "before",
+        "C": "as soon as",
+        "D": "until"
+      },
+      "correctAnswer": "B",
+      "explanation": "**Nghĩa logic**: phải ký đơn **trước khi** nộp cho phòng nhân sự.\n\n📌 **before** = trước khi → đúng ngữ nghĩa và trình tự hành động.\n\n⚠️ Loại:\n• **after**: ký sau khi nộp ❌ (vô lý)\n• **as soon as**: \"ngay khi\" → thiếu ý so sánh trước–sau ❌\n• **until**: \"cho đến khi\" → không hợp hành động ❌\n\n⚠️ Bẫy TOEIC: đọc nhanh dễ chọn as soon as, nhưng ý chính là thứ tự hành động."
+    },
+    {
+      "id": 517,
+      "question": "Ms. Jackson is interested in reading the marketing report and asked us to send ______ a copy.",
+      "options": {
+        "A": "she",
+        "B": "herself",
+        "C": "hers",
+        "D": "her"
+      },
+      "correctAnswer": "D",
+      "explanation": "**Cấu trúc**: send + O (tân ngữ) + a copy.\n\n📌 Sau send cần đại từ tân ngữ → dùng **her**.\n\n⚠️ Loại:\n• **she**: chủ ngữ ❌\n• **herself**: phản thân (chỉ dùng khi chủ ngữ = tân ngữ) ❌\n• **hers**: sở hữu (không đi với danh từ sau) ❌\n\n⚠️ Mẹo thi nhanh: send / give / show / tell → me / him / her / us / them."
+    },
+    {
+      "id": 518,
+      "question": "All the employees working in this department ______ a formal evaluation at the end of the year.",
+      "options": {
+        "A": "has received",
+        "B": "is receiving",
+        "C": "receives",
+        "D": "receive"
+      },
+      "correctAnswer": "D",
+      "explanation": "**Chủ ngữ chính**: All the employees → số nhiều.\n\n📌 Thì hiện tại đơn (lịch trình định kỳ hằng năm) → động từ không chia **-s** → dùng **receive**.\n\n⚠️ Loại:\n• has received → số ít ❌\n• is receiving → số ít + sai ngữ cảnh ❌\n• receives → số ít ❌\n\n⚠️ Bẫy TOEIC: cụm **working in this department** chỉ là mệnh đề rút gọn, không phải chủ ngữ."
+    },
+    {
+      "id": 519,
+      "question": "Our office is conveniently located directly across the street ______ the subway station.",
+      "options": {
+        "A": "from",
+        "B": "of",
+        "C": "to",
+        "D": "on"
+      },
+      "correctAnswer": "A",
+      "explanation": "**Cụm cố định** TOEIC rất hay ra: **across the street from** + địa điểm.\n\n📌 Nghĩa: đối diện bên kia đường → dùng **from**.\n\n⚠️ Các giới từ còn lại không đi với across the street.\n\n⚠️ Thuộc lòng để ăn điểm: across from / next to / near / close to."
+    },
+    {
+      "id": 520,
+      "question": "We have to pay taxes when we ______ parts from overseas to use in manufacturing our products.",
+      "options": {
+        "A": "report",
+        "B": "import",
+        "C": "deport",
+        "D": "export"
+      },
+      "correctAnswer": "B",
+      "explanation": "**import** = nhập khẩu (mua từ nước ngoài về).\n\n📌 **pay taxes** → thuế nhập khẩu → dùng **import**.\n\n⚠️ Loại:\n• **report**: báo cáo ❌\n• **deport**: trục xuất ❌\n• **export**: xuất khẩu (bán ra nước ngoài) ❌\n\n⚠️ Cặp từ hay nhầm TOEIC:\n• **import** ↔ **export** (vào ↔ ra)."
+    },
+    {
+      "id": 521,
+      "question": "There aren't ______ chairs for the meeting, so we will have to get some from the other room.",
+      "options": {
+        "A": "much",
+        "B": "number",
+        "C": "enough",
+        "D": "quantity"
+      },
+      "correctAnswer": "C",
+      "explanation": "**chairs** = danh từ đếm được số nhiều.\n\n📌 **enough** + noun → đủ. \"Không đủ ghế\" → dùng **enough**.\n\n⚠️ Loại:\n• **much** → dùng cho danh từ không đếm được ❌\n• **number / quantity** → cần of phía sau ❌\n\n⚠️ Cấu trúc chuẩn TOEIC:\n• enough + noun / adj + enough."
+    },
+    {
+      "id": 522,
+      "question": "You really should ______ a lawyer before you sign any of those documents.",
+      "options": {
+        "A": "consult",
+        "B": "to consult",
+        "C": "consulting",
+        "D": "consultation"
+      },
+      "correctAnswer": "A",
+      "explanation": "**Cấu trúc**: should + V (bare infinitive).\n\n📌 **consult** (v) = tham vấn / hỏi ý kiến (luật sư) → dùng **consult**.\n\n⚠️ Các đáp án khác sai:\n• to consult → sai sau modal verb ❌\n• consulting → V-ing không đứng sau should ❌\n• consultation → danh từ ❌\n\n⚠️ Công thức ăn điểm TOEIC:\n• modal (should / must / can / may) + V nguyên mẫu."
+    },
+    {
+      "id": 523,
+      "question": "We ______ interview most of the job applicants next week.",
+      "options": {
+        "A": "are going to",
+        "B": "going to",
+        "C": "are",
+        "D": "to"
+      },
+      "correctAnswer": "A",
+      "explanation": "**Câu nói về kế hoạch đã định cho tương lai**.\n\n📌 Cấu trúc đúng: S + **are going to** + V → dùng **are going to**.\n\n⚠️ Loại:\n• going to → thiếu động từ be ❌\n• are → thiếu động từ chính ❌\n• to → sai hoàn toàn ❌\n\n⚠️ Bẫy TOEIC: thấy next week → nghĩ tới thì tương lai nhưng phải đủ cấu trúc."
+    },
+    {
+      "id": 524,
+      "question": "We will probably have to ask for an ______ because it looks like we won't be able to meet the deadline.",
+      "options": {
+        "A": "extent",
+        "B": "extend",
+        "C": "extensive",
+        "D": "extension"
+      },
+      "correctAnswer": "D",
+      "explanation": "**ask for + a/an + noun**.\n\n📌 **extension** (n) = sự gia hạn (deadline) → dùng **extension**.\n\n⚠️ So sánh:\n• **extent** (n): mức độ ❌\n• **extend** (v): gia hạn ❌\n• **extensive** (adj): rộng, nhiều ❌\n\n⚠️ Cặp từ bẫy TOEIC:\n• extend (v) → extension (n)."
+    },
+    {
+      "id": 525,
+      "question": "______ we made our travel plans at the last minute, we were still able to get a good deal on the tickets.",
+      "options": {
+        "A": "Since",
+        "B": "Despite",
+        "C": "Although",
+        "D": "Because"
+      },
+      "correctAnswer": "C",
+      "explanation": "**Hai mệnh đề trái nghĩa**: lên kế hoạch phút chót → vẫn mua được vé rẻ.\n\n📌 → cần liên từ nhượng bộ → dùng **Although**.\n\n⚠️ Loại:\n• **since / because** → chỉ nguyên nhân ❌\n• **despite** → phải đi với noun / V-ing, không đi với mệnh đề ❌\n\n⚠️ Bẫy TOEIC kinh điển:\n• **Although** + S + V\n• **Despite** + N / V-ing."
+    },
+    {
+      "id": 526,
+      "question": "This printer cost much less than our other printers, but it works just ______.",
+      "options": {
+        "A": "well",
+        "B": "good",
+        "C": "as well",
+        "D": "as good"
+      },
+      "correctAnswer": "C",
+      "explanation": "**Cấu trúc so sánh ngang bằng**: works just **as well** = hoạt động tốt y như vậy.\n\n📌 **well** là trạng từ bổ nghĩa cho works → dùng **as well**.\n\n⚠️ Loại:\n• **well** → thiếu cấu trúc so sánh ❌\n• **good** → tính từ ❌\n• **as good** → dùng cho danh từ, không cho động từ ❌\n\n⚠️ Mẹo nhớ nhanh:\n• work → well\n• compare → as well as."
+    },
+    {
+      "id": 527,
+      "question": "We are considering ______ several temporary employees to help us with the extra workload.",
+      "options": {
+        "A": "hire",
+        "B": "hiring",
+        "C": "to hire",
+        "D": "might hire"
+      },
+      "correctAnswer": "B",
+      "explanation": "**Cấu trúc bắt buộc**: consider + V-ing.\n\n📌 **hiring** = việc thuê → dùng **hiring**.\n\n⚠️ Loại:\n• **hire** → thiếu -ing ❌\n• **to hire** → sai cấu trúc ❌\n• **might hire** → không đứng sau considering ❌\n\n⚠️ Danh sách động từ nhớ để thi:\n• consider / avoid / finish / suggest → V-ing."
+    },
+    {
+      "id": 528,
+      "question": "Shirley is one of our most ______ staff members; we can count on her for just about anything.",
+      "options": {
+        "A": "reluctant",
+        "B": "relieved",
+        "C": "relocated",
+        "D": "reliable"
+      },
+      "correctAnswer": "D",
+      "explanation": "**Cụm từ khóa**: can count on her = có thể tin cậy.\n\n📌 **reliable** (adj) = đáng tin cậy → khớp nghĩa hoàn toàn → dùng **reliable**.\n\n⚠️ Loại:\n• **reluctant**: miễn cưỡng ❌\n• **relieved**: nhẹ nhõm ❌\n• **relocated**: được chuyển chỗ làm ❌\n\n⚠️ Bẫy TOEIC từ vựng:\n• count on = rely on → reliable."
+    },
+    {
+      "id": 529,
+      "question": "If it ______ next weekend, we will have to cancel our plans for going to the beach.",
+      "options": {
+        "A": "rains",
+        "B": "raining",
+        "C": "will rain",
+        "D": "has rained"
+      },
+      "correctAnswer": "A",
+      "explanation": "**Đây là câu điều kiện loại 1**.\n\n📌 Công thức chuẩn TOEIC: **If + S + V (hiện tại đơn), S + will + V** → dùng **rains**.\n\n⚠️ Loại:\n• **raining** → thiếu động từ chính ❌\n• **will rain** → không dùng will sau if ❌\n• **has rained** → thì hiện tại hoàn thành, sai ngữ cảnh ❌\n\n⚠️ Bẫy ETS rất hay ra:\n• ⛔ will không đứng trong mệnh đề if / when / as soon as."
+    }
+  ]
+}

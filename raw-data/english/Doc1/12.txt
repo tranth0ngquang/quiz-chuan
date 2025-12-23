@@ -1,0 +1,83 @@
+2. If the customer service center conducted a survey on the new design, it ______ helpful to understand both the good and bad points of the design.
+
+(A) was
+(B) is
+(C) would be ✅
+(D) will be
+
+Giải thích:
+
+Mệnh đề if dùng quá khứ đơn (conducted) nhưng mang nghĩa giả định hiện tại
+→ đây là câu điều kiện loại 2
+
+Kết quả: would + V
+
+📌 Công thức:
+👉 If + V2, would + V
+
+3. If the landlord had not raised the rent, Ms. Wells ______ for a new place now.
+
+(A) doesn't look
+(B) was not looking
+(C) will not be looking
+(D) would not be looking ✅
+
+Giải thích:
+
+Mệnh đề if: had not raised → quá khứ hoàn thành
+
+Kết quả có now → ảnh hưởng hiện tại
+→ câu điều kiện hỗn hợp (quá khứ → hiện tại)
+
+📌 Công thức:
+👉 If + had + V3, would + V (hiện tại)
+
+4. If Mr. Ross had been promoted, he ______ a staff of 20 people.
+
+(A) will supervise
+(B) would supervise
+(C) will have supervised
+(D) would have supervised ✅
+
+Giải thích:
+
+had been promoted → điều kiện quá khứ không có thật
+
+Kết quả cũng ở quá khứ giả định
+→ would have + V3
+
+📌 Công thức:
+👉 If + had + V3, would have + V3
+
+6. If the interest rates ______ dramatically last quarter, the company would not have had a financial crisis.
+
+(A) had not increased ✅
+(B) have not increased
+(C) didn't increased
+(D) doesn't increase
+
+Giải thích:
+
+last quarter → quá khứ
+
+Mệnh đề chính: would not have had → quá khứ giả định
+→ mệnh đề if phải là had + V3
+
+📌 Bẫy TOEIC:
+👉 thấy would have had → nghĩ ngay had + V3
+
+8. If the electronic equipment broke down within 2 days of purchase, we ______ you a refund.
+
+(A) give
+(B) gave
+(C) will give ✅
+(D) would give
+
+Giải thích:
+
+Đây là chính sách / điều kiện thực tế, không phải giả định
+
+Dạng chuẩn: If + hiện tại / quá khứ đơn (quy ước), will + V
+
+📌 Công thức:
+👉 If + V, will + V

@@ -1,0 +1,486 @@
+{
+  "partId": "bonus-exercises",
+  "partName": "Bonus Exercises - Advanced Subject-Verb Agreement",
+  "questions": [
+    {
+      "id": 470,
+      "question": "Neither the manager nor his assistants ______ available to comment on the incident.",
+      "options": {
+        "A": "was",
+        "B": "were",
+        "C": "has been",
+        "D": "have been"
+      },
+      "correctAnswer": "B",
+      "explanation": "**Cấu trúc neither … nor …** → động từ chia theo chủ ngữ gần nhất.\n\n📌 Chủ ngữ gần động từ là **his assistants** (số nhiều) → dùng **were**.\n\n⚠️ Mẹo nhớ: Neither/Nor → nhìn thằng đứng sát động từ nhất."
+    },
+    {
+      "id": 471,
+      "question": "The politician, along with his press team and several advisors, ______ arriving shortly.",
+      "options": {
+        "A": "is",
+        "B": "are",
+        "C": "was",
+        "D": "were"
+      },
+      "correctAnswer": "A",
+      "explanation": "**Cụm along with / together with / as well as** → KHÔNG làm chủ ngữ số nhiều.\n\n📌 Chủ ngữ chính vẫn là **The politician** (số ít) → dùng **is**.\n\n⚠️ Bẫy quen: thấy nhiều danh từ phía sau → tưởng chia số nhiều ❌"
+    },
+    {
+      "id": 472,
+      "question": "Not only the painting but also the sculptures ______ immediate restoration.",
+      "options": {
+        "A": "requires",
+        "B": "require",
+        "C": "has required",
+        "D": "is requiring"
+      },
+      "correctAnswer": "B",
+      "explanation": "**Cấu trúc not only … but also …** → chia theo chủ ngữ gần nhất.\n\n📌 Chủ ngữ gần là **the sculptures** (số nhiều) → dùng **require**.\n\n⚠️ Cặp đôi bẫy giống neither/nor."
+    },
+    {
+      "id": 473,
+      "question": "One of the employees who ______ in that department has resigned.",
+      "options": {
+        "A": "works",
+        "B": "work",
+        "C": "working",
+        "D": "have worked"
+      },
+      "correctAnswer": "B",
+      "explanation": "**One of + N (plural)** → động từ chính chia số ít (one has resigned).\n\n📌 Nhưng mệnh đề quan hệ **who** → thay cho **employees** (số nhiều) → dùng **work**.\n\n⚠️ Siêu bẫy TOEIC: One of the students who are excellent... ✔\n❌ who is"
+    },
+    {
+      "id": 474,
+      "question": "High levels of pollution, combined with a lack of green space, ______ the city difficult to live in.",
+      "options": {
+        "A": "makes",
+        "B": "make",
+        "C": "has made",
+        "D": "is making"
+      },
+      "correctAnswer": "B",
+      "explanation": "**Chủ ngữ chính**: High levels (số nhiều).\n\n📌 **combined with...** chỉ là cụm chen vào, không ảnh hưởng chia động từ → dùng **make**.\n\n⚠️ Đừng để cụm chen làm loạn não."
+    },
+    {
+      "id": 475,
+      "question": "Ten miles ______ a long distance to run if you haven't trained properly.",
+      "options": {
+        "A": "is",
+        "B": "are",
+        "C": "has been",
+        "D": "have been"
+      },
+      "correctAnswer": "A",
+      "explanation": "**Khoảng cách / thời gian / tiền bạc** → xem như một đơn vị.\n\n📌 Dù hình thức số nhiều → chia số ít → dùng **is**.\n\n⚠️ Ví dụ tương tự:\n• Five years is enough\n• $100 is too much"
+    },
+    {
+      "id": 476,
+      "question": "There ______, despite the recent negotiations, several unresolved issues.",
+      "options": {
+        "A": "remains",
+        "B": "remain",
+        "C": "has remained",
+        "D": "is remaining"
+      },
+      "correctAnswer": "B",
+      "explanation": "**Với there be**, động từ chia theo danh từ phía sau.\n\n📌 **several unresolved issues** → số nhiều → dùng **remain**.\n\n⚠️ There + danh từ gì → theo danh từ đó."
+    },
+    {
+      "id": 477,
+      "question": "Economics ______ always been a difficult subject for students to master.",
+      "options": {
+        "A": "has",
+        "B": "have",
+        "C": "is",
+        "D": "are"
+      },
+      "correctAnswer": "A",
+      "explanation": "**Các môn học kết thúc bằng -ics** (economics, physics, mathematics) → thường là số ít.\n\n📌 Dùng **has**.\n\n⚠️ Trừ khi nói về \"các khía cạnh\", còn lại → số ít."
+    },
+    {
+      "id": 478,
+      "question": "The team ______ currently arguing among themselves about the best strategy.",
+      "options": {
+        "A": "is",
+        "B": "are",
+        "C": "has been",
+        "D": "was"
+      },
+      "correctAnswer": "B",
+      "explanation": "**Collective noun** (team, staff, committee...).\n\n📌 Nếu nhấn mạnh **từng cá nhân hành động khác nhau** → dùng số nhiều.\n📌 \"arguing among themselves\" → rõ ràng là từng người → dùng **are**.\n\n⚠️ Nếu nói chung chung: The team is strong.\n⚠️ Nếu nói từng cá nhân: The team are arguing."
+    },
+    {
+      "id": 479,
+      "question": "More than one proposal ______ been rejected by the committee this week.",
+      "options": {
+        "A": "has",
+        "B": "have",
+        "C": "is",
+        "D": "are"
+      },
+      "correctAnswer": "A",
+      "explanation": "**More than one + N (số ít)** → chia số ít.\n\n📌 Nghĩa là \"hơn một\" nhưng ngữ pháp vẫn coi là **one** → dùng **has**.\n\n⚠️ Bẫy kinh điển TOEIC Part 5."
+    },
+    {
+      "id": 480,
+      "question": "The cost of living in these cities ______ risen dramatically this year.",
+      "options": {
+        "A": "has",
+        "B": "have",
+        "C": "is",
+        "D": "are"
+      },
+      "correctAnswer": "A",
+      "explanation": "**Chủ ngữ chính**: The cost (số ít).\n\n📌 **of living in these cities** chỉ là cụm bổ nghĩa → dùng **has**.\n\n⚠️ Nhìn \"cities\" nhiều → dễ bị lừa."
+    },
+    {
+      "id": 481,
+      "question": "A number of customers ______ about the service every day.",
+      "options": {
+        "A": "complains",
+        "B": "complain",
+        "C": "has complained",
+        "D": "is complaining"
+      },
+      "correctAnswer": "B",
+      "explanation": "**A number of + N plural** → chia số nhiều.\n\n📌 Nghĩa: nhiều / một số → dùng **complain**.\n\n⚠️ Phân biệt cực quan trọng:\n• **A number of** → plural\n• **The number of** → singular"
+    },
+    {
+      "id": 482,
+      "question": "The new software which manages our accounts ______ very user-friendly.",
+      "options": {
+        "A": "is",
+        "B": "are",
+        "C": "has",
+        "D": "have"
+      },
+      "correctAnswer": "A",
+      "explanation": "**Chủ ngữ**: The new software (không đếm được → số ít).\n\n📌 Mệnh đề **which manages...** chỉ bổ nghĩa → dùng **is**.\n\n⚠️ Software luôn chia số ít trong TOEIC."
+    },
+    {
+      "id": 483,
+      "question": "Each of the project managers ______ a weekly report on Friday.",
+      "options": {
+        "A": "submit",
+        "B": "submits",
+        "C": "have submitted",
+        "D": "are submitting"
+      },
+      "correctAnswer": "B",
+      "explanation": "**Each of + N plural** → động từ số ít.\n\n📌 Nhấn mạnh từng cá nhân một → dùng **submits**.\n\n⚠️ Each = one by one."
+    },
+    {
+      "id": 484,
+      "question": "Most of the information in these documents ______ outdated.",
+      "options": {
+        "A": "was",
+        "B": "were",
+        "C": "has been",
+        "D": "have been"
+      },
+      "correctAnswer": "A",
+      "explanation": "**Information** → danh từ không đếm được.\n\n📌 **Most of + N uncountable** → chia số ít → dùng **was**.\n\n⚠️ Đừng nhìn \"documents\" mà chia theo ❌"
+    },
+    {
+      "id": 485,
+      "question": "The number of students enrolling in the course ______ decreased recently.",
+      "options": {
+        "A": "has",
+        "B": "have",
+        "C": "is",
+        "D": "are"
+      },
+      "correctAnswer": "A",
+      "explanation": "**The number of + N plural** → số ít.\n\n📌 Chủ ngữ là **the number** → dùng **has**.\n\n⚠️ Cặp bẫy với \"a number of\" (câu 481)."
+    },
+    {
+      "id": 486,
+      "question": "Employees working on the weekend shift ______ extra pay.",
+      "options": {
+        "A": "receive",
+        "B": "receives",
+        "C": "has received",
+        "D": "is receiving"
+      },
+      "correctAnswer": "A",
+      "explanation": "**Chủ ngữ**: Employees (số nhiều).\n\n📌 **working on the weekend shift** chỉ là cụm mô tả → dùng **receive**.\n\n⚠️ Bỏ hết cụm phía sau, nhìn danh từ chính."
+    },
+    {
+      "id": 487,
+      "question": "Every laptop and tablet in the office ______ to be updated.",
+      "options": {
+        "A": "need",
+        "B": "needs",
+        "C": "have needed",
+        "D": "are needing"
+      },
+      "correctAnswer": "B",
+      "explanation": "**Every + danh từ** → động từ số ít.\n\n📌 Dù có **and**, mỗi thiết bị được xét riêng lẻ → dùng **needs**.\n\n⚠️ So sánh:\n• Every laptop and tablet needs... ✔\n• Laptops and tablets need... ✔"
+    },
+    {
+      "id": 488,
+      "question": "Half of the apples in the basket ______ rotten.",
+      "options": {
+        "A": "was",
+        "B": "were",
+        "C": "has been",
+        "D": "is"
+      },
+      "correctAnswer": "B",
+      "explanation": "**Half of + N plural** → chia số nhiều.\n\n📌 **Apples** là danh từ đếm được số nhiều → dùng **were**.\n\n⚠️ Nếu là **half of the water** → was"
+    },
+    {
+      "id": 489,
+      "question": "The strategy developed by the marketing team ______ very effective.",
+      "options": {
+        "A": "seems",
+        "B": "seem",
+        "C": "have seemed",
+        "D": "are seeming"
+      },
+      "correctAnswer": "A",
+      "explanation": "**Chủ ngữ chính**: The strategy (số ít).\n\n📌 **developed by the marketing team** là mệnh đề rút gọn → dùng **seems**.\n\n⚠️ Team không phải chủ ngữ ở đây."
+    },
+    {
+      "id": 490,
+      "question": "Under the table ______ a cat and three kittens.",
+      "options": {
+        "A": "sleeping",
+        "B": "is sleeping",
+        "C": "are sleeping",
+        "D": "sleeps"
+      },
+      "correctAnswer": "C",
+      "explanation": "**Đảo ngữ với trạng ngữ nơi chốn** (Under the table...).\n\n📌 Chủ ngữ thật đứng sau động từ: **a cat and three kittens** (số nhiều) → dùng **are sleeping**.\n\n⚠️ Bẫy: nhìn thấy \"a cat\" tưởng số ít ❌\n⚠️ Quy tắc: đếm toàn bộ chủ ngữ thật phía sau."
+    },
+    {
+      "id": 491,
+      "question": "The criteria used to evaluate the candidates ______ strictly confidential.",
+      "options": {
+        "A": "is",
+        "B": "are",
+        "C": "has been",
+        "D": "was"
+      },
+      "correctAnswer": "B",
+      "explanation": "**Criteria** là số nhiều (số ít: criterion).\n\n📌 \"used to evaluate the candidates\" chỉ là mệnh đề rút gọn → dùng **are**.\n\n⚠️ Bẫy từ vựng học thuật: criteria ≠ singular\n⚠️ TOEIC rất thích gài mấy từ Latin kiểu này."
+    },
+    {
+      "id": 492,
+      "question": "He is the only one of the professors who ______ written a book on this specific topic.",
+      "options": {
+        "A": "has",
+        "B": "have",
+        "C": "having",
+        "D": "are"
+      },
+      "correctAnswer": "A",
+      "explanation": "**Cấu trúc đặc biệt**: the only one of + N + who + V (số ít).\n\n📌 Vì **who** quay lại **the only one**, không phải professors → dùng **has**.\n\n⚠️ So sánh để nhớ:\n• One of the professors who have written... ❌\n• The only one who has written... ✔"
+    },
+    {
+      "id": 493,
+      "question": "Every man, woman, and child in the village ______ evacuated before the storm hit.",
+      "options": {
+        "A": "were",
+        "B": "have been",
+        "C": "was",
+        "D": "are"
+      },
+      "correctAnswer": "C",
+      "explanation": "**Every + danh từ** → động từ số ít.\n\n📌 Dù liệt kê nhiều người → ngữ pháp vẫn coi là từng cá nhân một → dùng **was**.\n\n⚠️ Bẫy cực nặng: có **and** nhưng vẫn số ít vì có **every**."
+    },
+    {
+      "id": 494,
+      "question": "Writing detailed reports and analyzing complex data ______ a lot of concentration.",
+      "options": {
+        "A": "takes",
+        "B": "take",
+        "C": "taking",
+        "D": "have taken"
+      },
+      "correctAnswer": "A",
+      "explanation": "**Cả cụm \"Writing ... and analyzing ...\"** được xem là một hoạt động chung.\n\n📌 → coi như một chủ ngữ số ít → dùng **takes**.\n\n⚠️ So sánh:\n• Writing reports and analyzing data takes (1 nhiệm vụ) ✔\n• Reports and data take (2 vật khác nhau) ✔"
+    },
+    {
+      "id": 495,
+      "question": "The Board of Directors ______ decided to appoint a new CEO next month.",
+      "options": {
+        "A": "have",
+        "B": "has",
+        "C": "are",
+        "D": "were"
+      },
+      "correctAnswer": "B",
+      "explanation": "**The Board of Directors** là collective noun.\n\n📌 Khi nói quyết định chung như một tập thể → chia số ít → dùng **has**.\n\n⚠️ So sánh:\n• The board has decided... (quyết định thống nhất) ✔\n• The board are arguing... (mỗi người một ý) ✔"
+    },
+    {
+      "id": 496,
+      "question": "A large percentage of the machinery ______ replaced last year.",
+      "options": {
+        "A": "was",
+        "B": "were",
+        "C": "are",
+        "D": "have been"
+      },
+      "correctAnswer": "A",
+      "explanation": "**Machinery** → danh từ không đếm được.\n\n📌 **A large percentage of + N uncountable** → chia số ít → dùng **was**.\n\n⚠️ Đừng nhìn \"percentage\" mà chia bừa."
+    },
+    {
+      "id": 497,
+      "question": "Either you or I ______ responsible for leading the morning session.",
+      "options": {
+        "A": "is",
+        "B": "are",
+        "C": "am",
+        "D": "were"
+      },
+      "correctAnswer": "C",
+      "explanation": "**Either … or …** → động từ chia theo chủ ngữ gần nhất.\n\n📌 Chủ ngữ gần: **I** → dùng **am**.\n\n⚠️ Bẫy cực hay ra thi."
+    },
+    {
+      "id": 498,
+      "question": "Measles ______ a disease that can be easily prevented with a vaccine.",
+      "options": {
+        "A": "are",
+        "B": "were",
+        "C": "is",
+        "D": "have been"
+      },
+      "correctAnswer": "C",
+      "explanation": "**Measles** kết thúc bằng -s nhưng là tên bệnh.\n\n📌 → chia số ít → dùng **is**.\n\n⚠️ Các bệnh tương tự:\n• mumps, rabies, diabetes → is"
+    },
+    {
+      "id": 499,
+      "question": "What we need for the project ______ more skilled technicians.",
+      "options": {
+        "A": "is",
+        "B": "are",
+        "C": "was",
+        "D": "has"
+      },
+      "correctAnswer": "B",
+      "explanation": "**Chủ ngữ**: What we need.\n\n📌 Động từ chia theo danh từ phía sau: **more skilled technicians** → số nhiều → dùng **are**.\n\n⚠️ So sánh để nhớ:\n• What we need is more time. ✔\n• What we need are more people. ✔"
+    },
+    {
+      "id": 500,
+      "question": "The list of new regulations ______ on the notice board.",
+      "options": {
+        "A": "has posted",
+        "B": "is posted",
+        "C": "are posted",
+        "D": "have posted"
+      },
+      "correctAnswer": "B",
+      "explanation": "**Chủ ngữ chính**: The list (số ít).\n\n📌 Câu ở **bị động** (list được dán) → be + V3/ed → **is posted**.\n\n⚠️ Bẫy: thấy \"regulations\" (số nhiều) nhưng **of new regulations** chỉ là cụm bổ nghĩa."
+    },
+    {
+      "id": 501,
+      "question": "A number of scientists ______ that climate change is accelerating.",
+      "options": {
+        "A": "believe",
+        "B": "believes",
+        "C": "believing",
+        "D": "belief"
+      },
+      "correctAnswer": "A",
+      "explanation": "**A number of + N (plural)** → động từ số nhiều.\n\n📌 Nghĩa: nhiều nhà khoa học → dùng **believe**.\n\n⚠️ Cặp bẫy kinh điển:\n• **A number of** → plural\n• **The number of** → singular"
+    },
+    {
+      "id": 502,
+      "question": "Most of the machinery in this factory ______ from Germany.",
+      "options": {
+        "A": "come",
+        "B": "comes",
+        "C": "coming",
+        "D": "are coming"
+      },
+      "correctAnswer": "B",
+      "explanation": "**Machinery** là danh từ không đếm được → chia số ít.\n\n📌 **Most of + N uncountable** → động từ số ít → dùng **comes**.\n\n⚠️ TOEIC rất thích gài \"machinery, equipment, furniture\"."
+    },
+    {
+      "id": 503,
+      "question": "The number of accidents on this road ______ worrying the local council.",
+      "options": {
+        "A": "are",
+        "B": "is",
+        "C": "have",
+        "D": "be"
+      },
+      "correctAnswer": "B",
+      "explanation": "**Chủ ngữ**: The number (số ít).\n\n📌 **The number of + N plural** → động từ số ít → **is** worrying.\n\n⚠️ So sánh nhanh:\n• The number of students is increasing ✔\n• A number of students are absent ✔"
+    },
+    {
+      "id": 504,
+      "question": "Some of the books on the shelf ______ to the library.",
+      "options": {
+        "A": "belongs",
+        "B": "belonging",
+        "C": "belong",
+        "D": "was belonging"
+      },
+      "correctAnswer": "C",
+      "explanation": "**Some of + N plural (books)** → động từ số nhiều.\n\n📌 **belong to** là động từ thường, không dùng tiếp diễn → dùng **belong**.\n\n⚠️ Nguyên tắc: Some of + danh từ → chia theo danh từ phía sau."
+    },
+    {
+      "id": 505,
+      "question": "The man who owns these buildings ______ rarely seen in public.",
+      "options": {
+        "A": "are",
+        "B": "were",
+        "C": "is",
+        "D": "be"
+      },
+      "correctAnswer": "C",
+      "explanation": "**Chủ ngữ chính**: The man (số ít).\n\n📌 Mệnh đề quan hệ **who owns these buildings** chỉ bổ nghĩa cho man. Cấu trúc bị động rút gọn: **is** rarely seen.\n\n⚠️ Bẫy: nhìn thấy buildings (số nhiều) rồi chia theo ❌"
+    },
+    {
+      "id": 506,
+      "question": "All of the furniture ______ delivered yesterday afternoon.",
+      "options": {
+        "A": "were",
+        "B": "was",
+        "C": "have been",
+        "D": "are"
+      },
+      "correctAnswer": "B",
+      "explanation": "**Furniture** là danh từ không đếm được.\n\n📌 **All of + N uncountable** → động từ số ít. Thì quá khứ đơn bị động: **was** delivered.\n\n⚠️ TOEIC rất hay dùng furniture để bẫy."
+    },
+    {
+      "id": 507,
+      "question": "Each applicant ______ to complete a background check.",
+      "options": {
+        "A": "has",
+        "B": "have",
+        "C": "having",
+        "D": "are having"
+      },
+      "correctAnswer": "A",
+      "explanation": "**Each + danh từ số ít** → động từ số ít.\n\n📌 Cấu trúc: **has to** + V (phải làm gì).\n\n⚠️ Each = từng người một → luôn số ít."
+    },
+    {
+      "id": 508,
+      "question": "People waiting for the bus ______ often impatient in the rain.",
+      "options": {
+        "A": "is",
+        "B": "gets",
+        "C": "are",
+        "D": "was"
+      },
+      "correctAnswer": "C",
+      "explanation": "**People** là danh từ số nhiều.\n\n📌 **waiting for the bus** là mệnh đề rút gọn → dùng **are**.\n\n⚠️ People = they → always plural."
+    },
+    {
+      "id": 509,
+      "question": "Half of the employees ______ agreed to the new proposal.",
+      "options": {
+        "A": "has",
+        "B": "have",
+        "C": "is",
+        "D": "was"
+      },
+      "correctAnswer": "B",
+      "explanation": "**Half of + N plural (employees)** → động từ số nhiều.\n\n📌 Thì hiện tại hoàn thành: **have** agreed.\n\n⚠️ Half / most / some of → nhìn danh từ phía sau."
+    }
+  ]
+}

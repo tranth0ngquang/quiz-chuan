@@ -2,7 +2,7 @@
   "$schema": "../schema.json",
   "id": "english",
   "name": "English TOEIC Practice",
-  "description": "Bài tập tiếng Anh theo định dạng TOEIC - Giới từ, Liên từ, Đại từ quan hệ, Câu điều kiện, Đọc hiểu",
+  "description": "Bài tập tiếng Anh theo định dạng TOEIC - Giới từ, Liên từ, Đại từ quan hệ, Câu điều kiện, Đọc hiểu (634 câu hỏi)",
   "parts": [
     "part1-prepositions-time.json",
     "part2-prepositions-place.json",
@@ -16,6 +16,11 @@
     "part10-subjunctive-mood-passages.json",
     "part11-subject-verb-agreement.json",
     "part12-subject-verb-agreement-extended.json",
-    "part13-subject-verb-agreement-passages.json"
+    "part13-subject-verb-agreement-passages.json",
+    "part14-bonus-exercises.json",
+    "part15-mixed-grammar-exercises.json",
+    "part16-prepositions-verbs.json",
+    "part17-relative-adverbs.json",
+    "part18-prepositions-practice.json"
   ]
 }

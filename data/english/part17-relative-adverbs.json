@@ -1,0 +1,270 @@
+{
+  "partId": "relative-adverbs",
+  "partName": "Relative Adverbs - Where, When, Why, How",
+  "questions": [
+    {
+      "id": 583,
+      "question": "The CEO visited the new warehouse ______ all of the electric products are stored.",
+      "options": {
+        "A": "where",
+        "B": "which",
+        "C": "when",
+        "D": "that"
+      },
+      "correctAnswer": "A",
+      "explanation": "**\"the new warehouse\"** = địa điểm.\n\n📌 Mệnh đề sau mô tả nơi chốn → dùng **where**.\n\n⚠️ Có thể hiểu đầy đủ là: the new warehouse **where** all of the electric products are stored.\n\n⚠️ Bẫy TOEIC: không dùng **which** vì sau đó là mệnh đề hoàn chỉnh (S + V), không thiếu tân ngữ."
+    },
+    {
+      "id": 584,
+      "question": "That is the reason ______ passengers came to the airline office.",
+      "options": {
+        "A": "why",
+        "B": "where",
+        "C": "when",
+        "D": "which"
+      },
+      "correctAnswer": "A",
+      "explanation": "**\"the reason\"** → luôn đi với **why**.\n\n📌 **\"why\"** = for which (lý do mà...).\n\n⚠️ Công thức ăn điểm TOEIC:\n• the reason **why** + S + V"
+    },
+    {
+      "id": 585,
+      "question": "Ms. Yang applied to the company ______ she had previously worked.",
+      "options": {
+        "A": "where",
+        "B": "which",
+        "C": "when",
+        "D": "that"
+      },
+      "correctAnswer": "A",
+      "explanation": "**\"the company\"** trong câu này được xem là nơi làm việc.\n\n📌 Mệnh đề sau nói về địa điểm làm việc trước đây → dùng **where**.\n\n⚠️ Có thể viết lại: the company **at which** she had previously worked."
+    },
+    {
+      "id": 586,
+      "question": "The conference will be held on the day ______ the president is retiring.",
+      "options": {
+        "A": "when",
+        "B": "where",
+        "C": "which",
+        "D": "that"
+      },
+      "correctAnswer": "A",
+      "explanation": "**\"the day\"** = thời điểm.\n\n📌 Mệnh đề sau nói về thời gian xảy ra sự kiện → dùng **when**.\n\n⚠️ TOEIC rất thích dạng:\n• the day / time / year **when** + S + V"
+    },
+    {
+      "id": 587,
+      "question": "We need to create an environment ______ employees work pleasantly.",
+      "options": {
+        "A": "where",
+        "B": "which",
+        "C": "when",
+        "D": "whose"
+      },
+      "correctAnswer": "A",
+      "explanation": "**\"environment\"** = môi trường (nơi chốn trừu tượng).\n\n📌 Mệnh đề sau nói nhân viên làm việc ở đó → dùng **where**.\n\n⚠️ TOEIC hay dùng **environment where**, **situation where**."
+    },
+    {
+      "id": 588,
+      "question": "He refused to comment on ______ the M&A process was conducted.",
+      "options": {
+        "A": "how",
+        "B": "where",
+        "C": "when",
+        "D": "which"
+      },
+      "correctAnswer": "A",
+      "explanation": "Câu hỏi ngầm: The M&A process was conducted **how**.\n\n📌 **\"how\"** = cách thức. Không phải địa điểm hay thời gian → **how** là chuẩn nhất.\n\n⚠️ Bẫy: không dùng where / when."
+    },
+    {
+      "id": 589,
+      "question": "The main exhibit room, ______ most of the major artwork is displayed, is located on the ground floor.",
+      "options": {
+        "A": "where",
+        "B": "which",
+        "C": "when",
+        "D": "whose"
+      },
+      "correctAnswer": "A",
+      "explanation": "**\"the main exhibit room\"** = địa điểm.\n\n📌 Mệnh đề phụ có dấu phẩy → mệnh đề không xác định → vẫn dùng **where**.\n\n⚠️ Có thể thay bằng: **in which**."
+    },
+    {
+      "id": 590,
+      "question": "Mr. Chang asked me the reason _____ the vice president resigned.",
+      "options": {
+        "A": "who",
+        "B": "where",
+        "C": "why",
+        "D": "how"
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nCụm cố định TOEIC: **the reason why + S + V**\n\n\"why\" diễn tả lý do\n➡️ the reason why the vice president resigned\n\n⚠️ **Bẫy:**\n\n❌ how = cách thức\n\n❌ where = nơi chốn\n\n❌ who = người\n\n👉 Chỉ why hợp nghĩa & đúng cấu trúc."
+    },
+    {
+      "id": 591,
+      "question": "The convention center _____ the annual shareholders' meeting is going to be held is within walking distance.",
+      "options": {
+        "A": "when",
+        "B": "where",
+        "C": "what",
+        "D": "that"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n\"The convention center\" = địa điểm\n\nMệnh đề sau có S + V đầy đủ (the meeting is going to be held)\n➡️ dùng **where** (= at which)\n\n⚠️ **Bẫy:**\n\n❌ that → dùng cho mệnh đề quan hệ thiếu thành phần\n\n❌ when → thời gian\n\n❌ what → không dùng làm relative adverb kiểu này"
+    },
+    {
+      "id": 592,
+      "question": "The upcoming seminar will discuss _____ new businesses can attract potential customers.",
+      "options": {
+        "A": "how",
+        "B": "where",
+        "C": "what",
+        "D": "that"
+      },
+      "correctAnswer": "A",
+      "explanation": "📌 **Phân tích:**\n\nCâu hỏi ngầm: New businesses can attract customers **how**?\n\n\"how\" = cách thức\n➡️ discuss how new businesses can attract potential customers\n\n⚠️ **Bẫy TOEIC:**\n\n❌ what → thiếu tân ngữ\n\n❌ that → không diễn tả ý nghĩa cách thức\n\n❌ where → sai nghĩa"
+    },
+    {
+      "id": 593,
+      "question": "Last spring was the season _____ our profits were at an all-time high.",
+      "options": {
+        "A": "where",
+        "B": "how",
+        "C": "why",
+        "D": "when"
+      },
+      "correctAnswer": "D",
+      "explanation": "📌 **Phân tích:**\n\n\"Last spring\" / \"the season\" = thời gian\n\nDùng **when** để chỉ thời điểm xảy ra sự việc\n➡️ the season when our profits were at an all-time high\n\n⚠️ **Bẫy:**\n\n❌ where → nơi chốn\n\n❌ why → lý do\n\n❌ how → cách thức"
+    },
+    {
+      "id": 594,
+      "question": "The HR Department released a list of employees _____ are eligible for a pay raise.",
+      "options": {
+        "A": "who",
+        "B": "which",
+        "C": "what",
+        "D": "where"
+      },
+      "correctAnswer": "A",
+      "explanation": "📌 **Phân tích:**\n\n\"employees\" = người\n\nMệnh đề quan hệ phía sau cần chủ ngữ cho động từ \"are\"\n➡️ dùng **who** (relative pronoun cho người)\n\n⚠️ **Bẫy TOEIC:**\n\n❌ which → dùng cho vật, KHÔNG cho người\n\n❌ what → không dùng làm đại từ quan hệ theo sau danh từ\n\n❌ where → chỉ nơi chốn"
+    },
+    {
+      "id": 595,
+      "question": "QRCT is a company _____ provides microchips to computer manufacturers.",
+      "options": {
+        "A": "that",
+        "B": "what",
+        "C": "who",
+        "D": "whose"
+      },
+      "correctAnswer": "A",
+      "explanation": "📌 **Phân tích:**\n\n\"a company\" = vật / tổ chức\n\nMệnh đề quan hệ thiếu chủ ngữ cho động từ \"provides\"\n➡️ dùng **that** (hoặc which, nhưng không có trong đáp án)\n\n⚠️ **Bẫy:**\n\n❌ who → chỉ người\n\n❌ whose → chỉ sở hữu (cần danh từ theo sau)\n\n❌ what → không đi sau danh từ"
+    },
+    {
+      "id": 596,
+      "question": "This is the hotel _____ we are supposed to hold a banquet for the new managers.",
+      "options": {
+        "A": "how",
+        "B": "which",
+        "C": "that",
+        "D": "where"
+      },
+      "correctAnswer": "D",
+      "explanation": "📌 **Phân tích:**\n\n\"the hotel\" = địa điểm\n\nMệnh đề sau đã đủ S + V (we are supposed to hold…)\n➡️ dùng **where** (= at which)\n\n⚠️ **Bẫy TOEIC rất hay gặp:**\n\n❌ which / that → chỉ dùng khi thiếu tân ngữ\n\n❌ how → cách thức, sai nghĩa"
+    },
+    {
+      "id": 597,
+      "question": "The employee _____ performance evaluation was so good can enjoy two weeks of paid vacation.",
+      "options": {
+        "A": "who",
+        "B": "whose",
+        "C": "which",
+        "D": "where"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n\"performance evaluation\" thuộc về employee\n\nCấu trúc sở hữu: **whose + danh từ**\n➡️ the employee whose performance evaluation was so good…\n\n⚠️ **Bẫy:**\n\n❌ who → không thể nối trực tiếp với danh từ performance evaluation\n\n❌ which → không dùng cho người\n\n❌ where → nơi chốn"
+    },
+    {
+      "id": 598,
+      "question": "A shortage of staff members is the main reason _____ the factory is running extremely slowly.",
+      "options": {
+        "A": "where",
+        "B": "who",
+        "C": "why",
+        "D": "which"
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nCụm chuẩn TOEIC: **the reason why + S + V**\n\n\"why\" diễn tả lý do\n➡️ the main reason why the factory is running extremely slowly\n\n⚠️ **Bẫy:**\n\n❌ which → không dùng cho \"reason\" theo nghĩa này\n\n❌ where → nơi chốn\n\n❌ who → người"
+    },
+    {
+      "id": 599,
+      "question": "Passengers _____ are waiting in line should have their passports ready.",
+      "options": {
+        "A": "where",
+        "B": "which",
+        "C": "whom",
+        "D": "that"
+      },
+      "correctAnswer": "D",
+      "explanation": "📌 **Phân tích:**\n\n\"Passengers\" = người\n\nMệnh đề quan hệ thiếu chủ ngữ cho động từ \"are waiting\"\n\nCó thể dùng who / that, nhưng chỉ có that trong đáp án\n➡️ chọn **that**\n\n⚠️ **Bẫy:**\n\n❌ whom → dùng làm tân ngữ, không làm chủ ngữ\n\n❌ which → không dùng cho người\n\n❌ where → nơi chốn"
+    },
+    {
+      "id": 600,
+      "question": "Candidates _____ applications are not complete will not be considered for the position.",
+      "options": {
+        "A": "who",
+        "B": "whom",
+        "C": "whose",
+        "D": "that"
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\n\"applications\" thuộc về candidates\n\nCấu trúc sở hữu: **whose + danh từ**\n➡️ Candidates whose applications are not complete…\n\n⚠️ **Bẫy TOEIC nặng:**\n\n❌ who / that → không nối trực tiếp với danh từ applications\n\n❌ whom → sai vai trò ngữ pháp"
+    },
+    {
+      "id": 601,
+      "question": "Please make sure to install the new software on all the computers _____ you use in the office.",
+      "options": {
+        "A": "who",
+        "B": "that",
+        "C": "why",
+        "D": "where"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích:**\n\n\"computers\" = vật\n\nMệnh đề quan hệ thiếu tân ngữ của động từ \"use\"\n➡️ dùng **that** (hoặc which, nhưng không có trong đáp án)\n\n⚠️ **Bẫy:**\n\n❌ where → chỉ nơi chốn, không hợp\n\n❌ who → người\n\n❌ why → lý do"
+    },
+    {
+      "id": 602,
+      "question": "What is true about the music festival?",
+      "options": {
+        "A": "The target audience is mainly students.",
+        "B": "It will last for 2 days.",
+        "C": "It takes place every year.",
+        "D": "It primarily focuses on music performances."
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nDòng đầu bài: \"23rd annual International Music Festival\"\n→ **annual** = hàng năm\n➡️ xác nhận lễ hội diễn ra mỗi năm\n\n⚠️ **Bẫy:**\n\n❌ (A) Sinh viên chỉ là một nhóm hưởng lợi, không phải đối tượng chính\n\n❌ (B) Diễn ra 3 ngày (Oct 20–22)\n\n❌ (D) Ngoài biểu diễn còn có classes, workshops, sessions"
+    },
+    {
+      "id": 603,
+      "question": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"The special ticket sale will last only for 3 days.\"",
+      "options": {
+        "A": "[1]",
+        "B": "[2]",
+        "C": "[3]",
+        "D": "[4]"
+      },
+      "correctAnswer": "B",
+      "explanation": "📌 **Phân tích logic mạch văn:**\n\nĐoạn văn liên quan:\n\n**Starting this Friday, you'll be able to purchase three-day passes for the special price of $130.**\n— [2] —\n**The passes will be sale for the regular price of $175 after this promotion ends.**\n\n➡️ Câu cần chèn nói về thời gian khuyến mãi\n➡️ Phải đứng GIỮA:\n• câu nói bắt đầu bán vé ưu đãi\n• và câu nói giá quay về bình thường\n\n👉 **[2]** là vị trí logic nhất\n\n⚠️ **Bẫy:**\n\n❌ [1] → đang nói thời gian tổ chức lễ hội\n\n❌ [3], [4] → nói về loại vé & nội dung chương trình, lạc chủ đề"
+    },
+    {
+      "id": 604,
+      "question": "What is NOT included at the festival?",
+      "options": {
+        "A": "Classes with music professionals",
+        "B": "A chance to get autographs",
+        "C": "Chances for amateurs to perform",
+        "D": "Different music presentations"
+      },
+      "correctAnswer": "C",
+      "explanation": "📌 **Phân tích:**\n\nCó music classes, workshops → (A) ✔\n\nCó Autograph session → (B) ✔\n\nCó nhiều performances → (D) ✔\n\nKHÔNG có chỗ nào nói người nghiệp dư (amateurs) được biểu diễn\n➡️ **(C)** là đáp án KHÔNG được đề cập\n\n⚠️ **Bẫy TOEIC:**\n\n\"Collaborative performance by local artists\"\n👉 local artists ≠ amateurs (người nghiệp dư)"
+    }
+  ]
+}

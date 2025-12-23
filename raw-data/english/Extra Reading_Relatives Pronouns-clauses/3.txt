@@ -1,0 +1,93 @@
+1. The HR Department released a list of employees _____ are eligible for a pay raise.
+
+(A) who
+(B) which
+(C) what
+(D) where
+
+Answer: (A) who
+
+Giải thích:
+
+“employees” = người
+
+Mệnh đề quan hệ phía sau cần chủ ngữ cho động từ are
+➡️ dùng who (relative pronoun cho người)
+
+Bẫy TOEIC:
+
+❌ which → dùng cho vật, KHÔNG cho người
+
+❌ what → không dùng làm đại từ quan hệ theo sau danh từ
+
+❌ where → chỉ nơi chốn
+
+2. QRCT is a company _____ provides microchips to computer manufacturers.
+
+(A) that
+(B) what
+(C) who
+(D) whose
+
+Answer: (A) that
+
+Giải thích:
+
+“a company” = vật / tổ chức
+
+Mệnh đề quan hệ thiếu chủ ngữ cho động từ provides
+➡️ dùng that (hoặc which, nhưng không có trong đáp án)
+
+Bẫy:
+
+❌ who → chỉ người
+
+❌ whose → chỉ sở hữu (cần danh từ theo sau)
+
+❌ what → không đi sau danh từ
+
+3. This is the hotel _____ we are supposed to hold a banquet for the new managers.
+
+(A) how
+(B) which
+(C) that
+(D) where
+
+Answer: (D) where
+
+Giải thích:
+
+“the hotel” = địa điểm
+
+Mệnh đề sau đã đủ S + V (we are supposed to hold…)
+➡️ dùng where (= at which)
+
+Bẫy TOEIC rất hay gặp:
+
+❌ which / that → chỉ dùng khi thiếu tân ngữ
+
+❌ how → cách thức, sai nghĩa
+
+4. The employee _____ performance evaluation was so good can enjoy two weeks of paid vacation.
+
+(A) who
+(B) whose
+(C) which
+(D) where
+
+Answer: (B) whose
+
+Giải thích:
+
+“performance evaluation” thuộc về employee
+
+Cấu trúc sở hữu: whose + danh từ
+➡️ the employee whose performance evaluation was so good…
+
+Bẫy:
+
+❌ who → không thể nối trực tiếp với danh từ performance evaluation
+
+❌ which → không dùng cho người
+
+❌ where → nơi chốn

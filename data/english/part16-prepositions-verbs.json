@@ -1,0 +1,642 @@
+{
+  "partId": "prepositions-verbs",
+  "partName": "Prepositions with Verbs - Common Collocations",
+  "questions": [
+    {
+      "id": 530,
+      "question": "I arrived ______ New York City on Friday night.",
+      "options": {
+        "A": "in",
+        "B": "at",
+        "C": "to",
+        "D": "on"
+      },
+      "correctAnswer": "A",
+      "explanation": "**Dùng arrive in + thành phố / quốc gia**.\n\n📌 New York City là thành phố lớn → **arrive in**.\n\n⚠️ **arrive at** chỉ dùng cho địa điểm cụ thể, nhỏ (station, hotel...).\n\n⚠️ Ghi nhớ đi thi:\n• arrive **in** = city / country\n• arrive **at** = place cụ thể."
+    },
+    {
+      "id": 531,
+      "question": "I was very tired when I arrived ______ the hotel.",
+      "options": {
+        "A": "in",
+        "B": "at",
+        "C": "to",
+        "D": "on"
+      },
+      "correctAnswer": "B",
+      "explanation": "**the hotel** là địa điểm cụ thể.\n\n📌 Quy tắc: **arrive at** + địa điểm nhỏ, cụ thể.\n\n⚠️ Ghi nhớ:\n• arrive **at** the hotel / airport / station."
+    },
+    {
+      "id": 532,
+      "question": "You're not listening! What are you thinking ______?",
+      "options": {
+        "A": "of",
+        "B": "on",
+        "C": "in",
+        "D": "for"
+      },
+      "correctAnswer": "A",
+      "explanation": "**Cụm cố định**: think of = nghĩ về (ý tưởng, việc gì đó).\n\n📌 **think about** cũng có thể đúng trong nhiều ngữ cảnh, nhưng ở đây dùng **of**.\n\n⚠️ Bẫy TOEIC:\n• **think of** thường đi với câu trách móc / hỏi suy nghĩ."
+    },
+    {
+      "id": 533,
+      "question": "Let's invite Mary ______ the party.",
+      "options": {
+        "A": "to",
+        "B": "on",
+        "C": "of",
+        "D": "for"
+      },
+      "correctAnswer": "A",
+      "explanation": "**Cấu trúc chuẩn**: invite someone **to** + sự kiện/địa điểm.\n\n📌 Ghi nhớ:\n• invite + người + **to** + event\n• ❌ không dùng invite ... on / of."
+    },
+    {
+      "id": 534,
+      "question": "Who's going to pay ______ the meal?",
+      "options": {
+        "A": "for",
+        "B": "of",
+        "C": "to",
+        "D": "on"
+      },
+      "correctAnswer": "A",
+      "explanation": "**Cụm cố định**: pay **for** + thứ gì đó.\n\n📌 **pay + tiền** → không cần for.\n📌 **pay for + sản phẩm / dịch vụ**.\n\n⚠️ Ghi nhớ:\n• pay **for** the meal / ticket / service."
+    },
+    {
+      "id": 535,
+      "question": "I'm sorry, but I really don't agree ______ you.",
+      "options": {
+        "A": "with",
+        "B": "to",
+        "C": "on",
+        "D": "for"
+      },
+      "correctAnswer": "A",
+      "explanation": "**Cụm cố định**: agree **with** someone = đồng ý với người.\n\n📌 **agree to** = đồng ý với kế hoạch / đề nghị.\n📌 **agree on** = đồng ý về một vấn đề chung.\n\n⚠️ Bẫy TOEIC:\n• Có **you** (người) → agree **WITH**."
+    },
+    {
+      "id": 536,
+      "question": "I hate waiting ______ people who are late.",
+      "options": {
+        "A": "for",
+        "B": "to",
+        "C": "at",
+        "D": "on"
+      },
+      "correctAnswer": "A",
+      "explanation": "**Cụm cố định**: wait **for** someone/something.\n\n📌 ❌ không dùng wait to / wait at trong trường hợp này.\n\n⚠️ Ghi nhớ:\n• wait **for** a person / bus / result."
+    },
+    {
+      "id": 537,
+      "question": "I asked ______ a chicken sandwich, but this is tuna!",
+      "options": {
+        "A": "for",
+        "B": "to",
+        "C": "about",
+        "D": "on"
+      },
+      "correctAnswer": "A",
+      "explanation": "**ask for** + thứ mình muốn (đặt món, yêu cầu).\n\n📌 **ask someone** = hỏi người.\n📌 **ask about** = hỏi về thông tin.\n\n⚠️ Bẫy hay gặp:\n• ask **for** food / help / information."
+    },
+    {
+      "id": 538,
+      "question": "I don't want to spend much money ______ expensive clothes.",
+      "options": {
+        "A": "on",
+        "B": "for",
+        "C": "of",
+        "D": "to"
+      },
+      "correctAnswer": "A",
+      "explanation": "**Cấu trúc chuẩn**: spend money **on** something.\n\n📌 ❌ không dùng for / of với spend.\n\n⚠️ Ghi nhớ:\n• spend time/money **on** + noun / V-ing."
+    },
+    {
+      "id": 539,
+      "question": "Are you going to write ______ him soon?",
+      "options": {
+        "A": "to",
+        "B": "for",
+        "C": "at",
+        "D": "on"
+      },
+      "correctAnswer": "A",
+      "explanation": "**write to someone** = viết thư/email cho ai.\n\n📌 ❌ không dùng write for / write at.\n\n⚠️ Ghi nhớ:\n• write **to** a person\n• email **to** someone."
+    },
+    {
+      "id": 540,
+      "question": "She fell ______ love ______ a man she met on the internet.",
+      "options": {
+        "A": "in / with",
+        "B": "on / to",
+        "C": "at / for",
+        "D": "with / for"
+      },
+      "correctAnswer": "A",
+      "explanation": "**Cụm cố định** fall **in** love **with** someone = yêu ai đó.\n\n📌 Không đổi giới từ, đây là collocation bắt buộc.\n\n⚠️ Ghi nhớ đi thi:\n• fall **in** love **with** + người."
+    },
+    {
+      "id": 541,
+      "question": "Don't worry ______ the exam. It isn't very hard.",
+      "options": {
+        "A": "about",
+        "B": "for",
+        "C": "on",
+        "D": "to"
+      },
+      "correctAnswer": "A",
+      "explanation": "**worry about** + việc / vấn đề.\n\n📌 ❌ **worry for** mang nghĩa lo cho ai đó (sức khỏe, an toàn).\n\n⚠️ Bẫy TOEIC:\n• worry **about** exams / problems\n• worry **for** people."
+    },
+    {
+      "id": 542,
+      "question": "What are you going to do ______ the weekend?",
+      "options": {
+        "A": "on",
+        "B": "at",
+        "C": "in",
+        "D": "for"
+      },
+      "correctAnswer": "A",
+      "explanation": "**on the weekend** / at the weekend đều đúng (Mỹ – Anh).\n\n📌 Trong đề TOEIC, **on** rất hay xuất hiện.\n\n⚠️ Ghi nhớ:\n• **on** the weekend\n• **on** Monday / on Friday night."
+    },
+    {
+      "id": 543,
+      "question": "I need to speak ______ Martin ______ the meeting.",
+      "options": {
+        "A": "to / about",
+        "B": "with / on",
+        "C": "for / of",
+        "D": "at / in"
+      },
+      "correctAnswer": "A",
+      "explanation": "**speak to someone** = nói chuyện với ai.\n**speak about something** = nói về việc gì.\n\n📌 Cấu trúc chuẩn:\n• speak **to** + người\n• speak **about** + chủ đề."
+    },
+    {
+      "id": 544,
+      "question": "I need to see him at once ______ the afternoon.",
+      "options": {
+        "A": "in",
+        "B": "on",
+        "C": "at",
+        "D": "for"
+      },
+      "correctAnswer": "A",
+      "explanation": "**in the afternoon** / morning / evening.\n\n📌 ❌ không dùng **on** với buổi trong ngày (trừ at night).\n\n⚠️ Ghi nhớ siêu quan trọng:\n• **in** the morning / afternoon / evening\n• **at** night."
+    },
+    {
+      "id": 545,
+      "question": "I am lost; can you tell me ______ I can get back to the Palace Hotel from here?",
+      "options": {
+        "A": "how",
+        "B": "where",
+        "C": "whether",
+        "D": "that"
+      },
+      "correctAnswer": "A",
+      "explanation": "**Cấu trúc**: tell me + **how** + S + V → hỏi cách làm thế nào.\n\n📌 Người nói bị lạc → cần chỉ **cách đi**.\n\n⚠️ Không chọn:\n• **where** → hỏi vị trí, không hỏi cách đi\n• **whether / that** → sai nghĩa\n\n⚠️ Ghi nhớ đi thi:\n• hỏi cách làm → **how**."
+    },
+    {
+      "id": 546,
+      "question": "Did you know ______ Donna was once a golf pro?",
+      "options": {
+        "A": "that",
+        "B": "how",
+        "C": "where",
+        "D": "whether"
+      },
+      "correctAnswer": "A",
+      "explanation": "Sau **Did you know** là mệnh đề danh từ.\n\n📌 Không có nghĩa nghi vấn → dùng **that** (có thể lược nhưng trong trắc nghiệm thường giữ).\n\n⚠️ Không chọn:\n• **how / where / why** → mang nghĩa hỏi\n• **whether** → không có \"có hay không\"\n\n⚠️ Bẫy TOEIC:\n• Did you know **that** + S + V (sự thật)."
+    },
+    {
+      "id": 547,
+      "question": "I am not sure ______ Paul quit, but he must have had a good reason.",
+      "options": {
+        "A": "why",
+        "B": "that",
+        "C": "whether",
+        "D": "how"
+      },
+      "correctAnswer": "A",
+      "explanation": "**Cụm**: be not sure **why** + S + V.\n\n📌 Ngữ cảnh: không chắc **lý do** Paul nghỉ việc.\n\n⚠️ Không chọn:\n• **that** → sai nghĩa\n• **whether** → không phải \"có hay không\"\n\n⚠️ Ghi nhớ:\n• hỏi lý do → **why**."
+    },
+    {
+      "id": 548,
+      "question": "I cannot decide ______ I should buy a car or lease one.",
+      "options": {
+        "A": "whether",
+        "B": "that",
+        "C": "how",
+        "D": "why"
+      },
+      "correctAnswer": "A",
+      "explanation": "**Cấu trúc**: decide **whether** + S + V.\n\n📌 Có **or** → lựa chọn A hay B → **whether**.\n\n⚠️ Không chọn:\n• **how / why / that** → sai cấu trúc\n\n⚠️ Siêu hay ra TOEIC:\n• **whether** = có nên... hay không / A hay B."
+    },
+    {
+      "id": 549,
+      "question": "Do you know ______ Jean-Marc is in his hotel room?",
+      "options": {
+        "A": "if",
+        "B": "where",
+        "C": "what",
+        "D": "how many"
+      },
+      "correctAnswer": "A",
+      "explanation": "**Cấu trúc**: Do you know **if** + S + V.\n\n📌 **if / whether** dùng cho câu hỏi có–không. Ở đây hỏi: có phải Jean-Marc đang ở trong phòng không?\n\n⚠️ Không chọn:\n• **where** → hỏi vị trí (đã có in his hotel room) ❌\n• **what / how many** → sai nghĩa ❌\n\n⚠️ Ghi nhớ đi thi:\n• hỏi có hay không → **if / whether**."
+    },
+    {
+      "id": 550,
+      "question": "I am not sure ______ people were actually at the reception, but over 200 had been invited.",
+      "options": {
+        "A": "how many",
+        "B": "how much",
+        "C": "where",
+        "D": "if"
+      },
+      "correctAnswer": "A",
+      "explanation": "**people** là danh từ đếm được số nhiều.\n\n📌 Cần hỏi số lượng → **how many**.\n\n⚠️ Không chọn:\n• **how much** → dùng cho không đếm được ❌\n• **where / if** → sai loại thông tin ❌\n\n⚠️ Bẫy TOEIC:\n• **people** → how many, không bao giờ dùng how much."
+    },
+    {
+      "id": 551,
+      "question": "Angel told me ______ I would find the folder.",
+      "options": {
+        "A": "where",
+        "B": "what",
+        "C": "if",
+        "D": "how many"
+      },
+      "correctAnswer": "A",
+      "explanation": "**Cấu trúc**: tell someone **where** + S + V.\n\n📌 Ngữ cảnh: Angel nói **chỗ nào** tìm được hồ sơ.\n\n⚠️ Không chọn:\n• **what** → không phải đồ vật ❌\n• **if** → không phải có/không ❌\n• **how many** → không liên quan ❌\n\n⚠️ Ghi nhớ:\n• nói về địa điểm → **where**."
+    },
+    {
+      "id": 552,
+      "question": "Did you see ______ that magician just did?",
+      "options": {
+        "A": "what",
+        "B": "where",
+        "C": "if",
+        "D": "how many"
+      },
+      "correctAnswer": "A",
+      "explanation": "**Cấu trúc**: see **what** + S + V.\n\n📌 **what** = the thing that... (điều mà...). Ý câu: Bạn có thấy **điều** nhà ảo thuật vừa làm không?\n\n⚠️ Không chọn:\n• **where** → không phải nơi chốn ❌\n• **if** → không phải yes/no ❌\n• **how many** → không phải số lượng ❌\n\n⚠️ Siêu hay ra TOEIC:\n• see / know / remember + **what**."
+    },
+    {
+      "id": 553,
+      "question": "The woman ______ is standing by the water cooler has just started working in the finance department.",
+      "options": {
+        "A": "who",
+        "B": "which",
+        "C": "where",
+        "D": "whose"
+      },
+      "correctAnswer": "A",
+      "explanation": "**woman** = người.\n\n📌 Mệnh đề quan hệ chỉ người → dùng **who**. **who is standing...** bổ nghĩa cho the woman.\n\n⚠️ Không chọn:\n• **which** → dùng cho vật ❌\n• **where / whose** → sai chức năng ❌\n\n⚠️ Ghi nhớ:\n• người → **who**."
+    },
+    {
+      "id": 554,
+      "question": "The friendships ______ I made in college are some of the most valuable ones I have ever made.",
+      "options": {
+        "A": "which",
+        "B": "who",
+        "C": "where",
+        "D": "whose"
+      },
+      "correctAnswer": "A",
+      "explanation": "**friendships** = vật (khái niệm).\n\n📌 Mệnh đề quan hệ bổ nghĩa cho vật → **which**. **which I made in college** = những tình bạn mà tôi tạo được.\n\n⚠️ Không chọn:\n• **who** → chỉ người ❌\n• **where / whose** → sai nghĩa ❌\n\n⚠️ Bẫy TOEIC:\n• **friendship** ≠ người → which, không phải who."
+    },
+    {
+      "id": 555,
+      "question": "We are going to spend our vacation in a small town in France ______ my wife once lived.",
+      "options": {
+        "A": "where",
+        "B": "which",
+        "C": "when",
+        "D": "whose"
+      },
+      "correctAnswer": "A",
+      "explanation": "**town** = địa điểm.\n\n📌 Mệnh đề quan hệ chỉ nơi chốn → **where** (= in which my wife once lived).\n\n⚠️ Không chọn:\n• **which** → thiếu giới từ (which my wife lived in mới đúng) ❌\n• **when** → thời gian ❌\n• **whose** → sở hữu ❌\n\n⚠️ Ghi nhớ:\n• nơi chốn → **where**."
+    },
+    {
+      "id": 556,
+      "question": "The artist ______ paintings are on the walls of the office building has won several awards for her work.",
+      "options": {
+        "A": "whose",
+        "B": "who",
+        "C": "which",
+        "D": "where"
+      },
+      "correctAnswer": "A",
+      "explanation": "**paintings** thuộc về **the artist**.\n\n📌 Mệnh đề quan hệ chỉ sở hữu → **whose**.\n\n⚠️ Không chọn:\n• **who / which** → không diễn đạt sở hữu ❌\n• **where** → sai nghĩa ❌\n\n⚠️ Siêu hay ra TOEIC:\n• sở hữu (người hoặc vật) → **whose**."
+    },
+    {
+      "id": 557,
+      "question": "I believe it was around July 1 ______ the buy-out took place.",
+      "options": {
+        "A": "when",
+        "B": "which",
+        "C": "whom",
+        "D": "whose"
+      },
+      "correctAnswer": "A",
+      "explanation": "**around July 1** = thời điểm.\n\n📌 Mệnh đề quan hệ chỉ thời gian → **when** (= on which the buy-out took place).\n\n⚠️ Không chọn:\n• **which** → cần giới từ (which the buy-out took place on) ❌\n• **whom / whose** → chỉ người / sở hữu ❌\n\n⚠️ Ghi nhớ đi thi:\n• thời gian → **when**."
+    },
+    {
+      "id": 558,
+      "question": "The sales agent with ______ you will be training is named Tony Collins.",
+      "options": {
+        "A": "whom",
+        "B": "who",
+        "C": "which",
+        "D": "whose"
+      },
+      "correctAnswer": "A",
+      "explanation": "**agent** = người.\n\n📌 Có giới từ **with** đứng trước chỗ trống → dùng **whom**. Cấu trúc chuẩn: **with whom** + S + V.\n\n⚠️ Không chọn:\n• **who** → không dùng sau giới từ trong TOEIC ❌\n• **which / whose** → sai loại ❌\n\n⚠️ Bẫy TOEIC rất hay gặp:\n• giới từ + người → **whom**."
+    },
+    {
+      "id": 559,
+      "question": "Anyone ______ car is parked in a red zone will get a parking ticket.",
+      "options": {
+        "A": "whose",
+        "B": "whom",
+        "C": "which",
+        "D": "when"
+      },
+      "correctAnswer": "A",
+      "explanation": "**car** thuộc về **anyone** → quan hệ sở hữu.\n\n📌 Dùng **whose** cho người hoặc vật.\n\n⚠️ Không chọn:\n• **whom** → tân ngữ, không diễn đạt sở hữu ❌\n• **which / when** → sai nghĩa ❌\n\n⚠️ Ghi nhớ:\n• sở hữu → **whose** (không phân biệt người/vật)."
+    },
+    {
+      "id": 560,
+      "question": "This is the part of the factory ______ the actual production work takes place.",
+      "options": {
+        "A": "where",
+        "B": "which",
+        "C": "when",
+        "D": "whose"
+      },
+      "correctAnswer": "A",
+      "explanation": "**part of the factory** = địa điểm.\n\n📌 Mệnh đề quan hệ chỉ nơi chốn → **where** (= in which the actual production work takes place).\n\n⚠️ Không chọn:\n• **which** → thiếu giới từ ❌\n• **when** → thời gian ❌\n• **whose** → sở hữu ❌\n\n⚠️ Siêu quan trọng:\n• nơi chốn → **where**."
+    },
+    {
+      "id": 561,
+      "question": "If I hadn't overslept, I ______ on time.",
+      "options": {
+        "A": "will have been",
+        "B": "would have been",
+        "C": "will be",
+        "D": "would be"
+      },
+      "correctAnswer": "B",
+      "explanation": "**Mệnh đề if**: If I hadn't overslept → quá khứ hoàn thành.\n\n📌 Kết quả nói về một việc **KHÔNG xảy ra trong quá khứ** → dùng **would have + V3**.\n\n⚠️ Công thức chuẩn:\n• If + had + V3, S + **would have + V3**\n\n⚠️ Loại:\n• will have been / will be → sai thì, sai loại điều kiện ❌"
+    },
+    {
+      "id": 562,
+      "question": "If you had eaten a good breakfast, you ______ so hungry now.",
+      "options": {
+        "A": "wouldn't be",
+        "B": "can't be",
+        "C": "won't be",
+        "D": "wouldn't have been"
+      },
+      "correctAnswer": "A",
+      "explanation": "**Mệnh đề if**: quá khứ (had eaten).\n\n📌 Kết quả ảnh hưởng đến **hiện tại** (now) → **Câu điều kiện hỗn hợp** → dùng **wouldn't be**.\n\n⚠️ Công thức:\n• If + had + V3, S + would (not) + **V (hiện tại)**\n\n⚠️ Loại:\n• can't be / won't be → không phải câu điều kiện giả định ❌"
+    },
+    {
+      "id": 563,
+      "question": "I ______ that car if I had had more money at the time.",
+      "options": {
+        "A": "could have bought",
+        "B": "could buy",
+        "C": "will buy",
+        "D": "can buy"
+      },
+      "correctAnswer": "A",
+      "explanation": "**at the time** → quá khứ.\n\n📌 Điều kiện không có thật trong quá khứ → kết quả cũng là quá khứ giả định. **could have + V3** = đã có thể làm nhưng không làm.\n\n⚠️ Bẫy TOEIC:\n• If + had had → **could/would have + V3**\n\n⚠️ Loại:\n• could buy / will buy → sai thì ❌"
+    },
+    {
+      "id": 564,
+      "question": "That horse could have won the race if he ______ hurt his leg.",
+      "options": {
+        "A": "doesn't hurt",
+        "B": "hasn't hurt",
+        "C": "hadn't hurt",
+        "D": "didn't hurt"
+      },
+      "correctAnswer": "C",
+      "explanation": "**could have won** → kết quả quá khứ giả định.\n\n📌 Mệnh đề if → **hadn't + V3**.\n\n⚠️ Cấu trúc chuẩn:\n• S + could have + V3 if + **hadn't + V3**\n\n⚠️ Loại:\n• doesn't hurt / hasn't hurt → sai thì ❌"
+    },
+    {
+      "id": 565,
+      "question": "If I ______ harder for the test, I would have gotten a better grade.",
+      "options": {
+        "A": "had studied",
+        "B": "will study",
+        "C": "did study",
+        "D": "studied"
+      },
+      "correctAnswer": "A",
+      "explanation": "**Mệnh đề chính**: would have gotten → kết quả giả định trong quá khứ.\n\n📌 → mệnh đề if phải là **quá khứ hoàn thành** (had + V3).\n\n⚠️ Công thức chuẩn:\n• If + **had + V3**, S + would have + V3\n\n⚠️ Loại:\n• will study / did study → sai loại điều kiện ❌"
+    },
+    {
+      "id": 566,
+      "question": "If it hadn't rained, we ______ to the park.",
+      "options": {
+        "A": "will have gone",
+        "B": "will go",
+        "C": "would have gone",
+        "D": "would go"
+      },
+      "correctAnswer": "C",
+      "explanation": "**If it hadn't rained** → điều kiện quá khứ không có thật.\n\n📌 Kết quả cũng là quá khứ giả định → dùng **would have gone**.\n\n⚠️ Ghi nhớ:\n• hadn't + V3 → **would have + V3**\n\n⚠️ Loại:\n• will have gone / will go → dùng cho tương lai, sai ngữ cảnh ❌"
+    },
+    {
+      "id": 567,
+      "question": "If only we ______ the directions!",
+      "options": {
+        "A": "will follow",
+        "B": "did follow",
+        "C": "had followed",
+        "D": "have followed"
+      },
+      "correctAnswer": "C",
+      "explanation": "**If only** diễn tả sự hối tiếc.\n\n📌 Hối tiếc về việc đã không làm trong quá khứ → dùng **had + V3**.\n\n⚠️ Cấu trúc cực hay ra thi:\n• **If only + had + V3** = Giá như... (quá khứ)\n\n⚠️ Loại:\n• will follow / did follow → không diễn tả hối tiếc quá khứ ❌"
+    },
+    {
+      "id": 568,
+      "question": "If the road hadn't been icy, we ______ an accident.",
+      "options": {
+        "A": "won't have",
+        "B": "wouldn't have had",
+        "C": "didn't have",
+        "D": "won't have had"
+      },
+      "correctAnswer": "B",
+      "explanation": "**Mệnh đề if**: hadn't been icy → quá khứ hoàn thành.\n\n📌 Kết quả nói về một việc đã **KHÔNG xảy ra trong quá khứ** → dùng **would not have + V3**.\n\n⚠️ Công thức chuẩn:\n• If + had + V3, S + **wouldn't have + V3**\n\n⚠️ Loại:\n• won't have → thì tương lai ❌\n• didn't have → câu thực, không phải giả định ❌"
+    },
+    {
+      "id": 569,
+      "question": "He would have gone to work if he ______ sick.",
+      "options": {
+        "A": "hadn't been",
+        "B": "won't be",
+        "C": "didn't be",
+        "D": "isn't"
+      },
+      "correctAnswer": "A",
+      "explanation": "**would have gone** → kết quả quá khứ giả định.\n\n📌 Điều kiện không có thật trong quá khứ → **hadn't been**.\n\n⚠️ Ghi nhớ:\n• **be** (quá khứ hoàn thành) = had been / **hadn't been**\n\n⚠️ Loại:\n• won't be / didn't be → sai thì, sai cấu trúc ❌"
+    },
+    {
+      "id": 570,
+      "question": "If I had known you were coming, I ______ a cake.",
+      "options": {
+        "A": "will bake",
+        "B": "would have baked",
+        "C": "would bake",
+        "D": "baked"
+      },
+      "correctAnswer": "B",
+      "explanation": "**If I had known** → điều kiện quá khứ không có thật.\n\n📌 Hành động bake a cake cũng đã không xảy ra trong quá khứ → **would have + V3**.\n\n⚠️ Bẫy TOEIC:\n• thấy **had known** → nghĩ ngay **would have + V3**\n\n⚠️ Loại:\n• will bake → tương lai ❌\n• would bake → điều kiện loại 2 (hiện tại) ❌"
+    },
+    {
+      "id": 571,
+      "question": "If you ______ trouble accessing the Wi-Fi network at our hotel, we will assist you anytime.",
+      "options": {
+        "A": "have",
+        "B": "had",
+        "C": "will have",
+        "D": "should have"
+      },
+      "correctAnswer": "A",
+      "explanation": "**Đây là câu điều kiện loại 1** dùng cho tình huống có thể xảy ra trong tương lai.\n\n📌 Cấu trúc: If + **hiện tại đơn**, will + V → dùng **have**.\n\n⚠️ Ý nghĩa: Nếu bạn có gặp trục trặc khi truy cập Wi-Fi, chúng tôi sẽ hỗ trợ bạn bất cứ lúc nào.\n\n⚠️ Loại:\n• had / will have / should have → sai thì hoặc sai nghĩa ❌"
+    },
+    {
+      "id": 572,
+      "question": "If the board of directors had decided not to fire Greg Johns, he ______ the chief financial officer.",
+      "options": {
+        "A": "will be",
+        "B": "was",
+        "C": "would have been",
+        "D": "will have been"
+      },
+      "correctAnswer": "C",
+      "explanation": "**Mệnh đề if**: had decided → quá khứ hoàn thành.\n\n📌 Kết quả giả định trong quá khứ → **would have + V3**.\n\n⚠️ Công thức chuẩn:\n• If + had + V3, S + **would have + V3**\n\n⚠️ Loại:\n• will be / was / will have been → sai loại điều kiện ❌"
+    },
+    {
+      "id": 573,
+      "question": "If you ______ your password to your bank account on a regular basis, you could avoid identity theft.",
+      "options": {
+        "A": "change",
+        "B": "changes",
+        "C": "changed",
+        "D": "will change"
+      },
+      "correctAnswer": "A",
+      "explanation": "**Đây là câu điều kiện loại 2** (lời khuyên chung, mang tính giả định).\n\n📌 Mệnh đề if dùng **hiện tại đơn** (không dùng will) → dùng **change**.\n\n⚠️ Công thức:\n• If + V (bare form), S + could / would + V\n\n⚠️ Loại:\n• changes → sai hòa hợp ❌\n• changed → sai thì ❌\n• will change → không dùng will trong mệnh đề if ❌"
+    },
+    {
+      "id": 574,
+      "question": "If Sarah Cosmetics opened a shop in Taiwan, it ______ extremely successful.",
+      "options": {
+        "A": "becomes",
+        "B": "became",
+        "C": "will become",
+        "D": "would become"
+      },
+      "correctAnswer": "D",
+      "explanation": "**opened** (quá khứ đơn) nhưng mang nghĩa giả định hiện tại / tương lai → **Câu điều kiện loại 2**.\n\n📌 Công thức:\n• If + V2, S + **would + V**\n\n⚠️ Loại:\n• becomes / became / will become → sai cấu trúc điều kiện ❌"
+    },
+    {
+      "id": 575,
+      "question": "If the customer service center conducted a survey on the new design, it ______ helpful to understand both the good and bad points of the design.",
+      "options": {
+        "A": "was",
+        "B": "is",
+        "C": "would be",
+        "D": "will be"
+      },
+      "correctAnswer": "C",
+      "explanation": "**Mệnh đề if** dùng quá khứ đơn (conducted) nhưng mang nghĩa giả định hiện tại → **câu điều kiện loại 2**.\n\n📌 Kết quả: **would + V**.\n\n⚠️ Công thức:\n• If + V2, **would + V**"
+    },
+    {
+      "id": 576,
+      "question": "If the landlord had not raised the rent, Ms. Wells ______ for a new place now.",
+      "options": {
+        "A": "doesn't look",
+        "B": "was not looking",
+        "C": "will not be looking",
+        "D": "would not be looking"
+      },
+      "correctAnswer": "D",
+      "explanation": "**Mệnh đề if**: had not raised → quá khứ hoàn thành.\n\n📌 Kết quả có **now** → ảnh hưởng hiện tại → **câu điều kiện hỗn hợp** (quá khứ → hiện tại).\n\n⚠️ Công thức:\n• If + had + V3, **would + V (hiện tại)**"
+    },
+    {
+      "id": 577,
+      "question": "If Mr. Ross had been promoted, he ______ a staff of 20 people.",
+      "options": {
+        "A": "will supervise",
+        "B": "would supervise",
+        "C": "will have supervised",
+        "D": "would have supervised"
+      },
+      "correctAnswer": "D",
+      "explanation": "**had been promoted** → điều kiện quá khứ không có thật.\n\n📌 Kết quả cũng ở quá khứ giả định → **would have + V3**.\n\n⚠️ Công thức:\n• If + had + V3, **would have + V3**"
+    },
+    {
+      "id": 578,
+      "question": "If the interest rates ______ dramatically last quarter, the company would not have had a financial crisis.",
+      "options": {
+        "A": "had not increased",
+        "B": "have not increased",
+        "C": "didn't increased",
+        "D": "doesn't increase"
+      },
+      "correctAnswer": "A",
+      "explanation": "**last quarter** → quá khứ.\n\n📌 Mệnh đề chính: would not have had → quá khứ giả định → mệnh đề if phải là **had + V3**.\n\n⚠️ Bẫy TOEIC:\n• thấy **would have had** → nghĩ ngay **had + V3**"
+    },
+    {
+      "id": 579,
+      "question": "If the electronic equipment broke down within 2 days of purchase, we ______ you a refund.",
+      "options": {
+        "A": "give",
+        "B": "gave",
+        "C": "will give",
+        "D": "would give"
+      },
+      "correctAnswer": "C",
+      "explanation": "**Đây là chính sách / điều kiện thực tế**, không phải giả định.\n\n📌 Dạng chuẩn: If + hiện tại / quá khứ đơn (quy ước), **will + V**.\n\n⚠️ Công thức:\n• If + V, **will + V**"
+    },
+    {
+      "id": 580,
+      "question": "DJ Entertainment announced today that Mr. Peter Evans ______ to vice president of the company.",
+      "options": {
+        "A": "promoted",
+        "B": "has promoted",
+        "C": "has been promoting",
+        "D": "has been promoted"
+      },
+      "correctAnswer": "D",
+      "explanation": "**announced today** → hành động vừa mới xảy ra.\n\n📌 Mr. Evans là người **được thăng chức** → dùng bị động. Hiện tại hoàn thành bị động: **has been + V3**.\n\n⚠️ Bẫy Part 6:\n• người được thăng chức → **has been promoted**"
+    },
+    {
+      "id": 581,
+      "question": "His new ______ involve exporting DJ Entertainment movies to the Asian market.",
+      "options": {
+        "A": "trends",
+        "B": "suggestions",
+        "C": "superiors",
+        "D": "responsibilities"
+      },
+      "correctAnswer": "D",
+      "explanation": "**Cụm**: His new ___ involve exporting...\n\n📌 **responsibilities** (trách nhiệm) là danh từ phù hợp nghĩa + đúng ngữ pháp. **involve** thường đi với nhiệm vụ / trách nhiệm.\n\n⚠️ Loại:\n• trends / suggestions / superiors → sai ngữ nghĩa ❌\n\n⚠️ Ghi nhớ:\n• new **responsibilities** = nhiệm vụ mới"
+    },
+    {
+      "id": 582,
+      "question": "Mr. Evans is highly ______ by his colleagues for his excellent leadership and outstanding work ethics.",
+      "options": {
+        "A": "regard",
+        "B": "regards",
+        "C": "regarding",
+        "D": "regarded"
+      },
+      "correctAnswer": "D",
+      "explanation": "**Cấu trúc cố định**: be highly **regarded** by = được đánh giá cao.\n\n📌 Đây là bị động → cần **V3**.\n\n⚠️ Collocation rất hay ra TOEIC:\n• be highly **regarded** by colleagues"
+    }
+  ]
+}

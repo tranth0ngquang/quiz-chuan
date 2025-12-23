@@ -1,0 +1,95 @@
+5. A shortage of staff members is the main reason _____ the factory is running extremely slowly.
+
+(A) where
+(B) who
+(C) why
+(D) which
+
+Answer: (C) why
+
+Giải thích:
+
+Cụm chuẩn TOEIC: the reason why + S + V
+
+“why” diễn tả lý do
+➡️ the main reason why the factory is running extremely slowly
+
+Bẫy:
+
+❌ which → không dùng cho “reason” theo nghĩa này
+
+❌ where → nơi chốn
+
+❌ who → người
+
+6. Passengers _____ are waiting in line should have their passports ready.
+
+(A) where
+(B) which
+(C) whom
+(D) that
+
+Answer: (D) that
+
+Giải thích:
+
+“Passengers” = người
+
+Mệnh đề quan hệ thiếu chủ ngữ cho động từ are waiting
+
+Có thể dùng who / that, nhưng chỉ có that trong đáp án
+➡️ chọn that
+
+Bẫy:
+
+❌ whom → dùng làm tân ngữ, không làm chủ ngữ
+
+❌ which → không dùng cho người
+
+❌ where → nơi chốn
+
+7. Candidates _____ applications are not complete will not be considered for the position.
+
+(A) who
+(B) whom
+(C) whose
+(D) that
+
+Answer: (C) whose
+
+Giải thích:
+
+“applications” thuộc về candidates
+
+Cấu trúc sở hữu: whose + danh từ
+➡️ Candidates whose applications are not complete…
+
+Bẫy TOEIC nặng:
+
+❌ who / that → không nối trực tiếp với danh từ applications
+
+❌ whom → sai vai trò ngữ pháp
+
+8. Please make sure to install the new software on all the computers _____ you use in the office.
+
+(A) who
+(B) that
+(C) why
+(D) where
+
+Answer: (B) that
+
+Giải thích:
+
+“computers” = vật
+
+Mệnh đề quan hệ thiếu tân ngữ của động từ use
+➡️ dùng that (hoặc which, nhưng không có trong đáp án)
+
+Bẫy:
+
+❌ where → chỉ nơi chốn, không hợp
+
+❌ who → người
+
+❌ why → lý do
