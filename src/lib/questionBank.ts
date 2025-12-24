@@ -135,3 +135,13 @@ export function getRandomQuestions(
   const shuffled = [...bank.questions].sort(() => Math.random() - 0.5);
   return shuffled.slice(0, Math.min(count, shuffled.length));
 }
+
+export function getOrderedQuestions(
+  bankId: string,
+  count: number
+): QuestionBank['questions'] {
+  const bank = getQuestionBank(bankId);
+  if (!bank) return [];
+
+  return bank.questions.slice(0, Math.min(count, bank.questions.length));
+}

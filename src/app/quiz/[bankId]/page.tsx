@@ -5,7 +5,7 @@ import { useParams, useRouter, useSearchParams } from 'next/navigation';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Progress } from '@/components/ui/progress';
-import { getQuestionBank, getRandomQuestions } from '@/lib/questionBank';
+import { getQuestionBank, getRandomQuestions, getOrderedQuestions } from '@/lib/questionBank';
 import { 
   Question, 
   QuizAnswer, 
@@ -32,6 +32,7 @@ export default function QuizPage() {
   const bankId = params.bankId as string;
   const count = parseInt(searchParams.get('count') || '10');
   const shouldContinue = searchParams.get('continue') === 'true';
+  const quizMode = searchParams.get('mode') || 'test'; // 'test' or 'learning'
 
   const [questions, setQuestions] = useState<Question[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -41,10 +42,12 @@ export default function QuizPage() {
   const [startTime, setStartTime] = useState<number>(Date.now());
   // For passage questions: track which sub-question is active
   const [activeSubIndex, setActiveSubIndex] = useState(0);
+  // For learning mode: show explanations
+  const [showExplanations, setShowExplanations] = useState<Record<number, boolean>>({});
 
   // Save session to localStorage
   const saveSession = useCallback(() => {
-    if (bankId === 'wrong' || questions.length === 0) return;
+    if (bankId === 'wrong' || questions.length === 0 || quizMode === 'learning') return;
     
     quizSessionStorage.save({
       bankId,
@@ -55,7 +58,7 @@ export default function QuizPage() {
       startTime,
       lastUpdated: Date.now(),
     });
-  }, [bankId, bankName, questions, answers, currentIndex, startTime]);
+  }, [bankId, bankName, questions, answers, currentIndex, startTime, quizMode]);
 
   // Auto-save when answers or currentIndex change
   useEffect(() => {
@@ -103,7 +106,9 @@ export default function QuizPage() {
           router.push('/');
           return;
         }
-        const selectedQuestions = getRandomQuestions(bankId, count);
+        const selectedQuestions = quizMode === 'learning' 
+          ? getOrderedQuestions(bankId, count)
+          : getRandomQuestions(bankId, count);
         setQuestions(selectedQuestions);
         setBankName(bank.name);
         setAnswers(
@@ -142,6 +147,14 @@ export default function QuizPage() {
       selectedAnswer: answer,
     };
     setAnswers(newAnswers);
+    
+    // In learning mode, show explanation immediately
+    if (quizMode === 'learning') {
+      setShowExplanations({
+        ...showExplanations,
+        [currentQuestion.id]: true,
+      });
+    }
   };
 
   const handleSubAnswerSelect = (subQuestionId: number, answer: 'A' | 'B' | 'C' | 'D') => {
@@ -154,6 +167,14 @@ export default function QuizPage() {
       },
     };
     setAnswers(newAnswers);
+    
+    // In learning mode, show explanation immediately
+    if (quizMode === 'learning') {
+      setShowExplanations({
+        ...showExplanations,
+        [subQuestionId]: true,
+      });
+    }
   };
 
   const handleNext = () => {
@@ -314,28 +335,62 @@ export default function QuizPage() {
 
       <div className="space-y-3">
         {(Object.keys(question.options) as Array<'A' | 'B' | 'C' | 'D'>).map(
-          (key) => (
-            <button
-              key={key}
-              onClick={() => handleAnswerSelect(key)}
-              className={`w-full p-4 md:p-6 text-left rounded-lg border-2 transition-all ${
-                currentAnswer?.selectedAnswer === key
-                  ? 'border-blue-500 bg-blue-50 dark:bg-blue-900/20'
-                  : 'border-gray-200 hover:border-gray-300 hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800'
-              }`}
-            >
-              <div className="flex items-start gap-3">
-                <span className="shrink-0 w-8 h-8 flex items-center justify-center rounded-full bg-gray-100 dark:bg-gray-700 font-semibold text-sm">
-                  {key}
-                </span>
-                <span className="flex-1 text-base">
-                  {question.options[key]}
-                </span>
-              </div>
-            </button>
-          )
+          (key) => {
+            const isSelected = currentAnswer?.selectedAnswer === key;
+            const isCorrect = key === question.correctAnswer;
+            const showResult = quizMode === 'learning' && showExplanations[question.id] && isSelected;
+            
+            return (
+              <button
+                key={key}
+                onClick={() => handleAnswerSelect(key)}
+                className={`w-full p-4 md:p-6 text-left rounded-lg border-2 transition-all ${
+                  showResult && isCorrect
+                    ? 'border-green-500 bg-green-50 dark:bg-green-900/20'
+                    : showResult && !isCorrect
+                    ? 'border-red-500 bg-red-50 dark:bg-red-900/20'
+                    : isSelected
+                    ? 'border-blue-500 bg-blue-50 dark:bg-blue-900/20'
+                    : 'border-gray-200 hover:border-gray-300 hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800'
+                }`}
+              >
+                <div className="flex items-start gap-3">
+                  <span className={`shrink-0 w-8 h-8 flex items-center justify-center rounded-full font-semibold text-sm ${
+                    showResult && isCorrect
+                      ? 'bg-green-500 text-white'
+                      : showResult && !isCorrect
+                      ? 'bg-red-500 text-white'
+                      : 'bg-gray-100 dark:bg-gray-700'
+                  }`}>
+                    {key}
+                  </span>
+                  <span className="flex-1 text-base">
+                    {question.options[key]}
+                    {showResult && isCorrect && <span className="ml-2 text-green-600">✓</span>}
+                    {showResult && !isCorrect && <span className="ml-2 text-red-600">✗</span>}
+                  </span>
+                </div>
+              </button>
+            );
+          }
         )}
       </div>
+
+      {/* Show explanation in learning mode after answer is selected */}
+      {quizMode === 'learning' && showExplanations[question.id] && question.explanation && (
+        <div className="mt-6 p-4 bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-500 rounded">
+          <h3 className="font-semibold text-blue-900 dark:text-blue-100 mb-2 flex items-center gap-2">
+            <span>💡</span>
+            <span>Giải thích:</span>
+          </h3>
+          <p className="text-gray-700 dark:text-gray-300 whitespace-pre-line">
+            {question.explanation}
+          </p>
+          <p className="mt-2 text-sm text-green-700 dark:text-green-300">
+            <strong>Đáp án đúng: {question.correctAnswer}</strong>
+          </p>
+        </div>
+      )}
     </>
   );
 
@@ -420,28 +475,62 @@ export default function QuizPage() {
 
           <div className="space-y-3">
             {(Object.keys(currentSubQuestion.options) as Array<'A' | 'B' | 'C' | 'D'>).map(
-              (key) => (
-                <button
-                  key={key}
-                  onClick={() => handleSubAnswerSelect(currentSubQuestion.id, key)}
-                  className={`w-full p-4 text-left rounded-lg border-2 transition-all ${
-                    subAnswer === key
-                      ? 'border-blue-500 bg-blue-50 dark:bg-blue-900/20'
-                      : 'border-gray-200 hover:border-gray-300 hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800'
-                  }`}
-                >
-                  <div className="flex items-start gap-3">
-                    <span className="shrink-0 w-8 h-8 flex items-center justify-center rounded-full bg-gray-100 dark:bg-gray-700 font-semibold text-sm">
-                      {key}
-                    </span>
-                    <span className="flex-1 text-base">
-                      {currentSubQuestion.options[key]}
-                    </span>
-                  </div>
-                </button>
-              )
+              (key) => {
+                const isSelected = subAnswer === key;
+                const isCorrect = key === currentSubQuestion.correctAnswer;
+                const showResult = quizMode === 'learning' && showExplanations[currentSubQuestion.id] && isSelected;
+                
+                return (
+                  <button
+                    key={key}
+                    onClick={() => handleSubAnswerSelect(currentSubQuestion.id, key)}
+                    className={`w-full p-4 text-left rounded-lg border-2 transition-all ${
+                      showResult && isCorrect
+                        ? 'border-green-500 bg-green-50 dark:bg-green-900/20'
+                        : showResult && !isCorrect
+                        ? 'border-red-500 bg-red-50 dark:bg-red-900/20'
+                        : isSelected
+                        ? 'border-blue-500 bg-blue-50 dark:bg-blue-900/20'
+                        : 'border-gray-200 hover:border-gray-300 hover:bg-gray-50 dark:border-gray-700 dark:hover:bg-gray-800'
+                    }`}
+                  >
+                    <div className="flex items-start gap-3">
+                      <span className={`shrink-0 w-8 h-8 flex items-center justify-center rounded-full font-semibold text-sm ${
+                        showResult && isCorrect
+                          ? 'bg-green-500 text-white'
+                          : showResult && !isCorrect
+                          ? 'bg-red-500 text-white'
+                          : 'bg-gray-100 dark:bg-gray-700'
+                      }`}>
+                        {key}
+                      </span>
+                      <span className="flex-1 text-base">
+                        {currentSubQuestion.options[key]}
+                        {showResult && isCorrect && <span className="ml-2 text-green-600">✓</span>}
+                        {showResult && !isCorrect && <span className="ml-2 text-red-600">✗</span>}
+                      </span>
+                    </div>
+                  </button>
+                );
+              }
             )}
           </div>
+
+          {/* Show explanation in learning mode after sub-question answer is selected */}
+          {quizMode === 'learning' && showExplanations[currentSubQuestion.id] && currentSubQuestion.explanation && (
+            <div className="mt-6 p-4 bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-500 rounded">
+              <h3 className="font-semibold text-blue-900 dark:text-blue-100 mb-2 flex items-center gap-2">
+                <span>💡</span>
+                <span>Giải thích:</span>
+              </h3>
+              <p className="text-gray-700 dark:text-gray-300 whitespace-pre-line">
+                {currentSubQuestion.explanation}
+              </p>
+              <p className="mt-2 text-sm text-green-700 dark:text-green-300">
+                <strong>Đáp án đúng: {currentSubQuestion.correctAnswer}</strong>
+              </p>
+            </div>
+          )}
 
           {/* Sub-question navigation */}
           <div className="flex justify-between mt-4 pt-4 border-t">
@@ -476,13 +565,24 @@ export default function QuizPage() {
             {bankName}
           </h1>
           <div className="flex items-center gap-4 text-sm text-gray-600 dark:text-gray-300">
-            <span>
-              Đề {currentIndex + 1}/{questions.length}
+            <span className={`px-3 py-1 rounded-full font-semibold ${
+              quizMode === 'learning' 
+                ? 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-300'
+                : 'bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300'
+            }`}>
+              {quizMode === 'learning' ? '📖 Chế độ học tập' : '📝 Chế độ thi'}
             </span>
-            <span>•</span>
             <span>
-              Đã trả lời: {answeredCount}/{totalCount}
+              Câu {currentIndex + 1}/{questions.length}
             </span>
+            {quizMode !== 'learning' && (
+              <>
+                <span>•</span>
+                <span>
+                  Đã trả lời: {answeredCount}/{totalCount}
+                </span>
+              </>
+            )}
             {isPassageQuestion(currentQuestion) && (
               <>
                 <span>•</span>
@@ -514,25 +614,43 @@ export default function QuizPage() {
           </Button>
 
           <div className="flex gap-2">
-            {currentIndex === questions.length - 1 ? (
-              <Button
-                onClick={handleSubmit}
-                disabled={answeredCount === 0}
-                size="lg"
-                className="bg-green-600 hover:bg-green-700"
-              >
-                Nộp bài ({answeredCount}/{totalCount})
-              </Button>
+            {quizMode === 'learning' ? (
+              // In learning mode, only show next button (no submit)
+              currentIndex < questions.length - 1 ? (
+                <Button onClick={handleNext} size="lg">
+                  Câu tiếp →
+                </Button>
+              ) : (
+                <Button 
+                  onClick={() => router.push('/')} 
+                  size="lg"
+                  className="bg-green-600 hover:bg-green-700"
+                >
+                  Hoàn thành học tập ✓
+                </Button>
+              )
             ) : (
-              <Button onClick={handleNext} size="lg">
-                Câu tiếp →
-              </Button>
+              // In test mode, show submit button on last question
+              currentIndex === questions.length - 1 ? (
+                <Button
+                  onClick={handleSubmit}
+                  disabled={answeredCount === 0}
+                  size="lg"
+                  className="bg-green-600 hover:bg-green-700"
+                >
+                  Nộp bài ({answeredCount}/{totalCount})
+                </Button>
+              ) : (
+                <Button onClick={handleNext} size="lg">
+                  Câu tiếp →
+                </Button>
+              )
             )}
           </div>
         </div>
 
-        {/* Quiz Actions */}
-        {bankId !== 'wrong' && (
+        {/* Quiz Actions - Only show in test mode */}
+        {bankId !== 'wrong' && quizMode === 'test' && (
           <div className="mt-4 flex justify-center gap-4">
             <Button
               variant="ghost"

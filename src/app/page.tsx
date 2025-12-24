@@ -171,12 +171,40 @@ export default function Home() {
                     </div>
                   )}
                   
-                  <p className="text-sm font-medium mb-3">Chọn số câu hỏi:</p>
+                  <p className="text-sm font-medium mb-3">Chế độ học tập (xem giải thích ngay):</p>
+                  <div className="flex gap-2 flex-wrap mb-4">
+                    {questionCounts.map((count) => (
+                      <Link
+                        key={count}
+                        href={`/quiz/${bank.id}?count=${count}&mode=learning`}
+                      >
+                        <Button
+                          variant="outline"
+                          size="sm"
+                          className="border-green-300 text-green-700 hover:bg-green-50"
+                          disabled={count > bank.questions.length}
+                        >
+                          📖 {count} câu
+                        </Button>
+                      </Link>
+                    ))}
+                    <Link href={`/quiz/${bank.id}?count=${bank.questions.length}&mode=learning`}>
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        className="border-green-300 text-green-700 hover:bg-green-50"
+                      >
+                        📖 Tất cả
+                      </Button>
+                    </Link>
+                  </div>
+
+                  <p className="text-sm font-medium mb-3">Chế độ thi (làm bài kiểm tra):</p>
                   <div className="flex gap-2 flex-wrap">
                     {questionCounts.map((count) => (
                       <Link
                         key={count}
-                        href={`/quiz/${bank.id}?count=${count}`}
+                        href={`/quiz/${bank.id}?count=${count}&mode=test`}
                       >
                         <Button
                           variant="outline"
@@ -188,9 +216,9 @@ export default function Home() {
                       </Link>
                     ))}
                   </div>
-                  <Link href={`/quiz/${bank.id}?count=${bank.questions.length}`}>
+                  <Link href={`/quiz/${bank.id}?count=${bank.questions.length}&mode=test`}>
                     <Button className="w-full mt-4" size="lg">
-                      Làm tất cả ({bank.questions.length} câu)
+                      Thi tất cả ({bank.questions.length} câu)
                     </Button>
                   </Link>
                 </div>
