@@ -232,39 +232,45 @@
     },
     {
       "id": 602,
-      "question": "What is true about the music festival?",
-      "options": {
-        "A": "The target audience is mainly students.",
-        "B": "It will last for 2 days.",
-        "C": "It takes place every year.",
-        "D": "It primarily focuses on music performances."
-      },
-      "correctAnswer": "C",
-      "explanation": "📌 **Phân tích:**\n\nDòng đầu bài: \"23rd annual International Music Festival\"\n→ **annual** = hàng năm\n➡️ xác nhận lễ hội diễn ra mỗi năm\n\n⚠️ **Bẫy:**\n\n❌ (A) Sinh viên chỉ là một nhóm hưởng lợi, không phải đối tượng chính\n\n❌ (B) Diễn ra 3 ngày (Oct 20–22)\n\n❌ (D) Ngoài biểu diễn còn có classes, workshops, sessions"
-    },
-    {
-      "id": 603,
-      "question": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"The special ticket sale will last only for 3 days.\"",
-      "options": {
-        "A": "[1]",
-        "B": "[2]",
-        "C": "[3]",
-        "D": "[4]"
-      },
-      "correctAnswer": "B",
-      "explanation": "📌 **Phân tích logic mạch văn:**\n\nĐoạn văn liên quan:\n\n**Starting this Friday, you'll be able to purchase three-day passes for the special price of $130.**\n— [2] —\n**The passes will be sale for the regular price of $175 after this promotion ends.**\n\n➡️ Câu cần chèn nói về thời gian khuyến mãi\n➡️ Phải đứng GIỮA:\n• câu nói bắt đầu bán vé ưu đãi\n• và câu nói giá quay về bình thường\n\n👉 **[2]** là vị trí logic nhất\n\n⚠️ **Bẫy:**\n\n❌ [1] → đang nói thời gian tổ chức lễ hội\n\n❌ [3], [4] → nói về loại vé & nội dung chương trình, lạc chủ đề"
-    },
-    {
-      "id": 604,
-      "question": "What is NOT included at the festival?",
-      "options": {
-        "A": "Classes with music professionals",
-        "B": "A chance to get autographs",
-        "C": "Chances for amateurs to perform",
-        "D": "Different music presentations"
-      },
-      "correctAnswer": "C",
-      "explanation": "📌 **Phân tích:**\n\nCó music classes, workshops → (A) ✔\n\nCó Autograph session → (B) ✔\n\nCó nhiều performances → (D) ✔\n\nKHÔNG có chỗ nào nói người nghiệp dư (amateurs) được biểu diễn\n➡️ **(C)** là đáp án KHÔNG được đề cập\n\n⚠️ **Bẫy TOEIC:**\n\n\"Collaborative performance by local artists\"\n👉 local artists ≠ amateurs (người nghiệp dư)"
+      "passage": "Questions 602-604 refer to the following announcement and schedule.\n\n23rd International Music Festival (October 20–22)\n\nIt's time for the 23rd annual International Music Festival (IMF) again. We are pleased to announce this year's festival will take place from October 20 to 22. — [1] —\nStarting this Friday, you'll be able to purchase three-day passes for the special price of $130. — [2] — The passes will be sale for the regular price of $175 after this promotion ends. Single-day tickets will also be available for $60. — [3] —\nThe festival will focus on performances by major local and international musicians and will also feature music classes, workshops, and special sessions by professors and lecturers from local music academies to give students the opportunity to learn from masters. — [4] —\n\n23rd International Music Festival [Schedule]\n\nDay 1\n• 4:00 P.M.–6:00 P.M. Opening performance by Me Star\n• 6:00 P.M.–8:00 P.M. Master class 1\n• 8:00 P.M.–10:00 P.M. Performance by Westbound Train\n\nDay 2\n• 2:00 P.M.–4:00 P.M. Workshop on the music industry\n• 4:00 P.M.–6:00 P.M. Master class 2\n• 6:00 P.M.–10:00 P.M. Collaborative performance by local artists\n\nDay 3\n• 2:00 P.M.–4:00 P.M. Music class for kids\n• 4:00 P.M.–6:00 P.M. Autograph session\n• 6:00 P.M.–10:00 P.M. Closing performance by Fred Young",
+      "questions": [
+        {
+          "id": 602,
+          "question": "What is true about the music festival?",
+          "options": {
+            "A": "The target audience is mainly students.",
+            "B": "It will last for 2 days.",
+            "C": "It takes place every year.",
+            "D": "It primarily focuses on music performances."
+          },
+          "correctAnswer": "C",
+          "explanation": "📌 **Phân tích:**\n\nDòng đầu bài: \"23rd annual International Music Festival\"\n→ **annual** = hàng năm\n➡️ xác nhận lễ hội diễn ra mỗi năm\n\n⚠️ **Bẫy:**\n\n❌ (A) Sinh viên chỉ là một nhóm hưởng lợi, không phải đối tượng chính\n\n❌ (B) Diễn ra 3 ngày (Oct 20–22)\n\n❌ (D) Ngoài biểu diễn còn có classes, workshops, sessions"
+        },
+        {
+          "id": 603,
+          "question": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"The special ticket sale will last only for 3 days.\"",
+          "options": {
+            "A": "[1]",
+            "B": "[2]",
+            "C": "[3]",
+            "D": "[4]"
+          },
+          "correctAnswer": "B",
+          "explanation": "📌 **Phân tích logic mạch văn:**\n\nĐoạn văn liên quan:\n\n**Starting this Friday, you'll be able to purchase three-day passes for the special price of $130.**\n— [2] —\n**The passes will be sale for the regular price of $175 after this promotion ends.**\n\n➡️ Câu cần chèn nói về thời gian khuyến mãi\n➡️ Phải đứng GIỮA:\n• câu nói bắt đầu bán vé ưu đãi\n• và câu nói giá quay về bình thường\n\n👉 **[2]** là vị trí logic nhất\n\n⚠️ **Bẫy:**\n\n❌ [1] → đang nói thời gian tổ chức lễ hội\n\n❌ [3], [4] → nói về loại vé & nội dung chương trình, lạc chủ đề"
+        },
+        {
+          "id": 604,
+          "question": "What is NOT included at the festival?",
+          "options": {
+            "A": "Classes with music professionals",
+            "B": "A chance to get autographs",
+            "C": "Chances for amateurs to perform",
+            "D": "Different music presentations"
+          },
+          "correctAnswer": "C",
+          "explanation": "📌 **Phân tích:**\n\nCó music classes, workshops → (A) ✔\n\nCó Autograph session → (B) ✔\n\nCó nhiều performances → (D) ✔\n\nKHÔNG có chỗ nào nói người nghiệp dư (amateurs) được biểu diễn\n➡️ **(C)** là đáp án KHÔNG được đề cập\n\n⚠️ **Bẫy TOEIC:**\n\n\"Collaborative performance by local artists\"\n👉 local artists ≠ amateurs (người nghiệp dư)"
+        }
+      ]
     }
   ]
 }
